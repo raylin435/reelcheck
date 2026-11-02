@@ -2,13 +2,7 @@
 
 Check the claim. See the evidence.
 
-**New: dated FDA/CDC evidence checks and a 40-case authored stress set.**
-The [authority experiment](AUTHORITY.md) separates candidate-found evidence from
-hidden reference answers and compares ordinary search with enforced source/date
-checks and targeted recovery. The [protocol](AUTHORITY_PROTOCOL.md) reserves 20
-cases as an untouched holdout. These references are provisional, not human-verified
-medical ground truth. The [four-case canary results](AUTHORITY_RESULTS.md) show
-working metadata checks but no demonstrated factual-accuracy gain.
+**The larger FDA/CDC comparison is complete.** We fixed claim/quotation copying equally across arms, reviewed all 40 answer keys (39 machine consensus, one unresolved), and ran 20 development plus 20 held-out cases. On held-out cases, ordinary retry and the authority harness each matched 18 of 19 settled keys; each had one execution failure. There was no paired factual-accuracy gain. See [the full results and limitations](AUTHORITY_V2_RESULTS.md), [reproduction instructions](AUTHORITY_V2.md), and [the original four-case canary](AUTHORITY_RESULTS.md). These are provisional machine-reviewed results, not clinical ground truth.
 
 **The targeted-recovery comparison is complete.** On 20 fresh transcript-derived
 claims, ordinary GLM retry, targeted GLM recovery and the DeepSeek reference each

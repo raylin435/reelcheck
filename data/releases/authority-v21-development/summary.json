@@ -1,0 +1,2686 @@
+{
+  "partition": "development",
+  "cases": 20,
+  "document_families": 10,
+  "systems": {
+    "no_search": {
+      "cases": 20,
+      "completed": 16,
+      "objective_failures": 4,
+      "reference_label_match": 6,
+      "reference_unresolved": 0,
+      "wrong_decisive": 0,
+      "operational_abstention": 10,
+      "grounding_accepted": 0,
+      "grounding_rejected_completed": 0,
+      "grounding_unresolved_completed": null,
+      "metadata_pass_completed": 0,
+      "recovery_searches": 0,
+      "deployment_accounting": {
+        "calls": 20,
+        "known_cost_subtotal_usd": 0.0094665,
+        "estimated_cost_usd": 0.0094665,
+        "unknown_cost_calls": 0
+      },
+      "searches": 0,
+      "reads": 0,
+      "by_category": {
+        "exact_scope": {
+          "cases": 5,
+          "label_matches": 3
+        },
+        "false_premise_or_missing_context": {
+          "cases": 5,
+          "label_matches": 2
+        },
+        "outdated_or_conflicting": {
+          "cases": 5,
+          "label_matches": 1
+        },
+        "recent_change": {
+          "cases": 5,
+          "label_matches": 0
+        }
+      },
+      "recent_90_days": {
+        "cases": 4,
+        "label_matches": 0
+      }
+    },
+    "ordinary_retry": {
+      "cases": 20,
+      "completed": 19,
+      "objective_failures": 1,
+      "reference_label_match": 18,
+      "reference_unresolved": 0,
+      "wrong_decisive": 1,
+      "operational_abstention": 0,
+      "grounding_accepted": 18,
+      "grounding_rejected_completed": 0,
+      "grounding_unresolved_completed": 1,
+      "metadata_pass_completed": 18,
+      "recovery_searches": 0,
+      "deployment_accounting": {
+        "calls": 80,
+        "known_cost_subtotal_usd": 0.0500063,
+        "estimated_cost_usd": 0.0500063,
+        "unknown_cost_calls": 0
+      },
+      "searches": 20,
+      "reads": 20,
+      "by_category": {
+        "exact_scope": {
+          "cases": 5,
+          "label_matches": 5
+        },
+        "false_premise_or_missing_context": {
+          "cases": 5,
+          "label_matches": 4
+        },
+        "outdated_or_conflicting": {
+          "cases": 5,
+          "label_matches": 4
+        },
+        "recent_change": {
+          "cases": 5,
+          "label_matches": 5
+        }
+      },
+      "recent_90_days": {
+        "cases": 4,
+        "label_matches": 4
+      }
+    },
+    "authority_recovery": {
+      "cases": 20,
+      "completed": 20,
+      "objective_failures": 0,
+      "reference_label_match": 19,
+      "reference_unresolved": 0,
+      "wrong_decisive": 1,
+      "operational_abstention": 0,
+      "grounding_accepted": 19,
+      "grounding_rejected_completed": 1,
+      "grounding_unresolved_completed": 0,
+      "metadata_pass_completed": 20,
+      "recovery_searches": 0,
+      "deployment_accounting": {
+        "calls": 81,
+        "known_cost_subtotal_usd": 0.05142971,
+        "estimated_cost_usd": 0.05142971,
+        "unknown_cost_calls": 0
+      },
+      "searches": 20,
+      "reads": 20,
+      "by_category": {
+        "exact_scope": {
+          "cases": 5,
+          "label_matches": 5
+        },
+        "false_premise_or_missing_context": {
+          "cases": 5,
+          "label_matches": 4
+        },
+        "outdated_or_conflicting": {
+          "cases": 5,
+          "label_matches": 5
+        },
+        "recent_change": {
+          "cases": 5,
+          "label_matches": 5
+        }
+      },
+      "recent_90_days": {
+        "cases": 4,
+        "label_matches": 4
+      }
+    },
+    "strong_reference": {
+      "cases": 20,
+      "completed": 20,
+      "objective_failures": 0,
+      "reference_label_match": 20,
+      "reference_unresolved": 0,
+      "wrong_decisive": 0,
+      "operational_abstention": 0,
+      "grounding_accepted": 19,
+      "grounding_rejected_completed": 0,
+      "grounding_unresolved_completed": 1,
+      "metadata_pass_completed": 20,
+      "recovery_searches": 0,
+      "deployment_accounting": {
+        "calls": 82,
+        "known_cost_subtotal_usd": 0.121758012,
+        "estimated_cost_usd": 0.121758012,
+        "unknown_cost_calls": 0
+      },
+      "searches": 21,
+      "reads": 21,
+      "by_category": {
+        "exact_scope": {
+          "cases": 5,
+          "label_matches": 5
+        },
+        "false_premise_or_missing_context": {
+          "cases": 5,
+          "label_matches": 5
+        },
+        "outdated_or_conflicting": {
+          "cases": 5,
+          "label_matches": 5
+        },
+        "recent_change": {
+          "cases": 5,
+          "label_matches": 5
+        }
+      },
+      "recent_90_days": {
+        "cases": 4,
+        "label_matches": 4
+      }
+    },
+    "metadata_only": {
+      "cases": 20,
+      "completed": 19,
+      "objective_failures": 1,
+      "reference_label_match": 19,
+      "reference_unresolved": 0,
+      "wrong_decisive": 0,
+      "operational_abstention": 0,
+      "grounding_accepted": 19,
+      "grounding_rejected_completed": 0,
+      "grounding_unresolved_completed": 0,
+      "metadata_pass_completed": 19,
+      "recovery_searches": 0,
+      "deployment_accounting": {
+        "calls": 81,
+        "known_cost_subtotal_usd": 0.05074347,
+        "estimated_cost_usd": 0.05074347,
+        "unknown_cost_calls": 0
+      },
+      "searches": 20,
+      "reads": 20,
+      "by_category": {
+        "exact_scope": {
+          "cases": 5,
+          "label_matches": 5
+        },
+        "false_premise_or_missing_context": {
+          "cases": 5,
+          "label_matches": 4
+        },
+        "outdated_or_conflicting": {
+          "cases": 5,
+          "label_matches": 5
+        },
+        "recent_change": {
+          "cases": 5,
+          "label_matches": 5
+        }
+      },
+      "recent_90_days": {
+        "cases": 4,
+        "label_matches": 4
+      }
+    }
+  },
+  "pairs": [
+    {
+      "case_id": "authority_03_1",
+      "group_id": "fda43",
+      "both_completed": true,
+      "reference_outcome": "tie",
+      "ordinary": true,
+      "treatment": true,
+      "grounding_outcome": "tie"
+    },
+    {
+      "case_id": "authority_03_2",
+      "group_id": "fda43",
+      "both_completed": true,
+      "reference_outcome": "tie",
+      "ordinary": true,
+      "treatment": true,
+      "grounding_outcome": "tie"
+    },
+    {
+      "case_id": "authority_04_1",
+      "group_id": "fda44",
+      "both_completed": true,
+      "reference_outcome": "tie",
+      "ordinary": true,
+      "treatment": true,
+      "grounding_outcome": "tie"
+    },
+    {
+      "case_id": "authority_04_2",
+      "group_id": "fda44",
+      "both_completed": true,
+      "reference_outcome": "tie",
+      "ordinary": true,
+      "treatment": true,
+      "grounding_outcome": "tie"
+    },
+    {
+      "case_id": "authority_05_1",
+      "group_id": "fda45",
+      "both_completed": true,
+      "reference_outcome": "tie",
+      "ordinary": true,
+      "treatment": true,
+      "grounding_outcome": "tie"
+    },
+    {
+      "case_id": "authority_05_2",
+      "group_id": "fda45",
+      "both_completed": true,
+      "reference_outcome": "tie",
+      "ordinary": true,
+      "treatment": true,
+      "grounding_outcome": "tie"
+    },
+    {
+      "case_id": "authority_09_1",
+      "group_id": "fda49",
+      "both_completed": true,
+      "reference_outcome": "tie",
+      "ordinary": true,
+      "treatment": true,
+      "grounding_outcome": "tie"
+    },
+    {
+      "case_id": "authority_09_2",
+      "group_id": "fda49",
+      "both_completed": true,
+      "reference_outcome": "tie",
+      "ordinary": true,
+      "treatment": true,
+      "grounding_outcome": "tie"
+    },
+    {
+      "case_id": "authority_10_1",
+      "group_id": "fda50",
+      "both_completed": true,
+      "reference_outcome": "tie",
+      "ordinary": true,
+      "treatment": true,
+      "grounding_outcome": "tie"
+    },
+    {
+      "case_id": "authority_10_2",
+      "group_id": "fda50",
+      "both_completed": true,
+      "reference_outcome": "tie",
+      "ordinary": true,
+      "treatment": true,
+      "grounding_outcome": "tie"
+    },
+    {
+      "case_id": "authority_11_1",
+      "group_id": "fda51",
+      "both_completed": true,
+      "reference_outcome": "tie",
+      "ordinary": true,
+      "treatment": true,
+      "grounding_outcome": "tie"
+    },
+    {
+      "case_id": "authority_11_2",
+      "group_id": "fda51",
+      "both_completed": true,
+      "reference_outcome": "tie",
+      "ordinary": false,
+      "treatment": false,
+      "grounding_outcome": "unresolved"
+    },
+    {
+      "case_id": "authority_14_1",
+      "group_id": "cdc7",
+      "both_completed": true,
+      "reference_outcome": "tie",
+      "ordinary": true,
+      "treatment": true,
+      "grounding_outcome": "tie"
+    },
+    {
+      "case_id": "authority_14_2",
+      "group_id": "cdc7",
+      "both_completed": true,
+      "reference_outcome": "tie",
+      "ordinary": true,
+      "treatment": true,
+      "grounding_outcome": "tie"
+    },
+    {
+      "case_id": "authority_15_1",
+      "group_id": "cdc8",
+      "both_completed": true,
+      "reference_outcome": "tie",
+      "ordinary": true,
+      "treatment": true,
+      "grounding_outcome": "tie"
+    },
+    {
+      "case_id": "authority_15_2",
+      "group_id": "cdc8",
+      "both_completed": true,
+      "reference_outcome": "tie",
+      "ordinary": true,
+      "treatment": true,
+      "grounding_outcome": "tie"
+    },
+    {
+      "case_id": "authority_17_1",
+      "group_id": "cdc10",
+      "both_completed": true,
+      "reference_outcome": "tie",
+      "ordinary": true,
+      "treatment": true,
+      "grounding_outcome": "tie"
+    },
+    {
+      "case_id": "authority_17_2",
+      "group_id": "cdc10",
+      "both_completed": true,
+      "reference_outcome": "tie",
+      "ordinary": true,
+      "treatment": true,
+      "grounding_outcome": "tie"
+    },
+    {
+      "case_id": "authority_20_1",
+      "group_id": "cdc14",
+      "both_completed": true,
+      "reference_outcome": "tie",
+      "ordinary": true,
+      "treatment": true,
+      "grounding_outcome": "tie"
+    },
+    {
+      "case_id": "authority_20_2",
+      "group_id": "cdc14",
+      "both_completed": false,
+      "reference_outcome": "win",
+      "ordinary": false,
+      "treatment": true,
+      "grounding_outcome": "unresolved"
+    }
+  ],
+  "paired_reference_outcomes": {
+    "tie": 19,
+    "win": 1
+  },
+  "both_completed_reference_outcomes": {
+    "tie": 19
+  },
+  "candidate_actual_billing": {
+    "calls": 226,
+    "known_cost_subtotal_usd": 0.209784412,
+    "estimated_cost_usd": 0.209784412,
+    "unknown_cost_calls": 0
+  },
+  "candidate_inherited_billing": {
+    "calls": 137,
+    "known_cost_subtotal_usd": 0.115519338,
+    "estimated_cost_usd": 0.115519338,
+    "unknown_cost_calls": 0
+  },
+  "candidate_new_billing": {
+    "calls": 89,
+    "known_cost_subtotal_usd": 0.09426507399999999,
+    "estimated_cost_usd": 0.09426507399999999,
+    "unknown_cost_calls": 0
+  },
+  "grounding_actual_billing": {
+    "calls": 156,
+    "known_cost_subtotal_usd": 1.422048312,
+    "estimated_cost_usd": 1.422048312,
+    "unknown_cost_calls": 0
+  },
+  "distinct_tools": {
+    "search": 41,
+    "read": 43
+  },
+  "complete": true,
+  "all_valid_researched_answers_judged": true,
+  "human_verified_accuracy": null,
+  "web_cost_usd": null,
+  "rows": [
+    {
+      "case_id": "authority_03_1",
+      "arm": "no_search",
+      "status": "completed",
+      "verdict": "insufficient",
+      "completed": true,
+      "reference_label_match": false,
+      "wrong_decisive": false,
+      "operational_abstention": true,
+      "grounding": null,
+      "human_verified_accuracy": null,
+      "metadata_errors": null,
+      "explanation": "The claimed FDA notice is dated June 10, 2026, which is beyond my knowledge; I have no memory of any such announcement. Known FDA safety communications about OTC orlistat/alli concerned rare severe liver injury (announced in 2010), not kidney-injury labeling changes, so I can neither support nor contradict the claim without retrieving the notice.",
+      "searches": 0,
+      "reads": 0,
+      "cost": {
+        "calls": 1,
+        "known_cost_subtotal_usd": 0.00028695,
+        "estimated_cost_usd": 0.00028695,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_05_1",
+      "arm": "no_search",
+      "status": "completed",
+      "verdict": "insufficient",
+      "completed": true,
+      "reference_label_match": false,
+      "wrong_decisive": false,
+      "operational_abstention": true,
+      "grounding": null,
+      "human_verified_accuracy": null,
+      "metadata_errors": null,
+      "explanation": "The claimed notice is dated March 20, 2026, which is beyond the point my memory can reliably cover, and no sources are available to check it. I have no memory of such an FDA notice. Notably, long-standing labeling for carbidopa/levodopa warns that pyridoxine (B6) supplementation can reduce levodopa's efficacy—the opposite direction from the claimed deficiency/seizure warning—though newer safety communications cannot be ruled out. Without access to the notice, I can neither confirm nor contradict the claim.",
+      "searches": 0,
+      "reads": 0,
+      "cost": {
+        "calls": 1,
+        "known_cost_subtotal_usd": 0.0005825,
+        "estimated_cost_usd": 0.0005825,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_10_1",
+      "arm": "no_search",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": null,
+      "human_verified_accuracy": null,
+      "metadata_errors": null,
+      "explanation": "FDA labeling for extended-release stimulants (e.g., methylphenidate ER, amphetamine XR, lisdexamfetamine) covers patients aged 6 and older; FDA communications have consistently indicated these products are not approved for children younger than six, with preschool ADHD care emphasizing behavioral therapy instead. The claim inverts the actual approval status, so it is contradicted by known FDA approvals even though the specific June 30, 2025 notice could not be retrieved from memory.",
+      "searches": 0,
+      "reads": 0,
+      "cost": {
+        "calls": 1,
+        "known_cost_subtotal_usd": 0.00095575,
+        "estimated_cost_usd": 0.00095575,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_14_1",
+      "arm": "no_search",
+      "status": "completed",
+      "verdict": "insufficient",
+      "completed": true,
+      "reference_label_match": false,
+      "wrong_decisive": false,
+      "operational_abstention": true,
+      "grounding": null,
+      "human_verified_accuracy": null,
+      "metadata_errors": null,
+      "explanation": "I have no memory of any CDC rabies advisory dated September 10, 2026, and no record of a 17% increase in rabies-related inquiries for July–August 2026 versus 2025. This dated document cannot be confirmed or denied from memory, so the claim cannot be verified without retrieving the advisory itself.",
+      "searches": 0,
+      "reads": 0,
+      "cost": {
+        "calls": 1,
+        "known_cost_subtotal_usd": 0.00033905000000000003,
+        "estimated_cost_usd": 0.00033905000000000003,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_17_1",
+      "arm": "no_search",
+      "status": "completed",
+      "verdict": "insufficient",
+      "completed": true,
+      "reference_label_match": false,
+      "wrong_decisive": false,
+      "operational_abstention": true,
+      "grounding": null,
+      "human_verified_accuracy": null,
+      "metadata_errors": null,
+      "explanation": "The claim references a CDC advisory dated May 19, 2026, which falls after my knowledge cutoff. From memory alone, I have no information confirming or refuting the existence of this advisory, a 2026 Ebola outbreak in the DRC and Uganda, or Bundibugyo virus being identified as its cause. With no tools available and no relevant knowledge, the claim cannot be verified or refuted.",
+      "searches": 0,
+      "reads": 0,
+      "cost": {
+        "calls": 1,
+        "known_cost_subtotal_usd": 0.000372,
+        "estimated_cost_usd": 0.000372,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_03_1",
+      "arm": "authority_recovery",
+      "status": "completed",
+      "verdict": "supported",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "The opened fda.gov page is the FDA Drug Safety Communication dated June 10, 2026 (R1.S045). It states that FDA approved changes to the Drug Facts Label of the over-the-counter weight-loss drug alli (orlistat) 60 mg capsules to warn of the risk of acute kidney injury (R1.S047), and that kidney-injury risk is now described across the labeling for all FDA-approved orlistat products (R1.S049). This matches the claimed issuer, date, notice type, product, and subject.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.00268386,
+        "estimated_cost_usd": 0.00268386,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_03_1",
+      "arm": "metadata_only",
+      "status": "completed",
+      "verdict": "supported",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "The FDA Drug Safety Communication on fda.gov is dated June 10, 2026 (R1.S045) and states that FDA approved changes to the Drug Facts Label of the OTC weight-loss drug alli (orlistat) 60 mg capsules to warn of the risk of acute kidney injury (R1.S047), with kidney-injury risk now described across all FDA-approved orlistat labeling (R1.S049). This matches the claimed issuer, date, product, and subject.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.00250052,
+        "estimated_cost_usd": 0.00250052,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_03_1",
+      "arm": "ordinary_retry",
+      "status": "completed",
+      "verdict": "supported",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "The FDA Drug Safety Communication on fda.gov is dated June 10, 2026 (R1.S045) and states that FDA approved changes to the Drug Facts Label of the OTC weight-loss drug alli (orlistat) 60 mg capsules to warn of the risk of acute kidney injury (R1.S047), with kidney-injury risk now described across all FDA-approved orlistat labeling (R1.S049). This matches the claimed issuer, date, product, and subject.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.00263447,
+        "estimated_cost_usd": 0.00263447,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_03_1",
+      "arm": "strong_reference",
+      "status": "completed",
+      "verdict": "supported",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "The FDA Drug Safety Communication, dated June 10, 2026 and titled as approving labeling changes for OTC alli to warn of kidney stones and kidney injury, states that FDA approved changes to the Drug Facts Label of OTC alli (orlistat) 60 mg capsules to warn of the risk of acute kidney injury.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.006119927999999999,
+        "estimated_cost_usd": 0.006119927999999999,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_05_1",
+      "arm": "strong_reference",
+      "status": "completed",
+      "verdict": "supported",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "The opened FDA Drug Safety Communication dated 03-20-2026 states FDA notified application holders for all carbidopa/levodopa products that it is requiring a warning in the prescribing information that these medications can cause vitamin B6 deficiency and vitamin B6 deficiency-associated seizures.",
+      "searches": 2,
+      "reads": 1,
+      "cost": {
+        "calls": 5,
+        "known_cost_subtotal_usd": 0.006956388,
+        "estimated_cost_usd": 0.006956388,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_05_1",
+      "arm": "ordinary_retry",
+      "status": "completed",
+      "verdict": "supported",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "FDA's Drug Safety Communication is dated 03-20-2026 (R1.S047) and states that FDA notified application holders for all drug products containing carbidopa/levodopa that the Agency is requiring the addition of a warning, with corresponding prescribing information revisions, stating these medications can cause vitamin B6 deficiency and vitamin B6 deficiency-associated seizures (R1.S049). The communication also describes the warning's monitoring/supplementation directives (R1.S050). This matches the claim's date, issuer, requirement, and subject matter; no change to the draft is warranted.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.00214731,
+        "estimated_cost_usd": 0.00214731,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_05_1",
+      "arm": "authority_recovery",
+      "status": "completed",
+      "verdict": "supported",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "FDA's Drug Safety Communication is dated 03-20-2026 and states that FDA notified application holders for all drug products containing carbidopa/levodopa that the Agency is requiring a warning added to the prescribing information stating these medications can cause vitamin B6 deficiency and vitamin B6 deficiency-associated seizures. This matches the claim's date, issuer, requirement, and subject matter.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.00225406,
+        "estimated_cost_usd": 0.00225406,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_05_1",
+      "arm": "metadata_only",
+      "status": "completed",
+      "verdict": "supported",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "FDA's Drug Safety Communication is dated 03-20-2026 and states that FDA notified application holders for all drug products containing carbidopa/levodopa that the Agency is requiring the addition of a warning, and corresponding revisions, to the prescribing information stating these medications can cause vitamin B6 deficiency and vitamin B6 deficiency-associated seizures. This matches the claim's date, issuer, requirement, and subject matter, so the claim is supported as of 2026-03-20.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.0022071599999999997,
+        "estimated_cost_usd": 0.0022071599999999997,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_10_1",
+      "arm": "metadata_only",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "The June 30, 2025 FDA Drug Safety Communication states the opposite of the claim: it says extended-release stimulants are not approved for children younger than 6 years and may only be prescribed off label. It also tells health professionals these products are not indicated for ADHD in children under 6 due to greater risk of weight loss and other adverse reactions.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.0020673700000000002,
+        "estimated_cost_usd": 0.0020673700000000002,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_10_1",
+      "arm": "ordinary_retry",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "The June 30, 2025 FDA Drug Safety Communication states the opposite of the claim: it says extended-release stimulants are not approved for children younger than 6 years and may only be prescribed off label. It also tells health professionals these products are not indicated for ADHD in children under 6 because of greater risk of weight loss and other adverse reactions. The draft is directly grounded in the opened FDA page and needs no change.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.00209002,
+        "estimated_cost_usd": 0.00209002,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_10_1",
+      "arm": "authority_recovery",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "The June 30, 2025 FDA Drug Safety Communication states the opposite of the claim: it says extended-release stimulants are not approved for children younger than 6 years and may only be prescribed off label. It also tells health professionals these products are not indicated for ADHD in children under 6 due to greater risk of weight loss and other adverse reactions. No material gap exists; the opened FDA page directly covers the claim's date, issuer, and subject, and its approval statement is unambiguous (immediate-release, not extended-release, stimulants are noted as approved under 6).",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.00218909,
+        "estimated_cost_usd": 0.00218909,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_10_1",
+      "arm": "strong_reference",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "The June 30, 2025 FDA Drug Safety Communication states that extended-release stimulants are not approved for children younger than 6 years and are not indicated to treat ADHD in that age group; they may only be prescribed off label.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.0065776559999999994,
+        "estimated_cost_usd": 0.0065776559999999994,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_14_1",
+      "arm": "strong_reference",
+      "status": "completed",
+      "verdict": "supported",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "CDC's HAN health advisory dated September 10, 2026 states that from July through August 2026, CDC received 17% more rabies-related inquiries than during the same period in 2025, matching the claim's figure and comparison period.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.004646412,
+        "estimated_cost_usd": 0.004646412,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_14_1",
+      "arm": "ordinary_retry",
+      "status": "completed",
+      "verdict": "supported",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "The CDC HAN Health Advisory (CDCHAN-00533) is dated September 10, 2026, and its Background section states that from July through August 2026, CDC received 17% more rabies-related inquiries than during the same period in 2025, including reports of mass exposure events. This directly matches the claim's date, period, metric, and percentage.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.0026596,
+        "estimated_cost_usd": 0.0026596,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_14_1",
+      "arm": "authority_recovery",
+      "status": "completed",
+      "verdict": "supported",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "The CDC HAN Health Advisory (CDCHAN-00533) is dated September 10, 2026, and its Background section states that from July through August 2026, CDC received 17% more rabies-related inquiries than during the same period in 2025, including reports of mass exposure events. This directly matches the claim's date, period, metric, and percentage.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.0028613299999999996,
+        "estimated_cost_usd": 0.0028613299999999996,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_14_1",
+      "arm": "metadata_only",
+      "status": "completed",
+      "verdict": "supported",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "The CDC HAN Health Advisory (CDCHAN-00533) is dated September 10, 2026, and its Background section states that from July through August 2026, CDC received 17% more rabies-related inquiries than during the same period in 2025, including reports of mass exposure events. This directly matches the claim's date, period, metric, and percentage.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.00259927,
+        "estimated_cost_usd": 0.00259927,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_17_1",
+      "arm": "ordinary_retry",
+      "status": "completed",
+      "verdict": "supported",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "The CDC HAN advisory page (CDCHAN-00530) is dated May 19, 2026, and its summary states the advisory alerts readers about a new Ebola outbreak in the Democratic Republic of the Congo (DRC) and Uganda caused by the Bundibugyo virus (species Orthoebolavirus bundibugyoense), matching the claim.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.0019432499999999999,
+        "estimated_cost_usd": 0.0019432499999999999,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_17_1",
+      "arm": "authority_recovery",
+      "status": "completed",
+      "verdict": "supported",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "The CDC HAN advisory page (CDCHAN-00530) is dated May 19, 2026, and its summary states the advisory alerts readers about a new Ebola outbreak in the Democratic Republic of the Congo (DRC) and Uganda caused by the Bundibugyo virus (species Orthoebolavirus bundibugyoense), matching the claim.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.0018812,
+        "estimated_cost_usd": 0.0018812,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_17_1",
+      "arm": "metadata_only",
+      "status": "completed",
+      "verdict": "supported",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "The CDC HAN advisory page (CDCHAN-00530) is dated May 19, 2026, and its summary states the advisory alerts readers about a new Ebola outbreak in the Democratic Republic of the Congo (DRC) and Uganda caused by the Bundibugyo virus (species Orthoebolavirus bundibugyoense), matching the claim.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.00183516,
+        "estimated_cost_usd": 0.00183516,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_17_1",
+      "arm": "strong_reference",
+      "status": "completed",
+      "verdict": "supported",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "The CDC HAN advisory dated May 19, 2026 states it is alerting about a new outbreak of Ebola disease in DRC and Uganda caused by Bundibugyo virus, and reports Uganda confirmed Bundibugyo virus disease in a patient who had traveled from DRC.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.006877524,
+        "estimated_cost_usd": 0.006877524,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_03_2",
+      "arm": "no_search",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": null,
+      "human_verified_accuracy": null,
+      "metadata_errors": null,
+      "explanation": "I have no memory of any June 10, 2026 FDA notice about alli, but the substantive assertion is contrary to well-established FDA labeling: alli (orlistat) OTC 60 mg capsules are indicated for weight loss in overweight adults 18 years and older, and have never been approved for use in children under 18. A notice stating under-18 approval for the OTC product would conflict with the approved labeling.",
+      "searches": 0,
+      "reads": 0,
+      "cost": {
+        "calls": 1,
+        "known_cost_subtotal_usd": 0.0006085,
+        "estimated_cost_usd": 0.0006085,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_05_2",
+      "arm": "no_search",
+      "status": "invalid_output",
+      "verdict": null,
+      "completed": false,
+      "reference_label_match": false,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": null,
+      "human_verified_accuracy": null,
+      "metadata_errors": null,
+      "explanation": null,
+      "searches": 0,
+      "reads": 0,
+      "cost": {
+        "calls": 1,
+        "known_cost_subtotal_usd": 0.0004037,
+        "estimated_cost_usd": 0.0004037,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_10_2",
+      "arm": "no_search",
+      "status": "completed",
+      "verdict": "insufficient",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": null,
+      "human_verified_accuracy": null,
+      "metadata_errors": null,
+      "explanation": "The claim does not specify the child's medication name, age, or formulation, and there is no reliable memory of an FDA extended-release stimulant warning dated June 30, 2025 (including its exact scope for age and formulation), so the claim cannot be assessed either way.",
+      "searches": 0,
+      "reads": 0,
+      "cost": {
+        "calls": 1,
+        "known_cost_subtotal_usd": 0.00041555,
+        "estimated_cost_usd": 0.00041555,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_14_2",
+      "arm": "no_search",
+      "status": "completed",
+      "verdict": "insufficient",
+      "completed": true,
+      "reference_label_match": false,
+      "wrong_decisive": false,
+      "operational_abstention": true,
+      "grounding": null,
+      "human_verified_accuracy": null,
+      "metadata_errors": null,
+      "explanation": "I have no memory of a CDC advisory dated September 10, 2026, or of a 2026 U.S. shortage of human rabies vaccine and immunoglobulin. While past U.S. shortages of rabies immune globulin and vaccine have occurred, nothing in memory confirms this specific dated advisory, so the claim can be neither supported nor contradicted from memory alone.",
+      "searches": 0,
+      "reads": 0,
+      "cost": {
+        "calls": 1,
+        "known_cost_subtotal_usd": 0.00045285000000000003,
+        "estimated_cost_usd": 0.00045285000000000003,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_17_2",
+      "arm": "no_search",
+      "status": "invalid_output",
+      "verdict": null,
+      "completed": false,
+      "reference_label_match": false,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": null,
+      "human_verified_accuracy": null,
+      "metadata_errors": null,
+      "explanation": null,
+      "searches": 0,
+      "reads": 0,
+      "cost": {
+        "calls": 1,
+        "known_cost_subtotal_usd": 0.00047585000000000005,
+        "estimated_cost_usd": 0.00047585000000000005,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_03_2",
+      "arm": "metadata_only",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "FDA's Drug Safety Communication dated June 10, 2026 states that alli (orlistat) 60 mg capsules are approved for nonprescription use for weight loss in overweight adults 18 years and older, when used with a reduced-calorie and low-fat diet. The notice does not say the capsules are approved for weight loss in children under 18; its subject is new kidney-injury labeling warnings, not a pediatric approval.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.0023767099999999998,
+        "estimated_cost_usd": 0.0023767099999999998,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_03_2",
+      "arm": "ordinary_retry",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "FDA's Drug Safety Communication dated June 10, 2026 states that alli (orlistat) 60 mg capsules are approved for nonprescription use for weight loss in overweight adults 18 years and older, when used with a reduced-calorie and low-fat diet. The notice's subject is new kidney-injury labeling warnings; it nowhere describes approval for weight loss in children under 18, directly contradicting the claim's asserted approval population.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.0024258599999999997,
+        "estimated_cost_usd": 0.0024258599999999997,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_03_2",
+      "arm": "authority_recovery",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "FDA's Drug Safety Communication dated June 10, 2026 states that alli (orlistat) 60 mg capsules are approved for nonprescription weight loss use in overweight adults 18 years and older, when used with a reduced-calorie and low-fat diet. The notice contains no statement approving the product for weight loss in children under 18; its subject is new kidney-injury labeling warnings. Recovery check found no material gap: the opened FDA page is the exact June 10, 2026 notice the claim references, and its scope statement directly refutes the claimed pediatric approval.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.00248711,
+        "estimated_cost_usd": 0.00248711,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_03_2",
+      "arm": "strong_reference",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "The June 10, 2026 FDA Drug Safety Communication states alli (orlistat) 60 mg capsules are approved for nonprescription weight loss in overweight adults 18 years and older, not children under 18.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.0056477160000000005,
+        "estimated_cost_usd": 0.0056477160000000005,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_05_2",
+      "arm": "strong_reference",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "The 03-20-2026 FDA Drug Safety Communication says FDA notified application holders for all drug products containing carbidopa/levodopa that it is requiring the warning, and describes those products as available in multiple formulations and routes, including oral tablets, an enteral (intestinal) suspension, and a subcutaneous injection for continuous infusion. So the stated scope is not oral tablets only.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.007052856,
+        "estimated_cost_usd": 0.007052856,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_05_2",
+      "arm": "authority_recovery",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "FDA's 03-20-2026 Drug Safety Communication states the Agency is requiring the warning for 'all drug products containing carbidopa/levodopa,' not only oral tablets. The same page notes these products come in multiple formulations and routes, including oral tablets, an enteral suspension, and a subcutaneous injection, and that the reviewed seizure cases were split among oral formulations and an enteral suspension, with biological plausibility suggesting similar risk across all carbidopa/levodopa products. The claim that the warning applies only to oral tablets is therefore contradicted by the primary source.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.0023369,
+        "estimated_cost_usd": 0.0023369,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_05_2",
+      "arm": "metadata_only",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "FDA's 03-20-2026 Drug Safety Communication states the Agency is requiring the warning for 'all drug products containing carbidopa/levodopa,' not only oral tablets. The same page notes these products come in multiple formulations and routes, including oral tablets, an enteral suspension, and a subcutaneous injection, and that the reviewed seizure cases were split among oral formulations and an enteral suspension, with biological plausibility suggesting similar risk across all carbidopa/levodopa products.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.00223398,
+        "estimated_cost_usd": 0.00223398,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_05_2",
+      "arm": "ordinary_retry",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "FDA's 03-20-2026 Drug Safety Communication states the Agency is requiring the warning for 'all drug products containing carbidopa/levodopa,' not only oral tablets. The same page notes these products come in multiple formulations and routes, including oral tablets, an enteral suspension, and a subcutaneous injection, and that the reviewed seizure cases were split among oral formulations and an enteral suspension, with biological plausibility suggesting similar risk across all carbidopa/levodopa products.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.00229101,
+        "estimated_cost_usd": 0.00229101,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_10_2",
+      "arm": "ordinary_retry",
+      "status": "completed",
+      "verdict": "insufficient",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "FDA's 06-30-2025 Drug Safety Communication applies to all extended-release stimulants indicated for ADHD, including certain amphetamine and methylphenidate formulations, and concerns patients younger than 6 years. However, the claim does not specify the child's age or the particular ADHD medicine/formulation, so whether that child's medicine falls within this age and formulation scope cannot be determined from the evidence.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.0030259099999999997,
+        "estimated_cost_usd": 0.0030259099999999997,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_10_2",
+      "arm": "authority_recovery",
+      "status": "completed",
+      "verdict": "insufficient",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "FDA's 06-30-2025 Drug Safety Communication applies to all extended-release stimulants indicated for ADHD, including certain amphetamine and methylphenidate formulations, and concerns patients younger than 6 years. However, the claim does not specify the child's age or the particular ADHD medicine/formulation, so whether that child's medicine falls within this age and formulation scope cannot be determined from the evidence.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.0033160999999999998,
+        "estimated_cost_usd": 0.0033160999999999998,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_10_2",
+      "arm": "metadata_only",
+      "status": "completed",
+      "verdict": "insufficient",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "FDA's 06-30-2025 Drug Safety Communication applies to all extended-release stimulants indicated for ADHD, including certain amphetamine and methylphenidate formulations, and concerns patients younger than 6 years (who may be prescribed these products off label). The claim, however, does not identify the child's specific ADHD medicine/formulation or the child's age, so whether that child's medicine falls within this age and formulation scope cannot be determined from the evidence.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.0031367599999999997,
+        "estimated_cost_usd": 0.0031367599999999997,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_10_2",
+      "arm": "strong_reference",
+      "status": "completed",
+      "verdict": "insufficient",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": null,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "The June 30, 2025 FDA communication addresses extended-release stimulant formulations (amphetamine and methylphenidate) for ADHD and concerns patients younger than 6 years, for whom these products are not approved. The claim does not identify the child's age or the specific medicine (including whether it is extended-release versus immediate-release), so scope cannot be determined from this evidence.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.004425912,
+        "estimated_cost_usd": 0.004425912,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_14_2",
+      "arm": "strong_reference",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "The CDC HAN rabies advisory dated September 10, 2026 states that there is currently no shortage of human rabies vaccine or human rabies immunoglobulin in the United States, the opposite of the claim's assertion of a shortage.",
+      "searches": 1,
+      "reads": 2,
+      "cost": {
+        "calls": 5,
+        "known_cost_subtotal_usd": 0.007930584,
+        "estimated_cost_usd": 0.007930584,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_14_2",
+      "arm": "authority_recovery",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "CDC's Health Alert Network advisory CDCHAN-00533, dated September 10, 2026, states the opposite of the claim: it explicitly says there is currently no shortage of human rabies vaccine or human rabies immunoglobulin in the United States, and it urges appropriate PEP administration to keep supplies available. No separate September 10, 2026 CDC rabies advisory claiming a shortage appears in the evidence. The opened advisory directly refutes the claimed shortage statement, so no further evidence is needed.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.00275502,
+        "estimated_cost_usd": 0.00275502,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_14_2",
+      "arm": "metadata_only",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "CDC's HAN Health Advisory CDCHAN-00533, dated September 10, 2026, states the opposite: 'Although there is currently no shortage of human rabies vaccine or human rabies immunoglobulin in the United States...' The advisory instead urges appropriate PEP administration to avoid straining supplies, so the claim that the advisory reported a shortage is contradicted.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.00247148,
+        "estimated_cost_usd": 0.00247148,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_14_2",
+      "arm": "ordinary_retry",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "CDC's HAN Health Advisory CDCHAN-00533, dated September 10, 2026, states the opposite: 'Although there is currently no shortage of human rabies vaccine or human rabies immunoglobulin in the United States...' The advisory instead urges appropriate PEP administration to avoid straining supplies, so the claim that the advisory reported a shortage is contradicted.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.00245513,
+        "estimated_cost_usd": 0.00245513,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_17_2",
+      "arm": "authority_recovery",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "The CDC HAN advisory is dated May 19, 2026 (R1.S012) and states the opposite of the claim: there is no FDA-licensed or authorized vaccine to protect against Bundibugyo virus infection (R1.S036), and the US-licensed ERVEBO vaccine is indicated only for Orthoebolavirus zairense, with animal studies indicating it is not expected to protect against Bundibugyo virus (R1.S037).",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.00240122,
+        "estimated_cost_usd": 0.00240122,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_17_2",
+      "arm": "metadata_only",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "The CDC HAN advisory is dated May 19, 2026 (R1.S012). It states there is currently no FDA-licensed or authorized vaccine to protect against Bundibugyo virus infection (R1.S036), and that the US-licensed ERVEBO vaccine is indicated only for the different species Orthoebolavirus zairense and, based on animal studies, is not expected to protect against Bundibugyo virus (R1.S037) — the opposite of the claim.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.0022794399999999998,
+        "estimated_cost_usd": 0.0022794399999999998,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_17_2",
+      "arm": "ordinary_retry",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "The advisory the claim cites is indeed dated May 19, 2026 (R1.S012) and concerns the Bundibugyo virus outbreak in DRC and Uganda (R1.S019). But it states there is currently no FDA-licensed or authorized vaccine against Bundibugyo virus (R1.S036), and that the US-licensed ERVEBO vaccine is indicated only for a different orthoebolavirus species and, based on animal studies, is not expected to protect against Bundibugyo virus (R1.S037). That directly contradicts the claim.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.00244059,
+        "estimated_cost_usd": 0.00244059,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_17_2",
+      "arm": "strong_reference",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "The CDC HAN advisory dated May 19, 2026 states the opposite: ERVEBO is indicated only for Ebola virus (Orthoebolavirus zairense) and, based on animal studies, is not expected to protect against Bundibugyo virus. The advisory concerns the Bundibugyo outbreak in DRC and Uganda.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.005864675999999999,
+        "estimated_cost_usd": 0.005864675999999999,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_04_1",
+      "arm": "no_search",
+      "status": "invalid_output",
+      "verdict": null,
+      "completed": false,
+      "reference_label_match": false,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": null,
+      "human_verified_accuracy": null,
+      "metadata_errors": null,
+      "explanation": null,
+      "searches": 0,
+      "reads": 0,
+      "cost": {
+        "calls": 1,
+        "known_cost_subtotal_usd": 0.00036225,
+        "estimated_cost_usd": 0.00036225,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_09_1",
+      "arm": "no_search",
+      "status": "completed",
+      "verdict": "insufficient",
+      "completed": true,
+      "reference_label_match": false,
+      "wrong_decisive": false,
+      "operational_abstention": true,
+      "grounding": null,
+      "human_verified_accuracy": null,
+      "metadata_errors": null,
+      "explanation": "I have no reliable memory of an FDA notice dated July 31, 2025 concerning opioid labeling, nor of any requirement to retain the specific phrase \"extended treatment period\" in the Indications and Usage section. While FDA has issued opioid analgesic labeling changes in recent years involving long-term-use language, I cannot confirm this specific notice, its date, or its contents from memory, and no sources were available to verify.",
+      "searches": 0,
+      "reads": 0,
+      "cost": {
+        "calls": 1,
+        "known_cost_subtotal_usd": 0.0004389,
+        "estimated_cost_usd": 0.0004389,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_11_1",
+      "arm": "no_search",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": null,
+      "human_verified_accuracy": null,
+      "metadata_errors": null,
+      "explanation": "The claim misstates FDA's position. Transderm Scop (scopolamine patch) is approved only for prevention of motion sickness and postoperative nausea/vomiting; its labeling states that safety and effectiveness in pediatric patients have not been established, and the patch is not FDA-approved for use in children. FDA communications regarding this product have addressed risks of pediatric exposure/use rather than approving it for children, so the June 18, 2025 notice would not have stated the patch is approved for children. Note: I could not verify the specific notice from memory, but the core assertion that the patch is FDA-approved for pediatric use contradicts known FDA labeling.",
+      "searches": 0,
+      "reads": 0,
+      "cost": {
+        "calls": 1,
+        "known_cost_subtotal_usd": 0.00070575,
+        "estimated_cost_usd": 0.00070575,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_15_1",
+      "arm": "no_search",
+      "status": "invalid_output",
+      "verdict": null,
+      "completed": false,
+      "reference_label_match": false,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": null,
+      "human_verified_accuracy": null,
+      "metadata_errors": null,
+      "explanation": null,
+      "searches": 0,
+      "reads": 0,
+      "cost": {
+        "calls": 1,
+        "known_cost_subtotal_usd": 0.0003405,
+        "estimated_cost_usd": 0.0003405,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_20_1",
+      "arm": "no_search",
+      "status": "completed",
+      "verdict": "insufficient",
+      "completed": true,
+      "reference_label_match": false,
+      "wrong_decisive": false,
+      "operational_abstention": true,
+      "grounding": null,
+      "human_verified_accuracy": null,
+      "metadata_errors": null,
+      "explanation": "The claim cites a specific CDC screwworm advisory dated January 20, 2026. I have no knowledge of any such advisory from that date; my memory only covers earlier CDC HAN screwworm advisories (e.g., 2024–2025), which reported travel-associated human cases and outbreak spread in Mexico/Central America, not established US infestations. Because the referenced document is beyond my knowledge and no verification is possible here, the claim cannot be confirmed or refuted.",
+      "searches": 0,
+      "reads": 0,
+      "cost": {
+        "calls": 1,
+        "known_cost_subtotal_usd": 0.0004209,
+        "estimated_cost_usd": 0.0004209,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_04_1",
+      "arm": "metadata_only",
+      "status": "completed",
+      "verdict": "supported",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "FDA's Drug Safety Communication is dated 03-31-2026, and its 'What Did FDA Find?' section states that after reviewing postmarketing data through October 9, 2024, FDA identified 76 cases of DILI with reasonable evidence of a causal association with avacopan use. This matches the claim's date, case count, and causal-association language.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.00203648,
+        "estimated_cost_usd": 0.00203648,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_04_1",
+      "arm": "ordinary_retry",
+      "status": "completed",
+      "verdict": "supported",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "FDA's Drug Safety Communication is dated 03-31-2026, and its 'What Did FDA Find?' section states that after reviewing postmarketing data through October 9, 2024, FDA identified 76 cases of DILI with reasonable evidence of a causal association with avacopan use. This matches the claim's date, case count, and causal-association language.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.00204531,
+        "estimated_cost_usd": 0.00204531,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_04_1",
+      "arm": "authority_recovery",
+      "status": "completed",
+      "verdict": "supported",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "FDA's Drug Safety Communication is dated 03-31-2026, and its 'What Did FDA Find?' section states that after reviewing postmarketing data through October 9, 2024, FDA identified 76 cases of DILI with reasonable evidence of a causal association with avacopan use. This matches the claim's date, case count, and causal-association language.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.00212906,
+        "estimated_cost_usd": 0.00212906,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_04_1",
+      "arm": "strong_reference",
+      "status": "completed",
+      "verdict": "supported",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "The FDA Drug Safety Communication dated 03-31-2026 states that after reviewing postmarketing data, the literature and FAERS/AEMS through October 9, 2024, FDA identified 76 cases of DILI with reasonable evidence of a causal association with avacopan use.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.004858728,
+        "estimated_cost_usd": 0.004858728,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_09_1",
+      "arm": "strong_reference",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "The 07-31-2025 FDA Drug Safety Communication lists, among the labeling changes FDA is requiring application holders to make, removal of the phrase \"extended treatment period\" from the Indications and Usage section — the opposite of retaining it.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.006294792,
+        "estimated_cost_usd": 0.006294792,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_09_1",
+      "arm": "authority_recovery",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "FDA's Drug Safety Communication is dated 07-31-2025 and states the agency is requiring application holders to REMOVE — not retain — the phrase “extended treatment period” in the Indications and Usage section, to avoid misinterpretation that data support safety and efficacy of opioid analgesics over an indefinitely long duration. This directly contradicts the claim that the notice requires retaining the phrase.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.0024952999999999998,
+        "estimated_cost_usd": 0.0024952999999999998,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_09_1",
+      "arm": "metadata_only",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "FDA's Drug Safety Communication is dated 07-31-2025 and states the agency is requiring application holders to REMOVE — not retain — the phrase “extended treatment period” in the Indications and Usage section, to avoid misinterpretation that data support safety and efficacy of opioid analgesics over an indefinitely long duration. This directly contradicts the claim that the notice requires retaining the phrase.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.0023757599999999998,
+        "estimated_cost_usd": 0.0023757599999999998,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_09_1",
+      "arm": "ordinary_retry",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "FDA's Drug Safety Communication is dated 07-31-2025 and states the agency is requiring application holders to REMOVE — not retain — the phrase “extended treatment period” in the Indications and Usage section, to avoid misinterpretation that data support safety and efficacy of opioid analgesics over an indefinitely long duration. This directly contradicts the claim that the notice requires retaining the phrase.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.00238909,
+        "estimated_cost_usd": 0.00238909,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_11_1",
+      "arm": "ordinary_retry",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "The June 18, 2025 FDA Drug Safety Communication states the opposite of the claim: 'Transderm Scōp is not FDA-approved for any use in children' and 'It is not FDA-approved for use in children 17 years or younger.' FDA describes pediatric use as off-label only, and approval is limited to adults for motion sickness and post-operative nausea/vomiting.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.00278286,
+        "estimated_cost_usd": 0.00278286,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_11_1",
+      "arm": "authority_recovery",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "The June 18, 2025 FDA Drug Safety Communication states the opposite of the claim: it says Transderm Scōp 'is not FDA-approved for any use in children' and that the patch is FDA-approved in adults for motion sickness and post-operative nausea/vomiting. FDA notes any pediatric use is off-label.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.0026654899999999995,
+        "estimated_cost_usd": 0.0026654899999999995,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_11_1",
+      "arm": "metadata_only",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "The June 18, 2025 FDA Drug Safety Communication states the opposite of the claim: it says Transderm Scōp 'is not FDA-approved for any use in children' (any pediatric use being off-label) and that the patch is FDA-approved in adults for motion sickness and post-operative nausea/vomiting, not for children 17 years or younger.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.0026347099999999997,
+        "estimated_cost_usd": 0.0026347099999999997,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_11_1",
+      "arm": "strong_reference",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "The June 18, 2025 FDA Drug Safety Communication states Transderm Scōp is not FDA-approved for any use in children (it is approved in adults), and is sometimes prescribed off-label in children — the opposite of the claim.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.004359612,
+        "estimated_cost_usd": 0.004359612,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_15_1",
+      "arm": "strong_reference",
+      "status": "completed",
+      "verdict": "supported",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "The CDC HAN Health Advisory dated August 11, 2026 states it was issued to share information about the risk of severe arboviral neuroinvasive disease among patients receiving B cell-depleting or B cell-modulating medications, particularly anti-CD20 monoclonal antibodies; the background adds that anti-CD20 mAbs have been associated with severe arboviral neuroinvasive disease.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.006032892,
+        "estimated_cost_usd": 0.006032892,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_15_1",
+      "arm": "authority_recovery",
+      "status": "completed",
+      "verdict": "supported",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "The CDC HAN page (CDCHAN-00532) is titled 'Risk of Severe Arboviral Disease in Patients Receiving B Cell-Depleting or Modulating Medications' and is dated August 11, 2026. Its summary states CDC is issuing this Health Advisory to notify clinicians and the public about the risk of severe arboviral neuroinvasive disease among patients receiving B cell-depleting or B cell-modulating medications, particularly anti-CD20 monoclonal antibodies — matching the claim on issuer, date, and content.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.0026004799999999996,
+        "estimated_cost_usd": 0.0026004799999999996,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_15_1",
+      "arm": "metadata_only",
+      "status": "completed",
+      "verdict": "supported",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "The CDC HAN page (CDCHAN-00532) is titled 'Risk of Severe Arboviral Disease in Patients Receiving B Cell-Depleting or Modulating Medications' and is dated August 11, 2026 (also shown as Updated: August 11, 2026). Its summary states CDC is issuing this Health Advisory to notify clinicians and the public about the risk of severe arboviral neuroinvasive disease among patients receiving B cell-depleting or B cell-modulating medications, particularly anti-CD20 monoclonal antibodies — matching the claim on issuer, date, and content. No change to the draft is warranted.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.0025949399999999996,
+        "estimated_cost_usd": 0.0025949399999999996,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_15_1",
+      "arm": "ordinary_retry",
+      "status": "completed",
+      "verdict": "supported",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "The CDC HAN page (CDCHAN-00532) is titled 'Risk of Severe Arboviral Disease in Patients Receiving B Cell-Depleting or Modulating Medications' and is dated August 11, 2026. Its summary states CDC is issuing this Health Advisory to notify clinicians and the public about the risk of severe arboviral neuroinvasive disease among patients receiving B cell-depleting or B cell-modulating medications, particularly anti-CD20 monoclonal antibodies — matching the claim on issuer, date, and content.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.00262475,
+        "estimated_cost_usd": 0.00262475,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_20_1",
+      "arm": "ordinary_retry",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [
+        "R1: issuer must match an opened FDA/CDC HTTPS page"
+      ],
+      "explanation": "CDC's HAN advisory CDCHAN-00526, dated January 20, 2026, states the opposite of the claim: 'No NWS infestations related to this outbreak have been identified in people or animals in the United States as of January 20, 2026' (R1.S019). The advisory attributes the outbreak's human and animal cases to Central America and Mexico — more than 1,190 human cases and seven deaths in Central America and Mexico, with Tamaulipas, Mexico reporting eight active animal cases — and notes the NWS fly has not been detected in the United States (R1.S024, R1.S025). The advisory therefore reports no US infestations linked to the outbreak as of that date.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.00277963,
+        "estimated_cost_usd": 0.00277963,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_20_1",
+      "arm": "authority_recovery",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "CDC's HAN advisory CDCHAN-00526, dated January 20, 2026, states the opposite of the claim: 'No NWS infestations related to this outbreak have been identified in people or animals in the United States as of January 20, 2026' (R1.S019). The advisory attributes the outbreak's human and animal cases to Central America and Mexico — e.g., more than 1,190 human cases and seven deaths in Central America and Mexico, and Tamaulipas, Mexico reporting eight active animal cases — and notes the NWS fly has not been detected in the United States (R1.S024, R1.S025). The claim concerns the content of this specific dated advisory, which was read directly from CDC's own page; the primary source directly negates the claimed content, so no further evidence is needed.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 5,
+        "known_cost_subtotal_usd": 0.00341361,
+        "estimated_cost_usd": 0.00341361,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_20_1",
+      "arm": "metadata_only",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "The CDC HAN advisory CDCHAN-00526, dated January 20, 2026, 12:30 PM ET (R1.S015), states the opposite of the claim: 'No NWS infestations related to this outbreak have been identified in people or animals in the United States as of January 20, 2026' (R1.S019). It attributes the outbreak's cases to Central America and Mexico — more than 1,190 human cases and seven deaths there, and eight active animal cases in Tamaulipas, Mexico — and notes the NWS fly has not been detected in the United States, with risk to people remaining low (R1.S024, R1.S025). The advisory therefore reports no US infestations linked to the outbreak as of that date, contradicting the claim.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 5,
+        "known_cost_subtotal_usd": 0.00340313,
+        "estimated_cost_usd": 0.00340313,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_20_1",
+      "arm": "strong_reference",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "The CDC HAN advisory dated January 20, 2026 states that no NWS infestations related to this outbreak have been identified in people or animals in the United States as of that date, so it does not report US infestations.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.006676152,
+        "estimated_cost_usd": 0.006676152,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_04_2",
+      "arm": "no_search",
+      "status": "completed",
+      "verdict": "insufficient",
+      "completed": true,
+      "reference_label_match": false,
+      "wrong_decisive": false,
+      "operational_abstention": true,
+      "grounding": null,
+      "human_verified_accuracy": null,
+      "metadata_errors": null,
+      "explanation": "Cannot verify from memory. I have no reliable recollection of a March 31, 2026 FDA notice about Tavneos (avacopan); while FDA has issued prior safety communications on avacopan-related liver injury, I cannot confirm the specific 76-case count or the assertion that none involved a death. Without access to the notice itself, the claim cannot be assessed.",
+      "searches": 0,
+      "reads": 0,
+      "cost": {
+        "calls": 1,
+        "known_cost_subtotal_usd": 0.00032805000000000003,
+        "estimated_cost_usd": 0.00032805000000000003,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_09_2",
+      "arm": "no_search",
+      "status": "completed",
+      "verdict": "insufficient",
+      "completed": true,
+      "reference_label_match": false,
+      "wrong_decisive": false,
+      "operational_abstention": true,
+      "grounding": null,
+      "human_verified_accuracy": null,
+      "metadata_errors": null,
+      "explanation": "I cannot verify from memory the existence or contents of an FDA notice dated July 31, 2025 concerning opioids, nor its specific characterization of data establishing safety and efficacy over an indefinitely long duration. No tools were available to retrieve the document, so the claim is neither supported nor contradicted.",
+      "searches": 0,
+      "reads": 0,
+      "cost": {
+        "calls": 1,
+        "known_cost_subtotal_usd": 0.00047995,
+        "estimated_cost_usd": 0.00047995,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_11_2",
+      "arm": "no_search",
+      "status": "completed",
+      "verdict": "insufficient",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": null,
+      "human_verified_accuracy": null,
+      "metadata_errors": null,
+      "explanation": "I have no memory of an FDA warning about Transderm Scop (scopolamine transdermal patch) dated June 18, 2025, and I cannot verify what patch the child is wearing. Without access to the referenced FDA document, I cannot confirm whether the patch is covered by it.",
+      "searches": 0,
+      "reads": 0,
+      "cost": {
+        "calls": 1,
+        "known_cost_subtotal_usd": 0.00028910000000000003,
+        "estimated_cost_usd": 0.00028910000000000003,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_15_2",
+      "arm": "no_search",
+      "status": "completed",
+      "verdict": "insufficient",
+      "completed": true,
+      "reference_label_match": false,
+      "wrong_decisive": false,
+      "operational_abstention": true,
+      "grounding": null,
+      "human_verified_accuracy": null,
+      "metadata_errors": null,
+      "explanation": "Cannot verify a specific CDC advisory dated August 11, 2026 from memory, as no record of that dated document is available. Additionally, existing CDC arboviral serology guidance generally indicates that immunocompromised patients (e.g., those on B cell-depleting agents) may have absent or delayed antibody responses, making the claim's substance suspicious, but the specific 2026 advisory itself cannot be confirmed without sources.",
+      "searches": 0,
+      "reads": 0,
+      "cost": {
+        "calls": 1,
+        "known_cost_subtotal_usd": 0.000363,
+        "estimated_cost_usd": 0.000363,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_20_2",
+      "arm": "no_search",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": null,
+      "human_verified_accuracy": null,
+      "metadata_errors": null,
+      "explanation": "While a specific CDC advisory dated 2026-01-20 cannot be retrieved from memory, the claim's substance — the screwworm outbreak being confined to Panama with no cases in Mexico — is contradicted by well-documented knowledge: New World screwworm cases were reported in southern Mexico (Chiapas) starting in late 2024 and spread through Mexico (e.g., Oaxaca, Veracruz) and multiple Central American countries through 2025, prompting USDA/APHIS actions including cattle import restrictions. It is implausible that a January 2026 CDC advisory would describe the outbreak as Panama-only.",
+      "searches": 0,
+      "reads": 0,
+      "cost": {
+        "calls": 1,
+        "known_cost_subtotal_usd": 0.0008454,
+        "estimated_cost_usd": 0.0008454,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_04_2",
+      "arm": "ordinary_retry",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "The FDA Drug Safety Communication dated 03-31-2026 on the 76 identified Tavneos (avacopan) DILI cases states that 74 of those cases reported a serious outcome, including hospitalization (n=54) and death (n=8), and the notice explicitly alerts about 'serious postmarketing cases, including fatal cases' of DILI associated with Tavneos. This directly contradicts the claim that none of the 76 cases involved a death.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.00214791,
+        "estimated_cost_usd": 0.00214791,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_04_2",
+      "arm": "authority_recovery",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "The FDA Drug Safety Communication dated 03-31-2026 on the 76 identified Tavneos (avacopan) DILI cases states that 74 of those cases reported a serious outcome, including hospitalization (n=54) and death (n=8), and the notice explicitly alerts about 'serious postmarketing cases, including fatal cases' of DILI associated with Tavneos. This directly contradicts the claim that none of the 76 cases involved a death.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.00213966,
+        "estimated_cost_usd": 0.00213966,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_04_2",
+      "arm": "metadata_only",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "The FDA Drug Safety Communication dated 03-31-2026 states that after reviewing postmarketing data through October 9, 2024, FDA identified 76 cases of DILI with reasonable evidence of a causal association with avacopan use, and that 74 cases reported a serious outcome, including hospitalization (n=54) and death (n=8). The notice also alerts about serious postmarketing cases, including fatal cases, of DILI associated with Tavneos. This directly contradicts the claim that none of the 76 cases involved a death.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.00214876,
+        "estimated_cost_usd": 0.00214876,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_04_2",
+      "arm": "strong_reference",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "The March 31, 2026 FDA Drug Safety Communication states that among the 76 DILI cases with reasonable evidence of causal association with avacopan, 74 reported a serious outcome including hospitalization (n=54) and death (n=8). Thus fatal cases were reported, contradicting the claim that none involved a death.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.005348052,
+        "estimated_cost_usd": 0.005348052,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_09_2",
+      "arm": "strong_reference",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "The July 31, 2025 FDA Drug Safety Communication directs removal of the phrase 'extended treatment period' specifically to avoid the misinterpretation that data support safety and efficacy of opioid analgesics over an indefinitely long duration — the opposite of the claim.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.00648504,
+        "estimated_cost_usd": 0.00648504,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_09_2",
+      "arm": "metadata_only",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "The July 31, 2025 FDA Drug Safety Communication (dated 07-31-2025 on the page) says the opposite of the claim: it requires removing the phrase \"extended treatment period\" from the Indications and Usage section specifically to avoid the misinterpretation that there are data to support safety and efficacy of opioid analgesics over an indefinitely long duration. The notice does not state that available data establish such safety and efficacy.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.00254374,
+        "estimated_cost_usd": 0.00254374,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_09_2",
+      "arm": "ordinary_retry",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "The July 31, 2025 FDA Drug Safety Communication says the opposite of the claim: it requires removing the phrase \"extended treatment period\" from the Indications and Usage section precisely to avoid the misinterpretation that there are data to support safety and efficacy of opioid analgesics over an indefinitely long duration. The notice nowhere states that available data establish such safety and efficacy.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.00247795,
+        "estimated_cost_usd": 0.00247795,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_09_2",
+      "arm": "authority_recovery",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "The July 31, 2025 FDA Drug Safety Communication says the opposite of the claim: it requires removing the phrase \"extended treatment period\" from the Indications and Usage section specifically to avoid the misinterpretation that there are data to support safety and efficacy of opioid analgesics over an indefinitely long duration. The notice also states a randomized trial will still be needed to examine risks relative to efficacy of long-term use, so it does not say available data establish such safety and efficacy.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.00262378,
+        "estimated_cost_usd": 0.00262378,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_11_2",
+      "arm": "authority_recovery",
+      "status": "completed",
+      "verdict": "supported",
+      "completed": true,
+      "reference_label_match": false,
+      "wrong_decisive": true,
+      "operational_abstention": false,
+      "grounding": false,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "FDA's June 18, 2025 Drug Safety Communication warns that the Transderm Scōp (scopolamine transdermal system) patch can increase body temperature and cause heat-related complications. The warning explicitly covers children: most serious-harm reports occurred in children 17 and younger, the patch is described as sometimes prescribed off-label for children (e.g., excessive drooling), and FDA directs guidance specifically to parents and caregivers even though the patch is not approved for pediatric use. A Transderm Scōp patch worn by a child is therefore within the scope of this warning. This assumes the patch in question is indeed Transderm Scōp, as the claim's reference to the Transderm Scōp warning implies.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.0028688399999999997,
+        "estimated_cost_usd": 0.0028688399999999997,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_11_2",
+      "arm": "metadata_only",
+      "status": "truncated",
+      "verdict": null,
+      "completed": false,
+      "reference_label_match": false,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": null,
+      "human_verified_accuracy": null,
+      "metadata_errors": null,
+      "explanation": null,
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.00441676,
+        "estimated_cost_usd": 0.00441676,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_11_2",
+      "arm": "ordinary_retry",
+      "status": "completed",
+      "verdict": "supported",
+      "completed": true,
+      "reference_label_match": false,
+      "wrong_decisive": true,
+      "operational_abstention": false,
+      "grounding": null,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "FDA's June 18, 2025 Drug Safety Communication warns that the Transderm Scōp (scopolamine transdermal system) patch can increase body temperature and cause heat-related complications, and most reports of serious harm involved use in children 17 and younger. The communication states the patch is not FDA-approved for children but is prescribed off-label in this population and directly addresses parents and caregivers, so the warning covers the Transderm Scōp patch when worn by a child. The communication is dated June 18, 2025, matching the claimed date. If the child's patch were not a Transderm Scōp (scopolamine transdermal system) patch, the claim would not hold, but the claim as framed concerns the patch covered by this warning.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.0037788499999999994,
+        "estimated_cost_usd": 0.0037788499999999994,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_11_2",
+      "arm": "strong_reference",
+      "status": "completed",
+      "verdict": "insufficient",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "The FDA communication covers Transderm Scōp (scopolamine transdermal system) and notes off-label pediatric use, but the opened page does not establish that the patch the referenced child is wearing is that product. Coverage of the specific patch is therefore unconfirmed.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.006713508,
+        "estimated_cost_usd": 0.006713508,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_15_2",
+      "arm": "strong_reference",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "The CDC HAN advisory dated Aug. 11, 2026 states patients on B cell-depleting medications may not form antibodies and can have delayed or absent antibody responses; it directs clinicians to preferentially order molecular testing (RT-PCR/mNGS) and says IgM serology should be ordered only for immunocompetent patients or those on drugs that do not substantially suppress antibody production. Thus antibody testing alone is not presented as reliably sufficient for these patients.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.00633648,
+        "estimated_cost_usd": 0.00633648,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_15_2",
+      "arm": "metadata_only",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "The CDC HAN advisory (CDCHAN-00532) is dated August 11, 2026, but it states the opposite of the claim: when arboviral infection is suspected in a patient receiving B cell-depleting mAbs, clinicians should preferentially order molecular testing (RT-PCR or mNGS) because such patients can have delayed or absent antibody responses, and IgM serologic testing of serum or CSF should be ordered only for patients who are immunocompetent or receiving drugs that do not substantially suppress antibody production. The advisory therefore does not say antibody testing alone is reliably sufficient for these patients; it contradicts that.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.00226071,
+        "estimated_cost_usd": 0.00226071,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_15_2",
+      "arm": "ordinary_retry",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "The CDC HAN advisory (CDCHAN-00532) is dated August 11, 2026, but it says the opposite of the claim: when arboviral infection is suspected in a patient receiving B cell-depleting mAbs, clinicians should preferentially order molecular testing (RT-PCR or mNGS), because such patients can have delayed or absent antibody responses, and IgM serologic testing should be ordered only for immunocompetent patients or those on drugs that do not substantially suppress antibody production. The advisory therefore does not describe antibody testing alone as reliably sufficient for these patients.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.0023070400000000002,
+        "estimated_cost_usd": 0.0023070400000000002,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_15_2",
+      "arm": "authority_recovery",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "The CDC HAN advisory is dated August 11, 2026, and concerns patients receiving B cell-depleting or B cell-modulating medications, but it recommends the opposite of the claim: when arboviral infection is suspected in a patient receiving B cell-depleting mAbs, clinicians should preferentially order molecular testing (RT-PCR or mNGS), because such patients can have delayed or absent antibody responses, and IgM serologic (antibody) testing should be ordered only for patients who are immunocompetent or receiving drugs that do not substantially suppress antibody production. The advisory therefore does not say antibody testing alone is reliably sufficient for these patients.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.00239993,
+        "estimated_cost_usd": 0.00239993,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_20_2",
+      "arm": "authority_recovery",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "The CDC HAN advisory issued January 20, 2026 (CDCHAN-00526) is titled as the outbreak moving into northern Mexico, and its summary reports recent NWS animal cases in the Mexican state of Tamaulipas, bordering Texas. It describes the outbreak as having developed across Central America and Mexico, citing Mexico's 24 human hospitalizations, 601 active animal cases, and eight active animal cases in Tamaulipas as of January 20, 2026. Panama appears only in the background as the source of the 2023 case spike that spread northward. The advisory therefore does not describe the outbreak as confined to Panama; it documents active cases in Mexico, directly contradicting the claim.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.00292767,
+        "estimated_cost_usd": 0.00292767,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_20_2",
+      "arm": "metadata_only",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "CDC HAN advisory CDCHAN-00526, dated January 20, 2026, is titled 'New World Screwworm: Outbreak Moves into Northern Mexico' and explicitly describes recent NWS animal cases in the Mexican state of Tamaulipas, which borders Texas. It states the outbreak has developed across Central America and Mexico, with Mexico reporting 24 hospitalizations, 601 active animal cases, and eight active animal cases in Tamaulipas as of January 20, 2026. This directly contradicts the claim that the advisory describes the outbreak as confined to Panama with no cases in Mexico; Panama appears only in the background discussion of the 2023 case spike that contributed to the northward spread.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.00262063,
+        "estimated_cost_usd": 0.00262063,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_20_2",
+      "arm": "ordinary_retry",
+      "status": "invalid_output",
+      "verdict": null,
+      "completed": false,
+      "reference_label_match": false,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": null,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": null,
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.00255976,
+        "estimated_cost_usd": 0.00255976,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_20_2",
+      "arm": "strong_reference",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "The Jan. 20, 2026 CDC HAN describes an outbreak across Central America and Mexico—including the Mexican state of Tamaulipas reporting eight active animal cases—and traces northward spread from Panama. It does not describe the outbreak as confined to Panama or Mexico-free.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.006553104,
+        "estimated_cost_usd": 0.006553104,
+        "unknown_cost_calls": 0
+      }
+    }
+  ],
+  "integrity_audits": [
+    {
+      "passed": true,
+      "errors": [],
+      "cases": 5,
+      "candidate_calls": 56,
+      "heldout_used": false,
+      "human_verified_accuracy": null
+    },
+    {
+      "passed": true,
+      "errors": [],
+      "cases": 5,
+      "candidate_calls": 56,
+      "heldout_used": false,
+      "human_verified_accuracy": null
+    },
+    {
+      "passed": true,
+      "errors": [],
+      "cases": 5,
+      "candidate_calls": 57,
+      "heldout_used": false,
+      "human_verified_accuracy": null
+    },
+    {
+      "passed": true,
+      "errors": [],
+      "cases": 5,
+      "candidate_calls": 57,
+      "heldout_used": false,
+      "human_verified_accuracy": null
+    }
+  ]
+}

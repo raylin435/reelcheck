@@ -1,0 +1,2210 @@
+{
+  "partition": "heldout",
+  "cases": 20,
+  "document_families": 10,
+  "systems": {
+    "no_search": {
+      "cases": 20,
+      "completed": 17,
+      "objective_failures": 3,
+      "reference_label_match": 8,
+      "reference_unresolved": 1,
+      "wrong_decisive": 3,
+      "operational_abstention": 6,
+      "grounding_accepted": 0,
+      "grounding_rejected_completed": 0,
+      "grounding_unresolved_completed": null,
+      "metadata_pass_completed": 0,
+      "recovery_searches": 0,
+      "deployment_accounting": {
+        "calls": 20,
+        "known_cost_subtotal_usd": 0.01196655,
+        "estimated_cost_usd": 0.01196655,
+        "unknown_cost_calls": 0
+      },
+      "searches": 0,
+      "reads": 0,
+      "by_category": {
+        "exact_scope": {
+          "cases": 5,
+          "label_matches": 4
+        },
+        "false_premise_or_missing_context": {
+          "cases": 5,
+          "label_matches": 3
+        },
+        "outdated_or_conflicting": {
+          "cases": 5,
+          "label_matches": 1
+        },
+        "recent_change": {
+          "cases": 5,
+          "label_matches": 0
+        }
+      },
+      "recent_90_days": {
+        "cases": 4,
+        "label_matches": 2
+      }
+    },
+    "ordinary_retry": {
+      "cases": 20,
+      "completed": 19,
+      "objective_failures": 1,
+      "reference_label_match": 18,
+      "reference_unresolved": 1,
+      "wrong_decisive": 0,
+      "operational_abstention": 0,
+      "grounding_accepted": 18,
+      "grounding_rejected_completed": 0,
+      "grounding_unresolved_completed": 1,
+      "metadata_pass_completed": 17,
+      "recovery_searches": 0,
+      "deployment_accounting": {
+        "calls": 84,
+        "known_cost_subtotal_usd": 0.07339277,
+        "estimated_cost_usd": 0.07339277,
+        "unknown_cost_calls": 0
+      },
+      "searches": 20,
+      "reads": 24,
+      "by_category": {
+        "exact_scope": {
+          "cases": 5,
+          "label_matches": 5
+        },
+        "false_premise_or_missing_context": {
+          "cases": 5,
+          "label_matches": 4
+        },
+        "outdated_or_conflicting": {
+          "cases": 5,
+          "label_matches": 4
+        },
+        "recent_change": {
+          "cases": 5,
+          "label_matches": 5
+        }
+      },
+      "recent_90_days": {
+        "cases": 4,
+        "label_matches": 4
+      }
+    },
+    "authority_recovery": {
+      "cases": 20,
+      "completed": 19,
+      "objective_failures": 1,
+      "reference_label_match": 18,
+      "reference_unresolved": 1,
+      "wrong_decisive": 0,
+      "operational_abstention": 0,
+      "grounding_accepted": 17,
+      "grounding_rejected_completed": 0,
+      "grounding_unresolved_completed": 2,
+      "metadata_pass_completed": 19,
+      "recovery_searches": 0,
+      "deployment_accounting": {
+        "calls": 91,
+        "known_cost_subtotal_usd": 0.08375052999999999,
+        "estimated_cost_usd": 0.08375052999999999,
+        "unknown_cost_calls": 0
+      },
+      "searches": 20,
+      "reads": 26,
+      "by_category": {
+        "exact_scope": {
+          "cases": 5,
+          "label_matches": 5
+        },
+        "false_premise_or_missing_context": {
+          "cases": 5,
+          "label_matches": 4
+        },
+        "outdated_or_conflicting": {
+          "cases": 5,
+          "label_matches": 4
+        },
+        "recent_change": {
+          "cases": 5,
+          "label_matches": 5
+        }
+      },
+      "recent_90_days": {
+        "cases": 4,
+        "label_matches": 4
+      }
+    },
+    "strong_reference": {
+      "cases": 20,
+      "completed": 19,
+      "objective_failures": 1,
+      "reference_label_match": 18,
+      "reference_unresolved": 1,
+      "wrong_decisive": 0,
+      "operational_abstention": 0,
+      "grounding_accepted": 19,
+      "grounding_rejected_completed": 0,
+      "grounding_unresolved_completed": 0,
+      "metadata_pass_completed": 17,
+      "recovery_searches": 0,
+      "deployment_accounting": {
+        "calls": 81,
+        "known_cost_subtotal_usd": 0.12053164799999999,
+        "estimated_cost_usd": 0.12053164799999999,
+        "unknown_cost_calls": 0
+      },
+      "searches": 20,
+      "reads": 21,
+      "by_category": {
+        "exact_scope": {
+          "cases": 5,
+          "label_matches": 5
+        },
+        "false_premise_or_missing_context": {
+          "cases": 5,
+          "label_matches": 4
+        },
+        "outdated_or_conflicting": {
+          "cases": 5,
+          "label_matches": 5
+        },
+        "recent_change": {
+          "cases": 5,
+          "label_matches": 4
+        }
+      },
+      "recent_90_days": {
+        "cases": 4,
+        "label_matches": 3
+      }
+    }
+  },
+  "pairs": [
+    {
+      "case_id": "authority_01_1",
+      "group_id": "fda41",
+      "both_completed": true,
+      "reference_outcome": "tie",
+      "ordinary": true,
+      "treatment": true,
+      "grounding_outcome": "tie"
+    },
+    {
+      "case_id": "authority_01_2",
+      "group_id": "fda41",
+      "both_completed": true,
+      "reference_outcome": "tie",
+      "ordinary": true,
+      "treatment": true,
+      "grounding_outcome": "tie"
+    },
+    {
+      "case_id": "authority_02_1",
+      "group_id": "fda42",
+      "both_completed": true,
+      "reference_outcome": "tie",
+      "ordinary": true,
+      "treatment": true,
+      "grounding_outcome": "unresolved"
+    },
+    {
+      "case_id": "authority_02_2",
+      "group_id": "fda42",
+      "both_completed": true,
+      "reference_outcome": "tie",
+      "ordinary": true,
+      "treatment": true,
+      "grounding_outcome": "tie"
+    },
+    {
+      "case_id": "authority_06_1",
+      "group_id": "fda46",
+      "both_completed": true,
+      "reference_outcome": "tie",
+      "ordinary": true,
+      "treatment": true,
+      "grounding_outcome": "tie"
+    },
+    {
+      "case_id": "authority_06_2",
+      "group_id": "fda46",
+      "both_completed": true,
+      "reference_outcome": "unresolved",
+      "ordinary": null,
+      "treatment": null,
+      "grounding_outcome": "unresolved"
+    },
+    {
+      "case_id": "authority_07_1",
+      "group_id": "fda47",
+      "both_completed": true,
+      "reference_outcome": "tie",
+      "ordinary": true,
+      "treatment": true,
+      "grounding_outcome": "tie"
+    },
+    {
+      "case_id": "authority_07_2",
+      "group_id": "fda47",
+      "both_completed": true,
+      "reference_outcome": "tie",
+      "ordinary": true,
+      "treatment": true,
+      "grounding_outcome": "tie"
+    },
+    {
+      "case_id": "authority_08_1",
+      "group_id": "fda48",
+      "both_completed": true,
+      "reference_outcome": "tie",
+      "ordinary": true,
+      "treatment": true,
+      "grounding_outcome": "tie"
+    },
+    {
+      "case_id": "authority_08_2",
+      "group_id": "fda48",
+      "both_completed": true,
+      "reference_outcome": "tie",
+      "ordinary": true,
+      "treatment": true,
+      "grounding_outcome": "tie"
+    },
+    {
+      "case_id": "authority_12_1",
+      "group_id": "fda52",
+      "both_completed": true,
+      "reference_outcome": "tie",
+      "ordinary": true,
+      "treatment": true,
+      "grounding_outcome": "tie"
+    },
+    {
+      "case_id": "authority_12_2",
+      "group_id": "fda52",
+      "both_completed": true,
+      "reference_outcome": "tie",
+      "ordinary": true,
+      "treatment": true,
+      "grounding_outcome": "unresolved"
+    },
+    {
+      "case_id": "authority_13_1",
+      "group_id": "fda53",
+      "both_completed": true,
+      "reference_outcome": "tie",
+      "ordinary": true,
+      "treatment": true,
+      "grounding_outcome": "tie"
+    },
+    {
+      "case_id": "authority_13_2",
+      "group_id": "fda53",
+      "both_completed": true,
+      "reference_outcome": "tie",
+      "ordinary": true,
+      "treatment": true,
+      "grounding_outcome": "tie"
+    },
+    {
+      "case_id": "authority_16_1",
+      "group_id": "cdc9",
+      "both_completed": true,
+      "reference_outcome": "tie",
+      "ordinary": true,
+      "treatment": true,
+      "grounding_outcome": "tie"
+    },
+    {
+      "case_id": "authority_16_2",
+      "group_id": "cdc9",
+      "both_completed": true,
+      "reference_outcome": "tie",
+      "ordinary": true,
+      "treatment": true,
+      "grounding_outcome": "tie"
+    },
+    {
+      "case_id": "authority_18_1",
+      "group_id": "cdc11",
+      "both_completed": false,
+      "reference_outcome": "tie",
+      "ordinary": false,
+      "treatment": false,
+      "grounding_outcome": "unresolved"
+    },
+    {
+      "case_id": "authority_18_2",
+      "group_id": "cdc11",
+      "both_completed": true,
+      "reference_outcome": "tie",
+      "ordinary": true,
+      "treatment": true,
+      "grounding_outcome": "tie"
+    },
+    {
+      "case_id": "authority_19_1",
+      "group_id": "cdc13",
+      "both_completed": true,
+      "reference_outcome": "tie",
+      "ordinary": true,
+      "treatment": true,
+      "grounding_outcome": "tie"
+    },
+    {
+      "case_id": "authority_19_2",
+      "group_id": "cdc13",
+      "both_completed": true,
+      "reference_outcome": "tie",
+      "ordinary": true,
+      "treatment": true,
+      "grounding_outcome": "tie"
+    }
+  ],
+  "paired_reference_outcomes": {
+    "tie": 19,
+    "unresolved": 1
+  },
+  "both_completed_reference_outcomes": {
+    "tie": 18,
+    "unresolved": 1
+  },
+  "candidate_actual_billing": {
+    "calls": 215,
+    "known_cost_subtotal_usd": 0.249348048,
+    "estimated_cost_usd": 0.249348048,
+    "unknown_cost_calls": 0
+  },
+  "candidate_inherited_billing": {
+    "calls": 0,
+    "known_cost_subtotal_usd": 0,
+    "estimated_cost_usd": 0,
+    "unknown_cost_calls": 0
+  },
+  "candidate_new_billing": {
+    "calls": 215,
+    "known_cost_subtotal_usd": 0.249348048,
+    "estimated_cost_usd": 0.249348048,
+    "unknown_cost_calls": 0
+  },
+  "grounding_actual_billing": {
+    "calls": 114,
+    "known_cost_subtotal_usd": 1.1976747,
+    "estimated_cost_usd": 1.1976747,
+    "unknown_cost_calls": 0
+  },
+  "distinct_tools": {
+    "search": 40,
+    "read": 50
+  },
+  "complete": true,
+  "all_valid_researched_answers_judged": true,
+  "human_verified_accuracy": null,
+  "web_cost_usd": null,
+  "rows": [
+    {
+      "case_id": "authority_01_1",
+      "arm": "no_search",
+      "status": "invalid_output",
+      "verdict": null,
+      "completed": false,
+      "reference_label_match": false,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": null,
+      "human_verified_accuracy": null,
+      "metadata_errors": null,
+      "explanation": null,
+      "searches": 0,
+      "reads": 0,
+      "cost": {
+        "calls": 1,
+        "known_cost_subtotal_usd": 0.00037,
+        "estimated_cost_usd": 0.00037,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_06_1",
+      "arm": "no_search",
+      "status": "completed",
+      "verdict": "insufficient",
+      "completed": true,
+      "reference_label_match": false,
+      "wrong_decisive": false,
+      "operational_abstention": true,
+      "grounding": null,
+      "human_verified_accuracy": null,
+      "metadata_errors": null,
+      "explanation": "The claim references an FDA notice dated January 13, 2026, which falls beyond my knowledge cutoff. I have no memory of this notice or its contents, so I can neither confirm that it requests adding a suicidal behavior/ideation warning to Wegovy nor that it does not. Verifying would require access to the actual FDA notice or contemporaneous reporting, which is unavailable here.",
+      "searches": 0,
+      "reads": 0,
+      "cost": {
+        "calls": 1,
+        "known_cost_subtotal_usd": 0.00037715,
+        "estimated_cost_usd": 0.00037715,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_08_1",
+      "arm": "no_search",
+      "status": "completed",
+      "verdict": "supported",
+      "completed": true,
+      "reference_label_match": false,
+      "wrong_decisive": true,
+      "operational_abstention": false,
+      "grounding": null,
+      "human_verified_accuracy": null,
+      "metadata_errors": null,
+      "explanation": "From memory: FDA announced in February 2025 its determination that the Clozapine REMS (CRP) was no longer necessary, with the removal completed via a notice/communication dated August 27, 2025 stating the REMS termination took effect that same day, ending prescriber certification and pharmacy enrollment requirements while ANC monitoring remains in labeling. This matches the claim, though exact wording of the notice cannot be verified without sources.",
+      "searches": 0,
+      "reads": 0,
+      "cost": {
+        "calls": 1,
+        "known_cost_subtotal_usd": 0.0009205499999999999,
+        "estimated_cost_usd": 0.0009205499999999999,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_13_1",
+      "arm": "no_search",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": null,
+      "human_verified_accuracy": null,
+      "metadata_errors": null,
+      "explanation": "Based on background knowledge of the FDA's early-2025 safety communication on glatiramer acetate, the notice warned the opposite of what this claim states: anaphylaxis is a serious risk that can occur at any time during treatment, including after years of use and potentially hours after an injection — not only after the first dose. The claim inverts the actual safety message, which is why long-term users and prescribers were urged to watch for symptoms at any point in therapy. The 'first dose only, never after years of treatment' framing is medically implausible and inconsistent with the drug's established labeling on delayed and late-onset systemic allergic reactions.",
+      "searches": 0,
+      "reads": 0,
+      "cost": {
+        "calls": 1,
+        "known_cost_subtotal_usd": 0.0005591,
+        "estimated_cost_usd": 0.0005591,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_18_1",
+      "arm": "no_search",
+      "status": "completed",
+      "verdict": "insufficient",
+      "completed": true,
+      "reference_label_match": false,
+      "wrong_decisive": false,
+      "operational_abstention": true,
+      "grounding": null,
+      "human_verified_accuracy": null,
+      "metadata_errors": null,
+      "explanation": "Memory-only check: no record of a CDC hantavirus update dated May 18, 2026, or of confirmed US Andes virus cases tied to a cruise-ship outbreak. The cited document postdates available knowledge (early 2025) and cannot be confirmed or refuted without retrieval; Andes virus is primarily South American, with US surveillance centered on Sin Nombre virus, making the specific claim unverifiable from memory.",
+      "searches": 0,
+      "reads": 0,
+      "cost": {
+        "calls": 1,
+        "known_cost_subtotal_usd": 0.00046455,
+        "estimated_cost_usd": 0.00046455,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_01_1",
+      "arm": "authority_recovery",
+      "status": "completed",
+      "verdict": "supported",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "FDA's Drug Safety Communication is dated September 15, 2026, and states that FDA approved an additional warning in Kybella (deoxycholic acid) labeling regarding adverse reactions associated with use of the drug outside the submental fat region (fat under the chin), recommending against this unapproved use. This directly matches the claim.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.00306358,
+        "estimated_cost_usd": 0.00306358,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_01_1",
+      "arm": "ordinary_retry",
+      "status": "completed",
+      "verdict": "supported",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "FDA's Drug Safety Communication is dated September 15, 2026, and states that FDA approved an additional warning in Kybella (deoxycholic acid) labeling regarding adverse reactions associated with use of the drug outside the submental fat region (fat under the chin), recommending against this unapproved use. This directly matches the claim, and no change to the draft is warranted on review.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.00298183,
+        "estimated_cost_usd": 0.00298183,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_01_1",
+      "arm": "strong_reference",
+      "status": "invalid_output",
+      "verdict": null,
+      "completed": false,
+      "reference_label_match": false,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": null,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": null,
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.00518406,
+        "estimated_cost_usd": 0.00518406,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_06_1",
+      "arm": "strong_reference",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "The FDA 01-13-2026 Drug Safety Communication states FDA is requesting that application holders remove the SI/B warning from labeling, naming Wegovy among the affected products — the opposite of adding a warning.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.004398852,
+        "estimated_cost_usd": 0.004398852,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_06_1",
+      "arm": "ordinary_retry",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "The FDA Drug Safety Communication dated 01-13-2026 states the opposite of the claim: after a comprehensive review finding no increased risk of suicidal ideation/behavior (SI/B), FDA is requesting that application holders remove SI/B information from the labeling of GLP-1 RA medications, explicitly naming Wegovy (semaglutide) among the affected products (Saxenda, Wegovy, Zepbound). The notice requests removal of the warning, not its addition.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.00267453,
+        "estimated_cost_usd": 0.00267453,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_06_1",
+      "arm": "authority_recovery",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "The FDA Drug Safety Communication dated 01-13-2026 states the opposite of the claim: after a review finding no increased risk of suicidal ideation/behavior (SI/B), FDA is requesting that application holders remove SI/B information from the labeling of GLP-1 RA medications, explicitly naming Wegovy (semaglutide) among the affected products (Saxenda, Wegovy, Zepbound), and reiterates the removal request for Wegovy specifically. The notice requests removal of the warning, not its addition. No material gap remains: entity (FDA), date (2026-01-13), product (Wegovy), and the requested action (removal) are each established by the opened FDA page.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.00285378,
+        "estimated_cost_usd": 0.00285378,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_08_1",
+      "arm": "ordinary_retry",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "The FDA Drug Safety Communication is dated 08-27-2025 (R1.S047), but the notice states the clozapine REMS removal was effective June 13, 2025 (R1.S049) — not August 27, 2025. August 27, 2025 is the publication date of the notice, not the effective date of the REMS removal, so the claim misattributes the effective date.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.00311914,
+        "estimated_cost_usd": 0.00311914,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_08_1",
+      "arm": "authority_recovery",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "The FDA Drug Safety Communication is dated 08-27-2025, but it states the clozapine REMS removal was effective June 13, 2025 — not August 27, 2025. The August 27, 2025 date is the publication date of the notice, not the effective date of the REMS removal.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.0032748899999999995,
+        "estimated_cost_usd": 0.0032748899999999995,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_08_1",
+      "arm": "strong_reference",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "The FDA Drug Safety Communication dated 08-27-2025 states that FDA removed the clozapine REMS \"effective June 13, 2025.\" The notice does not say the removal took effect on August 27, 2025.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.0057764999999999995,
+        "estimated_cost_usd": 0.0057764999999999995,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_13_1",
+      "arm": "strong_reference",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "The FDA Drug Safety Communication dated 01-22-2025 states the opposite: anaphylaxis 'can occur at any time while on treatment, after the first dose or after doses administered months or years after starting the medicine,' and FDA reports 19 cases occurring more than one year after starting the medicine. So the claim's 'only after the first dose, never after years' is contradicted.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.0065563439999999995,
+        "estimated_cost_usd": 0.0065563439999999995,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_13_1",
+      "arm": "ordinary_retry",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "The FDA Drug Safety Communication dated 01-22-2025 states the opposite of the claim: anaphylaxis with glatiramer acetate \"can occur at any time while on treatment, after the first dose or after doses administered months or years after starting the medicine,\" and it explicitly tells patients it can occur \"including years after starting treatment.\" FDA's data summary further reports 19 of 82 worldwide anaphylaxis cases occurred more than one year after starting the medicine. The notice nowhere restricts anaphylaxis to the first dose, so the claim is contradicted.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.00369259,
+        "estimated_cost_usd": 0.00369259,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_13_1",
+      "arm": "authority_recovery",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "The FDA Drug Safety Communication dated 01-22-2025 states the opposite of the claim: anaphylaxis with glatiramer acetate \"can occur at any time while on treatment, after the first dose or after doses administered months or years after starting the medicine,\" and it explicitly notes cases occurring more than one year after starting (19 of 82 cases). The notice never restricts anaphylaxis to the first dose.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.0036593399999999996,
+        "estimated_cost_usd": 0.0036593399999999996,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_18_1",
+      "arm": "authority_recovery",
+      "status": "invalid_output",
+      "verdict": null,
+      "completed": false,
+      "reference_label_match": false,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": null,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": null,
+      "searches": 1,
+      "reads": 3,
+      "cost": {
+        "calls": 6,
+        "known_cost_subtotal_usd": 0.00363904,
+        "estimated_cost_usd": 0.00363904,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_18_1",
+      "arm": "ordinary_retry",
+      "status": "invalid_output",
+      "verdict": null,
+      "completed": false,
+      "reference_label_match": false,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": null,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": null,
+      "searches": 1,
+      "reads": 3,
+      "cost": {
+        "calls": 6,
+        "known_cost_subtotal_usd": 0.0041814,
+        "estimated_cost_usd": 0.0041814,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_18_1",
+      "arm": "strong_reference",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "CDC's May 18, 2026 HAN Health Update (CDCHAN-00529) states that as of May 18, no confirmed US Andes virus cases linked to the cruise-ship outbreak had been reported in the United States — the opposite of the claim.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.005798208,
+        "estimated_cost_usd": 0.005798208,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_01_2",
+      "arm": "no_search",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": null,
+      "human_verified_accuracy": null,
+      "metadata_errors": null,
+      "explanation": "Memory-only check: Kybella (deoxycholic acid) is FDA-approved only for moderate-to-severe submental fat (fat beneath the chin) in adults, not fat anywhere on the body. No FDA notice from September 15, 2026 is within my knowledge, and the described characterization contradicts Kybella's established approved labeling, so the claim is not supported by known FDA information.",
+      "searches": 0,
+      "reads": 0,
+      "cost": {
+        "calls": 1,
+        "known_cost_subtotal_usd": 0.00052475,
+        "estimated_cost_usd": 0.00052475,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_06_2",
+      "arm": "no_search",
+      "status": "invalid_output",
+      "verdict": null,
+      "completed": false,
+      "reference_label_match": null,
+      "wrong_decisive": null,
+      "operational_abstention": null,
+      "grounding": null,
+      "human_verified_accuracy": null,
+      "metadata_errors": null,
+      "explanation": null,
+      "searches": 0,
+      "reads": 0,
+      "cost": {
+        "calls": 1,
+        "known_cost_subtotal_usd": 0.00021994999999999998,
+        "estimated_cost_usd": 0.00021994999999999998,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_08_2",
+      "arm": "no_search",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": null,
+      "human_verified_accuracy": null,
+      "metadata_errors": null,
+      "explanation": "FDA's 2025 action removing the Clozapine REMS eliminated the mandatory ANC monitoring and reporting requirements, but FDA communications stated that ANC monitoring is not eliminated — prescribers should still monitor ANCs based on clinical judgment (e.g., in patients with a history of neutropenia or symptoms of infection). Characterizing the REMS removal as eliminating the need for ANC monitoring misstates FDA's position, so the claim's description is contradicted by FDA's stated guidance.",
+      "searches": 0,
+      "reads": 0,
+      "cost": {
+        "calls": 1,
+        "known_cost_subtotal_usd": 0.0004422,
+        "estimated_cost_usd": 0.0004422,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_13_2",
+      "arm": "no_search",
+      "status": "completed",
+      "verdict": "insufficient",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": null,
+      "human_verified_accuracy": null,
+      "metadata_errors": null,
+      "explanation": "The claim refers to 'the injection the patient received,' but no information identifying that injection is provided, so it cannot be matched against any list of medicines. Additionally, working from memory only, I cannot reliably confirm the existence, scope, or covered products of an FDA glatiramer acetate warning dated January 22, 2025. Without the patient's injection details and verifiable warning contents, the claim cannot be evaluated.",
+      "searches": 0,
+      "reads": 0,
+      "cost": {
+        "calls": 1,
+        "known_cost_subtotal_usd": 0.0003722,
+        "estimated_cost_usd": 0.0003722,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_18_2",
+      "arm": "no_search",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": null,
+      "human_verified_accuracy": null,
+      "metadata_errors": null,
+      "explanation": "CDC guidance on hantaviruses (consistent through 2025) states that hantaviruses endemic to the United States, such as Sin Nombre virus, are transmitted to people primarily through inhalation of aerosolized virus from infected rodent urine, droppings, or saliva — not from person to person. Person-to-person transmission has been documented only for Andes virus in South America (Argentina/Chile), and CDC notes no person-to-person spread has been reported in the United States. While I cannot verify the specific May 18, 2026 page from memory, the claim's substantive assertion directly contradicts long-standing, well-established CDC information about hantavirus transmission routes in the US.",
+      "searches": 0,
+      "reads": 0,
+      "cost": {
+        "calls": 1,
+        "known_cost_subtotal_usd": 0.00040485,
+        "estimated_cost_usd": 0.00040485,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_01_2",
+      "arm": "ordinary_retry",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "FDA's Drug Safety Communication dated September 15, 2026 says the opposite of the claim: Kybella was approved in 2015 only for fullness associated with submental fat (under the chin), it 'is not approved for the treatment of subcutaneous fat outside the submental region,' and FDA recommends against such unapproved use. The notice also tells providers the drug is not approved for use in areas of the body other than the submental area.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.00332774,
+        "estimated_cost_usd": 0.00332774,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_01_2",
+      "arm": "authority_recovery",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "FDA's Drug Safety Communication dated September 15, 2026 says the opposite of the claim: Kybella was approved in 2015 only for fullness associated with submental fat (under the chin), it is explicitly not approved for treatment of subcutaneous fat outside the submental region, and FDA recommends against such unapproved use. The notice also tells providers the drug is not approved for use in areas of the body other than the submental area.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.00345849,
+        "estimated_cost_usd": 0.00345849,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_01_2",
+      "arm": "strong_reference",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "The September 15, 2026 FDA Drug Safety Communication states Kybella was approved in 2015 for moderate-to-severe fullness associated with submental fat and is not approved for subcutaneous fat outside the submental region, the opposite of the claim.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.004701131999999999,
+        "estimated_cost_usd": 0.004701131999999999,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_06_2",
+      "arm": "strong_reference",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": null,
+      "wrong_decisive": null,
+      "operational_abstention": null,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [
+        "R1: document date is after claim as_of",
+        "R1: effective date lacks exact dated quote"
+      ],
+      "explanation": "On January 13, 2026 FDA was requesting that holders remove the SI/B labeling information — a request, not a completed change. For Saxenda (Novo Nordisk), the labeling revisions sought by the January 13, 2026 Supplement Request letter came in an sNDA dated and received January 27, 2026, with the letter signed 02/25/2026, so completion postdates January 13, 2026.",
+      "searches": 1,
+      "reads": 2,
+      "cost": {
+        "calls": 5,
+        "known_cost_subtotal_usd": 0.011259456,
+        "estimated_cost_usd": 0.011259456,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_06_2",
+      "arm": "authority_recovery",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": null,
+      "wrong_decisive": null,
+      "operational_abstention": null,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "FDA's Drug Safety Communication is dated 01-13-2026 (R1.S048) and states that FDA 'is requesting' that application holders remove the suicidal ideation/behavior (SI/B) information from the labeling of the affected GLP-1 RA medications (Saxenda, Wegovy, Zepbound), which 'currently include such language' (R1.S050). As of January 13, 2026, the affected manufacturers' labeling still contained the warning and the change was only at the request stage, so no manufacturer had already completed the requested change on that date.",
+      "searches": 1,
+      "reads": 2,
+      "cost": {
+        "calls": 6,
+        "known_cost_subtotal_usd": 0.00837125,
+        "estimated_cost_usd": 0.00837125,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_06_2",
+      "arm": "ordinary_retry",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": null,
+      "wrong_decisive": null,
+      "operational_abstention": null,
+      "grounding": null,
+      "human_verified_accuracy": null,
+      "metadata_errors": [
+        "R2: document date is after claim as_of"
+      ],
+      "explanation": "As of January 13, 2026, the change had not been completed. FDA's Drug Safety Communication dated 01-13-2026 states FDA 'is requesting' that application holders remove the SI/B warning from GLP-1 RA labeling that 'currently include such language' (R1.S048, R1.S050), i.e., the change was only being requested that day. The manufacturer's implementing sNDAs for Wegovy were dated and received January 27, 2026, after the request date, providing removal of subsection 5.10 Suicidal Behavior and Ideation 'as requested in our January 13, 2026, supplement request letter' (R2.S012, R2.S013, R2.S017, R2.S019), and FDA approved that supplement by letter signed 02/25/2026 (R2.S125). The claim that the manufacturer had already completed the requested change as of January 13, 2026 is contradicted.",
+      "searches": 1,
+      "reads": 2,
+      "cost": {
+        "calls": 5,
+        "known_cost_subtotal_usd": 0.006221679999999999,
+        "estimated_cost_usd": 0.006221679999999999,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_08_2",
+      "arm": "authority_recovery",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "The 08-27-2025 FDA Drug Safety Communication says REMS removal only ended enrollment and ANC reporting requirements for dispensing (S055), while ANC monitoring itself remains in place: the notice states prescribers 'should continue to monitor patients' ANC according to the monitoring frequencies described in the prescribing information' (S052) and that 'FDA recommends that prescribers monitor patients' ANC' (S057). The notice therefore says the opposite of the claim: removing the REMS does not eliminate the need to monitor absolute neutrophil counts.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.00319784,
+        "estimated_cost_usd": 0.00319784,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_08_2",
+      "arm": "ordinary_retry",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "The 08-27-2025 FDA Drug Safety Communication states the opposite of the claim: while the REMS removal ended enrollment and ANC reporting requirements for dispensing, FDA says 'prescribers should continue to monitor patients' ANC according to the monitoring frequencies described in the prescribing information' and 'recommends that prescribers monitor patients' ANC' because 'ANC monitoring can help identify neutropenia early to allow for timely intervention.' The notice does not say REMS removal eliminates the need to monitor ANC; it explicitly directs continued monitoring.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.00350109,
+        "estimated_cost_usd": 0.00350109,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_08_2",
+      "arm": "strong_reference",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "The 08-27-2025 FDA notice says eliminating the REMS ends the requirement to participate in the REMS and report ANC results to it, but it recommends that prescribers continue monitoring ANC per the prescribing information — so removal did not eliminate the need for ANC monitoring.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.0055266,
+        "estimated_cost_usd": 0.0055266,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_13_2",
+      "arm": "strong_reference",
+      "status": "completed",
+      "verdict": "insufficient",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "The FDA communication dated 01-22-2025 warns about glatiramer acetate (Copaxone, Glatopa, and other generic glatiramer acetate products). The record provided does not identify which medicine the patient's injection was, so coverage by this warning cannot be determined.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.007085328,
+        "estimated_cost_usd": 0.007085328,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_13_2",
+      "arm": "authority_recovery",
+      "status": "completed",
+      "verdict": "insufficient",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "The FDA Drug Safety Communication is dated 01-22-2025 and covers glatiramer acetate (brand names Copaxone and Glatopa, plus other generic glatiramer acetate products), which is an injectable medicine given under the skin. However, the claim does not identify which injection the patient received, so it cannot be confirmed that the patient's injection is one of the glatiramer acetate products covered by this warning.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.004619689999999999,
+        "estimated_cost_usd": 0.004619689999999999,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_13_2",
+      "arm": "ordinary_retry",
+      "status": "completed",
+      "verdict": "insufficient",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "The FDA Drug Safety Communication dated 01-22-2025 warns about anaphylaxis risk with glatiramer acetate (Copaxone, Glatopa and other generic glatiramer acetate products), an FDA-approved MS medicine available as an injectable given under the skin. The claim, however, does not state which injection the patient received, so it cannot be established that the patient's injection was one of the glatiramer acetate products covered by this warning.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.00450144,
+        "estimated_cost_usd": 0.00450144,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_18_2",
+      "arm": "ordinary_retry",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "The CDC HAN Health Update CDCHAN-00529 is dated May 18, 2026, and states the opposite of the claim: Andes virus is the only hantavirus known to spread from person to person, while several other New World hantaviruses endemic to the United States are explicitly not transmissible from person to person, including Sin Nombre virus, the virus most commonly associated with U.S. HPS cases.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.00256085,
+        "estimated_cost_usd": 0.00256085,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_18_2",
+      "arm": "authority_recovery",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "The CDC HAN Health Update is dated May 18, 2026 (CDCHAN-00529), and it states the opposite of the claim: Andes virus, endemic in South America, is the only hantavirus known to spread from person to person, while several New World hantaviruses endemic to the United States are explicitly described as not transmissible from person to person (including Sin Nombre virus, the most common cause of U.S. HPS cases).",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.0028016,
+        "estimated_cost_usd": 0.0028016,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_18_2",
+      "arm": "strong_reference",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "The CDC Health Update dated May 18, 2026 states the opposite: Andes virus is the only hantavirus known to spread person to person, and other New World hantaviruses endemic in the United States are described as not transmissible from person to person.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.005494631999999999,
+        "estimated_cost_usd": 0.005494631999999999,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_02_1",
+      "arm": "no_search",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": false,
+      "wrong_decisive": true,
+      "operational_abstention": false,
+      "grounding": null,
+      "human_verified_accuracy": null,
+      "metadata_errors": null,
+      "explanation": "From memory: FDA did require a boxed warning for Injectafer (ferric carboxymaltose) regarding symptomatic/severe hypophosphatemia (low blood phosphate), but that Drug Safety Communication announcing the boxed warning was issued in early 2025 (around February 2025), not on September 1, 2026. The boxed warning was already in place well before the claimed date, so the claim's specific dated announcement is contradicted by what I recall; I cannot verify any new September 2026 announcement, but an 'announcement' of a warning that already existed is unlikely.",
+      "searches": 0,
+      "reads": 0,
+      "cost": {
+        "calls": 1,
+        "known_cost_subtotal_usd": 0.0006316000000000001,
+        "estimated_cost_usd": 0.0006316000000000001,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_07_1",
+      "arm": "no_search",
+      "status": "completed",
+      "verdict": "insufficient",
+      "completed": true,
+      "reference_label_match": false,
+      "wrong_decisive": false,
+      "operational_abstention": true,
+      "grounding": null,
+      "human_verified_accuracy": null,
+      "metadata_errors": null,
+      "explanation": "I can only rely on memory, and I have no reliable recollection of an FDA notice dated August 28, 2025 regarding Leqembi or its exact wording. While the standard lecanemab label recommends monitoring MRIs before the 5th, 7th, and 14th infusions (consistent with the 'before the fifth infusion' element), I cannot verify that this specific notice exists, its date, or that it states there should be 'no earlier additional MRI.' Verifying a dated 2025 agency notice requires access to the document itself, which I do not have.",
+      "searches": 0,
+      "reads": 0,
+      "cost": {
+        "calls": 1,
+        "known_cost_subtotal_usd": 0.00047430000000000004,
+        "estimated_cost_usd": 0.00047430000000000004,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_12_1",
+      "arm": "no_search",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": false,
+      "wrong_decisive": true,
+      "operational_abstention": false,
+      "grounding": null,
+      "human_verified_accuracy": null,
+      "metadata_errors": null,
+      "explanation": "The substance of the claim is accurate: FDA did warn that rare, severe, sometimes treatment-refractory itching (pruritus) can occur after stopping long-term (months-to-years) daily oral cetirizine (Zyrtec) or levocetirizine (Xyzal). However, my knowledge places that FDA Drug Safety Communication in early March 2025 (dated March 3, 2025, with news coverage the first week of March), not May 16, 2025. I have no memory of a separate FDA notice on this topic dated May 16, 2025, so the claim as stated carries an incorrect date. Note: verified from memory only; exact date is moderately confident, but I recall no May 2025 FDA action on this issue.",
+      "searches": 0,
+      "reads": 0,
+      "cost": {
+        "calls": 1,
+        "known_cost_subtotal_usd": 0.00092065,
+        "estimated_cost_usd": 0.00092065,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_16_1",
+      "arm": "no_search",
+      "status": "completed",
+      "verdict": "insufficient",
+      "completed": true,
+      "reference_label_match": false,
+      "wrong_decisive": false,
+      "operational_abstention": true,
+      "grounding": null,
+      "human_verified_accuracy": null,
+      "metadata_errors": null,
+      "explanation": "No source documents are available to verify this claim. The cited CDC advisory is dated July 14, 2026, which falls beyond my knowledge, and I have no record of a CDC Cyclospora advisory reporting 1,645 confirmed domestic cases since May 1, 2026. While CDC has historically issued summer cyclosporiasis updates with cumulative case counts beginning May 1, the specific date and figure cannot be confirmed or refuted without the source. Verification requires access to the actual CDC advisory.",
+      "searches": 0,
+      "reads": 0,
+      "cost": {
+        "calls": 1,
+        "known_cost_subtotal_usd": 0.00030314999999999997,
+        "estimated_cost_usd": 0.00030314999999999997,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_19_1",
+      "arm": "no_search",
+      "status": "invalid_output",
+      "verdict": null,
+      "completed": false,
+      "reference_label_match": false,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": null,
+      "human_verified_accuracy": null,
+      "metadata_errors": null,
+      "explanation": null,
+      "searches": 0,
+      "reads": 0,
+      "cost": {
+        "calls": 1,
+        "known_cost_subtotal_usd": 0.0004882,
+        "estimated_cost_usd": 0.0004882,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_02_1",
+      "arm": "ordinary_retry",
+      "status": "completed",
+      "verdict": "supported",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [
+        "R2: issuer must match an opened FDA/CDC HTTPS page"
+      ],
+      "explanation": "FDA's Drug Safety Communications page lists a 9-1-2026 entry titled 'FDA Adds Boxed Warning to Labeling for Ferric Carboxymaltose Injection (Injectafer) to Describe Risk of Low Phosphate Levels' (R1.S054). The FDA bulletin was sent 09/01/2026 (R2.S002) and states FDA approved labeling revisions adding a boxed warning (R2.S010) describing the risk of symptomatic hypophosphatemia, i.e., low levels of phosphate in the blood (R2.S011). Date, issuer, product, action, and subject all match the claim; the reviewed draft needed no correction.",
+      "searches": 1,
+      "reads": 2,
+      "cost": {
+        "calls": 5,
+        "known_cost_subtotal_usd": 0.0055303,
+        "estimated_cost_usd": 0.0055303,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_02_1",
+      "arm": "authority_recovery",
+      "status": "completed",
+      "verdict": "supported",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": null,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "FDA's own Drug Safety Communications page (fda.gov) lists the entry '9-1-2026 | FDA Adds Boxed Warning to Labeling for Ferric Carboxymaltose Injection (Injectafer) to Describe Risk of Low Phosphate Levels' (R1.S054). This establishes the issuer (FDA), the date (September 1, 2026), the action (adding a boxed warning to Injectafer labeling), and the subject (risk of low phosphate levels), matching the claim.",
+      "searches": 1,
+      "reads": 3,
+      "cost": {
+        "calls": 9,
+        "known_cost_subtotal_usd": 0.01155318,
+        "estimated_cost_usd": 0.01155318,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_02_1",
+      "arm": "strong_reference",
+      "status": "completed",
+      "verdict": "supported",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [
+        "R1: issuer must match an opened FDA/CDC HTTPS page"
+      ],
+      "explanation": "An FDA bulletin sent 09/01/2026 announces that FDA approved labeling revisions adding a boxed warning for Injectafer, and states the warning describes the risk of symptomatic hypophosphatemia (low blood phosphate).",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.005117148,
+        "estimated_cost_usd": 0.005117148,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_07_1",
+      "arm": "strong_reference",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "The 08-28-2025 FDA notice does not instruct waiting until before the 5th infusion with no earlier MRI. It notes current prescribing information recommends MRI before the 5th, 7th, and 14th infusions, but FDA is recommending an additional, earlier MRI prior to the 3rd infusion and requiring the prescribing information to add an earlier monitoring MRI between the 2nd and 3rd infusion; it also states FDA now recommends MRI imaging before the 3rd, 5th, 7th, and 14th infusions.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.006101244,
+        "estimated_cost_usd": 0.006101244,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_07_1",
+      "arm": "authority_recovery",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "The opened FDA Drug Safety Communication dated 08-28-2025 states the opposite of the claim: FDA is recommending an additional, earlier MRI monitoring prior to the 3rd infusion (on top of existing MRIs before the 5th, 7th, and 14th infusions), and it states FDA now recommends MRI imaging before the 3rd, 5th, 7th, and 14th infusions. The notice therefore does not say the first monitoring MRI should wait until before the fifth infusion with no earlier additional MRI.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.00393849,
+        "estimated_cost_usd": 0.00393849,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_07_1",
+      "arm": "ordinary_retry",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "The FDA Drug Safety Communication dated 08-28-2025 says the opposite of the claim: it recommends an additional, earlier MRI monitoring prior to the 3rd infusion, on top of the existing schedule of MRIs before the 5th, 7th, and 14th infusions, and states FDA now recommends MRI imaging before the 3rd, 5th, 7th, and 14th infusions. The notice therefore does not say the first monitoring MRI should wait until before the fifth infusion with no earlier additional MRI.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.0038647399999999998,
+        "estimated_cost_usd": 0.0038647399999999998,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_12_1",
+      "arm": "authority_recovery",
+      "status": "completed",
+      "verdict": "supported",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "The opened FDA page is the Drug Safety Communication itself, dated 05-16-2025 (R1.S047), and states that FDA is warning that patients stopping the oral allergy medicines cetirizine (Zyrtec) or levocetirizine (Xyzal) after long-term use may experience rare but severe itching (R1.S049). Every claim element — issuer (FDA), date (May 16, 2025), modality (oral), rarity, severity, and discontinuation after long-term use — is directly established. No material gap remains; the claim concerns the content of the dated notice, so no later superseding document is required.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.00349949,
+        "estimated_cost_usd": 0.00349949,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_12_1",
+      "arm": "ordinary_retry",
+      "status": "completed",
+      "verdict": "supported",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "The opened FDA page is the Drug Safety Communication dated 05-16-2025 (R1.S047), titled 'FDA requires warning about rare but severe itching after stopping long-term use of oral allergy medicines cetirizine or levocetirizine' (R1.S044). Its body states FDA is warning that patients stopping the oral allergy medicines cetirizine (Zyrtec) or levocetirizine (Xyzal) after long-term use may experience rare but severe itching (R1.S049). This establishes every claim element: issuer (FDA), date (May 16, 2025), the warning, rarity, severity, and the long-term oral cetirizine/levocetirizine context.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.0035837399999999998,
+        "estimated_cost_usd": 0.0035837399999999998,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_12_1",
+      "arm": "strong_reference",
+      "status": "completed",
+      "verdict": "supported",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "The FDA Drug Safety Communication dated 05-16-2025 states that stopping oral cetirizine (Zyrtec) or levocetirizine (Xyzal) after long-term use may cause rare but severe itching.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.0065607239999999995,
+        "estimated_cost_usd": 0.0065607239999999995,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_16_1",
+      "arm": "strong_reference",
+      "status": "completed",
+      "verdict": "supported",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "The CDC Health Alert Network advisory dated July 14, 2026 states that since May 1, 2026, CDC has received reports of 1,645 confirmed domestic cases of cyclosporiasis, matching the claim's figure and timeframe.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.0046517519999999994,
+        "estimated_cost_usd": 0.0046517519999999994,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_16_1",
+      "arm": "authority_recovery",
+      "status": "completed",
+      "verdict": "supported",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "The opened CDC page is the official Health Advisory (CDCHAN-00531, R1.S016–R1.S017) dated July 14, 2026, and it states that since May 1, 2026, CDC has received reports of 1,645 confirmed domestic cases of cyclosporiasis, matching both the claimed date and case count.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.00276903,
+        "estimated_cost_usd": 0.00276903,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_16_1",
+      "arm": "ordinary_retry",
+      "status": "completed",
+      "verdict": "supported",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "CDC's Health Alert Network notice CDCHAN-00531, dated July 14, 2026, is an official CDC Health Advisory and states that since May 1, 2026, CDC has received reports of 1,645 confirmed domestic cases of cyclosporiasis, matching the claimed date and case count exactly.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.00258028,
+        "estimated_cost_usd": 0.00258028,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_19_1",
+      "arm": "ordinary_retry",
+      "status": "completed",
+      "verdict": "supported",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "The CDC Health Alert Network advisory (CDCHAN-00527) is dated April 2, 2026, 10:00 AM ET. Its summary states CDC (with ONDCP) is issuing the advisory about increasing reports from U.S. jurisdictions detecting medetomidine in the illegal drug supply and a severe withdrawal syndrome due to medetomidine exposure. The body documents rising detections (NFLIS reports up from 247 in 2023 to 8,233 in 2025) and describes a severe withdrawal syndrome after stopping regular use that can require emergency or intensive care, matching all elements of the claim.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.0037816399999999997,
+        "estimated_cost_usd": 0.0037816399999999997,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_19_1",
+      "arm": "authority_recovery",
+      "status": "completed",
+      "verdict": "supported",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "CDC's Health Alert Network advisory CDCHAN-00527 is dated April 2, 2026, 10:00 AM ET. Its summary states CDC (with ONDCP) is issuing the advisory about increasing reports of medetomidine detection in the illegal drug supply and a severe withdrawal syndrome due to medetomidine exposure, and the body documents rising NFLIS reports (247 in 2023 to 8,233 in 2025) and a severe withdrawal syndrome following regular use that can require emergency or intensive care, matching the claim.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.0034793899999999997,
+        "estimated_cost_usd": 0.0034793899999999997,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_19_1",
+      "arm": "strong_reference",
+      "status": "completed",
+      "verdict": "supported",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "The CDC Health Advisory dated April 2, 2026 states it is issued to notify about increasing reports from U.S. jurisdictions detecting medetomidine in the illegal drug supply and a severe withdrawal syndrome due to medetomidine exposure, and it describes severe withdrawal after stopping medetomidine following regular use.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.00488448,
+        "estimated_cost_usd": 0.00488448,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_02_2",
+      "arm": "no_search",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": null,
+      "human_verified_accuracy": null,
+      "metadata_errors": null,
+      "explanation": "Memory-only check (no sources available): FDA issued its Drug Safety Communication warning that Injectafer (ferric carboxymaltose) can cause clinically significant hypophosphatemia in early 2025 (around February 2025), not September 2026. Prior warning activity also existed earlier (EU labeling changes around 2021-2022 and earlier US label discussion of hypophosphatemia), so the claim that the first FDA warning occurred in September 2026 with no earlier labeling warning is contradicted.",
+      "searches": 0,
+      "reads": 0,
+      "cost": {
+        "calls": 1,
+        "known_cost_subtotal_usd": 0.0005852,
+        "estimated_cost_usd": 0.0005852,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_07_2",
+      "arm": "no_search",
+      "status": "completed",
+      "verdict": "insufficient",
+      "completed": true,
+      "reference_label_match": false,
+      "wrong_decisive": false,
+      "operational_abstention": true,
+      "grounding": null,
+      "human_verified_accuracy": null,
+      "metadata_errors": null,
+      "explanation": "From memory, the substantive part matches a 2025 Leqembi (lecanemab) label update: FDA-approved monitoring changes added an MRI scan prior to the third infusion (i.e., between the 2nd and 3rd infusions), which I recall being announced via Eisai around July 2025. However, I cannot verify from memory an FDA notice specifically dated August 28, 2025, so the dated attribution to that particular notice cannot be confirmed or refuted without sources.",
+      "searches": 0,
+      "reads": 0,
+      "cost": {
+        "calls": 1,
+        "known_cost_subtotal_usd": 0.0016464000000000001,
+        "estimated_cost_usd": 0.0016464000000000001,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_12_2",
+      "arm": "no_search",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": null,
+      "human_verified_accuracy": null,
+      "metadata_errors": null,
+      "explanation": "From memory: FDA's Drug Safety Communication on severe itching after stopping cetirizine/levocetirizine was issued in early March 2025 (not May 16, 2025). It warned that severe, sometimes hard-to-treat itching had been reported in some patients after stopping long-term daily use, and stated that how often this occurs is unknown — it explicitly did not say itching happens to everyone who stops the medicine. The claim's universal 'everyone' characterization is a misrepresentation of the communication's actual content.",
+      "searches": 0,
+      "reads": 0,
+      "cost": {
+        "calls": 1,
+        "known_cost_subtotal_usd": 0.0008256,
+        "estimated_cost_usd": 0.0008256,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_16_2",
+      "arm": "no_search",
+      "status": "completed",
+      "verdict": "insufficient",
+      "completed": true,
+      "reference_label_match": false,
+      "wrong_decisive": false,
+      "operational_abstention": true,
+      "grounding": null,
+      "human_verified_accuracy": null,
+      "metadata_errors": null,
+      "explanation": "No sources or memory records are available to verify a CDC Cyclospora advisory dated July 14, 2026 or the specific figure of more than 5,100 additional domestically acquired cyclosporiasis cases. The claim cannot be confirmed or refuted without access to the referenced advisory.",
+      "searches": 0,
+      "reads": 0,
+      "cost": {
+        "calls": 1,
+        "known_cost_subtotal_usd": 0.00024280000000000002,
+        "estimated_cost_usd": 0.00024280000000000002,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_19_2",
+      "arm": "no_search",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": null,
+      "human_verified_accuracy": null,
+      "metadata_errors": null,
+      "explanation": "From memory, medetomidine is a veterinary sedative (Domitor) not approved for human use in the US; only its active enantiomer dexmedetomidine (e.g., Precedex) is FDA-approved for humans. CDC's June 2024 HAN advisory on medetomidine in the illicit drug supply likewise described it as not approved for human use. I have no record of any April 2, 2026 CDC advisory, and the claim's assertion that medetomidine itself is approved for human use contradicts its established regulatory status.",
+      "searches": 0,
+      "reads": 0,
+      "cost": {
+        "calls": 1,
+        "known_cost_subtotal_usd": 0.00119335,
+        "estimated_cost_usd": 0.00119335,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_02_2",
+      "arm": "authority_recovery",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "The September 1, 2026 FDA Drug Safety Communication does exist and adds a boxed warning for Injectafer, but the same notice explicitly states this was not the first warning: FDA determined in 2019 that ferric carboxymaltose can cause serious symptomatic hypophosphatemia and approved labeling revisions in February 2020 adding a warning about that risk, with further revisions in 2023 (phosphate monitoring, osteomalacia/fractures) and 2025 (additional risk factors). The notice therefore describes earlier labeling warnings, contradicting both the 'first warned in September 2026' framing and the assertion that the notice describes no earlier labeling warning.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.0036540399999999995,
+        "estimated_cost_usd": 0.0036540399999999995,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_02_2",
+      "arm": "ordinary_retry",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "The September 1, 2026 FDA Drug Safety Communication exists and adds a boxed warning for Injectafer, but the notice itself contradicts the claim: it states FDA determined in 2019 that ferric carboxymaltose can cause serious symptomatic hypophosphatemia and approved labeling revisions in February 2020 adding a warning about this risk, with the warning further revised in 2023 (phosphate monitoring, osteomalacia/fractures, IBD risk factor) and 2025 (additional risk factors). It also notes labeling changes in February 2020 and May 2023 'adding and strengthening the warning about this risk.' So the September 2026 action was not the first FDA warning on this risk, and the notice explicitly describes earlier labeling warnings.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.00346879,
+        "estimated_cost_usd": 0.00346879,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_02_2",
+      "arm": "strong_reference",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "The FDA notice is dated September 1, 2026, but it expressly states that FDA had already approved earlier labeling updates describing this risk: a February 2020 warning about symptomatic hypophosphatemia, revised in 2023 and further in 2025. It also states the action 'highlights the warning already in the Injectafer labeling,' so the notice does not describe a first-time warning or an absence of prior labeling warning.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.005894244,
+        "estimated_cost_usd": 0.005894244,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_07_2",
+      "arm": "strong_reference",
+      "status": "completed",
+      "verdict": "supported",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "The FDA Drug Safety Communication dated 08-28-2025 recommends additional, earlier MRI monitoring prior to the 3rd infusion and states FDA is requiring prescribing information to include an earlier monitoring MRI between the 2nd and 3rd infusion.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.006695232,
+        "estimated_cost_usd": 0.006695232,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_07_2",
+      "arm": "ordinary_retry",
+      "status": "completed",
+      "verdict": "supported",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "FDA's Drug Safety Communication is dated 08-28-2025 (R1.S047) and states the Agency is recommending an additional, earlier MRI monitoring prior to the 3rd infusion for patients taking Leqembi (R1.S049), and that it is requiring the prescribing information to include an earlier monitoring MRI between the 2nd and 3rd infusion (R1.S054). Both wordings match the claim's 'between the second and third infusions.' The opened page is the notice itself; the opened evidence does not establish any superseding update.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.0038876899999999996,
+        "estimated_cost_usd": 0.0038876899999999996,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_07_2",
+      "arm": "authority_recovery",
+      "status": "completed",
+      "verdict": "supported",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "FDA's Drug Safety Communication is dated 08-28-2025 (R1.S047) and states the Agency is recommending an additional, earlier MRI monitoring prior to the 3rd infusion for patients taking Leqembi (R1.S049), and that it is requiring the prescribing information to include an earlier monitoring MRI between the 2nd and 3rd infusion (R1.S054). This matches the claim's date and recommendation. The as-of date equals the notice date, so no later supersession is possible for this claim, and the opened notice is the primary source itself.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.00385294,
+        "estimated_cost_usd": 0.00385294,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_12_2",
+      "arm": "ordinary_retry",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "The May 16, 2025 FDA Drug Safety Communication states that patients stopping cetirizine or levocetirizine after long-term use 'may experience rare but severe itching' — not that it happens to everyone. The notice repeatedly describes the reaction as rare: reported cases were 'rare but sometimes serious' (R1.S050), FDA identified 209 reported cases worldwide and says pruritus 'appears to be rare compared to how often the medicine is used' (R1.S065, noting an estimated 62.7 million OTC packages purchased in 2022), and FDA states it 'cannot determine the likelihood of someone experiencing pruritus' (R1.S070). The claim's 'everyone' directly contradicts the 'rare'/'may' framing of the notice.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.0036326399999999995,
+        "estimated_cost_usd": 0.0036326399999999995,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_12_2",
+      "arm": "authority_recovery",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": null,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "The 05-16-2025 FDA Drug Safety Communication states that patients stopping cetirizine or levocetirizine after long-term use 'may experience rare but severe itching' — not that it happens to everyone. FDA identified 209 reported cases worldwide (197 in the US) and says pruritus after discontinuation 'appears to be rare compared to how often the medicine is used,' and states it 'cannot determine the likelihood of someone experiencing pruritus after stopping cetirizine or levocetirizine.' The claim's 'everyone who stops the medicine' directly contradicts the notice's 'may' and 'rare' framing, and the notice also limits the report to long-term daily use.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.0038928899999999995,
+        "estimated_cost_usd": 0.0038928899999999995,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_12_2",
+      "arm": "strong_reference",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "The May 16, 2025 FDA Drug Safety Communication states that patients stopping cetirizine after long-term use may experience rare but severe itching, that pruritus after discontinuation appears rare compared with how often the medicine is used, and that FDA cannot determine the likelihood of someone experiencing it. This contradicts the claim that severe itching happens to everyone who stops the medicine.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.007060116,
+        "estimated_cost_usd": 0.007060116,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_16_2",
+      "arm": "strong_reference",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "The July 14, 2026 CDC HAN advisory reports 1,645 confirmed domestic cases and states the more than 5,100 additional cases \"require further analysis to confirm the illness as domestically acquired cyclosporiasis.\" Thus the advisory does not identify those 5,100+ cases as already confirmed domestically acquired; they are pending confirmation.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.005160095999999999,
+        "estimated_cost_usd": 0.005160095999999999,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_16_2",
+      "arm": "ordinary_retry",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "CDC's July 14, 2026 HAN advisory (CDCHAN-00531) states the opposite of the claim: only 1,645 cases had been confirmed as domestically acquired, while the more than 5,100 additional cases 'require further analysis to confirm the illness as domestically acquired cyclosporiasis' — they were unconfirmed, not already confirmed.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.0027827700000000004,
+        "estimated_cost_usd": 0.0027827700000000004,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_16_2",
+      "arm": "authority_recovery",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "CDC's July 14, 2026 HAN advisory (CDCHAN-00531) states only 1,645 cases were confirmed as domestically acquired, while the more than 5,100 additional cases 'require further analysis to confirm the illness as domestically acquired cyclosporiasis.' The same-day CDC media transcript confirms this distinction, describing the 5,100 as 'additional reports that require further analysis to confirm they meet the case definition' — not already confirmed.",
+      "searches": 1,
+      "reads": 2,
+      "cost": {
+        "calls": 5,
+        "known_cost_subtotal_usd": 0.00398616,
+        "estimated_cost_usd": 0.00398616,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_19_2",
+      "arm": "authority_recovery",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "CDC HAN Advisory CDCHAN-00527, published April 2, 2026, states the opposite of the claim: \"Medetomidine ... is not approved for human use but is approved for sedation and analgesia in dogs. Its dextro-isomer, dexmedetomidine, is approved for procedural sedation in humans.\" So only dexmedetomidine is approved for human use; medetomidine itself is not.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 5,
+        "known_cost_subtotal_usd": 0.00418542,
+        "estimated_cost_usd": 0.00418542,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_19_2",
+      "arm": "ordinary_retry",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "The April 2, 2026 CDC HAN advisory (CDCHAN-00527) states the opposite: medetomidine is not approved for human use but is approved for sedation and analgesia in dogs, while its dextro-isomer dexmedetomidine is approved for procedural sedation in humans. Thus the claim inverts the advisory's statement about which compound is approved for human use.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.0035178899999999996,
+        "estimated_cost_usd": 0.0035178899999999996,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_19_2",
+      "arm": "strong_reference",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "The CDC advisory dated April 2, 2026 states that medetomidine is not approved for human use (it is approved for sedation and analgesia in dogs), and that only its dextro-isomer, dexmedetomidine, is approved for procedural sedation in humans — the opposite of the claim.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.0066254999999999994,
+        "estimated_cost_usd": 0.0066254999999999994,
+        "unknown_cost_calls": 0
+      }
+    }
+  ],
+  "integrity_audits": [
+    {
+      "passed": true,
+      "errors": [],
+      "cases": 5,
+      "candidate_calls": 53,
+      "heldout_used": true,
+      "human_verified_accuracy": null
+    },
+    {
+      "passed": true,
+      "errors": [],
+      "cases": 5,
+      "candidate_calls": 54,
+      "heldout_used": true,
+      "human_verified_accuracy": null
+    },
+    {
+      "passed": true,
+      "errors": [],
+      "cases": 5,
+      "candidate_calls": 55,
+      "heldout_used": true,
+      "human_verified_accuracy": null
+    },
+    {
+      "passed": true,
+      "errors": [],
+      "cases": 5,
+      "candidate_calls": 53,
+      "heldout_used": true,
+      "human_verified_accuracy": null
+    }
+  ]
+}

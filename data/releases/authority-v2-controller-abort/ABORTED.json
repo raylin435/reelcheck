@@ -1,0 +1,93 @@
+{
+  "recorded_at": "2026-11-02T23:22:04.505876+00:00",
+  "status": "invalid_controller_experiment_not_scored",
+  "reason": "False metadata rejection of CDC Sept. abbreviation. Initial histories reused unchanged; every recovery branch rerun under v2.1, no held-out outputs used.",
+  "shards": [
+    {
+      "shard": 0,
+      "calls": {
+        "calls": 53,
+        "known_cost_subtotal_usd": 0.056742907999999995,
+        "estimated_cost_usd": 0.056742907999999995,
+        "unknown_cost_calls": 0
+      },
+      "active_recovery_tasks": 4,
+      "pending_requests": [
+        {
+          "action": "search",
+          "query": "FDA carbidopa levodopa labeling \"vitamin B6\" deficiency seizures warning",
+          "max_results": 5,
+          "request_id": "t019-s03",
+          "task_index": 19,
+          "created_at": "2026-11-02T23:19:32.548262+00:00"
+        },
+        {
+          "action": "read",
+          "url": "https://www.cdc.gov/han/php/notices/han00533.html?ACSTrackingID=DM158316&ACSTrackingLabel=HAN+533+-+Health+Advisory+%28for+COCA+partners%29&deliveryName=DM158316",
+          "max_chars": 16000,
+          "request_id": "t027-s03",
+          "task_index": 27,
+          "created_at": "2026-11-02T23:20:09.560722+00:00"
+        }
+      ]
+    },
+    {
+      "shard": 1,
+      "calls": {
+        "calls": 55,
+        "known_cost_subtotal_usd": 0.066481386,
+        "estimated_cost_usd": 0.066481386,
+        "unknown_cost_calls": 0
+      },
+      "active_recovery_tasks": 2,
+      "pending_requests": []
+    },
+    {
+      "shard": 2,
+      "calls": {
+        "calls": 55,
+        "known_cost_subtotal_usd": 0.065085768,
+        "estimated_cost_usd": 0.065085768,
+        "unknown_cost_calls": 0
+      },
+      "active_recovery_tasks": 2,
+      "pending_requests": []
+    },
+    {
+      "shard": 3,
+      "calls": {
+        "calls": 54,
+        "known_cost_subtotal_usd": 0.06616638999999999,
+        "estimated_cost_usd": 0.06616638999999999,
+        "unknown_cost_calls": 0
+      },
+      "active_recovery_tasks": 3,
+      "pending_requests": [
+        {
+          "action": "read",
+          "url": "https://content.govdelivery.com/accounts/USFDA/bulletins/3e5a976",
+          "max_chars": 16000,
+          "request_id": "t023-s03",
+          "task_index": 23,
+          "created_at": "2026-11-02T23:20:06.451613+00:00"
+        },
+        {
+          "action": "read",
+          "url": "https://www.fda.gov/media/187121/download?attachment=",
+          "max_chars": 16000,
+          "request_id": "t024-s03",
+          "task_index": 24,
+          "created_at": "2026-11-02T23:20:08.065894+00:00"
+        },
+        {
+          "action": "read",
+          "url": "https://www.fda.gov/media/187121/download?attachment=",
+          "max_chars": 16000,
+          "request_id": "t025-s03",
+          "task_index": 25,
+          "created_at": "2026-11-02T23:20:09.835487+00:00"
+        }
+      ]
+    }
+  ]
+}

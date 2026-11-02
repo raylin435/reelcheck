@@ -1,0 +1,717 @@
+[
+  {
+    "id": "authority_03_1/kimi",
+    "index": 0,
+    "execution_status": "completed",
+    "output": {
+      "previous_verdict_supported": true,
+      "span_ids": [
+        "fda43.S044",
+        "fda43.S045",
+        "fda43.S047"
+      ],
+      "rationale": "The prior quote was not an exact substring (it stitched the date header and body text together), but the substance is fully supported: S045 confirms the June 10, 2026 FDA Drug Safety Communication date, and S047 states FDA approved changes to the OTC alli (orlistat) 60 mg Drug Facts Label to warn of acute kidney injury risk, exactly matching the claim. S044 further confirms the labeling changes concern kidney injury."
+    },
+    "raw_text": "{\"previous_verdict_supported\":true,\"span_ids\":[\"fda43.S044\",\"fda43.S045\",\"fda43.S047\"],\"rationale\":\"The prior quote was not an exact substring (it stitched the date header and body text together), but the substance is fully supported: S045 confirms the June 10, 2026 FDA Drug Safety Communication date, and S047 states FDA approved changes to the OTC alli (orlistat) 60 mg Drug Facts Label to warn of acute kidney injury risk, exactly matching the claim. S044 further confirms the labeling changes concern kidney injury.\"}",
+    "latency_s": 5.107753166001203,
+    "usage": {
+      "prompt_tokens": 3632,
+      "total_tokens": 3792,
+      "completion_tokens": 160,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 27
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 27
+      }
+    },
+    "finish_reason": "stop",
+    "resolved_model": "accounts/fireworks/models/kimi-k3",
+    "request_id": "chatcmpl-9479555ba92c481d8c48813844ecd89a",
+    "cost_usd": 0.013296
+  },
+  {
+    "id": "authority_03_1/deepseek",
+    "index": 1,
+    "execution_status": "completed",
+    "output": {
+      "previous_verdict_supported": true,
+      "span_ids": [
+        "fda43.S044",
+        "fda43.S045",
+        "fda43.S047"
+      ],
+      "rationale": "The spans identify the June 10, 2026 FDA communication, state that FDA approved Drug Facts Label changes for OTC alli, and say the changes warn about acute kidney injury risk."
+    },
+    "raw_text": "{\"previous_verdict_supported\":true,\"span_ids\":[\"fda43.S044\",\"fda43.S045\",\"fda43.S047\"],\"rationale\":\"The spans identify the June 10, 2026 FDA communication, state that FDA approved Drug Facts Label changes for OTC alli, and say the changes warn about acute kidney injury risk.\"}",
+    "latency_s": 2.5100186669988034,
+    "usage": {
+      "prompt_tokens": 3604,
+      "completion_tokens": 293,
+      "total_tokens": 3897,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "reasoning_tokens": 215,
+        "rejected_prediction_tokens": null
+      }
+    },
+    "finish_reason": "stop",
+    "resolved_model": "accounts/fireworks/models/deepseek-v4p1-flash-1017",
+    "request_id": "chatcmpl-22d4961a",
+    "cost_usd": 0.0014328
+  },
+  {
+    "id": "authority_05_1/deepseek",
+    "index": 2,
+    "execution_status": "completed",
+    "output": {
+      "previous_verdict_supported": true,
+      "span_ids": [
+        "fda45.S044",
+        "fda45.S047",
+        "fda45.S049"
+      ],
+      "rationale": "The source spans show the FDA Drug Safety Communication title, its 03-20-2026 date, and a statement that FDA notified carbidopa/levodopa application holders that it is requiring a warning about vitamin B6 deficiency and associated seizures. These directly support the claim."
+    },
+    "raw_text": "{\"previous_verdict_supported\":true,\"span_ids\":[\"fda45.S044\",\"fda45.S047\",\"fda45.S049\"],\"rationale\":\"The source spans show the FDA Drug Safety Communication title, its 03-20-2026 date, and a statement that FDA notified carbidopa/levodopa application holders that it is requiring a warning about vitamin B6 deficiency and associated seizures. These directly support the claim.\"}",
+    "latency_s": 2.173137666999537,
+    "usage": {
+      "prompt_tokens": 3462,
+      "completion_tokens": 292,
+      "total_tokens": 3754,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "reasoning_tokens": 196,
+        "rejected_prediction_tokens": null
+      }
+    },
+    "finish_reason": "stop",
+    "resolved_model": "accounts/fireworks/models/deepseek-v4p1-flash-1017",
+    "request_id": "chatcmpl-decb8308",
+    "cost_usd": 0.001389
+  },
+  {
+    "id": "authority_05_2/deepseek",
+    "index": 3,
+    "execution_status": "completed",
+    "output": {
+      "previous_verdict_supported": true,
+      "span_ids": [
+        "fda45.S049",
+        "fda45.S054",
+        "fda45.S070"
+      ],
+      "rationale": "The source states the action applies to all drug products containing carbidopa/levodopa and notes multiple formulations/routes, including oral tablets, enteral suspension, and subcutaneous injection. It also indicates biological plausibility of similar risk across all such products, so the warning is not limited to oral tablets."
+    },
+    "raw_text": "{\"previous_verdict_supported\":true,\"span_ids\":[\"fda45.S049\",\"fda45.S054\",\"fda45.S070\"],\"rationale\":\"The source states the action applies to all drug products containing carbidopa/levodopa and notes multiple formulations/routes, including oral tablets, enteral suspension, and subcutaneous injection. It also indicates biological plausibility of similar risk across all such products, so the warning is not limited to oral tablets.\"}",
+    "latency_s": 2.578455041999405,
+    "usage": {
+      "prompt_tokens": 3467,
+      "completion_tokens": 422,
+      "total_tokens": 3889,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "reasoning_tokens": 322,
+        "rejected_prediction_tokens": null
+      }
+    },
+    "finish_reason": "stop",
+    "resolved_model": "accounts/fireworks/models/deepseek-v4p1-flash-1017",
+    "request_id": "chatcmpl-26bbc449",
+    "cost_usd": 0.0015465
+  },
+  {
+    "id": "authority_09_2/kimi",
+    "index": 4,
+    "execution_status": "completed",
+    "output": {
+      "previous_verdict_supported": true,
+      "span_ids": [
+        "fda49.S055"
+      ],
+      "rationale": "fda49.S055 states FDA requires removing the phrase \"extended treatment period\" to avoid the misinterpretation that data support safety and efficacy of opioid analgesics over an indefinitely long duration. This directly contradicts the claim, which attributes to the notice the very misinterpretation FDA is acting to prevent."
+    },
+    "raw_text": "{\"previous_verdict_supported\":true,\"span_ids\":[\"fda49.S055\"],\"rationale\":\"fda49.S055 states FDA requires removing the phrase \\\"extended treatment period\\\" to avoid the misinterpretation that data support safety and efficacy of opioid analgesics over an indefinitely long duration. This directly contradicts the claim, which attributes to the notice the very misinterpretation FDA is acting to prevent.\"}",
+    "latency_s": 4.375601749998168,
+    "usage": {
+      "prompt_tokens": 10183,
+      "total_tokens": 10386,
+      "completion_tokens": 203,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 109
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 109
+      }
+    },
+    "finish_reason": "stop",
+    "resolved_model": "accounts/fireworks/models/kimi-k3",
+    "request_id": "chatcmpl-7ead601b85824c4491e8b0fc868e39af",
+    "cost_usd": 0.033594
+  },
+  {
+    "id": "authority_09_2/deepseek",
+    "index": 5,
+    "execution_status": "completed",
+    "output": {
+      "previous_verdict_supported": true,
+      "span_ids": [
+        "fda49.S055",
+        "fda49.S047"
+      ],
+      "rationale": "The July 31, 2025 notice span states the opposite of the claim: FDA directs removal of language to avoid the misinterpretation that data support safety and efficacy over an indefinitely long duration. No source span says available data establish such indefinite safety and efficacy."
+    },
+    "raw_text": "{\"previous_verdict_supported\":true,\"span_ids\":[\"fda49.S055\",\"fda49.S047\"],\"rationale\":\"The July 31, 2025 notice span states the opposite of the claim: FDA directs removal of language to avoid the misinterpretation that data support safety and efficacy over an indefinitely long duration. No source span says available data establish such indefinite safety and efficacy.\"}",
+    "latency_s": 3.2440090000018245,
+    "usage": {
+      "prompt_tokens": 10186,
+      "completion_tokens": 458,
+      "total_tokens": 10644,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "reasoning_tokens": 373,
+        "rejected_prediction_tokens": null
+      }
+    },
+    "finish_reason": "stop",
+    "resolved_model": "accounts/fireworks/models/deepseek-v4p1-flash-1017",
+    "request_id": "chatcmpl-13b98ee7",
+    "cost_usd": 0.0036053999999999995
+  },
+  {
+    "id": "authority_10_2/kimi",
+    "index": 6,
+    "execution_status": "completed",
+    "output": {
+      "previous_verdict_supported": true,
+      "span_ids": [
+        "fda50.S049",
+        "fda50.S063"
+      ],
+      "rationale": "The source (fda50.S049) defines the warning's scope as extended-release stimulants (certain amphetamine/methylphenidate formulations) in patients younger than 6 years, and fda50.S063 confirms immediate-release stimulants are treated differently. The claim refers only to 'the child' and 'the child's ADHD medicine' without specifying the child's age (under 6 vs. older) or the formulation (extended-release vs. immediate-release), so it cannot be determined whether the medicine falls within the warning's scope. The prior 'insufficient / missing_context' verdict is justified."
+    },
+    "raw_text": "{\"previous_verdict_supported\":true,\"span_ids\":[\"fda50.S049\",\"fda50.S063\"],\"rationale\":\"The source (fda50.S049) defines the warning's scope as extended-release stimulants (certain amphetamine/methylphenidate formulations) in patients younger than 6 years, and fda50.S063 confirms immediate-release stimulants are treated differently. The claim refers only to 'the child' and 'the child's ADHD medicine' without specifying the child's age (under 6 vs. older) or the formulation (extended-release vs. immediate-release), so it cannot be determined whether the medicine falls within the warning's scope. The prior 'insufficient / missing_context' verdict is justified.\"}",
+    "latency_s": 4.222379124999861,
+    "usage": {
+      "prompt_tokens": 5031,
+      "total_tokens": 5262,
+      "completion_tokens": 231,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 68
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 68
+      }
+    },
+    "finish_reason": "stop",
+    "resolved_model": "accounts/fireworks/models/kimi-k3",
+    "request_id": "chatcmpl-e37ad4b825d3496a8c8096cc7f4bbb85",
+    "cost_usd": 0.018558
+  },
+  {
+    "id": "authority_11_2/kimi",
+    "index": 7,
+    "execution_status": "completed",
+    "output": {
+      "previous_verdict_supported": true,
+      "span_ids": [
+        "fda51.S047",
+        "fda51.S049",
+        "fda51.S051",
+        "fda51.S059"
+      ],
+      "rationale": "The source confirms a June 18, 2025 FDA Drug Safety Communication warning about the Transderm Scōp (scopolamine transdermal system) patch, including its off-label use in children, and notes generic scopolamine patches also exist. However, the claim refers to 'the patch the child is wearing' without identifying which child or which specific patch product; no source span identifies the particular patch. Missing information: the identity/brand of the patch the child wears, so it cannot be determined whether it falls under this warning. The prior 'insufficient / missing_context' verdict stands."
+    },
+    "raw_text": "{\"previous_verdict_supported\":true,\"span_ids\":[\"fda51.S047\",\"fda51.S049\",\"fda51.S051\",\"fda51.S059\"],\"rationale\":\"The source confirms a June 18, 2025 FDA Drug Safety Communication warning about the Transderm Scōp (scopolamine transdermal system) patch, including its off-label use in children, and notes generic scopolamine patches also exist. However, the claim refers to 'the patch the child is wearing' without identifying which child or which specific patch product; no source span identifies the particular patch. Missing information: the identity/brand of the patch the child wears, so it cannot be determined whether it falls under this warning. The prior 'insufficient / missing_context' verdict stands.\"}",
+    "latency_s": 5.409039541998936,
+    "usage": {
+      "prompt_tokens": 5825,
+      "total_tokens": 6141,
+      "completion_tokens": 316,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 145
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 145
+      }
+    },
+    "finish_reason": "stop",
+    "resolved_model": "accounts/fireworks/models/kimi-k3",
+    "request_id": "chatcmpl-79a41a76abcc4a4ba4b2d9d51e74ab18",
+    "cost_usd": 0.022215
+  },
+  {
+    "id": "authority_20_2/kimi",
+    "index": 8,
+    "execution_status": "completed",
+    "output": {
+      "previous_verdict_supported": true,
+      "span_ids": [
+        "cdc14.S011",
+        "cdc14.S012",
+        "cdc14.S024"
+      ],
+      "rationale": "The claim asserts the advisory describes the outbreak as confined to Panama with no cases in Mexico. The source contradicts this: the title (cdc14.S011) states the outbreak moved into northern Mexico, the date (cdc14.S012) matches Jan. 20, 2026, and cdc14.S024 states the outbreak spans Central America and Mexico, with Mexico reporting 24 hospitalizations among people and 601 active animal cases. The prior quotation was not verbatim, but these exact spans justify the 'contradicted' verdict."
+    },
+    "raw_text": "{\"previous_verdict_supported\":true,\"span_ids\":[\"cdc14.S011\",\"cdc14.S012\",\"cdc14.S024\"],\"rationale\":\"The claim asserts the advisory describes the outbreak as confined to Panama with no cases in Mexico. The source contradicts this: the title (cdc14.S011) states the outbreak moved into northern Mexico, the date (cdc14.S012) matches Jan. 20, 2026, and cdc14.S024 states the outbreak spans Central America and Mexico, with Mexico reporting 24 hospitalizations among people and 601 active animal cases. The prior quotation was not verbatim, but these exact spans justify the 'contradicted' verdict.\"}",
+    "latency_s": 4.797576458000549,
+    "usage": {
+      "prompt_tokens": 6716,
+      "total_tokens": 6953,
+      "completion_tokens": 237,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 85
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 85
+      }
+    },
+    "finish_reason": "stop",
+    "resolved_model": "accounts/fireworks/models/kimi-k3",
+    "request_id": "chatcmpl-ef6fab4cf95341488e276fae9eeb143b",
+    "cost_usd": 0.023703
+  },
+  {
+    "id": "authority_01_1/kimi",
+    "index": 9,
+    "execution_status": "completed",
+    "output": {
+      "previous_verdict_supported": true,
+      "span_ids": [
+        "fda41.S044",
+        "fda41.S045",
+        "fda41.S047"
+      ],
+      "rationale": "fda41.S045 confirms the FDA Drug Safety Communication date of September 15, 2026; fda41.S047 states FDA approved an additional warning in Kybella labeling regarding adverse reactions associated with use outside the submental fat region (fat under the chin), matching the claim's content; fda41.S044's title corroborates the announcement of additional labeling warning information. The earlier quotation differed only in quote-character styling, but the substance is fully present in fda41.S047."
+    },
+    "raw_text": "{\"previous_verdict_supported\":true,\"span_ids\":[\"fda41.S044\",\"fda41.S045\",\"fda41.S047\"],\"rationale\":\"fda41.S045 confirms the FDA Drug Safety Communication date of September 15, 2026; fda41.S047 states FDA approved an additional warning in Kybella labeling regarding adverse reactions associated with use outside the submental fat region (fat under the chin), matching the claim's content; fda41.S044's title corroborates the announcement of additional labeling warning information. The earlier quotation differed only in quote-character styling, but the substance is fully present in fda41.S047.\"}",
+    "latency_s": 4.682845625000482,
+    "usage": {
+      "prompt_tokens": 3157,
+      "total_tokens": 3412,
+      "completion_tokens": 255,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 110
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 110
+      }
+    },
+    "finish_reason": "stop",
+    "resolved_model": "accounts/fireworks/models/kimi-k3",
+    "request_id": "chatcmpl-846b6f497e02411c847d4badc7b4247e",
+    "cost_usd": 0.013296
+  },
+  {
+    "id": "authority_02_1/kimi",
+    "index": 10,
+    "execution_status": "completed",
+    "output": {
+      "previous_verdict_supported": true,
+      "span_ids": [
+        "fda42.S044",
+        "fda42.S045",
+        "fda42.S047",
+        "fda42.S048",
+        "fda42.S070"
+      ],
+      "rationale": "S045 dates the FDA Drug Safety Communication September 1, 2026; S047 states FDA approved labeling revisions for ferric carboxymaltose injection (Injectafer) adding a boxed warning; S048 and S070 confirm the boxed warning describes the risk of symptomatic hypophosphatemia (low blood phosphate). This matches the claim's date, product, and warning content. The prior quotation was a paraphrase stitched from multiple spans, but the substance is fully supported."
+    },
+    "raw_text": "{\"previous_verdict_supported\":true,\"span_ids\":[\"fda42.S044\",\"fda42.S045\",\"fda42.S047\",\"fda42.S048\",\"fda42.S070\"],\"rationale\":\"S045 dates the FDA Drug Safety Communication September 1, 2026; S047 states FDA approved labeling revisions for ferric carboxymaltose injection (Injectafer) adding a boxed warning; S048 and S070 confirm the boxed warning describes the risk of symptomatic hypophosphatemia (low blood phosphate). This matches the claim's date, product, and warning content. The prior quotation was a paraphrase stitched from multiple spans, but the substance is fully supported.\"}",
+    "latency_s": 3.4348514169978444,
+    "usage": {
+      "prompt_tokens": 3302,
+      "total_tokens": 3508,
+      "completion_tokens": 206,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 53
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 53
+      }
+    },
+    "finish_reason": "stop",
+    "resolved_model": "accounts/fireworks/models/kimi-k3",
+    "request_id": "chatcmpl-4c8d7efd80774a42adea1ea6a5a8be49",
+    "cost_usd": 0.012996
+  },
+  {
+    "id": "authority_02_1/deepseek",
+    "index": 11,
+    "execution_status": "completed",
+    "output": {
+      "previous_verdict_supported": true,
+      "span_ids": [
+        "fda42.S044",
+        "fda42.S045",
+        "fda42.S047",
+        "fda42.S048"
+      ],
+      "rationale": "The source spans identify the September 1, 2026 FDA Drug Safety Communication, state that FDA added a boxed warning to Injectafer labeling, and specify that the warning concerns symptomatic hypophosphatemia (low blood phosphate)."
+    },
+    "raw_text": "{\"previous_verdict_supported\":true,\"span_ids\":[\"fda42.S044\",\"fda42.S045\",\"fda42.S047\",\"fda42.S048\"],\"rationale\":\"The source spans identify the September 1, 2026 FDA Drug Safety Communication, state that FDA added a boxed warning to Injectafer labeling, and specify that the warning concerns symptomatic hypophosphatemia (low blood phosphate).\"}",
+    "latency_s": 1.7999816250012373,
+    "usage": {
+      "prompt_tokens": 3239,
+      "completion_tokens": 251,
+      "total_tokens": 3490,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "reasoning_tokens": 159,
+        "rejected_prediction_tokens": null
+      }
+    },
+    "finish_reason": "stop",
+    "resolved_model": "accounts/fireworks/models/deepseek-v4p1-flash-1017",
+    "request_id": "chatcmpl-a1f6444a",
+    "cost_usd": 0.0012728999999999998
+  },
+  {
+    "id": "authority_06_1/kimi",
+    "index": 12,
+    "execution_status": "completed",
+    "output": {
+      "previous_verdict_supported": true,
+      "span_ids": [
+        "fda46.S044",
+        "fda46.S048",
+        "fda46.S050"
+      ],
+      "rationale": "The claim states the FDA notice requests ADDING a suicidal behavior and ideation warning to Wegovy. The source contradicts this: S044's title states FDA requests REMOVAL of the warning from GLP-1 RA medications, S050 explicitly says FDA requests holders remove SI/B risk information from labeling and names Wegovy (semaglutide) among affected products, and S048 confirms the 01-13-2026 date. This justifies the prior 'contradicted' verdict; although the prior quotation was not a verbatim substring, its substance matches S050."
+    },
+    "raw_text": "{\"previous_verdict_supported\":true,\"span_ids\":[\"fda46.S044\",\"fda46.S048\",\"fda46.S050\"],\"rationale\":\"The claim states the FDA notice requests ADDING a suicidal behavior and ideation warning to Wegovy. The source contradicts this: S044's title states FDA requests REMOVAL of the warning from GLP-1 RA medications, S050 explicitly says FDA requests holders remove SI/B risk information from labeling and names Wegovy (semaglutide) among affected products, and S048 confirms the 01-13-2026 date. This justifies the prior 'contradicted' verdict; although the prior quotation was not a verbatim substring, its substance matches S050.\"}",
+    "latency_s": 3.5765948750013195,
+    "usage": {
+      "prompt_tokens": 3827,
+      "total_tokens": 4026,
+      "completion_tokens": 199,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 37
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 37
+      }
+    },
+    "finish_reason": "stop",
+    "resolved_model": "accounts/fireworks/models/kimi-k3",
+    "request_id": "chatcmpl-62272de8bd2246cba5daebef9667e533",
+    "cost_usd": 0.014466
+  },
+  {
+    "id": "authority_07_1/kimi",
+    "index": 13,
+    "execution_status": "completed",
+    "output": {
+      "previous_verdict_supported": true,
+      "span_ids": [
+        "fda47.S047",
+        "fda47.S049",
+        "fda47.S051",
+        "fda47.S054",
+        "fda47.S062",
+        "fda47.S088"
+      ],
+      "rationale": "The claim asserts the first monitoring MRI should occur before the 5th infusion with no earlier MRI. The FDA notice dated 08-28-2025 (S047) explicitly recommends an additional, earlier MRI prior to the 3rd infusion (S049), requires language for monitoring between the 2nd and 3rd infusions (S054), instructs professionals to perform MRIs between the 2nd and 3rd infusions (S062), and states the updated schedule is before the 3rd, 5th, 7th, and 14th infusions (S088). The prior schedule before the 5th, 7th, and 14th infusions (S051) is described as superseded. Thus the claim is the opposite of the notice, supporting the 'contradicted' verdict, even though the previous quotation was a paraphrase rather than verbatim."
+    },
+    "raw_text": "{\"previous_verdict_supported\": true, \"span_ids\": [\"fda47.S047\", \"fda47.S049\", \"fda47.S051\", \"fda47.S054\", \"fda47.S062\", \"fda47.S088\"], \"rationale\": \"The claim asserts the first monitoring MRI should occur before the 5th infusion with no earlier MRI. The FDA notice dated 08-28-2025 (S047) explicitly recommends an additional, earlier MRI prior to the 3rd infusion (S049), requires language for monitoring between the 2nd and 3rd infusions (S054), instructs professionals to perform MRIs between the 2nd and 3rd infusions (S062), and states the updated schedule is before the 3rd, 5th, 7th, and 14th infusions (S088). The prior schedule before the 5th, 7th, and 14th infusions (S051) is described as superseded. Thus the claim is the opposite of the notice, supporting the 'contradicted' verdict, even though the previous quotation was a paraphrase rather than verbatim.\"}",
+    "latency_s": 6.157228790998488,
+    "usage": {
+      "prompt_tokens": 4743,
+      "total_tokens": 5174,
+      "completion_tokens": 431,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 178
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 178
+      }
+    },
+    "finish_reason": "stop",
+    "resolved_model": "accounts/fireworks/models/kimi-k3",
+    "request_id": "chatcmpl-ecd2b6e15f554171a273e64ab37f8862",
+    "cost_usd": 0.020694
+  },
+  {
+    "id": "authority_07_1/deepseek",
+    "index": 14,
+    "execution_status": "completed",
+    "output": {
+      "previous_verdict_supported": true,
+      "span_ids": [
+        "fda47.S049",
+        "fda47.S051",
+        "fda47.S054",
+        "fda47.S088"
+      ],
+      "rationale": "The notice states FDA recommends an additional earlier MRI before the 3rd infusion and is requiring revised monitoring between the 2nd and 3rd infusions. It also describes the prior schedule as before the 5th, 7th, and 14th infusions and gives the updated schedule beginning before the 3rd infusion. Thus the claim that the first monitoring MRI should wait until before the fifth infusion with no earlier additional MRI is contradicted."
+    },
+    "raw_text": "{\"previous_verdict_supported\":true,\"span_ids\":[\"fda47.S049\",\"fda47.S051\",\"fda47.S054\",\"fda47.S088\"],\"rationale\":\"The notice states FDA recommends an additional earlier MRI before the 3rd infusion and is requiring revised monitoring between the 2nd and 3rd infusions. It also describes the prior schedule as before the 5th, 7th, and 14th infusions and gives the updated schedule beginning before the 3rd infusion. Thus the claim that the first monitoring MRI should wait until before the fifth infusion with no earlier additional MRI is contradicted.\"}",
+    "latency_s": 2.223633958998107,
+    "usage": {
+      "prompt_tokens": 4733,
+      "completion_tokens": 395,
+      "total_tokens": 5128,
+      "prompt_tokens_details": {
+        "cached_tokens": 58
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "reasoning_tokens": 258,
+        "rejected_prediction_tokens": null
+      }
+    },
+    "finish_reason": "stop",
+    "resolved_model": "accounts/fireworks/models/deepseek-v4p1-flash-1017",
+    "request_id": "chatcmpl-887a7d57",
+    "cost_usd": 0.001876848
+  },
+  {
+    "id": "authority_07_2/kimi",
+    "index": 15,
+    "execution_status": "completed",
+    "output": {
+      "previous_verdict_supported": true,
+      "span_ids": [
+        "fda47.S047",
+        "fda47.S049",
+        "fda47.S051",
+        "fda47.S054",
+        "fda47.S062"
+      ],
+      "rationale": "The FDA Drug Safety Communication dated 08-28-2025 (S047) explicitly recommends/requires an additional, earlier monitoring MRI between the 2nd and 3rd (prior to the 3rd) Leqembi infusion (S049, S051, S054, S062), directly matching the claim."
+    },
+    "raw_text": "{\"previous_verdict_supported\":true,\"span_ids\":[\"fda47.S047\",\"fda47.S049\",\"fda47.S051\",\"fda47.S054\",\"fda47.S062\"],\"rationale\":\"The FDA Drug Safety Communication dated 08-28-2025 (S047) explicitly recommends/requires an additional, earlier monitoring MRI between the 2nd and 3rd (prior to the 3rd) Leqembi infusion (S049, S051, S054, S062), directly matching the claim.\"}",
+    "latency_s": 6.600405083001533,
+    "usage": {
+      "prompt_tokens": 4681,
+      "total_tokens": 4967,
+      "completion_tokens": 286,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 166
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 166
+      }
+    },
+    "finish_reason": "stop",
+    "resolved_model": "accounts/fireworks/models/kimi-k3",
+    "request_id": "chatcmpl-9a6ade5e6fb548e7a39942d4cb595aa4",
+    "cost_usd": 0.018333
+  },
+  {
+    "id": "authority_07_2/deepseek",
+    "index": 16,
+    "execution_status": "completed",
+    "output": {
+      "previous_verdict_supported": true,
+      "span_ids": [
+        "fda47.S049",
+        "fda47.S051",
+        "fda47.S054",
+        "fda47.S059",
+        "fda47.S062",
+        "fda47.S088"
+      ],
+      "rationale": "The source document (dated 08-28-2025) explicitly states FDA is recommending an additional, earlier MRI prior to the 3rd infusion (S049), that FDA determined an additional monitoring MRI before the 3rd infusion helps identify ARIA-E earlier (S051), that FDA is requiring the prescribing information to include an earlier monitoring MRI between the 2nd and 3rd infusion (S054), and it repeats this instruction for patients and health professionals (S059, S062) and lists MRI before the 3rd infusion in the monitoring schedule (S088). This directly justifies the claim that the notice recommends an additional monitoring MRI between the second and third infusions."
+    },
+    "raw_text": "{\"previous_verdict_supported\":true,\"span_ids\":[\"fda47.S049\",\"fda47.S051\",\"fda47.S054\",\"fda47.S059\",\"fda47.S062\",\"fda47.S088\"],\"rationale\":\"The source document (dated 08-28-2025) explicitly states FDA is recommending an additional, earlier MRI prior to the 3rd infusion (S049), that FDA determined an additional monitoring MRI before the 3rd infusion helps identify ARIA-E earlier (S051), that FDA is requiring the prescribing information to include an earlier monitoring MRI between the 2nd and 3rd infusion (S054), and it repeats this instruction for patients and health professionals (S059, S062) and lists MRI before the 3rd infusion in the monitoring schedule (S088). This directly justifies the claim that the notice recommends an additional monitoring MRI between the second and third infusions.\"}",
+    "latency_s": 2.554926583001361,
+    "usage": {
+      "prompt_tokens": 4713,
+      "completion_tokens": 294,
+      "total_tokens": 5007,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "reasoning_tokens": 98,
+        "rejected_prediction_tokens": null
+      }
+    },
+    "finish_reason": "stop",
+    "resolved_model": "accounts/fireworks/models/deepseek-v4p1-flash-1017",
+    "request_id": "chatcmpl-79bb4905",
+    "cost_usd": 0.0017666999999999997
+  },
+  {
+    "id": "authority_08_1/deepseek",
+    "index": 17,
+    "execution_status": "completed",
+    "output": {
+      "previous_verdict_supported": true,
+      "span_ids": [
+        "fda48.S049",
+        "fda48.S047"
+      ],
+      "rationale": "The source identifies the notice date as 08-27-2025 but states the REMS removal was effective June 13, 2025, so the claim's effective date is contradicted."
+    },
+    "raw_text": "{\"previous_verdict_supported\":true,\"span_ids\":[\"fda48.S049\",\"fda48.S047\"],\"rationale\":\"The source identifies the notice date as 08-27-2025 but states the REMS removal was effective June 13, 2025, so the claim's effective date is contradicted.\"}",
+    "latency_s": 1.831659250001394,
+    "usage": {
+      "prompt_tokens": 4768,
+      "completion_tokens": 269,
+      "total_tokens": 5037,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "reasoning_tokens": 196,
+        "rejected_prediction_tokens": null
+      }
+    },
+    "finish_reason": "stop",
+    "resolved_model": "accounts/fireworks/models/deepseek-v4p1-flash-1017",
+    "request_id": "chatcmpl-cd3929ea",
+    "cost_usd": 0.0017532
+  },
+  {
+    "id": "authority_12_1/deepseek",
+    "index": 18,
+    "execution_status": "completed",
+    "output": {
+      "previous_verdict_supported": true,
+      "span_ids": [
+        "fda52.S044",
+        "fda52.S047",
+        "fda52.S049",
+        "fda52.S082",
+        "fda52.S092"
+      ],
+      "rationale": "The spans identify the May 16, 2025 FDA Drug Safety Communication and state that stopping long-term oral cetirizine or levocetirizine may cause rare but severe itching, directly supporting the claim."
+    },
+    "raw_text": "{\"previous_verdict_supported\":true,\"span_ids\":[\"fda52.S044\",\"fda52.S047\",\"fda52.S049\",\"fda52.S082\",\"fda52.S092\"],\"rationale\":\"The spans identify the May 16, 2025 FDA Drug Safety Communication and state that stopping long-term oral cetirizine or levocetirizine may cause rare but severe itching, directly supporting the claim.\"}",
+    "latency_s": 4.246070917000907,
+    "usage": {
+      "prompt_tokens": 6015,
+      "completion_tokens": 744,
+      "total_tokens": 6759,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "reasoning_tokens": 648,
+        "rejected_prediction_tokens": null
+      }
+    },
+    "finish_reason": "stop",
+    "resolved_model": "accounts/fireworks/models/deepseek-v4p1-flash-1017",
+    "request_id": "chatcmpl-e18a36e5",
+    "cost_usd": 0.0026973
+  },
+  {
+    "id": "authority_13_1/deepseek",
+    "index": 19,
+    "execution_status": "completed",
+    "output": {
+      "previous_verdict_supported": true,
+      "span_ids": [
+        "fda53.S050",
+        "fda53.S055",
+        "fda53.S062",
+        "fda53.S087",
+        "fda53.S109",
+        "fda53.S121"
+      ],
+      "rationale": "The cited FDA notice states that anaphylaxis can occur at any time during treatment, including after the first dose or months or years after starting glatiramer acetate. This directly contradicts the claim that it occurs only after the first dose and never after years of treatment."
+    },
+    "raw_text": "{\"previous_verdict_supported\":true,\"span_ids\":[\"fda53.S050\",\"fda53.S055\",\"fda53.S062\",\"fda53.S087\",\"fda53.S109\",\"fda53.S121\"],\"rationale\":\"The cited FDA notice states that anaphylaxis can occur at any time during treatment, including after the first dose or months or years after starting glatiramer acetate. This directly contradicts the claim that it occurs only after the first dose and never after years of treatment.\"}",
+    "latency_s": 2.6986080419992504,
+    "usage": {
+      "prompt_tokens": 6799,
+      "completion_tokens": 378,
+      "total_tokens": 7177,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "reasoning_tokens": 268,
+        "rejected_prediction_tokens": null
+      }
+    },
+    "finish_reason": "stop",
+    "resolved_model": "accounts/fireworks/models/deepseek-v4p1-flash-1017",
+    "request_id": "chatcmpl-56354c85",
+    "cost_usd": 0.0024933
+  },
+  {
+    "id": "authority_19_2/deepseek",
+    "index": 20,
+    "execution_status": "completed",
+    "output": {
+      "previous_verdict_supported": true,
+      "span_ids": [
+        "cdc13.S020",
+        "cdc13.S015"
+      ],
+      "rationale": "Span cdc13.S020 directly states medetomidine is not approved for human use while dexmedetomidine is approved for procedural sedation in humans, contradicting the claim; cdc13.S015 confirms the advisory date April 2, 2026."
+    },
+    "raw_text": "{\"previous_verdict_supported\":true,\"span_ids\":[\"cdc13.S020\",\"cdc13.S015\"],\"rationale\":\"Span cdc13.S020 directly states medetomidine is not approved for human use while dexmedetomidine is approved for procedural sedation in humans, contradicting the claim; cdc13.S015 confirms the advisory date April 2, 2026.\"}",
+    "latency_s": 6.29767579199688,
+    "usage": {
+      "prompt_tokens": 8412,
+      "completion_tokens": 920,
+      "total_tokens": 9332,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "reasoning_tokens": 833,
+        "rejected_prediction_tokens": null
+      }
+    },
+    "finish_reason": "stop",
+    "resolved_model": "accounts/fireworks/models/deepseek-v4p1-flash-1017",
+    "request_id": "chatcmpl-8f846ab8",
+    "cost_usd": 0.0036276
+  }
+]
