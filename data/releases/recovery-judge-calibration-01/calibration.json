@@ -1,0 +1,151 @@
+{
+  "fixtures": 8,
+  "results": [
+    {
+      "id": "possibility_overclaim",
+      "judge": "kimi",
+      "expected_verdict": "insufficient",
+      "expected_acceptance": false,
+      "actual_verdict": "insufficient",
+      "actual_acceptance": false,
+      "pass": true
+    },
+    {
+      "id": "possibility_overclaim",
+      "judge": "deepseek",
+      "expected_verdict": "insufficient",
+      "expected_acceptance": false,
+      "actual_verdict": "insufficient",
+      "actual_acceptance": false,
+      "pass": true
+    },
+    {
+      "id": "occurrence_supported",
+      "judge": "kimi",
+      "expected_verdict": "supported",
+      "expected_acceptance": true,
+      "actual_verdict": "supported",
+      "actual_acceptance": true,
+      "pass": true
+    },
+    {
+      "id": "occurrence_supported",
+      "judge": "deepseek",
+      "expected_verdict": "supported",
+      "expected_acceptance": true,
+      "actual_verdict": "supported",
+      "actual_acceptance": true,
+      "pass": true
+    },
+    {
+      "id": "approximate_threshold",
+      "judge": "kimi",
+      "expected_verdict": "insufficient",
+      "expected_acceptance": false,
+      "actual_verdict": "insufficient",
+      "actual_acceptance": false,
+      "pass": true
+    },
+    {
+      "id": "approximate_threshold",
+      "judge": "deepseek",
+      "expected_verdict": "insufficient",
+      "expected_acceptance": false,
+      "actual_verdict": "insufficient",
+      "actual_acceptance": false,
+      "pass": true
+    },
+    {
+      "id": "rounding_supported",
+      "judge": "kimi",
+      "expected_verdict": "supported",
+      "expected_acceptance": true,
+      "actual_verdict": "supported",
+      "actual_acceptance": true,
+      "pass": true
+    },
+    {
+      "id": "rounding_supported",
+      "judge": "deepseek",
+      "expected_verdict": "supported",
+      "expected_acceptance": true,
+      "actual_verdict": "supported",
+      "actual_acceptance": true,
+      "pass": true
+    },
+    {
+      "id": "context_date",
+      "judge": "kimi",
+      "expected_verdict": "supported",
+      "expected_acceptance": false,
+      "actual_verdict": "supported",
+      "actual_acceptance": false,
+      "pass": true
+    },
+    {
+      "id": "context_date",
+      "judge": "deepseek",
+      "expected_verdict": "supported",
+      "expected_acceptance": false,
+      "actual_verdict": "supported",
+      "actual_acceptance": false,
+      "pass": true
+    },
+    {
+      "id": "explicit_contradiction",
+      "judge": "kimi",
+      "expected_verdict": "contradicted",
+      "expected_acceptance": true,
+      "actual_verdict": "contradicted",
+      "actual_acceptance": true,
+      "pass": true
+    },
+    {
+      "id": "explicit_contradiction",
+      "judge": "deepseek",
+      "expected_verdict": "contradicted",
+      "expected_acceptance": true,
+      "actual_verdict": "contradicted",
+      "actual_acceptance": true,
+      "pass": true
+    },
+    {
+      "id": "risk_abstention",
+      "judge": "kimi",
+      "expected_verdict": "insufficient",
+      "expected_acceptance": true,
+      "actual_verdict": "insufficient",
+      "actual_acceptance": true,
+      "pass": true
+    },
+    {
+      "id": "risk_abstention",
+      "judge": "deepseek",
+      "expected_verdict": "insufficient",
+      "expected_acceptance": true,
+      "actual_verdict": "insufficient",
+      "actual_acceptance": true,
+      "pass": true
+    },
+    {
+      "id": "quantity_abstention",
+      "judge": "kimi",
+      "expected_verdict": "supported",
+      "expected_acceptance": false,
+      "actual_verdict": "supported",
+      "actual_acceptance": false,
+      "pass": true
+    },
+    {
+      "id": "quantity_abstention",
+      "judge": "deepseek",
+      "expected_verdict": "supported",
+      "expected_acceptance": false,
+      "actual_verdict": "supported",
+      "actual_acceptance": false,
+      "pass": true
+    }
+  ],
+  "gate_passed": true,
+  "note": "Small synthetic logical sanity check; no human or real-world accuracy validation."
+}

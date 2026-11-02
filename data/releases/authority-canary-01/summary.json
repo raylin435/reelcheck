@@ -1,0 +1,517 @@
+{
+  "partition": "development_canary",
+  "complete": true,
+  "human_verified_accuracy": null,
+  "reference_status": "provisional AI-authored",
+  "systems": {
+    "no_search": {
+      "cases": 4,
+      "completed": 4,
+      "reference_label_match": 1,
+      "wrong_decisive": 0,
+      "operational_abstention": 3,
+      "grounding": 0,
+      "grounding_unresolved": 4,
+      "metadata_pass": 0
+    },
+    "ordinary_retry": {
+      "cases": 4,
+      "completed": 2,
+      "reference_label_match": 2,
+      "wrong_decisive": 0,
+      "operational_abstention": 0,
+      "grounding": 2,
+      "grounding_unresolved": 2,
+      "metadata_pass": 3
+    },
+    "authority_recovery": {
+      "cases": 4,
+      "completed": 3,
+      "reference_label_match": 3,
+      "wrong_decisive": 0,
+      "operational_abstention": 0,
+      "grounding": 2,
+      "grounding_unresolved": 2,
+      "metadata_pass": 4
+    },
+    "strong_reference": {
+      "cases": 4,
+      "completed": 3,
+      "reference_label_match": 3,
+      "wrong_decisive": 0,
+      "operational_abstention": 0,
+      "grounding": 3,
+      "grounding_unresolved": 1,
+      "metadata_pass": 2
+    },
+    "metadata_only": {
+      "cases": 4,
+      "completed": 4,
+      "reference_label_match": 4,
+      "wrong_decisive": 0,
+      "operational_abstention": 0,
+      "grounding": 4,
+      "grounding_unresolved": 0,
+      "metadata_pass": 4
+    }
+  },
+  "rows": [
+    {
+      "case_id": "authority_03_1",
+      "arm": "no_search",
+      "status": "completed",
+      "verdict": "insufficient",
+      "completed": true,
+      "reference_label_match": false,
+      "wrong_decisive": false,
+      "operational_abstention": true,
+      "grounding": null,
+      "human_verified_accuracy": null,
+      "metadata_errors": null,
+      "explanation": "The claim concerns a specific FDA notice dated June 10, 2026, which is beyond the knowledge available to me, and no search or reference tools are available to verify it. While FDA previously issued safety communications on orlistat (notably a 2010 alert about severe liver injury) and published case reports have associated orlistat with oxalate nephropathy/acute kidney injury, I cannot confirm whether FDA issued a June 10, 2026 notice announcing OTC alli labeling changes about kidney injury risk or what any such notice said.",
+      "searches": 0,
+      "reads": 0,
+      "cost": {
+        "calls": 1,
+        "known_cost_subtotal_usd": 0.00035130000000000003,
+        "estimated_cost_usd": 0.00035130000000000003,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_03_2",
+      "arm": "no_search",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": null,
+      "human_verified_accuracy": null,
+      "metadata_errors": null,
+      "explanation": "I have no record of any FDA notice dated June 10, 2026, but the claim's substance contradicts FDA's established labeling: OTC alli (orlistat 60 mg) is approved for weight loss only in adults 18 years and older, per its Drug Facts labeling, and FDA has not approved it for children under 18. (Prescription orlistat, Xenical 120 mg, is approved down to age 12, but that is a different product and dose.) Since no citation-bearing tools were available, I cite nothing; this verdict rests on recalled FDA labeling, so the specific notice's wording cannot be quoted.",
+      "searches": 0,
+      "reads": 0,
+      "cost": {
+        "calls": 1,
+        "known_cost_subtotal_usd": 0.00097485,
+        "estimated_cost_usd": 0.00097485,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_04_2",
+      "arm": "no_search",
+      "status": "completed",
+      "verdict": "insufficient",
+      "completed": true,
+      "reference_label_match": false,
+      "wrong_decisive": false,
+      "operational_abstention": true,
+      "grounding": null,
+      "human_verified_accuracy": null,
+      "metadata_errors": null,
+      "explanation": "No tools or reference material are available in this diagnostic, so I cannot access or verify an FDA notice dated March 31, 2026. While FDA has previously issued safety communications about liver injury with Tavneos (avacopan), I cannot confirm from memory the existence of this specific notice, the case count of 76, or the statement that no deaths occurred. None of these specifics can be verified without the source document.",
+      "searches": 0,
+      "reads": 0,
+      "cost": {
+        "calls": 1,
+        "known_cost_subtotal_usd": 0.0003609,
+        "estimated_cost_usd": 0.0003609,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_09_1",
+      "arm": "no_search",
+      "status": "completed",
+      "verdict": "insufficient",
+      "completed": true,
+      "reference_label_match": false,
+      "wrong_decisive": false,
+      "operational_abstention": true,
+      "grounding": null,
+      "human_verified_accuracy": null,
+      "metadata_errors": null,
+      "explanation": "This diagnostic ran without tools or references, so the underlying July 31, 2025 FDA notice could not be retrieved or checked. I have no reliable memorized record of that specific notice or of a requirement to retain the phrase “extended treatment period” in Indications and Usage, and the date is at/near the edge of what I could recall anyway. The claim's existence and specific content therefore cannot be confirmed or refuted from memory alone.",
+      "searches": 0,
+      "reads": 0,
+      "cost": {
+        "calls": 1,
+        "known_cost_subtotal_usd": 0.00039625,
+        "estimated_cost_usd": 0.00039625,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_03_1",
+      "arm": "ordinary_retry",
+      "status": "invalid_output",
+      "verdict": null,
+      "completed": false,
+      "reference_label_match": false,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": null,
+      "human_verified_accuracy": null,
+      "metadata_errors": [
+        "R1: scope_quote must be an exact opened quote"
+      ],
+      "explanation": null,
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.00311599,
+        "estimated_cost_usd": 0.00311599,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_03_1",
+      "arm": "authority_recovery",
+      "status": "completed",
+      "verdict": "supported",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "The opened FDA page (R1) is a Drug Safety Communication headed June 10, 2026, stating FDA approved changes to the Drug Facts Label of the OTC weight-loss drug alli (orlistat) 60 mg capsules to warn of acute kidney injury risk, and that the risk of kidney injury was added to the Drug Facts Label for alli. This establishes the issuer (FDA), date (June 10, 2026), product scope (OTC alli 60 mg), and subject (kidney injury risk labeling changes). Limitations: the page gives no explicit effective date for the label changes, and no later FDA update was opened; the claim concerns only the dated June 10, 2026 announcement, which the page documents directly.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 6,
+        "known_cost_subtotal_usd": 0.00680118,
+        "estimated_cost_usd": 0.00680118,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_03_1",
+      "arm": "metadata_only",
+      "status": "completed",
+      "verdict": "supported",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "The opened FDA page (R1) is a Drug Safety Communication dated June 10, 2026 stating that FDA approved changes to the Drug Facts Label of the OTC weight-loss drug alli (orlistat) 60 mg capsules to warn of risks of acute kidney injury, and that the kidney injury risk was added to the alli label, aligning labeling across all FDA-approved orlistat products. This establishes all material parts of the claim: issuer (FDA), date (June 10, 2026), product scope (OTC alli 60 mg), and subject (kidney injury risk labeling changes). Limitations: the page does not state an effective date for the label changes, and no superseding later FDA update was opened; the page supports only what FDA announced on that date, which is what the claim asserts.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 5,
+        "known_cost_subtotal_usd": 0.00441763,
+        "estimated_cost_usd": 0.00441763,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_03_1",
+      "arm": "strong_reference",
+      "status": "completed",
+      "verdict": "supported",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "The opened FDA Drug Safety Communication is dated June 10, 2026 and states FDA approved Drug Facts Label changes for OTC alli (orlistat) 60 mg capsules warning of acute kidney injury risk, matching every element of the claim (issuer, date, OTC product, labeling action, kidney injury topic). The opened page presents this as the agency's current notice and does not indicate any revision or supersession; only this single FDA page was opened, so no independent corroboration was checked.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.0071472,
+        "estimated_cost_usd": 0.0071472,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_03_2",
+      "arm": "strong_reference",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [
+        "R1: scope_quote must be an exact opened quote",
+        "unknown or duplicate evidence check"
+      ],
+      "explanation": "The opened FDA page, dated June 10, 2026, states the OTC alli 60 mg indication as weight loss in overweight adults 18 years and older. That is incompatible with the claim that the same notice approves the capsules for children under 18; the page nowhere describes a pediatric weight-loss indication. Limitation: only the Drug Safety Communication page was read, not the full Drug Facts label PDF.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.006644003999999999,
+        "estimated_cost_usd": 0.006644003999999999,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_03_2",
+      "arm": "ordinary_retry",
+      "status": "invalid_output",
+      "verdict": null,
+      "completed": false,
+      "reference_label_match": false,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": null,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": null,
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.0033298399999999997,
+        "estimated_cost_usd": 0.0033298399999999997,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_03_2",
+      "arm": "authority_recovery",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "Recovery check found no material gap. The opened primary source is the June 10, 2026 FDA Drug Safety Communication on alli itself, so it is authoritative about what that notice says: it describes the OTC 60 mg capsules as approved for weight loss in overweight adults 18 years and older, which directly refutes the claimed statement about children under 18. The notice's actual subject is new label warnings about rare kidney injury/kidney stone risk, and it contains no pediatric approval statement. No further search is needed because the notice's own opened text resolves the population-scope question.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.00331139,
+        "estimated_cost_usd": 0.00331139,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_03_2",
+      "arm": "metadata_only",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "The opened FDA Drug Safety Communication dated June 10, 2026 directly contradicts the claim: it states the OTC 60 mg capsules are approved for weight loss in overweight adults 18 years and older, not children under 18. The notice's actual subject is new label warnings about kidney injury/kidney stone risk, not a pediatric approval. No limitation is material here because the primary source itself refutes the claim's population scope.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.00334299,
+        "estimated_cost_usd": 0.00334299,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_04_2",
+      "arm": "ordinary_retry",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "The opened FDA Drug Safety Communication is dated 03-31-2026 and does discuss 76 DILI cases, but it directly contradicts the claim: among those 76 cases it reports death (n=8), and the notice's opening describes 'serious postmarketing cases, including fatal cases.' It also notes 3 of the 7 biopsy-confirmed VBDS cases had a fatal outcome. The claim that none of the 76 cases involved a death is therefore false. Limitation: the page confirms what the March 31, 2026 notice reported; FDA said it would provide updates as appropriate, but that does not affect this claim about the notice's content.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.00322619,
+        "estimated_cost_usd": 0.00322619,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_04_2",
+      "arm": "authority_recovery",
+      "status": "invalid_output",
+      "verdict": null,
+      "completed": false,
+      "reference_label_match": false,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": null,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": null,
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.0041407399999999995,
+        "estimated_cost_usd": 0.0041407399999999995,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_04_2",
+      "arm": "metadata_only",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "The opened FDA Drug Safety Communication is dated 03-31-2026 and does discuss 76 DILI cases, but it directly contradicts the claim: the 76 cases included death (n=8), and the notice's opening describes serious postmarketing cases 'including fatal cases.' Additionally, 3 of the 7 biopsy-confirmed VBDS cases had a fatal outcome. The claim that none of the 76 cases involved a death is therefore false. Limitation: none material; the FDA page itself establishes both the date and the case counts.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.0034598399999999996,
+        "estimated_cost_usd": 0.0034598399999999996,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_04_2",
+      "arm": "strong_reference",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "The opened FDA Drug Safety Communication dated 03-31-2026 reports 76 cases of DILI associated with avacopan, and states that 74 reported a serious outcome, including death (n=8); the page also describes DILI cases with fatal outcomes as a new safety concern. The notice therefore reports deaths among the cases, directly contradicting the claim that none involved a death. Limitation: this is a single FDA page (the communication itself); no superseding update was established from opened text.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.004422084,
+        "estimated_cost_usd": 0.004422084,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_09_1",
+      "arm": "strong_reference",
+      "status": "invalid_output",
+      "verdict": null,
+      "completed": false,
+      "reference_label_match": false,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": null,
+      "human_verified_accuracy": null,
+      "metadata_errors": [
+        "R2: date_quote must be an exact opened quote",
+        "R2: scope_quote must be an exact opened quote",
+        "R2: document date not established in date_quote"
+      ],
+      "explanation": null,
+      "searches": 1,
+      "reads": 3,
+      "cost": {
+        "calls": 6,
+        "known_cost_subtotal_usd": 0.016701947999999998,
+        "estimated_cost_usd": 0.016701947999999998,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_09_1",
+      "arm": "ordinary_retry",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "On review, the draft stands. The opened FDA Drug Safety Communication headed “07-31-2025” states the opposite of the claim: FDA is requiring opioid pain medicine application holders to REMOVE the phrase “extended treatment period” from the Indications and Usage section (to avoid misinterpretation that data support safety and efficacy over an indefinitely long duration), not to retain it. This is FDA’s own July 31, 2025 announcement of class-wide labeling changes for opioid pain medicines; the page states no separate effective date, and no later update reversing the removal requirement appears on the page. Limitation: the page text was returned truncated, but the operative passage on the required labeling change was captured verbatim.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 4,
+        "known_cost_subtotal_usd": 0.00324277,
+        "estimated_cost_usd": 0.00324277,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_09_1",
+      "arm": "authority_recovery",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": null,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "The opened FDA Drug Safety Communication, headed “07-31-2025,” states the opposite of the claim: FDA is notifying opioid pain medicine application holders that the phrase “extended treatment period” must be REMOVED from the Indications and Usage section (to avoid misinterpretation that data support safety and efficacy over an indefinitely long duration), not retained. The page is FDA’s own primary source, a class-wide action covering opioid pain medicines, dated the same day as the claim; it states no separate effective date and shows no later reversal, and as_of (2025-07-31) coincides with the notice, so no superseding update is relevant.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 5,
+        "known_cost_subtotal_usd": 0.00485896,
+        "estimated_cost_usd": 0.00485896,
+        "unknown_cost_calls": 0
+      }
+    },
+    {
+      "case_id": "authority_09_1",
+      "arm": "metadata_only",
+      "status": "completed",
+      "verdict": "contradicted",
+      "completed": true,
+      "reference_label_match": true,
+      "wrong_decisive": false,
+      "operational_abstention": false,
+      "grounding": true,
+      "human_verified_accuracy": null,
+      "metadata_errors": [],
+      "explanation": "The opened FDA Drug Safety Communication, headed “07-31-2025,” states the opposite of the claim: FDA is requiring opioid pain medicine application holders to REMOVE the phrase “extended treatment period” from the Indications and Usage section (to avoid misinterpretation that data support safety and efficacy over an indefinitely long duration), not to retain it. The page is FDA’s own July 31, 2025 announcement of class-wide safety labeling changes for opioid pain medicines; it states no separate effective date, and it contains no later update reversing this removal requirement.",
+      "searches": 1,
+      "reads": 1,
+      "cost": {
+        "calls": 5,
+        "known_cost_subtotal_usd": 0.00418801,
+        "estimated_cost_usd": 0.00418801,
+        "unknown_cost_calls": 0
+      }
+    }
+  ],
+  "candidate_billing": {
+    "calls": 51,
+    "known_cost_subtotal_usd": 0.06932034599999999,
+    "estimated_cost_usd": 0.06932034599999999,
+    "unknown_cost_calls": 0
+  },
+  "web_cost_usd": null,
+  "heldout_used": false
+}

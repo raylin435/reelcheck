@@ -1,0 +1,46 @@
+[
+  {
+    "run": "results/recovery-fresh-01/shard-0",
+    "final_attempts": 15,
+    "unique_candidate_calls": 60,
+    "unique_web_actions": {
+      "search": 13,
+      "read": 22
+    },
+    "checks": "frozen source hashes, terminal state, exact shared history/draft, equal remaining allowances, call journals, quote validity, two assessment attempts, claim-only input",
+    "passed": true
+  },
+  {
+    "run": "results/recovery-fresh-01/shard-1",
+    "final_attempts": 15,
+    "unique_candidate_calls": 55,
+    "unique_web_actions": {
+      "search": 11,
+      "read": 19
+    },
+    "checks": "frozen source hashes, terminal state, exact shared history/draft, equal remaining allowances, call journals, quote validity, two assessment attempts, claim-only input",
+    "passed": true
+  },
+  {
+    "run": "results/recovery-fresh-01/shard-2",
+    "final_attempts": 15,
+    "unique_candidate_calls": 54,
+    "unique_web_actions": {
+      "search": 10,
+      "read": 19
+    },
+    "checks": "frozen source hashes, terminal state, exact shared history/draft, equal remaining allowances, call journals, quote validity, two assessment attempts, claim-only input",
+    "passed": true
+  },
+  {
+    "run": "results/recovery-fresh-01/shard-3",
+    "final_attempts": 15,
+    "unique_candidate_calls": 61,
+    "unique_web_actions": {
+      "search": 13,
+      "read": 23
+    },
+    "checks": "frozen source hashes, terminal state, exact shared history/draft, equal remaining allowances, call journals, quote validity, two assessment attempts, claim-only input",
+    "passed": true
+  }
+]

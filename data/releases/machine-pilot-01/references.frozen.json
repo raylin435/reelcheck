@@ -1,0 +1,365 @@
+{
+  "schema_version": 2,
+  "review_track": "machine_reviewed",
+  "human_reviewed": false,
+  "frozen_at": "2026-11-02T21:45:00.280105+00:00",
+  "references_sha256": "a65ee3dc5d08793be617bc4246e070e82e94c14fce9297f1172dc2498ab5ac73",
+  "references": [
+    {
+      "case_id": "sf_01",
+      "case_sha256": "80b8e47a2b16d477109b7fd978c0d8356a8c332eb1827b38c3afed0ad16e69b4",
+      "acceptable_verdicts": [
+        "supported"
+      ],
+      "rationale": "Independent machine agreement. Assessment 1: S1 directly reports 74% using ≥1 dietary supplement per week, which rounds to approximately 75%. S2 confirms DS means dietary supplements, use was self-reported, and the respondents were US service members, matching the claim's material scope without asserting a census. Assessment 2: S1 directly reports 74% using at least one dietary supplement per week, which approximates the claimed 75%. S2 confirms the measure is self-reported among surveyed US service members from four military branches and clarifies it is a survey estimate, not a census; this supports the claim as a survey-based prevalence statement, with some population/representativeness caveats.",
+      "evidence_ids": [
+        "S1",
+        "S2"
+      ],
+      "review_status": "machine_consensus",
+      "reviewer": "Independent machine panel; no human review",
+      "vote_models": [
+        "accounts/fireworks/models/kimi-k3",
+        "accounts/fireworks/models/deepseek-v4p1-flash-1017"
+      ],
+      "vote_verdicts": [
+        "supported",
+        "supported"
+      ],
+      "scope_ambiguity_flag": false
+    },
+    {
+      "case_id": "sf_02",
+      "case_sha256": "a978f6e0f898571357c742b314f5a3544e9188afad39da55932e0ad5a4a41379",
+      "acceptable_verdicts": [
+        "insufficient"
+      ],
+      "rationale": "Independent machine agreement. Assessment 1: Adverse events are documented: A1 reports 18% of weekly supplement users self-reporting adverse effects (though cross-sectional and non-causal, 'documented' does not require causation). However, for positive drug tests, F1 only states fenproporex 'could produce' a positive amphetamine urinalysis and O1 only discusses the possibility that supplements could lead to positive tests—neither documents an actual positive drug test attributed to supplement use. Since one material part of the conjunctive claim is supported only as potential rather than documented, the claim as a whole is insufficient. Assessment 2: A1 documents self-reported adverse effects associated with supplement use, but not causation. F1 says an undeclared amphetamine derivative in selected weight-loss products could produce a positive urine test, not that positive drug tests were documented. O1 only notes questions and that laboratory testing is needed. Thus the adverse-event component has support, but the documented-positive-drug-test component is not established.",
+      "evidence_ids": [
+        "A1",
+        "F1",
+        "O1"
+      ],
+      "review_status": "machine_consensus",
+      "reviewer": "Independent machine panel; no human review",
+      "vote_models": [
+        "accounts/fireworks/models/kimi-k3",
+        "accounts/fireworks/models/deepseek-v4p1-flash-1017"
+      ],
+      "vote_verdicts": [
+        "insufficient",
+        "insufficient"
+      ],
+      "scope_ambiguity_flag": false
+    },
+    {
+      "case_id": "sf_03",
+      "case_sha256": "e9d24bd715103fe231a908bc35af09aaeb1f66eddd05e0ce62d2792a83dc1dd7",
+      "acceptable_verdicts": [
+        "insufficient"
+      ],
+      "rationale": "Independent machine agreement. Assessment 1: The packet shows only that FDA testing of selected weight-loss products found undeclared drugs/chemicals such as fenproporex and warns of stimulant risks (F1). It does not measure efficacy, estimate the proportion of effective supplements that are drugs, or provide base rates; F2 expressly says the listed products are an enforcement fraction and not a random sample of effective weight-loss supplements, so selection bias prevents generalizing to 'probably a drug.' There is also no explicit counterevidence, so the claim is unproven rather than refuted. Assessment 2: The evidence shows some selected weight-loss products contained undeclared drugs, but it explicitly says the listed products are not a random sample of all effective weight-loss supplements and that FDA enforcement covers only a fraction of potentially hazardous products. It therefore does not establish that a working weight-loss supplement is probably a drug.",
+      "evidence_ids": [
+        "F1",
+        "F2"
+      ],
+      "review_status": "machine_consensus",
+      "reviewer": "Independent machine panel; no human review",
+      "vote_models": [
+        "accounts/fireworks/models/kimi-k3",
+        "accounts/fireworks/models/deepseek-v4p1-flash-1017"
+      ],
+      "vote_verdicts": [
+        "insufficient",
+        "insufficient"
+      ],
+      "scope_ambiguity_flag": false
+    },
+    {
+      "case_id": "sf_04",
+      "case_sha256": "d24181a122d59baf6f7c0fe2672dc1a955626554a97b54d50b7b2f1ec3981d3d",
+      "acceptable_verdicts": [
+        "insufficient"
+      ],
+      "rationale": "Independent machine agreement. Assessment 1: The supplied evidence does not endorse the half-body-weight formula: W1 only states intake needs vary by individual factors, and W2 explicitly notes the source does not give that formula. Absence of the recommendation is not explicit counterevidence that the heuristic is poor, so the claim is unproven rather than refuted. Assessment 2: The packet says water intake recommendations vary and that water comes from beverages and foods, but it neither endorses nor explicitly refutes the half-body-weight-in-pounds as fluid ounces formula. Thus the claim is unproven by the supplied evidence.",
+      "evidence_ids": [
+        "W1",
+        "W2"
+      ],
+      "review_status": "machine_consensus",
+      "reviewer": "Independent machine panel; no human review",
+      "vote_models": [
+        "accounts/fireworks/models/kimi-k3",
+        "accounts/fireworks/models/deepseek-v4p1-flash-1017"
+      ],
+      "vote_verdicts": [
+        "insufficient",
+        "insufficient"
+      ],
+      "scope_ambiguity_flag": false
+    },
+    {
+      "case_id": "sf_05",
+      "case_sha256": "3c19a10eadc09705105c3c4d472e98713c0e0e1aa73f93fe36684e4a6ef3f26d",
+      "acceptable_verdicts": [],
+      "rationale": "Unresolved: at least one assessor flagged material scope ambiguity.",
+      "evidence_ids": [],
+      "review_status": "machine_unresolved",
+      "reviewer": "Independent machine panel; no human review",
+      "vote_models": [
+        "accounts/fireworks/models/kimi-k3",
+        "accounts/fireworks/models/deepseek-v4p1-flash-1017",
+        "accounts/fireworks/models/glm-5p3-flash"
+      ],
+      "vote_verdicts": [
+        "insufficient",
+        "supported",
+        "ambiguous"
+      ],
+      "scope_ambiguity_flag": true
+    },
+    {
+      "case_id": "sf_06",
+      "case_sha256": "d23f98688f294ebe2ebb13ceff51b2412f697d75a5ca55adc557959a5a16bcda",
+      "acceptable_verdicts": [
+        "insufficient"
+      ],
+      "rationale": "Independent machine agreement. Assessment 1: The passages support that schedule changes, shift/night work, and changing sleep routines can cause or raise risk of insomnia, but they do not address deployment or military deployment settings specifically. Since the claim is scoped to irregular work schedules during deployment, that contextual condition is not established by the supplied evidence. Assessment 2: R1 and R2 support that schedule changes, shift/night work, and irregular routines can contribute to insomnia or sleep problems generally, but neither addresses deployment or military populations. The specific 'during deployment' component is unsupported by the packet.",
+      "evidence_ids": [
+        "R1",
+        "R2"
+      ],
+      "review_status": "machine_consensus",
+      "reviewer": "Independent machine panel; no human review",
+      "vote_models": [
+        "accounts/fireworks/models/kimi-k3",
+        "accounts/fireworks/models/deepseek-v4p1-flash-1017"
+      ],
+      "vote_verdicts": [
+        "insufficient",
+        "insufficient"
+      ],
+      "scope_ambiguity_flag": false
+    },
+    {
+      "case_id": "new_01",
+      "case_sha256": "2b8136c13385df9e7d45013f65e1dfad0cd12034fbeacb7dfee94ba8a9a94b06",
+      "acceptable_verdicts": [
+        "supported"
+      ],
+      "rationale": "Independent machine agreement. Assessment 1: D1 states that during 2012–2018 DoD CAF performed about 2.3 million adjudicative actions and gives a precise total of 2,361,717, matching the claim’s date range, rounded magnitude, and action-count framing; the DCSA/DoD CAF context supplies the security-clearance setting. Assessment 2: D1 directly states that during 2012–2018 the DoD CAF performed about 2.3 million adjudicative actions, with a chart total of 2,361,717. The claim’s approximate figure and period match; the evidence also clarifies these are actions, not necessarily distinct individuals.",
+      "evidence_ids": [
+        "D1"
+      ],
+      "review_status": "machine_consensus",
+      "reviewer": "Independent machine panel; no human review",
+      "vote_models": [
+        "accounts/fireworks/models/kimi-k3",
+        "accounts/fireworks/models/deepseek-v4p1-flash-1017"
+      ],
+      "vote_verdicts": [
+        "supported",
+        "supported"
+      ],
+      "scope_ambiguity_flag": false
+    },
+    {
+      "case_id": "new_02",
+      "case_sha256": "02e5a8a154f4c3a26a556eab51d559c82f4805e7a1a115c3e6034b2d38e4cebe",
+      "acceptable_verdicts": [
+        "supported"
+      ],
+      "rationale": "Independent machine agreement. Assessment 1: D1 establishes the 2012–2018 DoD CAF context and distinguishes actions/cases from individuals; D2 directly states that twelve individuals had eligibility denied or revoked solely due to security concerns from a psychological condition, with 380 others involving additional concerns. This matches the claim's sole-cause psychological denial/revocation count. Assessment 2: D2 states that twelve individuals had eligibility denied or revoked solely because of security concerns presented by a psychological condition, with another 380 having additional concerns. D1 places the page 33 figures in the 2012–2018 period.",
+      "evidence_ids": [
+        "D1",
+        "D2"
+      ],
+      "review_status": "machine_consensus",
+      "reviewer": "Independent machine panel; no human review",
+      "vote_models": [
+        "accounts/fireworks/models/kimi-k3",
+        "accounts/fireworks/models/deepseek-v4p1-flash-1017"
+      ],
+      "vote_verdicts": [
+        "supported",
+        "supported"
+      ],
+      "scope_ambiguity_flag": false
+    },
+    {
+      "case_id": "new_03",
+      "case_sha256": "95cc946d9980ac0f8402893f0297e78cc89fa3a72679a4c04f1ee239d312e726",
+      "acceptable_verdicts": [
+        "contradicted"
+      ],
+      "rationale": "Independent machine agreement. Assessment 1: The supplied figures (12 sole-psychological denials/revocations from D2; 2,361,717 total actions from D1) give 12/2,361,717 = 0.000508%, not 0.00507%. The stated percentage is off by a factor of 10 (0.00507% of 2,361,717 ≈ 120, not 12), so the explicit quantitative claim is arithmetically inconsistent with the packet. A secondary individuals-vs-actions unit mismatch exists but is immaterial to the failed percentage. Assessment 2: D1 supplies the 2,361,717 total adjudicative actions and D2 supplies 12 denials/revocations solely for psychological concerns. But 12 ÷ 2,361,717 × 100 = approximately 0.000508%, not 0.00507%; the stated percentage is wrong by roughly a factor of 10.",
+      "evidence_ids": [
+        "D1",
+        "D2"
+      ],
+      "review_status": "machine_consensus",
+      "reviewer": "Independent machine panel; no human review",
+      "vote_models": [
+        "accounts/fireworks/models/kimi-k3",
+        "accounts/fireworks/models/deepseek-v4p1-flash-1017"
+      ],
+      "vote_verdicts": [
+        "contradicted",
+        "contradicted"
+      ],
+      "scope_ambiguity_flag": false
+    },
+    {
+      "case_id": "new_04",
+      "case_sha256": "01a5950f0eef9de7431855497741c89da2d5e5cc4c4ab190bfa0b1fd33599d8b",
+      "acceptable_verdicts": [
+        "supported"
+      ],
+      "rationale": "Independent machine agreement. Assessment 1: M1 states EO 14184 was signed Jan 27, 2025, that subsequent guidance created return-to-service processes for those affected by the vaccine mandate, and that the Marine Corps implemented a program involving recruiters and the COVID Reinstatement Cell, with staff assessing applicants and explaining a pathway. M2 corroborates a case-by-case return-to-service eligibility process. All material parts of the claim—post-order timing, the reinstatement cell, and a pathway for eligible Marines—are directly supported, with no counterevidence. Assessment 2: M1 states that after Executive Order 14184, subsequent guidance established return-to-service processes and the Marine Corps implemented a program involving the COVID Reinstatement Cell, with applicants assessed and given an explained pathway. M2 confirms case-by-case eligibility and return-to-service review, supporting the pathway for eligible Marines.",
+      "evidence_ids": [
+        "M1",
+        "M2"
+      ],
+      "review_status": "machine_consensus",
+      "reviewer": "Independent machine panel; no human review",
+      "vote_models": [
+        "accounts/fireworks/models/kimi-k3",
+        "accounts/fireworks/models/deepseek-v4p1-flash-1017"
+      ],
+      "vote_verdicts": [
+        "supported",
+        "supported"
+      ],
+      "scope_ambiguity_flag": false
+    },
+    {
+      "case_id": "new_05",
+      "case_sha256": "9be59436d198fac9221b1a86bf917343431aaf4e990269b9a538db3c57343338",
+      "acceptable_verdicts": [
+        "insufficient"
+      ],
+      "rationale": "Independent machine agreement. Assessment 1: The evidence describes a reinstatement program and case-by-case application process, but provides no basis for the specific figures '3,748 eligible veteran Marines,' '100%,' or that the team 'personally contacted' them; it emphasizes applicants submitting information rather than universal proactive outreach. Assessment 2: The evidence describes a Marine Corps return-to-service program and case-by-case application review, but it does not mention 3,748 eligible veteran Marines, personal contact, or 100% outreach. The claim's key quantitative and contact assertions therefore remain unproven.",
+      "evidence_ids": [
+        "M1",
+        "M2"
+      ],
+      "review_status": "machine_consensus",
+      "reviewer": "Independent machine panel; no human review",
+      "vote_models": [
+        "accounts/fireworks/models/kimi-k3",
+        "accounts/fireworks/models/deepseek-v4p1-flash-1017"
+      ],
+      "vote_verdicts": [
+        "insufficient",
+        "insufficient"
+      ],
+      "scope_ambiguity_flag": false
+    },
+    {
+      "case_id": "new_06",
+      "case_sha256": "11cf0275d981c508a98f8559e543de985f6610462f3ec91553f58be54e7cc216",
+      "acceptable_verdicts": [
+        "insufficient"
+      ],
+      "rationale": "Independent machine agreement. Assessment 1: The evidence describes the existence and mechanics of the COVID Reinstatement/return-to-service program following Executive Order 14184, but neither passage provides any count of Marines who returned to service. The specific figure of 53, and the reference to 'this announcement,' are not established or contradicted by the supplied evidence. Assessment 2: The evidence confirms Executive Order 14184 and describes reinstatement processes, but it provides no count of Marines who had returned and no relevant announcement establishing that 53 had returned.",
+      "evidence_ids": [
+        "M1",
+        "M2"
+      ],
+      "review_status": "machine_consensus",
+      "reviewer": "Independent machine panel; no human review",
+      "vote_models": [
+        "accounts/fireworks/models/kimi-k3",
+        "accounts/fireworks/models/deepseek-v4p1-flash-1017"
+      ],
+      "vote_verdicts": [
+        "insufficient",
+        "insufficient"
+      ],
+      "scope_ambiguity_flag": false
+    },
+    {
+      "case_id": "new_07",
+      "case_sha256": "707909c94fd1d4a54962e6bf8cf6ab4708959594adfe9e22e81d062122a85c0e",
+      "acceptable_verdicts": [],
+      "rationale": "Unresolved: at least one assessor flagged material scope ambiguity.",
+      "evidence_ids": [],
+      "review_status": "machine_unresolved",
+      "reviewer": "Independent machine panel; no human review",
+      "vote_models": [
+        "accounts/fireworks/models/kimi-k3",
+        "accounts/fireworks/models/deepseek-v4p1-flash-1017",
+        "accounts/fireworks/models/glm-5p3-flash"
+      ],
+      "vote_verdicts": [
+        "contradicted",
+        "ambiguous",
+        "ambiguous"
+      ],
+      "scope_ambiguity_flag": true
+    },
+    {
+      "case_id": "new_08",
+      "case_sha256": "7d69cb9be30f46a866bbc968c0704767bed10c10d2b5f829788bc851d5a89866",
+      "acceptable_verdicts": [
+        "supported"
+      ],
+      "rationale": "Independent machine agreement. Assessment 1: N1 states joint forces (warfighters) and engineers tested technologies together at the 2026 SoSNIE, and N2 explicitly states the event facilitated direct warfighter feedback on prototypes; together these cover both the teaming and the direct user feedback elements. Assessment 2: N1 states that at the 2026 SoSNIE, joint forces and engineers tested technologies together, and N2 states the event facilitated direct warfighter feedback on C2 prototypes, supporting the claim that teaming warfighters with engineers provided an opportunity for direct user feedback.",
+      "evidence_ids": [
+        "N1",
+        "N2"
+      ],
+      "review_status": "machine_consensus",
+      "reviewer": "Independent machine panel; no human review",
+      "vote_models": [
+        "accounts/fireworks/models/kimi-k3",
+        "accounts/fireworks/models/deepseek-v4p1-flash-1017"
+      ],
+      "vote_verdicts": [
+        "supported",
+        "supported"
+      ],
+      "scope_ambiguity_flag": false
+    },
+    {
+      "case_id": "new_09",
+      "case_sha256": "1fa298c2da4874959e1da7164df7b9487c9b60f688d9fc574bdf771a54af1615",
+      "acceptable_verdicts": [
+        "supported"
+      ],
+      "rationale": "Independent machine agreement. Assessment 1: N2 explicitly states that the NIWC Atlantic article describes the 2026 iteration as 'a significant shift in the depth and breadth of the experiment’s scope and participation,' directly matching the claim. Supporting context in N1 (40+ technologies, 150+ participants, joint testing) is consistent. Note this is an attributed characterization from a single source, but the claim itself only asserts that SoSNIE 2026 showed this shift, and N2 provides that direct evidence. Assessment 2: N2 explicitly states that the 2026 iteration was described as a significant shift in the depth and breadth of the experiment’s scope and participation. N1 supplies corroborating details about the 2026 experiment’s expanded joint, government, and industry participation and technology testing. N3’s prior-year figures do not directly refute the claim because the metrics differ and a “shift” need not mean an increase.",
+      "evidence_ids": [
+        "N1",
+        "N2"
+      ],
+      "review_status": "machine_consensus",
+      "reviewer": "Independent machine panel; no human review",
+      "vote_models": [
+        "accounts/fireworks/models/kimi-k3",
+        "accounts/fireworks/models/deepseek-v4p1-flash-1017"
+      ],
+      "vote_verdicts": [
+        "supported",
+        "supported"
+      ],
+      "scope_ambiguity_flag": false
+    }
+  ],
+  "inputs_sha256": "61145bc465ecc899548da0e19fe28f633dc1bfedecbb05995295da9767fc1e17",
+  "vote_rows_sha256": "be54c22696e099e5c953fe66285e6b491e5c5579a4b1e83ddeb12552695e64c9",
+  "reference_parents": [
+    {
+      "directory": "results/machine-references-01",
+      "reference_sha256": "2748f5204ce4a4e9c60f679cdd399c01153e73d0078183225cd350d155cfbbad",
+      "manifest_sha256": "e4a09c6ca389d108b31194ea5286569c730474e6fb779bac76f4e1f0cd25b840",
+      "vote_file_sha256": "0b38d3aca58c172425da98e8f69bafccaa577e3121ca2f52a386462cdcfd4c6d"
+    },
+    {
+      "directory": "results/machine-reference-revision-02",
+      "reference_sha256": "c3afc297e7d5d672e31a7639f5a7efb01bf271b0893c13e363ef3dfa26517be8",
+      "manifest_sha256": "0f63851bf245889ea717f6734c2c150d11a1c6139cf54fe947234e2554e787b7",
+      "vote_file_sha256": "e1a42ce9a15ecf2ceee0952cc2218c253af044716dbfecdff4e21f595eeb342c"
+    }
+  ],
+  "note": "One evidence summary was corrected before candidate generation; unchanged exact-case references reused. Superseded votes remain in original parent, and all original/revision costs are counted."
+}

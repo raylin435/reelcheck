@@ -1,0 +1,11 @@
+{
+  "reason": "Source audit before candidate generation found a material direct statement omitted from new_09 evidence summary N2. Restored it rather than creating artificial insufficient evidence. Original inputs/references retained. No candidate outputs existed.",
+  "old_inputs_sha256": "633e0fcbf16612e8feae4066c2e8b22517272ee6e2ef7ea8e92c287e92c93ac1",
+  "new_inputs_sha256": "61145bc465ecc899548da0e19fe28f633dc1bfedecbb05995295da9767fc1e17",
+  "changed_reference_case_ids": [
+    "new_09"
+  ],
+  "claim_text_timestamps_and_media_unchanged": true,
+  "source_record": "data/source_snapshots/machine-01/niwc_2026_search_retrieval.txt",
+  "source_url": "https://www.niwcatlantic.navy.mil/Media/Article/4456008/sharpening-the-spear-navy-experiment-advances-sensor-to-shooter-connectivity/"
+}

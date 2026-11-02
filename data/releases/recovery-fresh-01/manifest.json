@@ -1,0 +1,18 @@
+{
+  "frozen_before_candidate_calls": true,
+  "cases": 20,
+  "shards": 4,
+  "videos": 7,
+  "conservative_creator_series_groups": 4,
+  "publisher_institutions": 2,
+  "sha256": {
+    "RECOVERY_FRESH_PROTOCOL.md": "4b42c597d0c715cadb7d3970cf2f31f1f9110eb867e31d05ffd5d76ba412de61",
+    "data/recovery_fresh_claims.jsonl": "729eca64d15a8c6778353de4b88b7dac7350e38f573af2fb750b79c5652de4d0",
+    "data/recovery_fresh_shard_3.jsonl": "685c6e4f503e6031c805d8b457a8253fa78792909c2d3245686fe056e603f1df",
+    "data/recovery_fresh_shard_1.jsonl": "126833942b56bdfa94f8e35b1035af943ed6f1bdcada7b3c2daf9732139f9154",
+    "data/recovery_fresh_shard_0.jsonl": "34f61369cf34f128f993efc89ca0c717dc8440f87c55485f3ece5b748695c080",
+    "data/recovery_fresh_shard_2.jsonl": "2bf083ed8e5d0b75acecbd231d5da576ea58b85ab2bd485af11ad0cdbfe54975",
+    "config.recovery.fresh.json": "fbe9fc7d4f93302682363218ce5161f8587d51caebc8a8c8157062785e454bb3",
+    "scripts/recovery_web_worker.js": "f7a13ed49f2221ec8cbad9aa4829ae315442b86536e9c8131200da8da9ef4ad5"
+  }
+}

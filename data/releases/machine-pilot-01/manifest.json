@@ -1,0 +1,679 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-11-02T21:45:05.922293+00:00",
+  "track": "machine_reviewed_fixed_evidence_pilot",
+  "human_reviewed": false,
+  "inputs_sha256": "61145bc465ecc899548da0e19fe28f633dc1bfedecbb05995295da9767fc1e17",
+  "reference_file_sha256": "74f8ec79ea0eaf732837ce3cd4439a57259d3dbb592c9f871edee235fddb6fdf",
+  "case_count": 15,
+  "clip_count": 6,
+  "clips": [
+    {
+      "clip_id": "clearance_new",
+      "title": "Will Mental Health Services Affect My Security Clearance?",
+      "source_url": "https://www.dvidshub.net/video/894767/will-mental-health-services-affect-my-security-clearance-vertical-captions",
+      "creator_credit": "Sara Barger",
+      "rights": {
+        "download_allowed": true,
+        "redistribution_allowed": true,
+        "evidence_url": "https://www.dvidshub.net/video/894767/will-mental-health-services-affect-my-security-clearance-vertical-captions",
+        "terms_url": "https://www.dvidshub.net/about/copyright",
+        "basis": "Publisher marks this asset PUBLIC DOMAIN; collector rechecks third-party restrictions. Attribute creator, do not imply endorsement."
+      },
+      "direct_media_url": "https://d34w7g4gy10iej.cloudfront.net/video/2308/DOD_109844712/DOD_109844712.mp4",
+      "captions_url": "https://www.dvidshub.net/video/closedcaption/id/894767",
+      "media": {
+        "duration_seconds": 90.006583,
+        "display_width": 1080.0,
+        "display_height": 1920,
+        "rotation": 0.0,
+        "has_audio": true,
+        "codec": "h264",
+        "format": "mov,mp4,m4a,3gp,3g2,mj2",
+        "decode_ok": true,
+        "sha256": "6cd37a82da98513bece6d2a0efc412b9dad0b95b7660e98418edcb9fbd3f36cc",
+        "bytes": 76744973,
+        "technical_short_form_pass": true
+      },
+      "files": [
+        {
+          "path": "clearance_new/original.mp4",
+          "sha256": "6cd37a82da98513bece6d2a0efc412b9dad0b95b7660e98418edcb9fbd3f36cc",
+          "bytes": 76744973
+        },
+        {
+          "path": "clearance_new/publisher_captions.vtt",
+          "sha256": "5faeaefcbf5f7e558e25d12970fa254504c1f16e67b69ee292619c6b2aae62d5",
+          "bytes": 2279
+        },
+        {
+          "path": "clearance_new/timeline.json",
+          "sha256": "e51f621aac7013d515d39cbaca96759823d4f09d03b75dfd44af76978aa3a1bf",
+          "bytes": 4779
+        },
+        {
+          "path": "clearance_new/ffprobe.json",
+          "sha256": "90694f63c3b454d7ac1d4d2b0512a0baff7be1d2e3801b376909d4531993a306",
+          "bytes": 3210
+        },
+        {
+          "path": "clearance_new/source.html",
+          "sha256": "719c9c9294388b94b6c4b2fc16b628297560eec25787422ac493ae9e13bf44f2",
+          "bytes": 73305
+        }
+      ],
+      "claims": [
+        {
+          "case_id": "new_01",
+          "start_seconds": 19.224,
+          "end_seconds": 27.43,
+          "evaluation_partition": "new_clip_validation",
+          "reference_status": "machine_consensus",
+          "machine_claim_fidelity": {
+            "case_id": "new_01",
+            "fidelity": "faithful",
+            "reason": "Caption states the DCSA report covered 2012–2018 with 2.3 million security clearance adjudications, and the on-screen slide confirms 'Report from 2012-18: 2.3 Million Security Clearance Adjudications'"
+          },
+          "included_in_all_case_denominator": true,
+          "eligible_for_reference_scoring": true,
+          "human_reviewed": false
+        },
+        {
+          "case_id": "new_02",
+          "start_seconds": 31.239,
+          "end_seconds": 43.729,
+          "evaluation_partition": "new_clip_validation",
+          "reference_status": "machine_consensus",
+          "machine_claim_fidelity": {
+            "case_id": "new_02",
+            "fidelity": "faithful",
+            "reason": "Caption says of the ~47,000 with psychological health issues, only 12 had a clearance revocation or denial, and the slide explicitly labels the 12 as 'Denials & Revocations for ONLY psych issues'"
+          },
+          "included_in_all_case_denominator": true,
+          "eligible_for_reference_scoring": true,
+          "human_reviewed": false
+        },
+        {
+          "case_id": "new_03",
+          "start_seconds": 35.0,
+          "end_seconds": 43.0,
+          "evaluation_partition": "new_clip_validation",
+          "reference_status": "machine_consensus",
+          "machine_claim_fidelity": {
+            "case_id": "new_03",
+            "fidelity": "faithful",
+            "reason": "The slide displays 'Total Adjudicative Actions 2,361,717', 'Denials & Revocations for ONLY psych issues: 12', and '0.00507%', matching the claim's figures exactly (even though the slide's percentage arithmetic itself appears off by ~10x, the claim faithfully reports what the video presents)"
+          },
+          "included_in_all_case_denominator": true,
+          "eligible_for_reference_scoring": true,
+          "human_reviewed": false
+        }
+      ],
+      "caption_issues": [],
+      "native_social_publication_verified": false,
+      "strict_human_reviewed_benchmark_admitted": false
+    },
+    {
+      "clip_id": "health_insomnia",
+      "title": "Insomnia Factors",
+      "source_url": "https://www.dvidshub.net/video/829175/insomnia-factors",
+      "creator_credit": "Taylor Stinson",
+      "rights": {
+        "download_allowed": true,
+        "redistribution_allowed": true,
+        "evidence_url": "https://www.dvidshub.net/video/829175/insomnia-factors",
+        "terms_url": "https://www.dvidshub.net/about/copyright",
+        "basis": "Publisher marks this asset PUBLIC DOMAIN; collector rechecks third-party restrictions. Attribute creator, do not imply endorsement."
+      },
+      "direct_media_url": "https://d34w7g4gy10iej.cloudfront.net/video/2201/DOD_108778795/DOD_108778795.mp4",
+      "captions_url": "https://www.dvidshub.net/video/closedcaption/id/829175",
+      "media": {
+        "duration_seconds": 23.104,
+        "display_width": 1080.0,
+        "display_height": 1920,
+        "rotation": 0.0,
+        "has_audio": true,
+        "codec": "h264",
+        "format": "mov,mp4,m4a,3gp,3g2,mj2",
+        "decode_ok": true,
+        "sha256": "8bb6fbf84ab201912737894a4f64e52cea5900c796ed5b53efce7475b1731114",
+        "bytes": 8352594,
+        "technical_short_form_pass": true
+      },
+      "files": [
+        {
+          "path": "health_insomnia/original.mp4",
+          "sha256": "8bb6fbf84ab201912737894a4f64e52cea5900c796ed5b53efce7475b1731114",
+          "bytes": 8352594
+        },
+        {
+          "path": "health_insomnia/publisher_captions.vtt",
+          "sha256": "d2386a4abaed30c7feb597ac489298df03a4815bb85a1b69b1c8e2b662c57f64",
+          "bytes": 672
+        },
+        {
+          "path": "health_insomnia/timeline.json",
+          "sha256": "69584effaf2af066e44d2b0115158ae817ee39508169fdeb911940e6d5a9ef61",
+          "bytes": 1518
+        },
+        {
+          "path": "health_insomnia/ffprobe.json",
+          "sha256": "16404eb15cb47064a786e02ea6e5184ef874238047af0175163c04d62d0f088f",
+          "bytes": 3335
+        },
+        {
+          "path": "health_insomnia/source.html",
+          "sha256": "3c3a8a66052723e6e2c50e5af3931034e29a7835271b43ca5c8e755e08b4d94d",
+          "bytes": 72040
+        }
+      ],
+      "claims": [
+        {
+          "case_id": "sf_05",
+          "start_seconds": 14.79,
+          "end_seconds": 22.72,
+          "evaluation_partition": "previously_tested_development",
+          "reference_status": "machine_unresolved",
+          "machine_claim_fidelity": null,
+          "included_in_all_case_denominator": true,
+          "eligible_for_reference_scoring": false,
+          "human_reviewed": false
+        },
+        {
+          "case_id": "sf_06",
+          "start_seconds": 6.6,
+          "end_seconds": 10.917,
+          "evaluation_partition": "previously_tested_development",
+          "reference_status": "machine_consensus",
+          "machine_claim_fidelity": null,
+          "included_in_all_case_denominator": true,
+          "eligible_for_reference_scoring": true,
+          "human_reviewed": false
+        }
+      ],
+      "caption_issues": [],
+      "native_social_publication_verified": false,
+      "strict_human_reviewed_benchmark_admitted": false
+    },
+    {
+      "clip_id": "nutrition_eating",
+      "title": "Performance Nutrition: The Best Ways to Eat",
+      "source_url": "https://www.dvidshub.net/video/849676/performance-nutrition-best-ways-eat-vertical-social-no-music",
+      "creator_credit": "Sara Barger",
+      "rights": {
+        "download_allowed": true,
+        "redistribution_allowed": true,
+        "evidence_url": "https://www.dvidshub.net/video/849676/performance-nutrition-best-ways-eat-vertical-social-no-music",
+        "terms_url": "https://www.dvidshub.net/about/copyright",
+        "basis": "Publisher marks this asset PUBLIC DOMAIN; collector rechecks third-party restrictions. Attribute creator, do not imply endorsement."
+      },
+      "direct_media_url": "https://d34w7g4gy10iej.cloudfront.net/video/2207/DOD_109097131/DOD_109097131.mp4",
+      "captions_url": "https://www.dvidshub.net/video/closedcaption/id/849676",
+      "media": {
+        "duration_seconds": 45.589333,
+        "display_width": 1080.0,
+        "display_height": 1920,
+        "rotation": 0.0,
+        "has_audio": true,
+        "codec": "h264",
+        "format": "mov,mp4,m4a,3gp,3g2,mj2",
+        "decode_ok": true,
+        "sha256": "e742adc4b13b67c8e31123b1bfffc6bd4cc452fc614a505104f07f1cb3b6d6b3",
+        "bytes": 22999276,
+        "technical_short_form_pass": true
+      },
+      "files": [
+        {
+          "path": "nutrition_eating/original.mp4",
+          "sha256": "e742adc4b13b67c8e31123b1bfffc6bd4cc452fc614a505104f07f1cb3b6d6b3",
+          "bytes": 22999276
+        },
+        {
+          "path": "nutrition_eating/publisher_captions.vtt",
+          "sha256": "119aef103e486fa356b5a0973b45d7c0b259893999bcb36fb58bf2205b1c9ca8",
+          "bytes": 1186
+        },
+        {
+          "path": "nutrition_eating/timeline.json",
+          "sha256": "1cfebabc9b7572d122539eba213a378999c34450043bf655c320c02a29faf31a",
+          "bytes": 2551
+        },
+        {
+          "path": "nutrition_eating/ffprobe.json",
+          "sha256": "5b28af94215428f559fe21898a9fa260c352a16d7916a29d891d88f6666a738e",
+          "bytes": 3339
+        },
+        {
+          "path": "nutrition_eating/source.html",
+          "sha256": "e8d99c182a6a5330006a2c14f90027ae320bde54132e613155b2331c45c820b3",
+          "bytes": 72625
+        }
+      ],
+      "claims": [
+        {
+          "case_id": "sf_04",
+          "start_seconds": 26.03,
+          "end_seconds": 40.06,
+          "evaluation_partition": "previously_tested_development",
+          "reference_status": "machine_consensus",
+          "machine_claim_fidelity": null,
+          "included_in_all_case_denominator": true,
+          "eligible_for_reference_scoring": true,
+          "human_reviewed": false
+        }
+      ],
+      "caption_issues": [],
+      "native_social_publication_verified": false,
+      "strict_human_reviewed_benchmark_admitted": false
+    },
+    {
+      "clip_id": "nutrition_supplements",
+      "title": "The Dangers of Dietary Supplements",
+      "source_url": "https://www.dvidshub.net/video/849687/dangers-dietary-supplements-vertical-social",
+      "creator_credit": "Sara Barger",
+      "rights": {
+        "download_allowed": true,
+        "redistribution_allowed": true,
+        "evidence_url": "https://www.dvidshub.net/video/849687/dangers-dietary-supplements-vertical-social",
+        "terms_url": "https://www.dvidshub.net/about/copyright",
+        "basis": "Publisher marks this asset PUBLIC DOMAIN; collector rechecks third-party restrictions. Attribute creator, do not imply endorsement."
+      },
+      "direct_media_url": "https://d34w7g4gy10iej.cloudfront.net/video/2207/DOD_109097222/DOD_109097222.mp4",
+      "captions_url": "https://www.dvidshub.net/video/closedcaption/id/849687",
+      "media": {
+        "duration_seconds": 32.768,
+        "display_width": 1080.0,
+        "display_height": 1920,
+        "rotation": 0.0,
+        "has_audio": true,
+        "codec": "h264",
+        "format": "mov,mp4,m4a,3gp,3g2,mj2",
+        "decode_ok": true,
+        "sha256": "eccac188dfb7cbea9c0a0d9d0c3686ac026d175bff1680ebfdd82acbef369fe6",
+        "bytes": 23081386,
+        "technical_short_form_pass": true
+      },
+      "files": [
+        {
+          "path": "nutrition_supplements/original.mp4",
+          "sha256": "eccac188dfb7cbea9c0a0d9d0c3686ac026d175bff1680ebfdd82acbef369fe6",
+          "bytes": 23081386
+        },
+        {
+          "path": "nutrition_supplements/publisher_captions.vtt",
+          "sha256": "a14a057d99c583dff673295ae80a308449ff3001ae91d9c5df7472f201f24aca",
+          "bytes": 664
+        },
+        {
+          "path": "nutrition_supplements/timeline.json",
+          "sha256": "809521ace2ff5cefd3fe966c5fe238ae7384a2a28c594000915a7d34b1a84cd1",
+          "bytes": 1509
+        },
+        {
+          "path": "nutrition_supplements/ffprobe.json",
+          "sha256": "487c19997a7ae2f3876b374d35787242803629824ed784e82d9bb2f94a1b35a7",
+          "bytes": 3342
+        },
+        {
+          "path": "nutrition_supplements/source.html",
+          "sha256": "bc1b89f85cbcb4fe0a89166c3d3628fb72c30098e4173a97f8c364b011f9bc2c",
+          "bytes": 72815
+        }
+      ],
+      "claims": [
+        {
+          "case_id": "sf_01",
+          "start_seconds": 0.14,
+          "end_seconds": 11.12,
+          "evaluation_partition": "previously_tested_development",
+          "reference_status": "machine_consensus",
+          "machine_claim_fidelity": null,
+          "included_in_all_case_denominator": true,
+          "eligible_for_reference_scoring": true,
+          "human_reviewed": false
+        },
+        {
+          "case_id": "sf_02",
+          "start_seconds": 8.68,
+          "end_seconds": 22.75,
+          "evaluation_partition": "previously_tested_development",
+          "reference_status": "machine_consensus",
+          "machine_claim_fidelity": null,
+          "included_in_all_case_denominator": true,
+          "eligible_for_reference_scoring": true,
+          "human_reviewed": false
+        },
+        {
+          "case_id": "sf_03",
+          "start_seconds": 22.75,
+          "end_seconds": 27.84,
+          "evaluation_partition": "previously_tested_development",
+          "reference_status": "machine_consensus",
+          "machine_claim_fidelity": null,
+          "included_in_all_case_denominator": true,
+          "eligible_for_reference_scoring": true,
+          "human_reviewed": false
+        }
+      ],
+      "caption_issues": [],
+      "native_social_publication_verified": false,
+      "strict_human_reviewed_benchmark_admitted": false
+    },
+    {
+      "clip_id": "reinstatement_new",
+      "title": "COVID-19 Reinstatement Video Vertical",
+      "source_url": "https://www.dvidshub.net/video/1019363/covid-19-reinstatement-video-vertical",
+      "creator_credit": "Sgt. Enos Jimenez",
+      "rights": {
+        "download_allowed": true,
+        "redistribution_allowed": true,
+        "evidence_url": "https://www.dvidshub.net/video/1019363/covid-19-reinstatement-video-vertical",
+        "terms_url": "https://www.dvidshub.net/about/copyright",
+        "basis": "Publisher marks this asset PUBLIC DOMAIN; collector rechecks third-party restrictions. Attribute creator, do not imply endorsement."
+      },
+      "direct_media_url": "https://d34w7g4gy10iej.cloudfront.net/video/2608/DOD_111911610/DOD_111911610.mp4",
+      "captions_url": "https://www.dvidshub.net/video/closedcaption/id/1019363",
+      "media": {
+        "duration_seconds": 126.592,
+        "display_width": 1080.0,
+        "display_height": 1920,
+        "rotation": 0.0,
+        "has_audio": true,
+        "codec": "h264",
+        "format": "mov,mp4,m4a,3gp,3g2,mj2",
+        "decode_ok": true,
+        "sha256": "c5dcecc71f608b9146a86c964c92300175266f20c442125e257e7c3efada544f",
+        "bytes": 107003041,
+        "technical_short_form_pass": true
+      },
+      "files": [
+        {
+          "path": "reinstatement_new/original.mp4",
+          "sha256": "c5dcecc71f608b9146a86c964c92300175266f20c442125e257e7c3efada544f",
+          "bytes": 107003041
+        },
+        {
+          "path": "reinstatement_new/publisher_captions.vtt",
+          "sha256": "ae546c5919f68b340c260ad13363b092fca3c82bd3013bed957819e3803f0939",
+          "bytes": 3623
+        },
+        {
+          "path": "reinstatement_new/timeline.json",
+          "sha256": "81d3b8bce58a943b070a3aa2adce53de15266682dd25b805860c1fd994d14a60",
+          "bytes": 8709
+        },
+        {
+          "path": "reinstatement_new/ffprobe.json",
+          "sha256": "8fba68686f710f7f2a8b0d892c4b9221316ad810f9e8cf5a98b9db904206bc6e",
+          "bytes": 3218
+        },
+        {
+          "path": "reinstatement_new/source.html",
+          "sha256": "49df782845f973ff06f5b9436b62e90d0175fbda23a8814c8e7a68c700c8cc22",
+          "bytes": 73337
+        }
+      ],
+      "claims": [
+        {
+          "case_id": "new_04",
+          "start_seconds": 16.889,
+          "end_seconds": 29.656,
+          "evaluation_partition": "new_clip_validation",
+          "reference_status": "machine_consensus",
+          "machine_claim_fidelity": {
+            "case_id": "new_04",
+            "fidelity": "faithful",
+            "reason": "Captions state that following the president's executive order the Marine Corps established the COVID-19 reinstatement cell and created a clear streamlined path for eligible Marines to return to service; the timeline graphic at ~23s also references the COVID-19 reinstatement effort."
+          },
+          "included_in_all_case_denominator": true,
+          "eligible_for_reference_scoring": true,
+          "human_reviewed": false
+        },
+        {
+          "case_id": "new_05",
+          "start_seconds": 45.139,
+          "end_seconds": 56.139,
+          "evaluation_partition": "new_clip_validation",
+          "reference_status": "machine_consensus",
+          "machine_claim_fidelity": {
+            "case_id": "new_05",
+            "fidelity": "faithful",
+            "reason": "Captions and on-screen text at ~46-50s state 'Our team personally contacted 100% of the 3,748 eligible veteran Marines,' matching the claim's numbers and scope; the framing 'about returning' aligns with 'ensuring every Marine understood the process and had a clear opportunity to return.'"
+          },
+          "included_in_all_case_denominator": true,
+          "eligible_for_reference_scoring": true,
+          "human_reviewed": false
+        },
+        {
+          "case_id": "new_06",
+          "start_seconds": 58.529,
+          "end_seconds": 64.835,
+          "evaluation_partition": "new_clip_validation",
+          "reference_status": "machine_consensus",
+          "machine_claim_fidelity": {
+            "case_id": "new_06",
+            "fidelity": "faithful",
+            "reason": "Captions say 'since the executive order was signed, we've welcomed 53 Marines back into the Marine Corps,' and on-screen text at ~61s confirms the 53 figure; 'by the time of this announcement' is a fair rendering of the present-perfect statement."
+          },
+          "included_in_all_case_denominator": true,
+          "eligible_for_reference_scoring": true,
+          "human_reviewed": false
+        }
+      ],
+      "caption_issues": [
+        {
+          "cue_index": 17,
+          "issue": "invalid_timing_or_empty_text",
+          "cue": {
+            "start_seconds": 39.989,
+            "end_seconds": 39.889,
+            "text": "through deliberate planning , personal"
+          }
+        },
+        {
+          "cue_index": 37,
+          "issue": "invalid_timing_or_empty_text",
+          "cue": {
+            "start_seconds": 83.424,
+            "end_seconds": 83.22,
+            "text": "but so is our commitment to ensuring"
+          }
+        },
+        {
+          "cue_index": 48,
+          "issue": "invalid_timing_or_empty_text",
+          "cue": {
+            "start_seconds": 103.387,
+            "end_seconds": 103.0,
+            "text": "making that process as straightforward"
+          }
+        },
+        {
+          "cue_index": 56,
+          "issue": "invalid_timing_or_empty_text",
+          "cue": {
+            "start_seconds": 118.10900000000001,
+            "end_seconds": 117.959,
+            "text": "you're ready to serve again , we're"
+          }
+        }
+      ],
+      "native_social_publication_verified": false,
+      "strict_human_reviewed_benchmark_admitted": false
+    },
+    {
+      "clip_id": "science_new",
+      "title": "7th Annual Naval Science Experiment",
+      "source_url": "https://www.dvidshub.net/video/1004481/7th-annual-naval-science-experiment-niwc-atlantic-sosnie-2026",
+      "creator_credit": "Chelsie Holloway",
+      "rights": {
+        "download_allowed": true,
+        "redistribution_allowed": true,
+        "evidence_url": "https://www.dvidshub.net/video/1004481/7th-annual-naval-science-experiment-niwc-atlantic-sosnie-2026",
+        "terms_url": "https://www.dvidshub.net/about/copyright",
+        "basis": "Publisher marks this asset PUBLIC DOMAIN; collector rechecks third-party restrictions. Attribute creator, do not imply endorsement."
+      },
+      "direct_media_url": "https://d34w7g4gy10iej.cloudfront.net/video/2604/DOD_111665017/DOD_111665017.mp4",
+      "captions_url": "https://www.dvidshub.net/video/closedcaption/id/1004481",
+      "media": {
+        "duration_seconds": 53.738667,
+        "display_width": 1080.0,
+        "display_height": 1920,
+        "rotation": 0.0,
+        "has_audio": true,
+        "codec": "h264",
+        "format": "mov,mp4,m4a,3gp,3g2,mj2",
+        "decode_ok": true,
+        "sha256": "1d49be4b9ed2c1632a1a31784b7ac717285a93a16c775e8ad0c693d975885132",
+        "bytes": 27063693,
+        "technical_short_form_pass": true
+      },
+      "files": [
+        {
+          "path": "science_new/original.mp4",
+          "sha256": "1d49be4b9ed2c1632a1a31784b7ac717285a93a16c775e8ad0c693d975885132",
+          "bytes": 27063693
+        },
+        {
+          "path": "science_new/publisher_captions.vtt",
+          "sha256": "ca45334f2a612c5c9586e47a78ae9d5446f5befd9f9b6d157ff30d75bfb70723",
+          "bytes": 191
+        },
+        {
+          "path": "science_new/timeline.json",
+          "sha256": "370d6c61d6d1ab0584e41c6440dd2423178d3d1ff691fb405041e99e4e78faea",
+          "bytes": 612
+        },
+        {
+          "path": "science_new/ffprobe.json",
+          "sha256": "a19dc6aae55fc9c2c2bcc03c2e18b12d331cbe6d9a53108cf111215930dc04ca",
+          "bytes": 3320
+        },
+        {
+          "path": "science_new/source.html",
+          "sha256": "5b9651cf2c92868e2578e7caeacecff6fbf6d3d281de3f1eddf71ed3846df54e",
+          "bytes": 73164
+        }
+      ],
+      "claims": [
+        {
+          "case_id": "new_07",
+          "start_seconds": 44.0,
+          "end_seconds": 52.0,
+          "evaluation_partition": "new_clip_validation",
+          "reference_status": "machine_unresolved",
+          "machine_claim_fidelity": {
+            "case_id": "new_07",
+            "fidelity": "faithful",
+            "reason": "On-screen text card reads '2026 is the 7th iteration of SoSNIE,' and a separate card calls it 'An annual effort hosted by NIWC Atlantic'; the claim faithfully combines these. The text card appears near the end of the stated window (visible by ~53s)."
+          },
+          "included_in_all_case_denominator": true,
+          "eligible_for_reference_scoring": false,
+          "human_reviewed": false
+        },
+        {
+          "case_id": "new_08",
+          "start_seconds": 24.0,
+          "end_seconds": 32.0,
+          "evaluation_partition": "new_clip_validation",
+          "reference_status": "machine_consensus",
+          "machine_claim_fidelity": {
+            "case_id": "new_08",
+            "fidelity": "faithful",
+            "reason": "On-screen text (visible ~29-39s) states 'The shoulder-to-shoulder teaming between warfighters and engineers, provided the opportunity for direct user feedback,' matching the claim."
+          },
+          "included_in_all_case_denominator": true,
+          "eligible_for_reference_scoring": true,
+          "human_reviewed": false
+        },
+        {
+          "case_id": "new_09",
+          "start_seconds": 44.0,
+          "end_seconds": 52.0,
+          "evaluation_partition": "new_clip_validation",
+          "reference_status": "machine_consensus",
+          "machine_claim_fidelity": {
+            "case_id": "new_09",
+            "fidelity": "faithful",
+            "reason": "On-screen text card reads 'This year showed a significant shift in depth and breadth of the experiment's scope and participation,' matching the claim; the card appears near the stated window (visible by ~53s)."
+          },
+          "included_in_all_case_denominator": true,
+          "eligible_for_reference_scoring": true,
+          "human_reviewed": false
+        }
+      ],
+      "caption_issues": [],
+      "native_social_publication_verified": false,
+      "strict_human_reviewed_benchmark_admitted": false
+    }
+  ],
+  "acquisition_exclusions": [
+    {
+      "clip_id": "health_aging",
+      "status": "pending_rights_no_download_attempted",
+      "media": {}
+    },
+    {
+      "clip_id": "policy_tariff_india",
+      "status": "pending_rights_no_download_attempted",
+      "media": {}
+    },
+    {
+      "clip_id": "policy_ivf",
+      "status": "pending_rights_no_download_attempted",
+      "media": {}
+    },
+    {
+      "clip_id": "policy_tax",
+      "status": "pending_rights_no_download_attempted",
+      "media": {}
+    },
+    {
+      "clip_id": "energy_heatpump",
+      "status": "pending_rights_no_download_attempted",
+      "media": {}
+    },
+    {
+      "clip_id": "energy_solar",
+      "status": "pending_rights_no_download_attempted",
+      "media": {}
+    },
+    {
+      "clip_id": "tech_battery",
+      "status": "pending_rights_no_download_attempted",
+      "media": {}
+    },
+    {
+      "clip_id": "tech_solar_charger",
+      "status": "pending_rights_no_download_attempted",
+      "media": {}
+    },
+    {
+      "clip_id": "sleep_duration_new",
+      "status": "excluded_media_shape_or_duration",
+      "media": {
+        "duration_seconds": 12.032,
+        "display_width": 1080.0,
+        "display_height": 1920,
+        "rotation": 0.0,
+        "has_audio": true,
+        "codec": "h264",
+        "format": "mov,mp4,m4a,3gp,3g2,mj2",
+        "decode_ok": true,
+        "sha256": "c7fa1cb3ac3b71a876679a3b0be59bb589f226f401b1d72bc20c40bea3a21dae",
+        "bytes": 637563,
+        "technical_short_form_pass": false
+      }
+    }
+  ],
+  "artifact_sha256": {
+    "inputs.jsonl": "19690f2f0f8fa0e22d2abbcbb4f66d0ae8d52fb468d718a15f7754ef59313443",
+    "references.frozen.json": "74f8ec79ea0eaf732837ce3cd4439a57259d3dbb592c9f871edee235fddb6fdf",
+    "claim_fidelity.jsonl": "3c2cbd4b7c348a79b9b4cfe4200885d85a931ba41fdb1fd2e490e145ebe3f0cc",
+    "config.json": "12c672f93f0a8e346c9018c136d0c2b49c39238a6eced29b41492f2a364dd744",
+    "PROTOCOL.md": "7eefe27d342b9e08a4c97cbed2a0103262daf215d8508bf7dc952cda1f6dfec0",
+    "audited_inputs.jsonl": "60f2a4a91897efe10e335d7c3d9c2ada3bb4e56036924e4ae44123f41593f7ea",
+    "claim_fidelity_manifest.json": "d18124b7e7c97d1abbe24730f8e5d8766fe79a933185261dcdb7acf6506d96b4"
+  },
+  "disclosure": "Fixed-evidence inference; captions and sample-frame fidelity checks, not full audiovisual fact checking. Native social publication unverified. No provider upload or public publication performed."
+}

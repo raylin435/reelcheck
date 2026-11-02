@@ -1,0 +1,12 @@
+{
+  "cases": 15,
+  "resolved": 13,
+  "unresolved": 2,
+  "coverage": 0.8666666666666667,
+  "paid_calls": 35,
+  "estimated_cost_usd": 0.191685514,
+  "reserved_cost_upper_estimate": 1.4352209999999996,
+  "cost_includes_superseded_reference_votes": true,
+  "stop_reason": "completed",
+  "references_human_reviewed": false
+}

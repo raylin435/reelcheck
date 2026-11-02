@@ -1,0 +1,103 @@
+{
+  "audit/input_revision.json": {
+    "original_path": "data/machine_inputs_revision_02.json",
+    "sha256": "fe30ecf409b2f032ffcc69c10a89c8e5102db109721a83e487aafaf223787d0a"
+  },
+  "audit/source_snapshot_index.json": {
+    "original_path": "data/machine_source_snapshot_index.json",
+    "sha256": "57a95931235d49439bd056fe83a5c0dc181e8955942737313b33fbc9022a34c4"
+  },
+  "audit/failed_direct_source_fetches.json": {
+    "original_path": "data/machine_source_snapshots.json",
+    "sha256": "522bbd27df5ea7dfb8901cc38802cec2d292bff8a7153330ec332d5f5928eac8"
+  },
+  "sources/dcsa_access_public.pdf": {
+    "original_path": "data/source_snapshots/machine-01/dcsa_access_public.pdf",
+    "sha256": "972a9787edf0b4446a2ef77a015a6eca6af15a0ac85590369955bbd19efe2b73"
+  },
+  "sources/niwc_2025_public.html": {
+    "original_path": "data/source_snapshots/machine-01/niwc_2025_public.html",
+    "sha256": "6a5f8d64eb7c285eeed8293b4dd068752b1d5a3bd6f1ff3caed84be1496bb6d1"
+  },
+  "sources/initial_primary_search_retrieval.txt": {
+    "original_path": "data/source_snapshots/machine-01/search_retrieved_primary_pages.txt",
+    "sha256": "94c59f66c4a6d31b7b2898069401a4b3f36c5b9975d5d10086b3b5349f6d82b1",
+    "original_file_sha256": "21adc30121f1db74aae9ddff4f26528b4265729ab91e2a3274a173807feb1757",
+    "transformation": "Retained only relevant government primary-page search results; excluded unrelated search hits. Original complete retrieval remains in local research archive."
+  },
+  "sources/niwc_2026_search_retrieval.txt": {
+    "original_path": "data/source_snapshots/machine-01/niwc_2026_search_retrieval.txt",
+    "sha256": "59ecfc4ebc045547331f60de9407bf7af7be0751f95b962ebaf96e9b6ccfe384",
+    "original_file_sha256": "169d92f7b521ca91fd18b8b4a62eb7fa85ac2f796b30981420e531e59ceef266",
+    "transformation": "Retained only relevant government primary-page search results; excluded unrelated search hits. Original complete retrieval remains in local research archive."
+  },
+  "audit/references_original_votes.jsonl": {
+    "original_path": "results/machine-references-01/votes.jsonl",
+    "sha256": "0b38d3aca58c172425da98e8f69bafccaa577e3121ca2f52a386462cdcfd4c6d"
+  },
+  "audit/references_original_manifest.json": {
+    "original_path": "results/machine-references-01/manifest.json",
+    "sha256": "e4a09c6ca389d108b31194ea5286569c730474e6fb779bac76f4e1f0cd25b840"
+  },
+  "audit/reference_revision_votes.jsonl": {
+    "original_path": "results/machine-reference-revision-02/votes.jsonl",
+    "sha256": "e1a42ce9a15ecf2ceee0952cc2218c253af044716dbfecdff4e21f595eeb342c"
+  },
+  "audit/reference_revision_manifest.json": {
+    "original_path": "results/machine-reference-revision-02/manifest.json",
+    "sha256": "0f63851bf245889ea717f6734c2c150d11a1c6139cf54fe947234e2554e787b7"
+  },
+  "audit/final_reference_votes.jsonl": {
+    "original_path": "results/machine-references-02/votes.jsonl",
+    "sha256": "d83d26ab45b37ed3af8d22f461b77ebd4ee4415181f4a92a2176aa1604c148d7"
+  },
+  "audit/final_reference_manifest.json": {
+    "original_path": "results/machine-references-02/manifest.json",
+    "sha256": "2a920f82928ec9a5990336d749749fdb1c89c4d4c6c4a2f9a0bc547fe0e1136d"
+  },
+  "audit/final_reference_summary.json": {
+    "original_path": "results/machine-references-02/summary.json",
+    "sha256": "cc24bfa0cba3e89511dbc91e5327f7f83ff70172a9605a7f27be701258ff348c"
+  },
+  "audit/candidate_runs.jsonl": {
+    "original_path": "results/machine-semantic-01/runs.jsonl",
+    "sha256": "81751e47cf4dd3eba348ebe53c5d1ee5b6080321f83f5769a23fb16e0f91364b"
+  },
+  "audit/physical_generation_calls.jsonl": {
+    "original_path": "results/machine-semantic-01/stages.jsonl",
+    "sha256": "979e1e6ab661c2268fbf845b48432b50348a095836c3d33d9e6143c5e312bac0"
+  },
+  "audit/candidate_manifest.json": {
+    "original_path": "results/machine-semantic-01/manifest.json",
+    "sha256": "48ae818ed792c99a6eed881a865b021faef1b66c42be24466250685db0edf5ef"
+  },
+  "audit/candidate_summary.json": {
+    "original_path": "results/machine-semantic-01/summary.json",
+    "sha256": "004f3a230268069d50cbf6162b7089f8867d05113c19d62903534f57a6f0007a"
+  },
+  "sources/marine_date_verification.json": {
+    "sha256": "9f58d990b23f2fb218a836fb3d3e8bcb39a1592eead676d3fa69496479ec40ee",
+    "original_path": null,
+    "kind": "additional_primary_source_date_verification_no_input_change"
+  },
+  "audit/judgments.jsonl": {
+    "original_path": "results/machine-semantic-judge-01/judgments.jsonl",
+    "sha256": "f37780323b8d07b0ba408432fc6a5480257e77ce7a1e2bfad183f320a5d1ea1a"
+  },
+  "audit/judge_manifest.json": {
+    "original_path": "results/machine-semantic-judge-01/manifest.json",
+    "sha256": "adb5c2dae0cb2dc95052a03473b0fb9f1ad1941c97c0b3c5bce3c7025883412d"
+  },
+  "audit/judge_summary.json": {
+    "original_path": "results/machine-semantic-judge-01/summary.json",
+    "sha256": "b6f91efe44476949e0499bd75b67122b3f9f3a2cdd45d3bb2e0684fb75b35604"
+  },
+  "REPORT.md": {
+    "original_path": "results/machine-semantic-report-01/REPORT.md",
+    "sha256": "de26cbae04687436464202ce2e68dceac4f5e8a718ee37b61afe51f58761b19d"
+  },
+  "results.json": {
+    "original_path": "results/machine-semantic-report-01/summary.json",
+    "sha256": "b44c660bdc37073807a56b78e8381feed9affc7d3ce2ce5f000b8e5ef8bfee9c"
+  }
+}

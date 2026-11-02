@@ -1,0 +1,13 @@
+[
+  {
+    "run": "results/recovery-dev-01",
+    "final_attempts": 9,
+    "unique_candidate_calls": 52,
+    "unique_web_actions": {
+      "search": 13,
+      "read": 24
+    },
+    "checks": "frozen source hashes, terminal state, exact shared history/draft, equal remaining allowances, call journals, quote validity, two assessment attempts, claim-only input",
+    "passed": true
+  }
+]

@@ -1,0 +1,55 @@
+{
+  "source_snapshots": [
+    {
+      "file": "data/source_snapshots/machine-01/dcsa_access_public.pdf",
+      "sha256": "972a9787edf0b4446a2ef77a015a6eca6af15a0ac85590369955bbd19efe2b73",
+      "bytes": 4240220,
+      "snapshot_kind": "original_pdf",
+      "direct_url": "https://media-cdn.dvidshub.net/pubs/pdf_55292.pdf",
+      "evidence_ids": [
+        "D1",
+        "D2"
+      ],
+      "retrieved_date": "2026-11-02"
+    },
+    {
+      "file": "data/source_snapshots/machine-01/niwc_2025_public.html",
+      "sha256": "6a5f8d64eb7c285eeed8293b4dd068752b1d5a3bd6f1ff3caed84be1496bb6d1",
+      "bytes": 78504,
+      "snapshot_kind": "original_publisher_html",
+      "direct_url": "https://www.dvidshub.net/news/493793/niwc-atlantic-conducts-wartime-readiness-experiment",
+      "evidence_ids": [
+        "N3"
+      ],
+      "retrieved_date": "2026-11-02"
+    },
+    {
+      "file": "data/source_snapshots/machine-01/search_retrieved_primary_pages.txt",
+      "sha256": "21adc30121f1db74aae9ddff4f26528b4265729ab91e2a3274a173807feb1757",
+      "bytes": 17312,
+      "snapshot_kind": "saved_web_tool_primary_page_retrieval_not_original_html",
+      "direct_url": null,
+      "evidence_ids": [
+        "M1",
+        "M2"
+      ],
+      "retrieved_date": "2026-11-02"
+    },
+    {
+      "file": "data/source_snapshots/machine-01/niwc_2026_search_retrieval.txt",
+      "sha256": "169d92f7b521ca91fd18b8b4a62eb7fa85ac2f796b30981420e531e59ceef266",
+      "bytes": 36227,
+      "snapshot_kind": "saved_web_tool_primary_page_retrieval_not_original_html",
+      "direct_url": "https://www.niwcatlantic.navy.mil/Media/Article/4456008/sharpening-the-spear-navy-experiment-advances-sensor-to-shooter-connectivity/",
+      "evidence_ids": [
+        "N1",
+        "N2"
+      ],
+      "retrieved_date": "2026-11-02"
+    }
+  ],
+  "failed_direct_fetch_log": "data/machine_source_snapshots.json",
+  "evidence_is_editorial_summary": true,
+  "note": "Marine program and Navy 2026 source text was retrieved through web search; direct HTTP downloads returned 403. Original successful DVIDS PDF/HTML snapshots are distinct from the saved search retrieval. Marine FAQ was not used.",
+  "evidence_revision_record": "data/machine_inputs_revision_02.json"
+}

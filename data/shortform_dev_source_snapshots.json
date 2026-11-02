@@ -1,0 +1,69 @@
+[
+  {
+    "url": "https://pubmed.ncbi.nlm.nih.gov/34293133/",
+    "retrieved_at": "2026-11-02T20:58:42.158384+00:00",
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://pubmed.ncbi.nlm.nih.gov/34293133/",
+    "status": "saved",
+    "file": "source_01.snapshot",
+    "sha256": "a50debb6acac17beee02e3daa1d684ae1e76b9758f8fd782b77a6ffc3213a7e8",
+    "bytes": 152212
+  },
+  {
+    "url": "https://pubmed.ncbi.nlm.nih.gov/35123127/",
+    "retrieved_at": "2026-11-02T20:58:42.158823+00:00",
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://pubmed.ncbi.nlm.nih.gov/35123127/",
+    "status": "saved",
+    "file": "source_02.snapshot",
+    "sha256": "c44e61bd616cbe9b16d4085069e9b5fedcb53ea1882545671a48e94f6b9bbdfd",
+    "bytes": 142443
+  },
+  {
+    "url": "https://www.cdc.gov/healthy-weight-growth/water-healthy-drinks/",
+    "retrieved_at": "2026-11-02T20:58:42.158899+00:00",
+    "status": "unavailable",
+    "error_type": "HTTPError",
+    "http_status": 403
+  },
+  {
+    "url": "https://www.fda.gov/drugs/frequently-asked-questions-popular-topics/questions-and-answers-about-fdas-initiative-against-contaminated-weight-loss-products",
+    "retrieved_at": "2026-11-02T20:58:42.158966+00:00",
+    "content_type": "text/html; charset=UTF-8",
+    "final_url": "https://www.fda.gov/drugs/frequently-asked-questions-popular-topics/questions-and-answers-about-fdas-initiative-against-contaminated-weight-loss-products",
+    "status": "saved",
+    "file": "source_04.snapshot",
+    "sha256": "ae6a72ca42bffff8f24d27e8327c730897931aebf3cbaceecc715557e9b99eb3",
+    "bytes": 46864
+  },
+  {
+    "url": "https://www.health.mil/Reference-Center/Publications/2021/05/21/PHCoE_Treating_Insomnia_PatientsGuide_5_20_21_508",
+    "retrieved_at": "2026-11-02T20:58:42.278954+00:00",
+    "content_type": "application/pdf",
+    "final_url": "https://www.health.mil/Reference-Center/Publications/2021/05/21/PHCoE_Treating_Insomnia_PatientsGuide_5_20_21_508",
+    "status": "saved",
+    "file": "source_05.snapshot",
+    "sha256": "65094b851f84fdd64b208b39c1fd62033cf55047a34419d15f10b6c43102babd",
+    "bytes": 4442063
+  },
+  {
+    "url": "https://www.nhlbi.nih.gov/health/insomnia/causes",
+    "retrieved_at": "2026-11-02T20:58:42.480466+00:00",
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://www.nhlbi.nih.gov/health/insomnia/causes",
+    "status": "saved",
+    "file": "source_06.snapshot",
+    "sha256": "5ab15305c28eaa8c68dc20b46b2e07b0e2327b00e3b885ff94f77bc9086e485d",
+    "bytes": 70296
+  },
+  {
+    "url": "https://www.opss.org/article/drug-testing-and-dietary-supplements",
+    "retrieved_at": "2026-11-02T20:58:42.694139+00:00",
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://www.opss.org/article/drug-testing-and-dietary-supplements",
+    "status": "saved",
+    "file": "source_07.snapshot",
+    "sha256": "c39101c256c467b85a657cbf9bf04dbd7239f779cf77fa5c420ccad35195ae07",
+    "bytes": 34879
+  }
+]

@@ -1,0 +1,272 @@
+{
+  "created_at": "2026-11-02T20:44:35.653784+00:00",
+  "manifest_sha256": "af7dc9d6aa36c92b2b1c6d30a129755abce45f89eb4a9ae615a3c9a67ae0320d",
+  "mode": "acquire",
+  "clips": [
+    {
+      "clip_id": "nutrition_supplements",
+      "status": "technical_pass_review_pending",
+      "media": {
+        "duration_seconds": 32.768,
+        "display_width": 1080.0,
+        "display_height": 1920,
+        "rotation": 0.0,
+        "has_audio": true,
+        "codec": "h264",
+        "format": "mov,mp4,m4a,3gp,3g2,mj2",
+        "decode_ok": true,
+        "sha256": "eccac188dfb7cbea9c0a0d9d0c3686ac026d175bff1680ebfdd82acbef369fe6",
+        "bytes": 23081386,
+        "technical_short_form_pass": true
+      },
+      "direct_media_url": "https://d34w7g4gy10iej.cloudfront.net/video/2207/DOD_109097222/DOD_109097222.mp4",
+      "original_sha256": "eccac188dfb7cbea9c0a0d9d0c3686ac026d175bff1680ebfdd82acbef369fe6",
+      "captions_sha256": "a14a057d99c583dff673295ae80a308449ff3001ae91d9c5df7472f201f24aca",
+      "captions_url": "https://www.dvidshub.net/video/closedcaption/id/849687",
+      "captions_status": "publisher_track_unreviewed",
+      "frame_sampling": {
+        "fps": 1,
+        "purpose": "review_preview_only_not_complete_visual_evidence"
+      },
+      "admission_issues": [
+        "native_short_publication_unverified",
+        "full_clip_human_review_pending",
+        "timestamped_claims_missing"
+      ],
+      "benchmark_admitted": false,
+      "caption_issues": [],
+      "creator_credit": "Sara Barger / Defense Health Agency"
+    },
+    {
+      "clip_id": "nutrition_performance",
+      "status": "technical_pass_review_pending",
+      "media": {
+        "duration_seconds": 40.149333,
+        "display_width": 1080.0,
+        "display_height": 1920,
+        "rotation": 0.0,
+        "has_audio": true,
+        "codec": "h264",
+        "format": "mov,mp4,m4a,3gp,3g2,mj2",
+        "decode_ok": true,
+        "sha256": "555a7791e378373e1ba3b8777b7d5448fffb35889d7dee7b54e92f62caf42063",
+        "bytes": 28121343,
+        "technical_short_form_pass": true
+      },
+      "direct_media_url": "https://d34w7g4gy10iej.cloudfront.net/video/2207/DOD_109097226/DOD_109097226.mp4",
+      "original_sha256": "555a7791e378373e1ba3b8777b7d5448fffb35889d7dee7b54e92f62caf42063",
+      "captions_sha256": "a187797dc1be3e6d798ab3051e35a97f67ddde8f757bcc581663e447d48cb3de",
+      "captions_url": "https://www.dvidshub.net/video/closedcaption/id/849690",
+      "captions_status": "publisher_track_has_errors",
+      "frame_sampling": {
+        "fps": 1,
+        "purpose": "review_preview_only_not_complete_visual_evidence"
+      },
+      "admission_issues": [
+        "native_short_publication_unverified",
+        "full_clip_human_review_pending",
+        "timestamped_claims_missing"
+      ],
+      "benchmark_admitted": false,
+      "caption_issues": [
+        {
+          "cue_index": 18,
+          "issue": "invalid_timing_or_empty_text",
+          "cue": {
+            "start_seconds": 37.751,
+            "end_seconds": 37.54,
+            "text": "Yeah ."
+          }
+        }
+      ],
+      "creator_credit": "Sara Barger / Defense Health Agency"
+    },
+    {
+      "clip_id": "nutrition_eating",
+      "status": "technical_pass_review_pending",
+      "media": {
+        "duration_seconds": 45.589333,
+        "display_width": 1080.0,
+        "display_height": 1920,
+        "rotation": 0.0,
+        "has_audio": true,
+        "codec": "h264",
+        "format": "mov,mp4,m4a,3gp,3g2,mj2",
+        "decode_ok": true,
+        "sha256": "e742adc4b13b67c8e31123b1bfffc6bd4cc452fc614a505104f07f1cb3b6d6b3",
+        "bytes": 22999276,
+        "technical_short_form_pass": true
+      },
+      "direct_media_url": "https://d34w7g4gy10iej.cloudfront.net/video/2207/DOD_109097131/DOD_109097131.mp4",
+      "original_sha256": "e742adc4b13b67c8e31123b1bfffc6bd4cc452fc614a505104f07f1cb3b6d6b3",
+      "captions_sha256": "119aef103e486fa356b5a0973b45d7c0b259893999bcb36fb58bf2205b1c9ca8",
+      "captions_url": "https://www.dvidshub.net/video/closedcaption/id/849676",
+      "captions_status": "publisher_track_unreviewed",
+      "frame_sampling": {
+        "fps": 1,
+        "purpose": "review_preview_only_not_complete_visual_evidence"
+      },
+      "admission_issues": [
+        "native_short_publication_unverified",
+        "full_clip_human_review_pending",
+        "timestamped_claims_missing"
+      ],
+      "benchmark_admitted": false,
+      "caption_issues": [],
+      "creator_credit": "Sara Barger / Defense Health Agency"
+    },
+    {
+      "clip_id": "health_insomnia",
+      "status": "technical_pass_review_pending",
+      "media": {
+        "duration_seconds": 23.104,
+        "display_width": 1080.0,
+        "display_height": 1920,
+        "rotation": 0.0,
+        "has_audio": true,
+        "codec": "h264",
+        "format": "mov,mp4,m4a,3gp,3g2,mj2",
+        "decode_ok": true,
+        "sha256": "8bb6fbf84ab201912737894a4f64e52cea5900c796ed5b53efce7475b1731114",
+        "bytes": 8352594,
+        "technical_short_form_pass": true
+      },
+      "direct_media_url": "https://d34w7g4gy10iej.cloudfront.net/video/2201/DOD_108778795/DOD_108778795.mp4",
+      "original_sha256": "8bb6fbf84ab201912737894a4f64e52cea5900c796ed5b53efce7475b1731114",
+      "captions_sha256": "d2386a4abaed30c7feb597ac489298df03a4815bb85a1b69b1c8e2b662c57f64",
+      "captions_url": "https://www.dvidshub.net/video/closedcaption/id/829175",
+      "captions_status": "publisher_track_unreviewed",
+      "frame_sampling": {
+        "fps": 1,
+        "purpose": "review_preview_only_not_complete_visual_evidence"
+      },
+      "admission_issues": [
+        "native_short_publication_unverified",
+        "full_clip_human_review_pending",
+        "timestamped_claims_missing"
+      ],
+      "benchmark_admitted": false,
+      "caption_issues": [],
+      "creator_credit": "Taylor Stinson / Defense Health Agency"
+    },
+    {
+      "clip_id": "health_aging",
+      "status": "pending_rights_no_download_attempted",
+      "media": {},
+      "admission_issues": [
+        "media_not_verified_short_form",
+        "redistribution_rights_unverified",
+        "native_short_publication_unverified",
+        "full_clip_human_review_pending",
+        "review_not_bound_to_media",
+        "timestamped_claims_missing"
+      ],
+      "benchmark_admitted": false
+    },
+    {
+      "clip_id": "policy_tariff_india",
+      "status": "pending_rights_no_download_attempted",
+      "media": {},
+      "admission_issues": [
+        "media_not_verified_short_form",
+        "redistribution_rights_unverified",
+        "native_short_publication_unverified",
+        "full_clip_human_review_pending",
+        "review_not_bound_to_media",
+        "timestamped_claims_missing"
+      ],
+      "benchmark_admitted": false
+    },
+    {
+      "clip_id": "policy_ivf",
+      "status": "pending_rights_no_download_attempted",
+      "media": {},
+      "admission_issues": [
+        "media_not_verified_short_form",
+        "redistribution_rights_unverified",
+        "native_short_publication_unverified",
+        "full_clip_human_review_pending",
+        "review_not_bound_to_media",
+        "timestamped_claims_missing"
+      ],
+      "benchmark_admitted": false
+    },
+    {
+      "clip_id": "policy_tax",
+      "status": "pending_rights_no_download_attempted",
+      "media": {},
+      "admission_issues": [
+        "media_not_verified_short_form",
+        "redistribution_rights_unverified",
+        "native_short_publication_unverified",
+        "full_clip_human_review_pending",
+        "review_not_bound_to_media",
+        "timestamped_claims_missing"
+      ],
+      "benchmark_admitted": false
+    },
+    {
+      "clip_id": "energy_heatpump",
+      "status": "pending_rights_no_download_attempted",
+      "media": {},
+      "admission_issues": [
+        "media_not_verified_short_form",
+        "redistribution_rights_unverified",
+        "native_short_publication_unverified",
+        "full_clip_human_review_pending",
+        "review_not_bound_to_media",
+        "timestamped_claims_missing"
+      ],
+      "benchmark_admitted": false
+    },
+    {
+      "clip_id": "energy_solar",
+      "status": "pending_rights_no_download_attempted",
+      "media": {},
+      "admission_issues": [
+        "media_not_verified_short_form",
+        "redistribution_rights_unverified",
+        "native_short_publication_unverified",
+        "full_clip_human_review_pending",
+        "review_not_bound_to_media",
+        "timestamped_claims_missing"
+      ],
+      "benchmark_admitted": false
+    },
+    {
+      "clip_id": "tech_battery",
+      "status": "pending_rights_no_download_attempted",
+      "media": {},
+      "admission_issues": [
+        "media_not_verified_short_form",
+        "redistribution_rights_unverified",
+        "native_short_publication_unverified",
+        "full_clip_human_review_pending",
+        "review_not_bound_to_media",
+        "timestamped_claims_missing"
+      ],
+      "benchmark_admitted": false
+    },
+    {
+      "clip_id": "tech_solar_charger",
+      "status": "pending_rights_no_download_attempted",
+      "media": {},
+      "admission_issues": [
+        "media_not_verified_short_form",
+        "redistribution_rights_unverified",
+        "native_short_publication_unverified",
+        "full_clip_human_review_pending",
+        "review_not_bound_to_media",
+        "timestamped_claims_missing"
+      ],
+      "benchmark_admitted": false
+    }
+  ],
+  "model_calls": 0,
+  "tools": {
+    "ffmpeg": "6.0",
+    "ffprobe": "4.4-tessus",
+    "ffmpeg_sha256": "a90e3db6a3fd35f6074b013f948b1aa45b31c6375489d39e572bea3f18336584",
+    "ffprobe_sha256": "5b592e56f87ff754d94dadf99f38b4d0fb7d463eb780b50e0ca061d668d0e3f7"
+  }
+}

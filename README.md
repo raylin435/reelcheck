@@ -1,5 +1,73 @@
 # ReelCheck
 
+Check the claim. See the evidence.
+
+**New: dated FDA/CDC evidence checks and a 40-case authored stress set.**
+The [authority experiment](AUTHORITY.md) separates candidate-found evidence from
+hidden reference answers and compares ordinary search with enforced source/date
+checks and targeted recovery. The [protocol](AUTHORITY_PROTOCOL.md) reserves 20
+cases as an untouched holdout. These references are provisional, not human-verified
+medical ground truth. The [four-case canary results](AUTHORITY_RESULTS.md) show
+working metadata checks but no demonstrated factual-accuracy gain.
+
+**The targeted-recovery comparison is complete.** On 20 fresh transcript-derived
+claims, ordinary GLM retry, targeted GLM recovery and the DeepSeek reference each
+had 15/20 answers accepted by both machine judges. Targeted recovery had fewer
+execution failures (1 vs 3) and 7.6% lower estimated model spend than ordinary
+retry, but more unresolved assessments (4 vs 2) and no resolved semantic win
+when both completed. This does not establish improved factual quality.
+See [the results and limitations](RECOVERY_RESULTS.md),
+[the recorded 60-attempt replay](data/releases/recovery-fresh-01/demo.html), and
+[reproduction instructions](RECOVERY.md). This fresh test evaluates transcript
+claims and evidence search; it is not an end-to-end short-video benchmark.
+
+**Model-led evidence search is now implemented.** The tested model receives only
+the claim, writes web queries, chooses pages to read, and returns a verdict with
+checked quotations from those pages. See [the research runner](RESEARCH.md),
+[live trial findings](RESEARCH_RESULTS.md), and [the declared protocol](RESEARCH_PROTOCOL.md).
+The current web transport requires the Codex worker; this is not yet a standalone
+deployed app. The fixed-evidence experiments below remain separate controls.
+
+The earlier fixed-evidence [automated evaluation](MACHINE_EVAL_RESULTS.md) completed without human
+review. On nine claims from three new clips, the baseline was accepted on 8/8
+resolved cases and the added semantic-check pass on 7/8; one case stayed unresolved.
+Including six old development claims, the comparison was 12/13 versus 11/13
+resolved cases, with two unresolved. There were no paired wins and one regression,
+so **this does not support an improvement claim**. All 30 outputs were valid.
+Total estimated API cost was $0.4941. See [the portable dataset and traces](data/releases/machine-pilot-01/README.md),
+[dataset methods](MACHINE_DATASET.md) and [the pre-run protocol](MACHINE_EVAL_PROTOCOL.md).
+
+The earlier [schema-matched follow-up](SHORTFORM_SCHEMA_RESULTS.md) found **no
+measured accuracy advantage** for citation-ID rendering: ordinary JSON schema and
+citation IDs both produced 6/6 valid answers and 3/6 judge-accepted answers on the
+same six development cases. Both overclaimed documented drug-test results from
+evidence of possibility. The earlier formatting gain is achievable with ordinary
+structured output. Follow-up generation and judging cost an estimated $0.1812.
+The [independent review page](INDEPENDENT_REVIEW.md) remains available as an optional audit.
+
+The [fresh-clip development comparison](SHORTFORM_DEV_RESULTS.md) now runs six
+AI-reviewed claims from three new portrait clips against four configurations.
+GPT-OSS output validity improved from 2/6 to 6/6 with the existing citation-ID
+configuration. One semantic overclaim remains, and two reference interpretations
+need human adjudication; no general factual-superiority claim is established.
+References were frozen before the 24 generation calls. Total generation plus
+judging estimate was $0.2982. See [the pre-run protocol](SHORTFORM_DEV_PROTOCOL.md).
+
+The [short-form acquisition pilot](SHORTFORM_PILOT.md) adds a 12-link candidate
+queue, four downloaded and technically validated portrait clips, caption/timestamp
+checks, a human-review admission gate, a local media packager, and reference-bound
+judging. No new clips have been admitted to the scored benchmark yet. Publisher
+captions and five claim drafts still need full audio/visual review; eight discovery
+links need rights and media verification. The [latest candidate audit](SHORTFORM_CANDIDATE_AUDIT.md)
+now verifies primary YouTube metadata for all eight leads, including Shorts eligibility,
+25–91-second duration and portrait format metadata. This is not downloaded-byte
+validation or rights clearance. Historical results below are unchanged.
+
+This is the **first fixed-evidence verifier experiment** for Fireworks Deploy 2026.
+It is a working local experiment harness, not a completed video app. Live access
+has been verified for GLM 5.3 Flash and Kimi K3 on Fireworks. The public repository is
+https://github.com/raylin435/reelcheck.
+
 ## Video collection integration
 
 The separate [video collection workflow](video_collection/README.md) discovers,
@@ -29,12 +97,6 @@ Review source relevance, evidence cutoff dates and extracted claims before use;
 large source packets may exceed model limits. Bulk video-level screens are not
 claim-level inputs. Keep event clusters together and reserve reviewed held-out data.
 
-Check the claim. See the evidence.
-
-This is the **first fixed-evidence verifier experiment** for Fireworks Deploy 2026.
-It is a working local experiment harness, not a completed video app. Live access
-has been verified for GLM 5.3 Flash and Kimi K3 on Fireworks. The public repository is
-https://github.com/raylin435/reelcheck.
 
 ## Run locally
 
@@ -152,7 +214,8 @@ The gate cannot prove semantic entailment, detect all missing model-generated
 requirements, or establish source authority. A valid quote is not proof of support.
 Quotation matching normalizes whitespace only, including nonbreaking spaces; wording,
 numbers, punctuation and units still must match. Source text and hashes remain original.
-Human review is necessary; apparent proxy improvements are not measured grounded gains.
+Human review is needed to claim human-verified accuracy. The separate machine-reviewed
+track can run without it; apparent proxy improvements are not measured grounded gains.
 
 Trace files use atomic complete snapshots rather than long-lived append handles.
 The first 64-call attempt (`pilot-01`) lost its response file and is **not valid evidence**.

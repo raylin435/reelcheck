@@ -1,0 +1,42 @@
+[
+  {
+    "id": "dcsa_access",
+    "url": "https://www.dcsa.mil/Portals/91/Documents/about/err/DCSA_ACCESS_v9i3.pdf",
+    "retrieved_at": "2026-11-02T21:33:26.469223+00:00",
+    "status": "unavailable",
+    "error_type": "HTTPError",
+    "http_status": 403
+  },
+  {
+    "id": "marine_program",
+    "url": "https://www.manpower.marines.mil/COVID-19-Reinstatement/",
+    "retrieved_at": "2026-11-02T21:33:26.469559+00:00",
+    "status": "unavailable",
+    "error_type": "HTTPError",
+    "http_status": 403
+  },
+  {
+    "id": "marine_faq",
+    "url": "https://www.manpower.marines.mil/COVID-19-Reinstatement/FAQ/",
+    "retrieved_at": "2026-11-02T21:33:26.672671+00:00",
+    "status": "unavailable",
+    "error_type": "HTTPError",
+    "http_status": 403
+  },
+  {
+    "id": "niwc_2026",
+    "url": "https://www.niwcatlantic.navy.mil/Media/News-Stories/Article/4456008/sharpening-the-spear-navy-experiment-advances-sensor-to-shooter-connectivity/",
+    "retrieved_at": "2026-11-02T21:33:26.778418+00:00",
+    "status": "unavailable",
+    "error_type": "HTTPError",
+    "http_status": 403
+  },
+  {
+    "id": "niwc_2025",
+    "url": "https://www.niwcatlantic.navy.mil/Media/News-Stories/Article/4138283/niwc-atlantic-conducts-wartime-readiness-experiment/",
+    "retrieved_at": "2026-11-02T21:33:26.869863+00:00",
+    "status": "unavailable",
+    "error_type": "HTTPError",
+    "http_status": 403
+  }
+]

@@ -1,0 +1,242 @@
+{
+  "rows": [
+    {
+      "id": "authority_03_1/kimi",
+      "index": 0,
+      "execution_status": "completed",
+      "output": {
+        "label_valid": true,
+        "expected_verdict": "supported",
+        "rationale": "The excerpt directly states that FDA approved labeling changes for OTC alli (orlistat) 60 mg to warn of acute kidney injury risk, matching the claim’s product, OTC status, action, and risk topic. The June 10, 2026 date is supplied by the reference metadata rather than the excerpt itself, and the excerpt contains a citation artifact/“Drugs Facts Label” typo, but those issues do not change the substance. Extra details about rarity and kidney disease/stones counseling do not contradict the broader claim."
+      },
+      "raw_text": "{\"label_valid\":true,\"expected_verdict\":\"supported\",\"rationale\":\"The excerpt directly states that FDA approved labeling changes for OTC alli (orlistat) 60 mg to warn of acute kidney injury risk, matching the claim’s product, OTC status, action, and risk topic. The June 10, 2026 date is supplied by the reference metadata rather than the excerpt itself, and the excerpt contains a citation artifact/“Drugs Facts Label” typo, but those issues do not change the substance. Extra details about rarity and kidney disease/stones counseling do not contradict the broader claim.\"}",
+      "latency_s": 17.832416707999073,
+      "usage": {
+        "prompt_tokens": 605,
+        "total_tokens": 1677,
+        "completion_tokens": 1072,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 936
+        },
+        "output_tokens_details": {
+          "reasoning_tokens": 936
+        }
+      },
+      "finish_reason": "stop",
+      "resolved_model": "accounts/fireworks/models/kimi-k3",
+      "request_id": "chatcmpl-f04ab86bc901415bbbec8fb80f48f133",
+      "cost_usd": 0.017895
+    },
+    {
+      "id": "authority_03_1/deepseek",
+      "index": 1,
+      "execution_status": "completed",
+      "output": {
+        "label_valid": true,
+        "expected_verdict": "supported",
+        "rationale": "The excerpt directly states FDA approved changes to the OTC alli (orlistat) 60 mg Drug Facts label to warn of acute kidney injury risk, with labeling advice about kidney disease/stones. The metadata identifies the notice date as 2026-06-10. This adequately supports the claim’s product, action, risk, and date; no material scope or ambiguity issue is apparent."
+      },
+      "raw_text": "{\"label_valid\": true, \"expected_verdict\": \"supported\", \"rationale\": \"The excerpt directly states FDA approved changes to the OTC alli (orlistat) 60 mg Drug Facts label to warn of acute kidney injury risk, with labeling advice about kidney disease/stones. The metadata identifies the notice date as 2026-06-10. This adequately supports the claim’s product, action, risk, and date; no material scope or ambiguity issue is apparent.\"}",
+      "latency_s": 3.7921442499973637,
+      "usage": {
+        "prompt_tokens": 523,
+        "completion_tokens": 497,
+        "total_tokens": 1020,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "reasoning_tokens": 393,
+          "rejected_prediction_tokens": null
+        }
+      },
+      "finish_reason": "stop",
+      "resolved_model": "accounts/fireworks/models/deepseek-v4p1-flash-1017",
+      "request_id": "chatcmpl-44e67f9b",
+      "cost_usd": 0.0007532999999999999
+    },
+    {
+      "id": "authority_03_2/kimi",
+      "index": 2,
+      "execution_status": "completed",
+      "output": {
+        "label_valid": true,
+        "expected_verdict": "contradicted",
+        "rationale": "The excerpt states alli (orlistat) 60 mg capsules are approved for nonprescription weight-loss use in overweight adults 18 years and older, which excludes children under 18 and directly contradicts the claim that the notice approves OTC 60 mg capsules for children under 18."
+      },
+      "raw_text": "{\"label_valid\":true,\"expected_verdict\":\"contradicted\",\"rationale\":\"The excerpt states alli (orlistat) 60 mg capsules are approved for nonprescription weight-loss use in overweight adults 18 years and older, which excludes children under 18 and directly contradicts the claim that the notice approves OTC 60 mg capsules for children under 18.\"}",
+      "latency_s": 3.803855125002883,
+      "usage": {
+        "prompt_tokens": 607,
+        "total_tokens": 824,
+        "completion_tokens": 217,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 126
+        },
+        "output_tokens_details": {
+          "reasoning_tokens": 126
+        }
+      },
+      "finish_reason": "stop",
+      "resolved_model": "accounts/fireworks/models/kimi-k3",
+      "request_id": "chatcmpl-24f1564906624222bf8ad6fab7b2d669",
+      "cost_usd": 0.005076
+    },
+    {
+      "id": "authority_03_2/deepseek",
+      "index": 3,
+      "execution_status": "completed",
+      "output": {
+        "label_valid": true,
+        "expected_verdict": "contradicted",
+        "rationale": "The excerpt explicitly states alli 60 mg capsules are approved for nonprescription weight loss in overweight adults 18 years and older. This directly contradicts the claim that the notice says they are approved for weight loss in children under 18. The named product and population are adequately specified."
+      },
+      "raw_text": "{\"label_valid\": true, \"expected_verdict\": \"contradicted\", \"rationale\": \"The excerpt explicitly states alli 60 mg capsules are approved for nonprescription weight loss in overweight adults 18 years and older. This directly contradicts the claim that the notice says they are approved for weight loss in children under 18. The named product and population are adequately specified.\"}",
+      "latency_s": 2.5155992079999123,
+      "usage": {
+        "prompt_tokens": 529,
+        "completion_tokens": 268,
+        "total_tokens": 797,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "reasoning_tokens": 186,
+          "rejected_prediction_tokens": null
+        }
+      },
+      "finish_reason": "stop",
+      "resolved_model": "accounts/fireworks/models/deepseek-v4p1-flash-1017",
+      "request_id": "chatcmpl-ce686d5b",
+      "cost_usd": 0.00048029999999999997
+    },
+    {
+      "id": "authority_04_2/kimi",
+      "index": 4,
+      "execution_status": "completed",
+      "output": {
+        "label_valid": true,
+        "expected_verdict": "contradicted",
+        "rationale": "The claim asserts that none of the 76 liver injury cases involved a death. The excerpt from the March 31, 2026 FDA Tavneos drug safety communication explicitly states that of the 76 DILI cases, 74 reported a serious outcome, 'including hospitalization (n=54) and death (n=8).' This directly contradicts the claim: 8 of the 76 cases involved death. The excerpt is complete on the point at issue, matches the named notice date, and no additional context is needed to resolve the contradiction. The proposed verdict of 'contradicted' is supported by the exact excerpt."
+      },
+      "raw_text": "{\"label_valid\": true, \"expected_verdict\": \"contradicted\", \"rationale\": \"The claim asserts that none of the 76 liver injury cases involved a death. The excerpt from the March 31, 2026 FDA Tavneos drug safety communication explicitly states that of the 76 DILI cases, 74 reported a serious outcome, 'including hospitalization (n=54) and death (n=8).' This directly contradicts the claim: 8 of the 76 cases involved death. The excerpt is complete on the point at issue, matches the named notice date, and no additional context is needed to resolve the contradiction. The proposed verdict of 'contradicted' is supported by the exact excerpt.\"}",
+      "latency_s": 4.049440417002188,
+      "usage": {
+        "prompt_tokens": 632,
+        "total_tokens": 852,
+        "completion_tokens": 220,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 57
+        },
+        "output_tokens_details": {
+          "reasoning_tokens": 57
+        }
+      },
+      "finish_reason": "stop",
+      "resolved_model": "accounts/fireworks/models/kimi-k3",
+      "request_id": "chatcmpl-4b26d29682a6463d9e0e92428ecc8a21",
+      "cost_usd": 0.005196
+    },
+    {
+      "id": "authority_04_2/deepseek",
+      "index": 5,
+      "execution_status": "completed",
+      "output": {
+        "label_valid": true,
+        "expected_verdict": "contradicted",
+        "rationale": "The excerpt states that among 76 DILI cases associated with avacopan (Tavneos), 8 deaths were reported. This directly contradicts the claim that none of the 76 liver injury cases involved a death. The proposed verdict 'contradicted' is therefore adequately supported by the excerpt for the named FDA notice."
+      },
+      "raw_text": "{\"label_valid\": true, \"expected_verdict\": \"contradicted\", \"rationale\": \"The excerpt states that among 76 DILI cases associated with avacopan (Tavneos), 8 deaths were reported. This directly contradicts the claim that none of the 76 liver injury cases involved a death. The proposed verdict 'contradicted' is therefore adequately supported by the excerpt for the named FDA notice.\"}",
+      "latency_s": 2.7007635410009243,
+      "usage": {
+        "prompt_tokens": 547,
+        "completion_tokens": 422,
+        "total_tokens": 969,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "reasoning_tokens": 331,
+          "rejected_prediction_tokens": null
+        }
+      },
+      "finish_reason": "stop",
+      "resolved_model": "accounts/fireworks/models/deepseek-v4p1-flash-1017",
+      "request_id": "chatcmpl-ebebbf20",
+      "cost_usd": 0.0006705
+    },
+    {
+      "id": "authority_09_1/kimi",
+      "index": 6,
+      "execution_status": "completed",
+      "output": {
+        "label_valid": true,
+        "expected_verdict": "contradicted",
+        "rationale": "The named FDA notice excerpt for the stated date says to remove the phrase “extended treatment period” from the Indications and Usage section, while the claim asserts the notice requires retaining that exact phrase in that same section. This is a direct action-level contradiction on product/labeling scope, phrase, and section; no medical interpretation is needed."
+      },
+      "raw_text": "{\"label_valid\":true,\"expected_verdict\":\"contradicted\",\"rationale\":\"The named FDA notice excerpt for the stated date says to remove the phrase “extended treatment period” from the Indications and Usage section, while the claim asserts the notice requires retaining that exact phrase in that same section. This is a direct action-level contradiction on product/labeling scope, phrase, and section; no medical interpretation is needed.\"}",
+      "latency_s": 4.002415457998723,
+      "usage": {
+        "prompt_tokens": 561,
+        "total_tokens": 754,
+        "completion_tokens": 193,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 93
+        },
+        "output_tokens_details": {
+          "reasoning_tokens": 93
+        }
+      },
+      "finish_reason": "stop",
+      "resolved_model": "accounts/fireworks/models/kimi-k3",
+      "request_id": "chatcmpl-258b2d44028a4c9b9ef88fb7cd1c19b2",
+      "cost_usd": 0.004578
+    },
+    {
+      "id": "authority_09_1/deepseek",
+      "index": 7,
+      "execution_status": "completed",
+      "output": {
+        "label_valid": true,
+        "expected_verdict": "contradicted",
+        "rationale": "The excerpt explicitly instructs manufacturers to “[r]emove the phrase ‘extended treatment period’ in the Indications and Usage section,” which directly contradicts the claim that the notice requires retaining that phrase. The excerpt identifies the same section and the same phrase, so it adequately establishes the proposed contradicted verdict for the named dated notice."
+      },
+      "raw_text": "{\"label_valid\": true, \"expected_verdict\": \"contradicted\", \"rationale\": \"The excerpt explicitly instructs manufacturers to “[r]emove the phrase ‘extended treatment period’ in the Indications and Usage section,” which directly contradicts the claim that the notice requires retaining that phrase. The excerpt identifies the same section and the same phrase, so it adequately establishes the proposed contradicted verdict for the named dated notice.\"}",
+      "latency_s": 2.7528871670001536,
+      "usage": {
+        "prompt_tokens": 479,
+        "completion_tokens": 350,
+        "total_tokens": 829,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "reasoning_tokens": 258,
+          "rejected_prediction_tokens": null
+        }
+      },
+      "finish_reason": "stop",
+      "resolved_model": "accounts/fireworks/models/deepseek-v4p1-flash-1017",
+      "request_id": "chatcmpl-81992768",
+      "cost_usd": 0.0005637000000000001
+    }
+  ],
+  "human_reviewed": false,
+  "references_unchanged": true
+}

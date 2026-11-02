@@ -1,0 +1,10 @@
+{
+  "incident": "The original worker fetched three pending page reads while the model runner still held its write lock. Ingestion failed before any response was delivered to a model.",
+  "saved_response": "bridge-t000-s03.json",
+  "unpersisted_tool_responses": ["t001-s03", "t002-s03"],
+  "extra_web_requests": 2,
+  "extra_web_cost_usd": null,
+  "extra_web_latency_s": null,
+  "recovery": "Reuse the saved response, reacquire only the two unpersisted responses, and use recovery_web_worker.js to persist all results before ingestion. No model call or candidate answer was retried.",
+  "scope": "Development infrastructure incident; all candidate decisions and original model-call costs preserved. Include unknown overhead when discussing end-to-end cost or latency."
+}

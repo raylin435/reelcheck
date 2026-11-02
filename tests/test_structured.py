@@ -6,8 +6,8 @@ from pathlib import Path
 import unittest
 from unittest.mock import patch
 
-from reelcheck.structured import output_schema, request_config, render_citation_ids, structured_messages
-from reelcheck.prompts import COMMON
+from reelcheck.structured import output_schema, quote_output_schema, request_config, render_citation_ids, structured_messages
+from reelcheck.prompts import COMMON, messages
 
 ROOT=Path(__file__).resolve().parents[1]
 spec=importlib.util.spec_from_file_location('structured_matrix',ROOT/'scripts/run_model_matrix.py')
@@ -92,6 +92,28 @@ class StructuredTests(unittest.TestCase):
         self.assertEqual(post.call_args.args[0],baseline)
         self.assertEqual(row['output'],output)
         self.assertNotIn('raw_output',row)
+
+    def test_schema_quotes_constrains_ids_but_never_supplies_claim_or_quote(self):
+        variant={**self.variant, 'output_mode':'schema_quotes'}
+        matrix.validate_config({'variants':[variant]})
+        schema=quote_output_schema(self.case)
+        self.assertEqual(schema['properties']['citations']['items']['properties']['passage_id']['enum'],['P1'])
+        self.assertNotIn(self.case['claim_text'],json.dumps(schema))
+        self.assertNotIn('SECRET',json.dumps(messages(self.case,'B')))
+        self.assertEqual(request_config(variant,self.case)['parameters']['response_format']['json_schema']['schema'],schema)
+
+    def test_schema_quotes_retains_model_quote_and_rejects_inexact_quote_without_repair(self):
+        variant={**self.variant, 'output_mode':'schema_quotes'}
+        output=render_citation_ids(self.raw,self.case)
+        for quote, status in [('18–20 degrees.', 'completed'), ('18 to 20 degrees.', 'invalid_output')]:
+            answer={**output, 'citations':[{'passage_id':'P1','quote':quote}]}
+            with patch.object(matrix,'call',return_value={'execution_status':'completed','output':answer,'latency_s':1.,'cost_usd':.001}):
+                row=matrix._execute(self.case,variant,messages(self.case,'B'),1)
+            self.assertEqual(row['execution_status'],status)
+            self.assertEqual(row['output'],answer)
+            self.assertEqual(row['raw_output'],answer)
+            if status=='invalid_output':
+                self.assertIn('invalid exact quote for P1',row['validation_errors'])
 
 
 if __name__=='__main__':

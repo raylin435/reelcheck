@@ -1,0 +1,142 @@
+{
+  "created_at": "2026-11-02T21:44:04.749777+00:00",
+  "mode": "live",
+  "inputs_sha256": "39c5d469ad146eda3248245638926e71835e44629d0418dd3edea53433f85bee",
+  "config": {
+    "variants": [
+      {
+        "id": "gptoss_schema_quotes",
+        "prompt_system": "B",
+        "provider": "fireworks",
+        "model": "accounts/fireworks/models/gpt-oss-120b",
+        "max_output_tokens": 4096,
+        "timeout_s": 60,
+        "parameters": {},
+        "pricing": {
+          "input_per_million": 0.15,
+          "cached_input_per_million": 0.015,
+          "output_per_million": 0.6,
+          "source": "https://app.fireworks.ai/models/fireworks/gpt-oss-120b",
+          "verified_date": "2026-11-02",
+          "tier": "standard"
+        },
+        "output_mode": "schema_quotes"
+      },
+      {
+        "id": "gptoss_semantic_check",
+        "prompt_system": "B",
+        "provider": "fireworks",
+        "model": "accounts/fireworks/models/gpt-oss-120b",
+        "max_output_tokens": 4096,
+        "timeout_s": 60,
+        "parameters": {},
+        "pricing": {
+          "input_per_million": 0.15,
+          "cached_input_per_million": 0.015,
+          "output_per_million": 0.6,
+          "source": "https://app.fireworks.ai/models/fireworks/gpt-oss-120b",
+          "verified_date": "2026-11-02",
+          "tier": "standard"
+        },
+        "output_mode": "schema_quotes"
+      }
+    ],
+    "judge": {
+      "provider": "fireworks",
+      "model": "accounts/fireworks/models/kimi-k3",
+      "max_output_tokens": 4096,
+      "timeout_s": 60,
+      "parameters": {
+        "reasoning_effort": "high"
+      },
+      "pricing": {
+        "input_per_million": 3.0,
+        "cached_input_per_million": 0.3,
+        "output_per_million": 15.0,
+        "source": "https://app.fireworks.ai/models/fireworks/kimi-k3",
+        "verified_date": "2026-11-02",
+        "tier": "standard"
+      }
+    },
+    "reference_panel": [
+      {
+        "provider": "fireworks",
+        "model": "accounts/fireworks/models/kimi-k3",
+        "max_output_tokens": 4096,
+        "timeout_s": 60,
+        "parameters": {
+          "reasoning_effort": "high"
+        },
+        "pricing": {
+          "input_per_million": 3.0,
+          "cached_input_per_million": 0.3,
+          "output_per_million": 15.0,
+          "source": "https://app.fireworks.ai/models/fireworks/kimi-k3",
+          "verified_date": "2026-11-02",
+          "tier": "standard"
+        },
+        "family": "kimi"
+      },
+      {
+        "id": "deepseek_reference",
+        "prompt_system": "B",
+        "provider": "fireworks",
+        "model": "accounts/fireworks/models/deepseek-v4p1-flash-1017",
+        "max_output_tokens": 4096,
+        "timeout_s": 60,
+        "parameters": {
+          "reasoning_effort": "high"
+        },
+        "pricing": {
+          "input_per_million": 0.3,
+          "cached_input_per_million": 0.006,
+          "output_per_million": 1.2,
+          "source": "https://app.fireworks.ai/models/fireworks/deepseek-v4p1-flash-1017",
+          "verified_date": "2026-11-02",
+          "tier": "standard"
+        },
+        "family": "deepseek"
+      },
+      {
+        "provider": "fireworks",
+        "model": "accounts/fireworks/models/glm-5p3-flash",
+        "max_output_tokens": 4096,
+        "timeout_s": 60,
+        "parameters": {},
+        "pricing": {
+          "input_per_million": 0.15,
+          "cached_input_per_million": 0.03,
+          "output_per_million": 0.5,
+          "source": "https://app.fireworks.ai/models/fireworks/glm-5p3-flash",
+          "verified_date": "2026-11-02",
+          "tier": "standard"
+        },
+        "id": "glm_direct",
+        "prompt_system": "B",
+        "family": "glm"
+      }
+    ],
+    "protocol_file": "MACHINE_EVAL_PROTOCOL.md",
+    "protocol_sha256": "7eefe27d342b9e08a4c97cbed2a0103262daf215d8508bf7dc952cda1f6dfec0"
+  },
+  "case_count": 1,
+  "source_files_sha256": {
+    "reelcheck/__init__.py": "bab79910f4a8196bfaa69b301a3a5c66dd5b081fc8ed4aa060456c07a5b78c4e",
+    "reelcheck/__main__.py": "e7ea9942cb8f847b9845277df74bbc39f3a3478a6f4e0b156e1a5bb87cb8c11e",
+    "reelcheck/contract.py": "835e75caa4e1517f72b3dafba98af1e30cc1c75c30d95908850b79be52b3ed0f",
+    "reelcheck/evaluation.py": "c0b7b367b36802692f8e1d9d3547b8329a61dc2ce9968312d505bae680988c41",
+    "reelcheck/judge.py": "075479fcafe8c90e620988563256b43ba22edc48c59fe9446dcce77888ddee72",
+    "reelcheck/machine_jury.py": "127c78005a4f23e17e45023ca6d9bf2d792ee97feaf015a1658a5c55baaf7000",
+    "reelcheck/media.py": "46665debc8e552898470783164544b42fcc9829e54424ae6559096baed1a5e5d",
+    "reelcheck/prompts.py": "80246bebbfddeb51eea741b35aab10f9dd43aedb6da8223366a9556b42507002",
+    "reelcheck/providers.py": "125840b0cb4a12248608427d5abe77c3cb882ee790f62844a1010ec6732367ae",
+    "reelcheck/references.py": "231b84720b32545338fefd64eb8e289ef05dc2c400cac5a79c297cd3072de0ab",
+    "reelcheck/semantic.py": "11ce2fcd21273b72fbb2d8c4a93f1f3b2b1ad80a7b09496e11cf16132ce1d14f",
+    "reelcheck/strategies.py": "bf10d7cd01abd8ed686d4ae58b2166935af63ac02d073814b0a3d7bacb8706e5",
+    "reelcheck/structured.py": "406a362128ee806caa9549ef22cf3a7fbf30dd0e8de3326b17ee45719fd08178",
+    "scripts/build_machine_references.py": "a4837a60c086dc0e7e27484d0f7c2c326fa5754f514cb099f335862b57f6aa54"
+  },
+  "max_calls": 3,
+  "max_cost_usd": 1.0,
+  "protocol": "Two independent votes; third only without initial agreement, blind to other votes. Any explicit scope ambiguity stays unresolved. No candidates or prior labels. All cases retained. No retries."
+}

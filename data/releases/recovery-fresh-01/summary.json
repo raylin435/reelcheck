@@ -1,0 +1,333 @@
+{
+  "cases": 20,
+  "systems": {
+    "generic_retry": {
+      "cases": 20,
+      "accepted": 15,
+      "rejected_including_execution_failures": 3,
+      "unresolved": 2,
+      "execution_statuses": {
+        "completed": 17,
+        "truncated": 1,
+        "invalid_output": 2
+      },
+      "objective_failures": 3,
+      "decisive_answers": 17,
+      "insufficient_answers": 0,
+      "accepted_insufficient": 0,
+      "consensus_rejected_decisive": 0,
+      "deployment_accounting": {
+        "calls": 100,
+        "known_cost_subtotal_usd": 0.08478271999999999,
+        "estimated_cost_usd": 0.08478271999999999,
+        "unknown_cost_calls": 0
+      },
+      "cost_per_accepted_usd": 0.005652181333333333,
+      "searches": 23,
+      "reads": 37,
+      "model_service_seconds": 496.5458683269935
+    },
+    "targeted_recovery": {
+      "cases": 20,
+      "accepted": 15,
+      "rejected_including_execution_failures": 1,
+      "unresolved": 4,
+      "execution_statuses": {
+        "completed": 19,
+        "truncated": 1
+      },
+      "objective_failures": 1,
+      "decisive_answers": 19,
+      "insufficient_answers": 0,
+      "accepted_insufficient": 0,
+      "consensus_rejected_decisive": 0,
+      "deployment_accounting": {
+        "calls": 92,
+        "known_cost_subtotal_usd": 0.07836097,
+        "estimated_cost_usd": 0.07836097,
+        "unknown_cost_calls": 0
+      },
+      "cost_per_accepted_usd": 0.005224064666666667,
+      "searches": 22,
+      "reads": 30,
+      "model_service_seconds": 467.2534254130078
+    },
+    "strong_reference": {
+      "cases": 20,
+      "accepted": 15,
+      "rejected_including_execution_failures": 1,
+      "unresolved": 4,
+      "execution_statuses": {
+        "completed": 19,
+        "invalid_output": 1
+      },
+      "objective_failures": 1,
+      "decisive_answers": 18,
+      "insufficient_answers": 1,
+      "accepted_insufficient": 0,
+      "consensus_rejected_decisive": 0,
+      "deployment_accounting": {
+        "calls": 102,
+        "known_cost_subtotal_usd": 0.14859693599999999,
+        "estimated_cost_usd": 0.14859693599999999,
+        "unknown_cost_calls": 0
+      },
+      "cost_per_accepted_usd": 0.0099064624,
+      "searches": 22,
+      "reads": 40,
+      "model_service_seconds": 271.14354929000547
+    }
+  },
+  "paired_outcomes": {
+    "tie": 13,
+    "unresolved": 5,
+    "win": 2
+  },
+  "both_completed_paired_outcomes": {
+    "tie": 12,
+    "unresolved": 5
+  },
+  "pairs": [
+    {
+      "case_id": "fresh_01",
+      "group_id": "nps_glacier",
+      "baseline": true,
+      "targeted": true,
+      "baseline_status": "completed",
+      "targeted_status": "completed",
+      "both_completed": true,
+      "outcome": "tie"
+    },
+    {
+      "case_id": "fresh_02",
+      "group_id": "nps_glacier",
+      "baseline": true,
+      "targeted": true,
+      "baseline_status": "completed",
+      "targeted_status": "completed",
+      "both_completed": true,
+      "outcome": "tie"
+    },
+    {
+      "case_id": "fresh_03",
+      "group_id": "nps_zion",
+      "baseline": null,
+      "targeted": null,
+      "baseline_status": "completed",
+      "targeted_status": "completed",
+      "both_completed": true,
+      "outcome": "unresolved"
+    },
+    {
+      "case_id": "fresh_04",
+      "group_id": "nps_zion",
+      "baseline": true,
+      "targeted": true,
+      "baseline_status": "completed",
+      "targeted_status": "completed",
+      "both_completed": true,
+      "outcome": "tie"
+    },
+    {
+      "case_id": "fresh_05",
+      "group_id": "nps_zion",
+      "baseline": true,
+      "targeted": null,
+      "baseline_status": "completed",
+      "targeted_status": "completed",
+      "both_completed": true,
+      "outcome": "unresolved"
+    },
+    {
+      "case_id": "fresh_06",
+      "group_id": "nps_zion",
+      "baseline": true,
+      "targeted": null,
+      "baseline_status": "completed",
+      "targeted_status": "completed",
+      "both_completed": true,
+      "outcome": "unresolved"
+    },
+    {
+      "case_id": "fresh_07",
+      "group_id": "nps_zion",
+      "baseline": true,
+      "targeted": true,
+      "baseline_status": "completed",
+      "targeted_status": "completed",
+      "both_completed": true,
+      "outcome": "tie"
+    },
+    {
+      "case_id": "fresh_08",
+      "group_id": "nps_zion",
+      "baseline": false,
+      "targeted": true,
+      "baseline_status": "invalid_output",
+      "targeted_status": "completed",
+      "both_completed": false,
+      "outcome": "win"
+    },
+    {
+      "case_id": "fresh_09",
+      "group_id": "nps_zion",
+      "baseline": false,
+      "targeted": false,
+      "baseline_status": "truncated",
+      "targeted_status": "truncated",
+      "both_completed": false,
+      "outcome": "tie"
+    },
+    {
+      "case_id": "fresh_10",
+      "group_id": "nps_glacier",
+      "baseline": true,
+      "targeted": true,
+      "baseline_status": "completed",
+      "targeted_status": "completed",
+      "both_completed": true,
+      "outcome": "tie"
+    },
+    {
+      "case_id": "fresh_11",
+      "group_id": "noaa_science_at_sea",
+      "baseline": true,
+      "targeted": true,
+      "baseline_status": "completed",
+      "targeted_status": "completed",
+      "both_completed": true,
+      "outcome": "tie"
+    },
+    {
+      "case_id": "fresh_12",
+      "group_id": "noaa_science_at_sea",
+      "baseline": null,
+      "targeted": true,
+      "baseline_status": "completed",
+      "targeted_status": "completed",
+      "both_completed": true,
+      "outcome": "unresolved"
+    },
+    {
+      "case_id": "fresh_13",
+      "group_id": "noaa_science_at_sea",
+      "baseline": true,
+      "targeted": null,
+      "baseline_status": "completed",
+      "targeted_status": "completed",
+      "both_completed": true,
+      "outcome": "unresolved"
+    },
+    {
+      "case_id": "fresh_14",
+      "group_id": "noaa_ocean_today",
+      "baseline": true,
+      "targeted": true,
+      "baseline_status": "completed",
+      "targeted_status": "completed",
+      "both_completed": true,
+      "outcome": "tie"
+    },
+    {
+      "case_id": "fresh_15",
+      "group_id": "noaa_ocean_today",
+      "baseline": true,
+      "targeted": true,
+      "baseline_status": "completed",
+      "targeted_status": "completed",
+      "both_completed": true,
+      "outcome": "tie"
+    },
+    {
+      "case_id": "fresh_16",
+      "group_id": "noaa_ocean_today",
+      "baseline": true,
+      "targeted": true,
+      "baseline_status": "completed",
+      "targeted_status": "completed",
+      "both_completed": true,
+      "outcome": "tie"
+    },
+    {
+      "case_id": "fresh_17",
+      "group_id": "noaa_ocean_today",
+      "baseline": false,
+      "targeted": true,
+      "baseline_status": "invalid_output",
+      "targeted_status": "completed",
+      "both_completed": false,
+      "outcome": "win"
+    },
+    {
+      "case_id": "fresh_18",
+      "group_id": "noaa_ocean_today",
+      "baseline": true,
+      "targeted": true,
+      "baseline_status": "completed",
+      "targeted_status": "completed",
+      "both_completed": true,
+      "outcome": "tie"
+    },
+    {
+      "case_id": "fresh_19",
+      "group_id": "noaa_ocean_today",
+      "baseline": true,
+      "targeted": true,
+      "baseline_status": "completed",
+      "targeted_status": "completed",
+      "both_completed": true,
+      "outcome": "tie"
+    },
+    {
+      "case_id": "fresh_20",
+      "group_id": "noaa_ocean_today",
+      "baseline": true,
+      "targeted": true,
+      "baseline_status": "completed",
+      "targeted_status": "completed",
+      "both_completed": true,
+      "outcome": "tie"
+    }
+  ],
+  "groups": {
+    "noaa_ocean_today": {
+      "generic_retry": 6,
+      "targeted_recovery": 7,
+      "strong_reference": 5,
+      "cases": 7
+    },
+    "noaa_science_at_sea": {
+      "generic_retry": 2,
+      "targeted_recovery": 2,
+      "strong_reference": 2,
+      "cases": 3
+    },
+    "nps_glacier": {
+      "generic_retry": 3,
+      "targeted_recovery": 3,
+      "strong_reference": 3,
+      "cases": 3
+    },
+    "nps_zion": {
+      "generic_retry": 4,
+      "targeted_recovery": 3,
+      "strong_reference": 5,
+      "cases": 7
+    }
+  },
+  "candidate_actual_billing": {
+    "calls": 230,
+    "known_cost_subtotal_usd": 0.272201616,
+    "estimated_cost_usd": 0.272201616,
+    "unknown_cost_calls": 0
+  },
+  "judge_actual_billing": {
+    "calls": 110,
+    "known_cost_subtotal_usd": 1.340782188,
+    "estimated_cost_usd": 1.340782188,
+    "unknown_cost_calls": 0
+  },
+  "web_cost_usd": null,
+  "human_accuracy": null,
+  "all_valid_answers_assessed_twice": true
+}

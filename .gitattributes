@@ -1,1 +1,4 @@
 video_collection/label_snapshots/videos/*.mp4 filter=lfs diff=lfs merge=lfs -text
+# Preserve downloaded provenance bytes and caption hashes verbatim.
+data/releases/machine-pilot-01/sources/*.html -whitespace
+data/shortform_captions/*.vtt -whitespace

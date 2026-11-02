@@ -1,0 +1,38 @@
+[
+  {
+    "clip_id": "nutrition_supplements",
+    "reviewer": "Codex",
+    "reviewer_kind": "AI",
+    "reviewed_at": "2026-11-02T20:59:58.639976+00:00",
+    "contact_sheet_sha256": "e30e443d6ce7ef4a61e41874a0b3d3f7d2c75385532a525633424e3838883001",
+    "frame_interval_seconds": 4,
+    "independent_audio_listening": false,
+    "full_video_human_review": false,
+    "admitted_benchmark_clip": false,
+    "notes": "Visible speaker labels and public-health context inspected; spoken claims remain publisher-caption-derived."
+  },
+  {
+    "clip_id": "nutrition_eating",
+    "reviewer": "Codex",
+    "reviewer_kind": "AI",
+    "reviewed_at": "2026-11-02T20:59:58.640159+00:00",
+    "contact_sheet_sha256": "2c80042f2cd6a22a8b54566ead96f582dab11c42245e6fe5b388442671cf2bba",
+    "frame_interval_seconds": 4,
+    "independent_audio_listening": false,
+    "full_video_human_review": false,
+    "admitted_benchmark_clip": false,
+    "notes": "Visible graphic states 160 lbs, 80 oz, water per day. This resolves the caption numeric example and missing unit for an AI development claim; it does not validate the hydration advice."
+  },
+  {
+    "clip_id": "health_insomnia",
+    "reviewer": "Codex",
+    "reviewer_kind": "AI",
+    "reviewed_at": "2026-11-02T20:59:58.640231+00:00",
+    "contact_sheet_sha256": "15f62cc06d169cbeb81227efc4dd359a68b082927553bbd72aa3ea589e6315f4",
+    "frame_interval_seconds": 4,
+    "independent_audio_listening": false,
+    "full_video_human_review": false,
+    "admitted_benchmark_clip": false,
+    "notes": "Visible list explicitly says IRREGULAR WORK SCHEDULE DURING DEPLOYMENT, correcting regular in publisher captions. BBT-I treatment sentence remains caption-derived."
+  }
+]

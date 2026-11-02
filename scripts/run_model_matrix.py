@@ -24,7 +24,7 @@ from reelcheck.contract import validate
 from reelcheck.evaluation import read_jsonl
 from reelcheck.prompts import messages
 from reelcheck.providers import call, load_shell_exports
-from reelcheck.structured import MODE, MODE_NOTE, structured_messages, request_config, render_citation_ids
+from reelcheck.structured import MODE, QUOTE_MODE, MODE_NOTES, structured_messages, request_config, render_citation_ids
 
 
 def validate_config(config):
@@ -52,20 +52,20 @@ def validate_config(config):
                 raise ValueError('Verified positive input/output pricing is required')
         if not isinstance(v.get('parameters', {}), dict):
             raise ValueError('parameters must be an object')
-        if v.get('output_mode', 'verbatim_quotes') not in {'verbatim_quotes', MODE}:
-            raise ValueError('output_mode must be verbatim_quotes or citation_ids')
-        if v.get('output_mode') == MODE:
+        if v.get('output_mode', 'verbatim_quotes') not in {'verbatim_quotes', MODE, QUOTE_MODE}:
+            raise ValueError('output_mode must be verbatim_quotes, schema_quotes, or citation_ids')
+        if v.get('output_mode') in MODE_NOTES:
             if v.get('prompt_system', 'B') == 'C':
-                raise ValueError('citation_ids mode does not include requirement maps')
+                raise ValueError('Schema modes do not include requirement maps')
             if 'response_format' in v.get('parameters', {}):
-                raise ValueError('citation_ids mode owns response_format')
+                raise ValueError('Schema modes own response_format')
     return variants
 
 
 def _execute(case, variant, prompt, index):
     started = time.monotonic()
     timestamp = datetime.now(timezone.utc).isoformat()
-    structured = variant.get('output_mode') == MODE
+    structured = variant.get('output_mode') in MODE_NOTES
     effective = request_config(variant, case) if structured else variant
     try:
         result = call(effective, prompt)
@@ -78,9 +78,9 @@ def _execute(case, variant, prompt, index):
            'requested_model': variant['model'], 'prompt_system': variant.get('prompt_system', 'B'),
            'prompt_sha256': digest(prompt), 'call_index': index, 'started_at': timestamp, **result}
     if structured:
-        row.update(output_mode=MODE, output_mode_note=MODE_NOTE,
+        row.update(output_mode=variant['output_mode'], output_mode_note=MODE_NOTES[variant['output_mode']],
                    request_parameters=effective['parameters'], raw_output=result.get('output'))
-        if row['execution_status'] == 'completed':
+        if variant['output_mode'] == MODE and row['execution_status'] == 'completed':
             try:
                 row['output'] = render_citation_ids(row['raw_output'], case)
             except ValueError as exc:
@@ -139,8 +139,8 @@ def run_matrix(args):
         order = list(variants)
         rng.shuffle(order)
         for variant in order:
-            if variant.get('output_mode') == MODE:
-                prompt = structured_messages(case, variant.get('prompt_system', 'B'))
+            if variant.get('output_mode') in MODE_NOTES:
+                prompt = (structured_messages if variant['output_mode'] == MODE else messages)(case, variant.get('prompt_system', 'B'))
                 effective = request_config(variant, case)
                 # Account conservatively for the schema's input bytes as well.
                 budget_prompt = prompt + [{'role':'system', 'content':json.dumps(effective['parameters']['response_format'])}]
@@ -169,12 +169,15 @@ def run_matrix(args):
                 'max_cost_usd': args.max_cost_usd, 'planned_calls': len(tasks),
                 'planned_cost_upper_estimate': sum(task[3] for task in tasks),
                 'protocol': 'Same input packets; shuffled variant order per case; at most two in flight; no retry or repair; no gold or judge is consulted.',
-                'output_mode_notes': {v['id']:MODE_NOTE for v in variants if v.get('output_mode') == MODE},
+                'output_mode_notes': {v['id']:MODE_NOTES[v['output_mode']] for v in variants if v.get('output_mode') in MODE_NOTES},
                 'cost_note': 'Conservative byte-count reservations are estimates, not billing guarantees. Reservations are never released. Unknown failed-call costs remain unknown.'}
+    # Bind the reference artifact without reading labels into the inference runner.
+    if getattr(args, 'references', None):
+        manifest['frozen_reference_file_sha256'] = hashlib.sha256(Path(args.references).read_bytes()).hexdigest()
     save_json(out/'manifest.json', manifest)
     if not args.live:
         save_jsonl(out/'request_preview.jsonl', [{'case_id':c['case_id'], 'system':v['id'], 'messages':p,
-            'request_parameters':request_config(v,c)['parameters'] if v.get('output_mode') == MODE else v.get('parameters',{})} for c,v,p,_ in tasks])
+            'request_parameters':request_config(v,c)['parameters'] if v.get('output_mode') in MODE_NOTES else v.get('parameters',{})} for c,v,p,_ in tasks])
         print(f'Dry run: {len(tasks)} requests prepared; no API calls. {out}', flush=True)
         return manifest
     if args.shell_keys:
@@ -226,6 +229,7 @@ def main():
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument('--config', required=True)
     p.add_argument('--inputs', required=True)
+    p.add_argument('--references', help='Bind a pre-frozen reference file hash; content is never sent to candidates')
     p.add_argument('--out', required=True)
     p.add_argument('--live', action='store_true')
     p.add_argument('--max-cost-usd', type=float, default=3.)

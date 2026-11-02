@@ -1,0 +1,45 @@
+{
+  "warning": "Operational measurements only. Schema-valid output is not factual correctness; no quality score is computed.",
+  "systems": {
+    "gptoss_schema_quotes": {
+      "planned_cases": 15,
+      "attempted": 15,
+      "schema_valid_completed": 15,
+      "status_counts": {
+        "completed": 15
+      },
+      "incomplete": false,
+      "p50_latency_s": 2.1453061659995,
+      "p95_latency_s": 3.6661663329996372,
+      "estimated_total_cost_usd": 0.0065743799999999995,
+      "known_cost_subtotal_usd": 0.0065743799999999995,
+      "unknown_cost_calls": 0
+    },
+    "gptoss_semantic_check": {
+      "planned_cases": 15,
+      "attempted": 15,
+      "schema_valid_completed": 15,
+      "status_counts": {
+        "completed": 15
+      },
+      "incomplete": false,
+      "p50_latency_s": 6.074028666998856,
+      "p95_latency_s": 9.421467751000819,
+      "estimated_total_cost_usd": 0.018630044999999998,
+      "known_cost_subtotal_usd": 0.018630044999999998,
+      "unknown_cost_calls": 0
+    }
+  },
+  "paid_calls_attempted": 30,
+  "estimated_actual_run_cost_usd": 0.018630044999999998,
+  "known_cost_subtotal_usd": 0.018630044999999998,
+  "unknown_cost_calls": 0,
+  "physical_billing_note": "Baseline shared once; treatment system totals include baseline plus check.",
+  "completion": {
+    "stop_reason": "completed",
+    "planned_calls": 30,
+    "paid_calls_attempted": 30,
+    "saved_records": 30,
+    "reserved_cost_upper_estimate": 0.11829405000000001
+  }
+}

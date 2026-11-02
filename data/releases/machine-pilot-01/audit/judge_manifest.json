@@ -1,0 +1,38 @@
+{
+  "mode": "live",
+  "created_at": "2026-11-02T21:47:09.310547+00:00",
+  "rubric_version": "evidence_semantics_v1_frozen_reference_v1",
+  "judge_config": {
+    "provider": "fireworks",
+    "model": "accounts/fireworks/models/kimi-k3",
+    "max_output_tokens": 4096,
+    "timeout_s": 60,
+    "parameters": {
+      "reasoning_effort": "high"
+    },
+    "pricing": {
+      "input_per_million": 3.0,
+      "cached_input_per_million": 0.3,
+      "output_per_million": 15.0,
+      "source": "https://app.fireworks.ai/models/fireworks/kimi-k3",
+      "verified_date": "2026-11-02",
+      "tier": "standard"
+    }
+  },
+  "config_role": "judge",
+  "inputs_sha256": "61145bc465ecc899548da0e19fe28f633dc1bfedecbb05995295da9767fc1e17",
+  "candidate_rows_sha256": "76be6eac03fc8b440f9adf8fc2c76bb51dcb13ab633df3a15b64b112c8073ad6",
+  "candidate_count": 30,
+  "inputs_verified_against_candidate_run": true,
+  "source_files_sha256": {
+    "judge.py": "075479fcafe8c90e620988563256b43ba22edc48c59fe9446dcce77888ddee72",
+    "references.py": "231b84720b32545338fefd64eb8e289ef05dc2c400cac5a79c297cd3072de0ab",
+    "judge_run.py": "8014ef82330f4db3089829104c4b5456d5d0e9b3eacf8c490a118d35828b908d"
+  },
+  "max_calls": 30,
+  "max_cost_usd": 4.0,
+  "interval_s": 1.0,
+  "protocol": "Blinded grading against references frozen and hash-bound before candidate generation. Reference conflicts require adjudication. Objective failures cannot pass. AI draft references are development assessments only.",
+  "frozen_reference_file_sha256": "74f8ec79ea0eaf732837ce3cd4439a57259d3dbb592c9f871edee235fddb6fdf",
+  "references_human_reviewed": false
+}

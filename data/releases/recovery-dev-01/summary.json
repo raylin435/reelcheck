@@ -1,0 +1,104 @@
+{
+  "partition": "development",
+  "systems": {
+    "generic_retry": {
+      "cases": 3,
+      "accepted": 1,
+      "rejected": 2,
+      "unresolved": 0,
+      "objective_failures": 2,
+      "decisive_answers": 1,
+      "insufficient_answers": 0,
+      "consensus_rejected_decisive": 0,
+      "accepted_insufficient": 0,
+      "deployment_accounting": {
+        "calls": 20,
+        "known_cost_subtotal_usd": 0.019728799999999998,
+        "estimated_cost_usd": null,
+        "unknown_cost_calls": 1
+      },
+      "estimated_cost_per_accepted": null,
+      "searches": 5,
+      "reads": 9,
+      "model_service_seconds": 191.00209337399428
+    },
+    "targeted_recovery": {
+      "cases": 3,
+      "accepted": 2,
+      "rejected": 0,
+      "unresolved": 1,
+      "objective_failures": 0,
+      "decisive_answers": 3,
+      "insufficient_answers": 0,
+      "consensus_rejected_decisive": 0,
+      "accepted_insufficient": 0,
+      "deployment_accounting": {
+        "calls": 22,
+        "known_cost_subtotal_usd": 0.02148015,
+        "estimated_cost_usd": 0.02148015,
+        "unknown_cost_calls": 0
+      },
+      "estimated_cost_per_accepted": 0.010740075,
+      "searches": 6,
+      "reads": 10,
+      "model_service_seconds": 130.24262441299652
+    },
+    "strong_reference": {
+      "cases": 3,
+      "accepted": 3,
+      "rejected": 0,
+      "unresolved": 0,
+      "objective_failures": 0,
+      "decisive_answers": 3,
+      "insufficient_answers": 0,
+      "consensus_rejected_decisive": 0,
+      "accepted_insufficient": 0,
+      "deployment_accounting": {
+        "calls": 21,
+        "known_cost_subtotal_usd": 0.036392532,
+        "estimated_cost_usd": 0.036392532,
+        "unknown_cost_calls": 0
+      },
+      "estimated_cost_per_accepted": 0.012130844,
+      "searches": 5,
+      "reads": 10,
+      "model_service_seconds": 51.10979462301111
+    }
+  },
+  "pairs": [
+    {
+      "case_id": "sf_01",
+      "baseline": true,
+      "targeted": null,
+      "paired_outcome": "unresolved"
+    },
+    {
+      "case_id": "sf_02",
+      "baseline": false,
+      "targeted": true,
+      "paired_outcome": "win"
+    },
+    {
+      "case_id": "video_sea_02",
+      "baseline": false,
+      "targeted": true,
+      "paired_outcome": "win"
+    }
+  ],
+  "candidate_actual_billing": {
+    "calls": 52,
+    "known_cost_subtotal_usd": 0.068767602,
+    "estimated_cost_usd": null,
+    "unknown_cost_calls": 1
+  },
+  "judge_actual_billing": {
+    "calls": 14,
+    "known_cost_subtotal_usd": 0.301268508,
+    "estimated_cost_usd": 0.301268508,
+    "unknown_cost_calls": 0
+  },
+  "web_tool_cost_usd": null,
+  "human_verified_accuracy": null,
+  "complete": true,
+  "all_valid_answers_judged": true
+}

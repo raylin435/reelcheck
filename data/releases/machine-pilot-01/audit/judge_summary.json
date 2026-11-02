@@ -1,0 +1,34 @@
+{
+  "warning": "LLM judge assessments are fallible, potentially biased, and not human-verified accuracy. Objective validity is separate from semantic entailment.",
+  "systems": {
+    "gptoss_schema_quotes": {
+      "cases": 15,
+      "accepted_by_model_assessment": 12,
+      "rejected_by_model_assessment_or_objective_checks": 1,
+      "unresolved": 2,
+      "objective_failures": 0,
+      "requires_review": 2,
+      "same_model_judge_cases": 0,
+      "human_reviewed_grounded_successes": null
+    },
+    "gptoss_semantic_check": {
+      "cases": 15,
+      "accepted_by_model_assessment": 11,
+      "rejected_by_model_assessment_or_objective_checks": 2,
+      "unresolved": 2,
+      "objective_failures": 0,
+      "requires_review": 2,
+      "same_model_judge_cases": 0,
+      "human_reviewed_grounded_successes": null
+    }
+  },
+  "paid_judge_calls": 26,
+  "estimated_actual_judge_cost_usd": 0.279948,
+  "known_judge_cost_subtotal_usd": 0.279948,
+  "unknown_cost_calls": 0,
+  "reused_judgments": 0,
+  "stop_reason": "completed",
+  "reserved_cost_upper_estimate": 2.3744130000000006,
+  "planned_candidate_rows": 30,
+  "incomplete": false
+}

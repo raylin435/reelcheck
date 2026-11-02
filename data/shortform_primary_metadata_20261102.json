@@ -1,0 +1,469 @@
+{
+  "note": "Primary player metadata must match requested video ID. No cookies, login, media download or access bypass. Metadata is not full-clip review or rights clearance.",
+  "candidates": [
+    {
+      "clip_id": "health_aging",
+      "url": "https://www.youtube.com/shorts/cEweWu4HcHw",
+      "checked_at": "2026-11-02T21:12:22.075736+00:00",
+      "media_downloaded": false,
+      "rights_verified": false,
+      "native_short_verified": false,
+      "metadata_short_form_pass": true,
+      "page_sha256": "c27f82b7b902e24e107fafbf0253c5df604deaa1829d57c79862c694671324ca",
+      "playability": {
+        "status": "OK"
+      },
+      "video_details": {
+        "videoId": "cEweWu4HcHw",
+        "title": "YOU START AGING AT 25!😱 || How to prevent wrinkles! #shorts",
+        "author": "Matt Randon",
+        "channelId": "UCkYTCoRI2zIfKPJAzsExNyg",
+        "lengthSeconds": "40",
+        "isLiveContent": false
+      },
+      "microformat": {
+        "publishDate": "2021-04-17T05:55:58-07:00",
+        "uploadDate": "2021-04-17T05:55:58-07:00",
+        "category": "Howto & Style",
+        "isShortsEligible": true
+      },
+      "video_format_dimensions": [
+        [
+          82,
+          144
+        ],
+        [
+          136,
+          240
+        ],
+        [
+          202,
+          360
+        ],
+        [
+          240,
+          426
+        ],
+        [
+          270,
+          480
+        ],
+        [
+          360,
+          640
+        ],
+        [
+          406,
+          720
+        ],
+        [
+          540,
+          960
+        ]
+      ],
+      "status": "primary_metadata_verified"
+    },
+    {
+      "clip_id": "policy_tariff_india",
+      "url": "https://www.youtube.com/shorts/AxfbYNwmCiA",
+      "checked_at": "2026-11-02T21:12:22.076064+00:00",
+      "media_downloaded": false,
+      "rights_verified": false,
+      "native_short_verified": false,
+      "metadata_short_form_pass": true,
+      "page_sha256": "ed1fb0b121bb56b26539d585e8171f92c15a586686a2f671125f741c51e64f2a",
+      "playability": {
+        "status": "OK"
+      },
+      "video_details": {
+        "videoId": "AxfbYNwmCiA",
+        "title": "Reciprocal tariff-U.S. Slaps 26% Tariff on India: Boon or Bane for Indian Trade? #potus #trump #usa",
+        "author": "ForumIAS Official",
+        "channelId": "UCzuYmh_kQUpJpguQCwLKoPg",
+        "lengthSeconds": "91",
+        "isLiveContent": false
+      },
+      "microformat": {
+        "publishDate": "2025-04-03T01:39:10-07:00",
+        "uploadDate": "2025-04-03T01:39:10-07:00",
+        "category": "Education",
+        "isShortsEligible": true
+      },
+      "video_format_dimensions": [
+        [
+          144,
+          256
+        ],
+        [
+          240,
+          426
+        ],
+        [
+          360,
+          640
+        ],
+        [
+          480,
+          854
+        ],
+        [
+          608,
+          1080
+        ],
+        [
+          720,
+          1280
+        ],
+        [
+          1080,
+          1920
+        ]
+      ],
+      "status": "primary_metadata_verified"
+    },
+    {
+      "clip_id": "policy_ivf",
+      "url": "https://www.youtube.com/shorts/_eovRWq6cpA",
+      "checked_at": "2026-11-02T21:12:23.543862+00:00",
+      "media_downloaded": false,
+      "rights_verified": false,
+      "native_short_verified": false,
+      "metadata_short_form_pass": true,
+      "page_sha256": "5915049b9d4aa283168c808bd2936d1e9ff0bef83c6fad93177ce26f2b48a1ee",
+      "playability": {
+        "status": "OK"
+      },
+      "video_details": {
+        "videoId": "_eovRWq6cpA",
+        "title": "Trump announces that under his admin. the government will fund costs related to IVF treatments",
+        "author": "Right Side Broadcasting Network",
+        "channelId": "UCHqC-yWZ1kri4YzwRSt6RGQ",
+        "lengthSeconds": "55",
+        "isLiveContent": false
+      },
+      "microformat": {
+        "publishDate": "2024-08-29T14:34:04-07:00",
+        "uploadDate": "2024-08-29T14:34:04-07:00",
+        "category": "News & Politics",
+        "isShortsEligible": true
+      },
+      "video_format_dimensions": [
+        [
+          144,
+          256
+        ],
+        [
+          240,
+          426
+        ],
+        [
+          360,
+          640
+        ],
+        [
+          480,
+          854
+        ],
+        [
+          720,
+          1280
+        ],
+        [
+          1080,
+          1920
+        ]
+      ],
+      "status": "primary_metadata_verified"
+    },
+    {
+      "clip_id": "policy_tax",
+      "url": "https://www.youtube.com/shorts/O5kzZzQwiAI",
+      "checked_at": "2026-11-02T21:12:24.878681+00:00",
+      "media_downloaded": false,
+      "rights_verified": false,
+      "native_short_verified": false,
+      "metadata_short_form_pass": true,
+      "page_sha256": "2d69f4fdb25a3f9215e14d1c5f6dd17379efb39bfa34e1d167b492a36d519141",
+      "playability": {
+        "status": "OK"
+      },
+      "video_details": {
+        "videoId": "O5kzZzQwiAI",
+        "title": "“As tariffs on foreign countries go up, taxes on American workers and families come down.”",
+        "author": "Right Side Broadcasting Network",
+        "channelId": "UCHqC-yWZ1kri4YzwRSt6RGQ",
+        "lengthSeconds": "29",
+        "isLiveContent": false
+      },
+      "microformat": {
+        "publishDate": "2024-08-19T12:59:24-07:00",
+        "uploadDate": "2024-08-19T12:59:24-07:00",
+        "category": "News & Politics",
+        "isShortsEligible": true
+      },
+      "video_format_dimensions": [
+        [
+          144,
+          256
+        ],
+        [
+          240,
+          426
+        ],
+        [
+          360,
+          640
+        ],
+        [
+          480,
+          854
+        ],
+        [
+          720,
+          1280
+        ],
+        [
+          1080,
+          1920
+        ]
+      ],
+      "status": "primary_metadata_verified"
+    },
+    {
+      "clip_id": "energy_heatpump",
+      "url": "https://www.youtube.com/shorts/54XeLtz_a00",
+      "checked_at": "2026-11-02T21:12:26.557437+00:00",
+      "media_downloaded": false,
+      "rights_verified": false,
+      "native_short_verified": false,
+      "metadata_short_form_pass": true,
+      "page_sha256": "98c5ea826f3bc4153ad3678febefe5a6776de67aee010316b3d1557ac83b2f6a",
+      "playability": {
+        "status": "OK"
+      },
+      "video_details": {
+        "videoId": "54XeLtz_a00",
+        "title": "Heat pumps are MORE efficient!",
+        "author": "HVAC Guide for Homeowners",
+        "channelId": "UCp_5AZlvvW9jn6L4EZuCbNQ",
+        "lengthSeconds": "25",
+        "isLiveContent": false
+      },
+      "microformat": {
+        "publishDate": "2024-11-28T13:00:04-08:00",
+        "uploadDate": "2024-11-28T13:00:04-08:00",
+        "category": "Howto & Style",
+        "isShortsEligible": true
+      },
+      "video_format_dimensions": [
+        [
+          144,
+          256
+        ],
+        [
+          240,
+          426
+        ],
+        [
+          360,
+          640
+        ],
+        [
+          480,
+          854
+        ],
+        [
+          720,
+          1280
+        ],
+        [
+          1080,
+          1920
+        ]
+      ],
+      "status": "primary_metadata_verified"
+    },
+    {
+      "clip_id": "energy_solar",
+      "url": "https://www.youtube.com/shorts/fWAotkyBunE",
+      "checked_at": "2026-11-02T21:12:26.656091+00:00",
+      "media_downloaded": false,
+      "rights_verified": false,
+      "native_short_verified": false,
+      "metadata_short_form_pass": true,
+      "page_sha256": "d4698fa8edaac71cc36857e0143e8d921d152ebc1e2260eb94102c4d32d423ee",
+      "playability": {
+        "status": "OK"
+      },
+      "video_details": {
+        "videoId": "fWAotkyBunE",
+        "title": "JMG Limited - Head Office Powered by Hybrid Solar Power",
+        "author": "JMG Limited",
+        "channelId": "UCkIr_kq3uNT6P0k834SVfhg",
+        "lengthSeconds": "35",
+        "isLiveContent": false
+      },
+      "microformat": {
+        "publishDate": "2025-07-15T00:04:51-07:00",
+        "uploadDate": "2025-07-15T00:04:51-07:00",
+        "category": "People & Blogs",
+        "isShortsEligible": true
+      },
+      "video_format_dimensions": [
+        [
+          144,
+          144
+        ],
+        [
+          240,
+          240
+        ],
+        [
+          360,
+          360
+        ],
+        [
+          480,
+          480
+        ],
+        [
+          608,
+          608
+        ],
+        [
+          720,
+          720
+        ],
+        [
+          1080,
+          1080
+        ]
+      ],
+      "status": "primary_metadata_verified"
+    },
+    {
+      "clip_id": "tech_battery",
+      "url": "https://www.youtube.com/shorts/bQ4RAGeFeXk",
+      "checked_at": "2026-11-02T21:12:28.651943+00:00",
+      "media_downloaded": false,
+      "rights_verified": false,
+      "native_short_verified": false,
+      "metadata_short_form_pass": true,
+      "page_sha256": "65eaaf41ab32fee32d0c13182fd6e01c22a5594c4ea99e9f51bfe3273ea66d12",
+      "playability": {
+        "status": "OK"
+      },
+      "video_details": {
+        "videoId": "bQ4RAGeFeXk",
+        "title": "Is Charging While Using Your Phone Killing the Battery?",
+        "author": "HTX Studio",
+        "channelId": "UCwffSP9kO8pMZVr1Ugqvbzw",
+        "lengthSeconds": "79",
+        "isLiveContent": false
+      },
+      "microformat": {
+        "publishDate": "2025-06-07T08:00:46-07:00",
+        "uploadDate": "2025-06-07T08:00:46-07:00",
+        "category": "Science & Technology",
+        "isShortsEligible": true
+      },
+      "video_format_dimensions": [
+        [
+          144,
+          256
+        ],
+        [
+          240,
+          426
+        ],
+        [
+          360,
+          640
+        ],
+        [
+          480,
+          854
+        ],
+        [
+          608,
+          1080
+        ],
+        [
+          720,
+          1280
+        ],
+        [
+          1080,
+          1920
+        ],
+        [
+          1440,
+          2560
+        ],
+        [
+          2160,
+          3840
+        ]
+      ],
+      "status": "primary_metadata_verified"
+    },
+    {
+      "clip_id": "tech_solar_charger",
+      "url": "https://www.youtube.com/shorts/RFV76Fisyhc",
+      "checked_at": "2026-11-02T21:12:28.814892+00:00",
+      "media_downloaded": false,
+      "rights_verified": false,
+      "native_short_verified": false,
+      "metadata_short_form_pass": true,
+      "page_sha256": "42f3551457c5d5901d8af09963f0e858d3dc1cbf1207f50654984a503709ceb2",
+      "playability": {
+        "status": "OK"
+      },
+      "video_details": {
+        "videoId": "RFV76Fisyhc",
+        "title": "Αναδιπλούμενος Ηλιακός φορτιστής 7W για το κάμπινγκ!",
+        "author": "Gosolar Balafoutis",
+        "channelId": "UCfXw0MOwoHlnt1ysRXZ5LEQ",
+        "lengthSeconds": "65",
+        "isLiveContent": false
+      },
+      "microformat": {
+        "publishDate": "2025-04-29T01:03:45-07:00",
+        "uploadDate": "2025-04-29T01:03:45-07:00",
+        "category": "Science & Technology",
+        "isShortsEligible": true
+      },
+      "video_format_dimensions": [
+        [
+          144,
+          256
+        ],
+        [
+          240,
+          426
+        ],
+        [
+          360,
+          640
+        ],
+        [
+          480,
+          854
+        ],
+        [
+          608,
+          1080
+        ],
+        [
+          720,
+          1280
+        ],
+        [
+          1080,
+          1920
+        ]
+      ],
+      "status": "primary_metadata_verified"
+    }
+  ]
+}

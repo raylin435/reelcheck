@@ -1,0 +1,26 @@
+{
+  "mode": "live",
+  "inputs_sha256": "633e0fcbf16612e8feae4066c2e8b22517272ee6e2ef7ea8e92c287e92c93ac1",
+  "config": {
+    "provider": "fireworks",
+    "model": "accounts/fireworks/models/glm-5p3-flash",
+    "max_output_tokens": 4096,
+    "timeout_s": 60,
+    "parameters": {},
+    "pricing": {
+      "input_per_million": 0.15,
+      "cached_input_per_million": 0.03,
+      "output_per_million": 0.5,
+      "source": "https://app.fireworks.ai/models/fireworks/glm-5p3-flash",
+      "verified_date": "2026-11-02",
+      "tier": "standard"
+    },
+    "id": "glm_direct",
+    "prompt_system": "B",
+    "family": "glm"
+  },
+  "created_at": "2026-11-02T21:36:37.520868+00:00",
+  "script_sha256": "0d5d52876ec3078cbf3f485b6d9fedec22225e31f53086685d977ad72b335b06",
+  "method": "Publisher captions plus up to 18 one-fps preview frames, including each claim midpoint. No audio listening or full-frame review.",
+  "max_cost_usd": 1.0
+}

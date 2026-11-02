@@ -15,10 +15,15 @@ from .contract import REASONS, VERDICTS, validate
 from .prompts import COMMON, CHECKLIST, public_input
 
 MODE = 'citation_ids'
+QUOTE_MODE = 'schema_quotes'
 MODE_NOTE = ('JSON-schema generation with deterministic claim/quote rendering; '
              'Fireworks schema mode disables reasoning output. Quote validity is '
              'renderer-enforced, not evidence of semantic entailment.')
 FIELDS = {'verdict', 'citation_ids', 'uncertainty_reason', 'explanation'}
+MODE_NOTES = {MODE: MODE_NOTE, QUOTE_MODE: (
+    'JSON-schema generation with model-authored claim and quotations; no rendering '
+    'or repair. Fireworks schema mode disables reasoning output. Quote fidelity '
+    'and claim preservation are checked after generation, not schema-enforced.')}
 
 
 def output_schema(case):
@@ -37,6 +42,27 @@ def output_schema(case):
             'explanation': {'type': 'string', 'minLength': 1},
         },
     }
+
+
+def quote_output_schema(case):
+    """Ordinary structured-output baseline: schema cannot supply quotation text."""
+    schema = output_schema(case)
+    ids = schema['properties'].pop('citation_ids')['items']
+    schema['required'] = ['claim_text', 'verdict', 'citations', 'uncertainty_reason', 'explanation']
+    schema['properties'] = {
+        'claim_text': {'type': 'string', 'minLength': 1},
+        'verdict': schema['properties']['verdict'],
+        'citations': {'type': 'array', 'items': {
+            'type': 'object', 'additionalProperties': False,
+            'required': ['passage_id', 'quote'],
+            'properties': {'passage_id': ids, 'quote': {'type': 'string', 'minLength': 1}},
+        }},
+        'uncertainty_reason': schema['properties']['uncertainty_reason'],
+        'explanation': schema['properties']['explanation'],
+    }
+    if not case['evidence']:
+        schema['properties']['citations']['maxItems'] = 0
+    return schema
 
 
 def structured_messages(case, system='B'):
@@ -65,9 +91,10 @@ def request_config(variant, case):
     config = deepcopy(variant)
     parameters = dict(config.get('parameters', {}))
     if 'response_format' in parameters:
-        raise ValueError('citation_ids mode owns response_format; remove the manual override')
+        raise ValueError('Schema modes own response_format; remove the manual override')
+    schema = quote_output_schema(case) if variant.get('output_mode') == QUOTE_MODE else output_schema(case)
     parameters['response_format'] = {'type': 'json_schema',
-                                    'json_schema': {'name': 'Verification', 'schema': output_schema(case)}}
+                                    'json_schema': {'name': 'Verification', 'schema': schema}}
     config['parameters'] = parameters
     return config
 

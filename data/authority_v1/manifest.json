@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "created_at": "2026-11-02",
+  "selection_window": [
+    "2025-01-01",
+    "2026-11-02"
+  ],
+  "selection": "13 newest FDA Drug Safety Communications plus seven CDC 2026 HAN event families; selected before inference, not from observed model errors",
+  "cases": 40,
+  "families": 20,
+  "counts": {
+    "development": {
+      "recent_change": 5,
+      "exact_scope": 5,
+      "outdated_or_conflicting": 5,
+      "false_premise_or_missing_context": 5
+    },
+    "heldout": {
+      "recent_change": 5,
+      "exact_scope": 5,
+      "outdated_or_conflicting": 5,
+      "false_premise_or_missing_context": 5
+    }
+  },
+  "labels": {
+    "supported": 12,
+    "contradicted": 24,
+    "insufficient": 4
+  },
+  "fresh_within_90_days": 8,
+  "human_verified": false,
+  "files": {
+    "heldout.jsonl": "bb8c8c2196786f79e5492f44e604397368fb8bd6243359b3ccd905d87cfb4242",
+    "development.jsonl": "00a48a7e2d20799358cc41d3fa6808cb0153e8a1b5544a2c5bd1072b688517f5",
+    "references.jsonl": "1a45d235a00b8366155e020bc86f481a754831dae541be408d4a6634907e8ed6"
+  },
+  "split_method": "First feasible group combination in SHA256(authority-v1-20261102/group_id) order; 5 per category, 4 within 90 days and 2 missing-context cases per split, fixed before inference"
+}

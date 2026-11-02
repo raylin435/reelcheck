@@ -96,6 +96,18 @@ class MatrixTests(unittest.TestCase):
             self.assertNotIn('HIDDEN',(Path(args.out)/'request_preview.jsonl').read_text())
             self.assertTrue((Path(args.out)/'source_snapshot/reelcheck/prompts.py').exists())
 
+    def test_frozen_reference_is_hash_bound_but_never_sent_to_candidates(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            args = self.setup_files(tmp, live=False)
+            refs = Path(tmp) / 'refs.json'
+            refs.write_text('{"reference":"SECRET_REFERENCE_LABEL"}')
+            args.references = str(refs)
+            with patch.object(matrix, 'call') as post:
+                manifest = matrix.run_matrix(args)
+            post.assert_not_called()
+            self.assertEqual(manifest['frozen_reference_file_sha256'], hashlib.sha256(refs.read_bytes()).hexdigest())
+            self.assertNotIn('SECRET_REFERENCE_LABEL', (Path(args.out) / 'request_preview.jsonl').read_text())
+
     def test_malformed_output_is_failure_not_quality_success(self):
         result=copy.deepcopy(self.result)
         result['output']['citations'][0]['quote']='fabricated'

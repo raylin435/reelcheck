@@ -1,0 +1,1922 @@
+{
+  "status": "Machine-reviewed fixed-evidence pilot; no human-verified accuracy",
+  "references_human_reviewed": false,
+  "inputs_sha256": "61145bc465ecc899548da0e19fe28f633dc1bfedecbb05995295da9767fc1e17",
+  "frozen_reference_file_sha256": "74f8ec79ea0eaf732837ce3cd4439a57259d3dbb592c9f871edee235fddb6fdf",
+  "partitions": {
+    "all": {
+      "systems": {
+        "gptoss_schema_quotes": {
+          "cases": 15,
+          "clips": 6,
+          "resolved_reference_cases": 13,
+          "unresolved_reference_cases": 2,
+          "reference_coverage": 0.8666666666666667,
+          "valid_outputs": 15,
+          "valid_reference_matches": 12,
+          "valid_reference_matches_over_all": 0.8,
+          "valid_reference_matches_over_resolved": 0.9230769230769231,
+          "judge_accepted": 12,
+          "judge_accepted_over_all": 0.8,
+          "judge_accepted_over_resolved": 0.9230769230769231,
+          "judge_rejected": 1,
+          "judge_unresolved": 2,
+          "judge_reference_conflicts": 0,
+          "wrong_decisive_emitted": 1,
+          "wrong_decisive_case_ids": [
+            "sf_02"
+          ],
+          "wrong_decisive_valid": 1,
+          "verdict_counts": {
+            "supported": 7,
+            "insufficient": 7,
+            "contradicted": 1
+          },
+          "all_claims_accepted_clips": 3,
+          "deployment_cost_usd": 0.0065743799999999995,
+          "median_deployment_latency_s": 2.1453061659995
+        },
+        "gptoss_semantic_check": {
+          "cases": 15,
+          "clips": 6,
+          "resolved_reference_cases": 13,
+          "unresolved_reference_cases": 2,
+          "reference_coverage": 0.8666666666666667,
+          "valid_outputs": 15,
+          "valid_reference_matches": 11,
+          "valid_reference_matches_over_all": 0.7333333333333333,
+          "valid_reference_matches_over_resolved": 0.8461538461538461,
+          "judge_accepted": 11,
+          "judge_accepted_over_all": 0.7333333333333333,
+          "judge_accepted_over_resolved": 0.8461538461538461,
+          "judge_rejected": 2,
+          "judge_unresolved": 2,
+          "judge_reference_conflicts": 0,
+          "wrong_decisive_emitted": 1,
+          "wrong_decisive_case_ids": [
+            "sf_02"
+          ],
+          "wrong_decisive_valid": 1,
+          "verdict_counts": {
+            "supported": 6,
+            "insufficient": 8,
+            "contradicted": 1
+          },
+          "all_claims_accepted_clips": 2,
+          "deployment_cost_usd": 0.018630044999999998,
+          "median_deployment_latency_s": 6.074028666998856
+        }
+      },
+      "paired_acceptance": {
+        "baseline": "gptoss_schema_quotes",
+        "treatment": "gptoss_semantic_check",
+        "wins": [],
+        "losses": [
+          "new_02"
+        ],
+        "ties": [
+          "sf_01",
+          "sf_02",
+          "sf_03",
+          "sf_04",
+          "sf_06",
+          "new_01",
+          "new_03",
+          "new_04",
+          "new_05",
+          "new_06",
+          "new_08",
+          "new_09"
+        ],
+        "unresolved": [
+          "sf_05",
+          "new_07"
+        ]
+      }
+    },
+    "new_clip_validation": {
+      "systems": {
+        "gptoss_schema_quotes": {
+          "cases": 9,
+          "clips": 3,
+          "resolved_reference_cases": 8,
+          "unresolved_reference_cases": 1,
+          "reference_coverage": 0.8888888888888888,
+          "valid_outputs": 9,
+          "valid_reference_matches": 8,
+          "valid_reference_matches_over_all": 0.8888888888888888,
+          "valid_reference_matches_over_resolved": 1.0,
+          "judge_accepted": 8,
+          "judge_accepted_over_all": 0.8888888888888888,
+          "judge_accepted_over_resolved": 1.0,
+          "judge_rejected": 0,
+          "judge_unresolved": 1,
+          "judge_reference_conflicts": 0,
+          "wrong_decisive_emitted": 0,
+          "wrong_decisive_case_ids": [],
+          "wrong_decisive_valid": 0,
+          "verdict_counts": {
+            "supported": 5,
+            "contradicted": 1,
+            "insufficient": 3
+          },
+          "all_claims_accepted_clips": 2,
+          "deployment_cost_usd": 0.00387573,
+          "median_deployment_latency_s": 1.9924030419988412
+        },
+        "gptoss_semantic_check": {
+          "cases": 9,
+          "clips": 3,
+          "resolved_reference_cases": 8,
+          "unresolved_reference_cases": 1,
+          "reference_coverage": 0.8888888888888888,
+          "valid_outputs": 9,
+          "valid_reference_matches": 7,
+          "valid_reference_matches_over_all": 0.7777777777777778,
+          "valid_reference_matches_over_resolved": 0.875,
+          "judge_accepted": 7,
+          "judge_accepted_over_all": 0.7777777777777778,
+          "judge_accepted_over_resolved": 0.875,
+          "judge_rejected": 1,
+          "judge_unresolved": 1,
+          "judge_reference_conflicts": 0,
+          "wrong_decisive_emitted": 0,
+          "wrong_decisive_case_ids": [],
+          "wrong_decisive_valid": 0,
+          "verdict_counts": {
+            "supported": 4,
+            "insufficient": 4,
+            "contradicted": 1
+          },
+          "all_claims_accepted_clips": 1,
+          "deployment_cost_usd": 0.010917645,
+          "median_deployment_latency_s": 4.944557291997626
+        }
+      },
+      "paired_acceptance": {
+        "baseline": "gptoss_schema_quotes",
+        "treatment": "gptoss_semantic_check",
+        "wins": [],
+        "losses": [
+          "new_02"
+        ],
+        "ties": [
+          "new_01",
+          "new_03",
+          "new_04",
+          "new_05",
+          "new_06",
+          "new_08",
+          "new_09"
+        ],
+        "unresolved": [
+          "new_07"
+        ]
+      }
+    },
+    "previously_tested_development": {
+      "systems": {
+        "gptoss_schema_quotes": {
+          "cases": 6,
+          "clips": 3,
+          "resolved_reference_cases": 5,
+          "unresolved_reference_cases": 1,
+          "reference_coverage": 0.8333333333333334,
+          "valid_outputs": 6,
+          "valid_reference_matches": 4,
+          "valid_reference_matches_over_all": 0.6666666666666666,
+          "valid_reference_matches_over_resolved": 0.8,
+          "judge_accepted": 4,
+          "judge_accepted_over_all": 0.6666666666666666,
+          "judge_accepted_over_resolved": 0.8,
+          "judge_rejected": 1,
+          "judge_unresolved": 1,
+          "judge_reference_conflicts": 0,
+          "wrong_decisive_emitted": 1,
+          "wrong_decisive_case_ids": [
+            "sf_02"
+          ],
+          "wrong_decisive_valid": 1,
+          "verdict_counts": {
+            "supported": 2,
+            "insufficient": 4
+          },
+          "all_claims_accepted_clips": 1,
+          "deployment_cost_usd": 0.00269865,
+          "median_deployment_latency_s": 2.2745309164984064
+        },
+        "gptoss_semantic_check": {
+          "cases": 6,
+          "clips": 3,
+          "resolved_reference_cases": 5,
+          "unresolved_reference_cases": 1,
+          "reference_coverage": 0.8333333333333334,
+          "valid_outputs": 6,
+          "valid_reference_matches": 4,
+          "valid_reference_matches_over_all": 0.6666666666666666,
+          "valid_reference_matches_over_resolved": 0.8,
+          "judge_accepted": 4,
+          "judge_accepted_over_all": 0.6666666666666666,
+          "judge_accepted_over_resolved": 0.8,
+          "judge_rejected": 1,
+          "judge_unresolved": 1,
+          "judge_reference_conflicts": 0,
+          "wrong_decisive_emitted": 1,
+          "wrong_decisive_case_ids": [
+            "sf_02"
+          ],
+          "wrong_decisive_valid": 1,
+          "verdict_counts": {
+            "supported": 2,
+            "insufficient": 4
+          },
+          "all_claims_accepted_clips": 1,
+          "deployment_cost_usd": 0.0077123999999999995,
+          "median_deployment_latency_s": 6.261077875499723
+        }
+      },
+      "paired_acceptance": {
+        "baseline": "gptoss_schema_quotes",
+        "treatment": "gptoss_semantic_check",
+        "wins": [],
+        "losses": [],
+        "ties": [
+          "sf_01",
+          "sf_02",
+          "sf_03",
+          "sf_04",
+          "sf_06"
+        ],
+        "unresolved": [
+          "sf_05"
+        ]
+      }
+    }
+  },
+  "cost_usd": {
+    "generation_physical": 0.018630044999999998,
+    "grading": 0.279948,
+    "references": 0.191685514,
+    "clip_fidelity": 0.00383185,
+    "total": 0.494095409
+  },
+  "calls": {
+    "generation": 30,
+    "grading": 26,
+    "references": 35,
+    "clip_fidelity": 3
+  },
+  "details": [
+    {
+      "case_id": "sf_01",
+      "clip_id": "nutrition_supplements",
+      "partition": "previously_tested_development",
+      "claim_text": "Approximately 75% of service members self-report taking at least one dietary supplement at least once a week.",
+      "reference": {
+        "case_id": "sf_01",
+        "case_sha256": "80b8e47a2b16d477109b7fd978c0d8356a8c332eb1827b38c3afed0ad16e69b4",
+        "acceptable_verdicts": [
+          "supported"
+        ],
+        "rationale": "Independent machine agreement. Assessment 1: S1 directly reports 74% using ≥1 dietary supplement per week, which rounds to approximately 75%. S2 confirms DS means dietary supplements, use was self-reported, and the respondents were US service members, matching the claim's material scope without asserting a census. Assessment 2: S1 directly reports 74% using at least one dietary supplement per week, which approximates the claimed 75%. S2 confirms the measure is self-reported among surveyed US service members from four military branches and clarifies it is a survey estimate, not a census; this supports the claim as a survey-based prevalence statement, with some population/representativeness caveats.",
+        "evidence_ids": [
+          "S1",
+          "S2"
+        ],
+        "review_status": "machine_consensus",
+        "reviewer": "Independent machine panel; no human review",
+        "vote_models": [
+          "accounts/fireworks/models/kimi-k3",
+          "accounts/fireworks/models/deepseek-v4p1-flash-1017"
+        ],
+        "vote_verdicts": [
+          "supported",
+          "supported"
+        ],
+        "scope_ambiguity_flag": false
+      },
+      "answers": {
+        "gptoss_schema_quotes": {
+          "candidate": {
+            "claim_text": "Approximately 75% of service members self-report taking at least one dietary supplement at least once a week.",
+            "verdict": "supported",
+            "citations": [
+              {
+                "passage_id": "S1",
+                "quote": "Overall, 74% reported using ≥1 DS/wk."
+              },
+              {
+                "passage_id": "S2",
+                "quote": "This cross-sectional study surveyed personnel from the US Air Force, Army, Marine Corps and Navy."
+              }
+            ],
+            "uncertainty_reason": null,
+            "explanation": "S1 reports that 74% of respondents used at least one dietary supplement per week, which is approximately 75%, and S2 confirms the respondents were service members."
+          },
+          "execution_status": "completed",
+          "objective_errors": [],
+          "accepted": true,
+          "judge_status": "completed",
+          "judgment": {
+            "expected_verdict": "supported",
+            "claim_preserved": true,
+            "verdict_justified": true,
+            "citation_support": true,
+            "uncertainty_appropriate": true,
+            "confidence": "high",
+            "issues": [],
+            "rationale": "S1 directly states 74% reported using ≥1 DS/wk, which matches 'approximately 75%'; S2 confirms DS means dietary supplements, the sample was US service members, and use was self-reported, matching the claim's scope. The candidate's verdict of supported agrees with the reference, the claim text is preserved verbatim, and both citations are relevant to the asserted relationship. No uncertainty wording was needed since the evidence directly establishes the claim."
+          }
+        },
+        "gptoss_semantic_check": {
+          "candidate": {
+            "claim_text": "Approximately 75% of service members self-report taking at least one dietary supplement at least once a week.",
+            "verdict": "supported",
+            "citations": [
+              {
+                "passage_id": "S1",
+                "quote": "Overall, 74% reported using ≥1 DS/wk."
+              },
+              {
+                "passage_id": "S2",
+                "quote": "This cross-sectional study surveyed personnel from the US Air Force, Army, Marine Corps and Navy."
+              },
+              {
+                "passage_id": "S2",
+                "quote": "Supplement use was self-reported; the reported 74% is a survey estimate, not a census of every service member."
+              }
+            ],
+            "uncertainty_reason": null,
+            "explanation": "S1 provides a 74% weekly supplement use estimate, which is approximately 75%. S2 confirms the respondents were U.S. service members and that the data were self‑reported, satisfying all parts of the claim.",
+            "requirements": [
+              {
+                "id": "R1",
+                "text": "Approximately 75% of the surveyed population reported using at least one dietary supplement per week.",
+                "relation": "supports",
+                "citations": [
+                  {
+                    "passage_id": "S1",
+                    "quote": "Overall, 74% reported using ≥1 DS/wk."
+                  }
+                ]
+              },
+              {
+                "id": "R2",
+                "text": "The surveyed population consists of U.S. service members (Air Force, Army, Marine Corps, Navy).",
+                "relation": "supports",
+                "citations": [
+                  {
+                    "passage_id": "S2",
+                    "quote": "This cross-sectional study surveyed personnel from the US Air Force, Army, Marine Corps and Navy."
+                  }
+                ]
+              },
+              {
+                "id": "R3",
+                "text": "The supplement use figure is based on self‑reported data.",
+                "relation": "supports",
+                "citations": [
+                  {
+                    "passage_id": "S2",
+                    "quote": "Supplement use was self-reported; the reported 74% is a survey estimate, not a census of every service member."
+                  }
+                ]
+              }
+            ]
+          },
+          "execution_status": "completed",
+          "objective_errors": [],
+          "accepted": true,
+          "judge_status": "completed",
+          "judgment": {
+            "expected_verdict": "supported",
+            "claim_preserved": true,
+            "verdict_justified": true,
+            "citation_support": true,
+            "uncertainty_appropriate": true,
+            "confidence": "high",
+            "issues": [],
+            "rationale": "S1 directly states 74% used ≥1 DS/wk, which approximates the claimed 75%, and S2 confirms DS means dietary supplements, the measure was self-reported, and respondents were US service members from four branches. The candidate preserved the claim exactly, cited both passages with accurate quotes covering the quantity and the self-report/population qualifiers, and gave no inappropriate uncertainty for a justified supported verdict. This matches the frozen reference's acceptable verdict."
+          }
+        }
+      }
+    },
+    {
+      "case_id": "sf_02",
+      "clip_id": "nutrition_supplements",
+      "partition": "previously_tested_development",
+      "claim_text": "Dietary supplement use has documented adverse events and positive drug tests.",
+      "reference": {
+        "case_id": "sf_02",
+        "case_sha256": "a978f6e0f898571357c742b314f5a3544e9188afad39da55932e0ad5a4a41379",
+        "acceptable_verdicts": [
+          "insufficient"
+        ],
+        "rationale": "Independent machine agreement. Assessment 1: Adverse events are documented: A1 reports 18% of weekly supplement users self-reporting adverse effects (though cross-sectional and non-causal, 'documented' does not require causation). However, for positive drug tests, F1 only states fenproporex 'could produce' a positive amphetamine urinalysis and O1 only discusses the possibility that supplements could lead to positive tests—neither documents an actual positive drug test attributed to supplement use. Since one material part of the conjunctive claim is supported only as potential rather than documented, the claim as a whole is insufficient. Assessment 2: A1 documents self-reported adverse effects associated with supplement use, but not causation. F1 says an undeclared amphetamine derivative in selected weight-loss products could produce a positive urine test, not that positive drug tests were documented. O1 only notes questions and that laboratory testing is needed. Thus the adverse-event component has support, but the documented-positive-drug-test component is not established.",
+        "evidence_ids": [
+          "A1",
+          "F1",
+          "O1"
+        ],
+        "review_status": "machine_consensus",
+        "reviewer": "Independent machine panel; no human review",
+        "vote_models": [
+          "accounts/fireworks/models/kimi-k3",
+          "accounts/fireworks/models/deepseek-v4p1-flash-1017"
+        ],
+        "vote_verdicts": [
+          "insufficient",
+          "insufficient"
+        ],
+        "scope_ambiguity_flag": false
+      },
+      "answers": {
+        "gptoss_schema_quotes": {
+          "candidate": {
+            "claim_text": "Dietary supplement use has documented adverse events and positive drug tests.",
+            "verdict": "supported",
+            "citations": [
+              {
+                "passage_id": "A1",
+                "quote": "18% of supplement users taking products at least weekly reported one or more associated adverse effects."
+              },
+              {
+                "passage_id": "F1",
+                "quote": "could produce a positive amphetamine urinalysis."
+              }
+            ],
+            "uncertainty_reason": null,
+            "explanation": "Evidence A1 documents adverse effects among supplement users, and evidence F1 reports that testing found undeclared drugs that can cause a positive amphetamine urinalysis, confirming both adverse events and positive drug tests."
+          },
+          "execution_status": "completed",
+          "objective_errors": [],
+          "accepted": false,
+          "judge_status": "completed",
+          "judgment": {
+            "expected_verdict": "insufficient",
+            "claim_preserved": true,
+            "verdict_justified": false,
+            "citation_support": false,
+            "uncertainty_appropriate": false,
+            "confidence": "high",
+            "issues": [
+              "overclaim",
+              "invalid_uncertainty"
+            ],
+            "rationale": "The claim is conjunctive. A1 supports documented (self-reported, non-causal) adverse effects among weekly supplement users, satisfying the first part. But for positive drug tests, F1 only says fenproporex 'could produce' a positive amphetamine urinalysis and O1 only frames positive tests as a possibility requiring laboratory confirmation; neither documents an actual positive drug test from supplement use. The candidate's 'supported' verdict treats F1's conditional 'could produce' as documented confirmation, which is an overclaim; the F1 quote is real but semantically insufficient for documented positives, and the candidate gave no uncertainty despite the second conjunct being unestablished. Per the frozen reference the packet cannot decide the full claim, so the justified verdict is insufficient."
+          }
+        },
+        "gptoss_semantic_check": {
+          "candidate": {
+            "claim_text": "Dietary supplement use has documented adverse events and positive drug tests.",
+            "verdict": "supported",
+            "citations": [
+              {
+                "passage_id": "A1",
+                "quote": "18% of supplement users taking products at least weekly reported one or more associated adverse effects."
+              },
+              {
+                "passage_id": "F1",
+                "quote": "could produce a positive amphetamine urinalysis."
+              }
+            ],
+            "uncertainty_reason": null,
+            "explanation": "Evidence A1 documents adverse effects among supplement users, and evidence F1 shows that some supplements contain undeclared drugs that can cause a positive amphetamine urinalysis, thereby supporting both parts of the claim.",
+            "requirements": [
+              {
+                "id": "R1",
+                "text": "Dietary supplement use has documented adverse events.",
+                "relation": "supports",
+                "citations": [
+                  {
+                    "passage_id": "A1",
+                    "quote": "18% of supplement users taking products at least weekly reported one or more associated adverse effects."
+                  }
+                ]
+              },
+              {
+                "id": "R2",
+                "text": "Dietary supplement use has positive drug tests.",
+                "relation": "supports",
+                "citations": [
+                  {
+                    "passage_id": "F1",
+                    "quote": "could produce a positive amphetamine urinalysis."
+                  }
+                ]
+              }
+            ]
+          },
+          "execution_status": "completed",
+          "objective_errors": [],
+          "accepted": false,
+          "judge_status": "completed",
+          "judgment": {
+            "expected_verdict": "insufficient",
+            "claim_preserved": true,
+            "verdict_justified": false,
+            "citation_support": false,
+            "uncertainty_appropriate": false,
+            "confidence": "high",
+            "issues": [
+              "overclaim",
+              "missed_qualifier",
+              "invalid_uncertainty"
+            ],
+            "rationale": "The conjunctive claim requires documented adverse events AND documented positive drug tests. A1 supports the adverse-event part (18% self-reported adverse effects; documentation does not require causation). But F1 only says fenproporex 'could produce' a positive amphetamine urinalysis and O1 only frames positive tests as a possibility requiring lab confirmation; neither documents an actual positive drug test from supplement use. The candidate's F1 quote establishes potential, not documented occurrence, so 'supported' overclaims and ignores the 'could' qualifier; the justified verdict is insufficient."
+          }
+        }
+      }
+    },
+    {
+      "case_id": "sf_03",
+      "clip_id": "nutrition_supplements",
+      "partition": "previously_tested_development",
+      "claim_text": "If a weight-loss supplement works, it is probably a drug.",
+      "reference": {
+        "case_id": "sf_03",
+        "case_sha256": "e9d24bd715103fe231a908bc35af09aaeb1f66eddd05e0ce62d2792a83dc1dd7",
+        "acceptable_verdicts": [
+          "insufficient"
+        ],
+        "rationale": "Independent machine agreement. Assessment 1: The packet shows only that FDA testing of selected weight-loss products found undeclared drugs/chemicals such as fenproporex and warns of stimulant risks (F1). It does not measure efficacy, estimate the proportion of effective supplements that are drugs, or provide base rates; F2 expressly says the listed products are an enforcement fraction and not a random sample of effective weight-loss supplements, so selection bias prevents generalizing to 'probably a drug.' There is also no explicit counterevidence, so the claim is unproven rather than refuted. Assessment 2: The evidence shows some selected weight-loss products contained undeclared drugs, but it explicitly says the listed products are not a random sample of all effective weight-loss supplements and that FDA enforcement covers only a fraction of potentially hazardous products. It therefore does not establish that a working weight-loss supplement is probably a drug.",
+        "evidence_ids": [
+          "F1",
+          "F2"
+        ],
+        "review_status": "machine_consensus",
+        "reviewer": "Independent machine panel; no human review",
+        "vote_models": [
+          "accounts/fireworks/models/kimi-k3",
+          "accounts/fireworks/models/deepseek-v4p1-flash-1017"
+        ],
+        "vote_verdicts": [
+          "insufficient",
+          "insufficient"
+        ],
+        "scope_ambiguity_flag": false
+      },
+      "answers": {
+        "gptoss_schema_quotes": {
+          "candidate": {
+            "claim_text": "If a weight-loss supplement works, it is probably a drug.",
+            "verdict": "insufficient",
+            "citations": [
+              {
+                "passage_id": "F1",
+                "quote": "Laboratory testing found undeclared drugs and chemicals in selected products marketed for weight loss."
+              },
+              {
+                "passage_id": "F2",
+                "quote": "FDA cannot test and identify every potentially contaminated weight-loss product."
+              }
+            ],
+            "uncertainty_reason": "missing_evidence",
+            "explanation": "The provided evidence only notes that some weight‑loss supplements contain undeclared drugs and that FDA testing is limited; it does not address whether effective supplements are likely to be drugs, so the claim lacks supporting evidence."
+          },
+          "execution_status": "completed",
+          "objective_errors": [],
+          "accepted": true,
+          "judge_status": "completed",
+          "judgment": {
+            "expected_verdict": "insufficient",
+            "claim_preserved": true,
+            "verdict_justified": true,
+            "citation_support": true,
+            "uncertainty_appropriate": true,
+            "confidence": "high",
+            "issues": [],
+            "rationale": "F1 shows only that selected weight-loss products contained undeclared drugs (e.g., fenproporex), and F2 explicitly states the product list is an enforcement fraction, not a random sample of effective supplements—so the packet neither estimates efficacy nor the proportion of working supplements that are drugs, making 'probably a drug' undecidable (not contradicted, since no counterevidence exists). The candidate's insufficient verdict matches the frozen reference, preserves the claim text exactly, and both quotes are genuine, relevant excerpts from F1 and F2 that support the stated reason for withholding judgment. The missing_evidence uncertainty classification is appropriate."
+          }
+        },
+        "gptoss_semantic_check": {
+          "candidate": {
+            "claim_text": "If a weight-loss supplement works, it is probably a drug.",
+            "verdict": "insufficient",
+            "citations": [],
+            "uncertainty_reason": "missing_evidence",
+            "explanation": "The evidence only notes that some weight‑loss products contain undeclared drugs and that FDA testing is limited; it does not provide any information about whether supplements that actually work are drugs or are likely to be drugs.",
+            "requirements": [
+              {
+                "id": "R1",
+                "text": "Weight‑loss supplements that work (are effective) contain undeclared drugs or are classified as drugs, making it likely that a working supplement is a drug.",
+                "relation": "missing",
+                "citations": []
+              }
+            ]
+          },
+          "execution_status": "completed",
+          "objective_errors": [],
+          "accepted": true,
+          "judge_status": "completed",
+          "judgment": {
+            "expected_verdict": "insufficient",
+            "claim_preserved": true,
+            "verdict_justified": true,
+            "citation_support": true,
+            "uncertainty_appropriate": true,
+            "confidence": "high",
+            "issues": [],
+            "rationale": "F1 shows only that selected tested weight-loss products contained undeclared drugs like fenproporex; F2 explicitly notes the list is not a random sample of effective supplements and covers only a fraction of products. No efficacy data or base rates establish that a working supplement is 'probably a drug,' and no counterevidence refutes it, so insufficient is correct. The candidate preserved the claim verbatim, gave the justified insufficient verdict, appropriately used empty citations for a missing-evidence case, and its explanation accurately reflects F1 and F2."
+          }
+        }
+      }
+    },
+    {
+      "case_id": "sf_04",
+      "clip_id": "nutrition_eating",
+      "partition": "previously_tested_development",
+      "claim_text": "Half of body weight in pounds, expressed as fluid ounces of water per day, is generally a good starting point for hydration.",
+      "reference": {
+        "case_id": "sf_04",
+        "case_sha256": "d24181a122d59baf6f7c0fe2672dc1a955626554a97b54d50b7b2f1ec3981d3d",
+        "acceptable_verdicts": [
+          "insufficient"
+        ],
+        "rationale": "Independent machine agreement. Assessment 1: The supplied evidence does not endorse the half-body-weight formula: W1 only states intake needs vary by individual factors, and W2 explicitly notes the source does not give that formula. Absence of the recommendation is not explicit counterevidence that the heuristic is poor, so the claim is unproven rather than refuted. Assessment 2: The packet says water intake recommendations vary and that water comes from beverages and foods, but it neither endorses nor explicitly refutes the half-body-weight-in-pounds as fluid ounces formula. Thus the claim is unproven by the supplied evidence.",
+        "evidence_ids": [
+          "W1",
+          "W2"
+        ],
+        "review_status": "machine_consensus",
+        "reviewer": "Independent machine panel; no human review",
+        "vote_models": [
+          "accounts/fireworks/models/kimi-k3",
+          "accounts/fireworks/models/deepseek-v4p1-flash-1017"
+        ],
+        "vote_verdicts": [
+          "insufficient",
+          "insufficient"
+        ],
+        "scope_ambiguity_flag": false
+      },
+      "answers": {
+        "gptoss_schema_quotes": {
+          "candidate": {
+            "claim_text": "Half of body weight in pounds, expressed as fluid ounces of water per day, is generally a good starting point for hydration.",
+            "verdict": "insufficient",
+            "citations": [
+              {
+                "passage_id": "W2",
+                "quote": "This page does not give a formula of half body weight in pounds as fluid ounces of plain water per day."
+              }
+            ],
+            "uncertainty_reason": "missing_evidence",
+            "explanation": "The supplied evidence only notes that the CDC page does not provide the claimed half‑body‑weight formula and gives no recommendation supporting it; thus there is no evidence confirming the claim."
+          },
+          "execution_status": "completed",
+          "objective_errors": [],
+          "accepted": true,
+          "judge_status": "completed",
+          "judgment": {
+            "expected_verdict": "insufficient",
+            "claim_preserved": true,
+            "verdict_justified": true,
+            "citation_support": true,
+            "uncertainty_appropriate": true,
+            "confidence": "high",
+            "issues": [],
+            "rationale": "W1 states intake needs vary by individual factors, and W2 explicitly notes the CDC page does not provide the half-body-weight formula; neither passage endorses nor refutes the heuristic, so the claim is unproven and 'insufficient' matches the frozen reference. The candidate preserved the claim, cited the relevant W2 statement, and its missing-evidence uncertainty correctly reflects that absence of the recommendation is not counterevidence."
+          }
+        },
+        "gptoss_semantic_check": {
+          "candidate": {
+            "claim_text": "Half of body weight in pounds, expressed as fluid ounces of water per day, is generally a good starting point for hydration.",
+            "verdict": "insufficient",
+            "citations": [
+              {
+                "passage_id": "W2",
+                "quote": "does not give a formula of half body weight in pounds as fluid ounces of plain water per day"
+              }
+            ],
+            "uncertainty_reason": "missing_evidence",
+            "explanation": "The supplied CDC evidence only notes that daily water intake recommendations vary and explicitly states that the page does not give a formula of half body weight in pounds as fluid ounces of water per day; therefore there is no evidence confirming the claimed recommendation.",
+            "requirements": [
+              {
+                "id": "R1",
+                "text": "A recommendation that half of a person's body weight in pounds, expressed as fluid ounces of water per day, is generally a good starting point for hydration.",
+                "relation": "missing",
+                "citations": []
+              }
+            ]
+          },
+          "execution_status": "completed",
+          "objective_errors": [],
+          "accepted": true,
+          "judge_status": "completed",
+          "judgment": {
+            "expected_verdict": "insufficient",
+            "claim_preserved": true,
+            "verdict_justified": true,
+            "citation_support": true,
+            "uncertainty_appropriate": true,
+            "confidence": "high",
+            "issues": [],
+            "rationale": "W1 only states that water needs vary by individual factors and W2 explicitly says the CDC page does not provide the half-body-weight-in-pounds-as-fluid-ounces formula; the packet neither endorses nor explicitly refutes the heuristic, so insufficient is correct and matches the reference. The candidate preserved the exact claim, gave a genuine semantically relevant W2 quote showing the evidence lacks the formula, and appropriately labeled the gap as missing_evidence without overclaiming a contradiction."
+          }
+        }
+      }
+    },
+    {
+      "case_id": "sf_05",
+      "clip_id": "health_insomnia",
+      "partition": "previously_tested_development",
+      "claim_text": "Behavioral health consultants can provide brief behavioral treatment for insomnia.",
+      "reference": {
+        "case_id": "sf_05",
+        "case_sha256": "3c19a10eadc09705105c3c4d472e98713c0e0e1aa73f93fe36684e4a6ef3f26d",
+        "acceptable_verdicts": [],
+        "rationale": "Unresolved: at least one assessor flagged material scope ambiguity.",
+        "evidence_ids": [],
+        "review_status": "machine_unresolved",
+        "reviewer": "Independent machine panel; no human review",
+        "vote_models": [
+          "accounts/fireworks/models/kimi-k3",
+          "accounts/fireworks/models/deepseek-v4p1-flash-1017",
+          "accounts/fireworks/models/glm-5p3-flash"
+        ],
+        "vote_verdicts": [
+          "insufficient",
+          "supported",
+          "ambiguous"
+        ],
+        "scope_ambiguity_flag": true
+      },
+      "answers": {
+        "gptoss_schema_quotes": {
+          "candidate": {
+            "claim_text": "Behavioral health consultants can provide brief behavioral treatment for insomnia.",
+            "verdict": "insufficient",
+            "citations": [
+              {
+                "passage_id": "B1",
+                "quote": "Cognitive behavioral therapy for insomnia (CBT-I) and brief behavioral therapy for insomnia (BBT-I) are specialized behavioral treatments for chronic insomnia. Treatment is available in primary care, behavioral health and sleep clinics. Patients may receive these treatments from specially trained clinical psychologists or social workers"
+              },
+              {
+                "passage_id": "B2",
+                "quote": "BBT-I treats insomnia by addressing sleep-specific behaviors through multiple sessions. Its components include sleep restriction, stimulus control and some sleep hygiene."
+              }
+            ],
+            "uncertainty_reason": "missing_evidence",
+            "explanation": "The evidence confirms that brief behavioral therapy for insomnia (BBT-I) exists and is offered in behavioral health settings, but it only identifies clinical psychologists or social workers as providers, not \"behavioral health consultants\". Therefore there is no evidence that behavioral health consultants can provide this treatment."
+          },
+          "execution_status": "completed",
+          "objective_errors": [],
+          "accepted": null,
+          "judge_status": "unresolved_machine_reference",
+          "judgment": null
+        },
+        "gptoss_semantic_check": {
+          "candidate": {
+            "claim_text": "Behavioral health consultants can provide brief behavioral treatment for insomnia.",
+            "verdict": "insufficient",
+            "citations": [
+              {
+                "passage_id": "B1",
+                "quote": "Cognitive behavioral therapy for insomnia (CBT-I) and brief behavioral therapy for insomnia (BBT-I) are specialized behavioral treatments for chronic insomnia. Treatment is available in primary care, behavioral health and sleep clinics. Patients may receive these treatments from specially trained clinical psychologists or social workers"
+              },
+              {
+                "passage_id": "B2",
+                "quote": "BBT-I treats insomnia by addressing sleep-specific behaviors through multiple sessions. Its components include sleep restriction, stimulus control and some sleep hygiene."
+              }
+            ],
+            "uncertainty_reason": "missing_evidence",
+            "explanation": "The evidence confirms that brief behavioral therapy for insomnia (BBT‑I) exists and is offered in behavioral health settings, but it only identifies clinical psychologists or social workers as providers and does not mention behavioral health consultants as capable providers. Therefore there is missing evidence that behavioral health consultants can provide this treatment.",
+            "requirements": [
+              {
+                "id": "R1",
+                "text": "Brief behavioral therapy for insomnia (BBT‑I) exists as a treatment for insomnia.",
+                "relation": "supports",
+                "citations": [
+                  {
+                    "passage_id": "B1",
+                    "quote": "Cognitive behavioral therapy for insomnia (CBT-I) and brief behavioral therapy for insomnia (BBT-I) are specialized behavioral treatments for chronic insomnia."
+                  },
+                  {
+                    "passage_id": "B2",
+                    "quote": "BBT-I treats insomnia by addressing sleep-specific behaviors through multiple sessions."
+                  }
+                ]
+              },
+              {
+                "id": "R2",
+                "text": "Behavioral health consultants can provide brief behavioral therapy for insomnia.",
+                "relation": "missing",
+                "citations": []
+              }
+            ]
+          },
+          "execution_status": "completed",
+          "objective_errors": [],
+          "accepted": null,
+          "judge_status": "unresolved_machine_reference",
+          "judgment": null
+        }
+      }
+    },
+    {
+      "case_id": "sf_06",
+      "clip_id": "health_insomnia",
+      "partition": "previously_tested_development",
+      "claim_text": "Irregular work schedules during deployment can contribute to insomnia.",
+      "reference": {
+        "case_id": "sf_06",
+        "case_sha256": "d23f98688f294ebe2ebb13ceff51b2412f697d75a5ca55adc557959a5a16bcda",
+        "acceptable_verdicts": [
+          "insufficient"
+        ],
+        "rationale": "Independent machine agreement. Assessment 1: The passages support that schedule changes, shift/night work, and changing sleep routines can cause or raise risk of insomnia, but they do not address deployment or military deployment settings specifically. Since the claim is scoped to irregular work schedules during deployment, that contextual condition is not established by the supplied evidence. Assessment 2: R1 and R2 support that schedule changes, shift/night work, and irregular routines can contribute to insomnia or sleep problems generally, but neither addresses deployment or military populations. The specific 'during deployment' component is unsupported by the packet.",
+        "evidence_ids": [
+          "R1",
+          "R2"
+        ],
+        "review_status": "machine_consensus",
+        "reviewer": "Independent machine panel; no human review",
+        "vote_models": [
+          "accounts/fireworks/models/kimi-k3",
+          "accounts/fireworks/models/deepseek-v4p1-flash-1017"
+        ],
+        "vote_verdicts": [
+          "insufficient",
+          "insufficient"
+        ],
+        "scope_ambiguity_flag": false
+      },
+      "answers": {
+        "gptoss_schema_quotes": {
+          "candidate": {
+            "claim_text": "Irregular work schedules during deployment can contribute to insomnia.",
+            "verdict": "insufficient",
+            "citations": [
+              {
+                "passage_id": "R1",
+                "quote": "Changes in your schedule or environment can cause or raise your risk of insomnia."
+              },
+              {
+                "passage_id": "R2",
+                "quote": "shift or night work as factors that can disturb the sleep-wake cycle"
+              }
+            ],
+            "uncertainty_reason": "missing_evidence",
+            "explanation": "The evidence confirms that changes in schedule or shift work can increase insomnia risk, but it does not specifically address deployment contexts, so the claim’s condition \"during deployment\" lacks supporting evidence."
+          },
+          "execution_status": "completed",
+          "objective_errors": [],
+          "accepted": true,
+          "judge_status": "completed",
+          "judgment": {
+            "expected_verdict": "insufficient",
+            "claim_preserved": true,
+            "verdict_justified": true,
+            "citation_support": true,
+            "uncertainty_appropriate": true,
+            "confidence": "high",
+            "issues": [],
+            "rationale": "R1 and R2 establish only that schedule changes, shift/night work, and changing sleep routines can raise insomnia risk generally; neither passage establishes the claim's material 'during deployment' scope. The candidate preserves the claim, correctly gives insufficient with missing-evidence uncertainty, and cites the relevant passages."
+          }
+        },
+        "gptoss_semantic_check": {
+          "candidate": {
+            "claim_text": "Irregular work schedules during deployment can contribute to insomnia.",
+            "verdict": "insufficient",
+            "citations": [
+              {
+                "passage_id": "R1",
+                "quote": "Changes in your schedule or environment can cause or raise your risk of insomnia."
+              },
+              {
+                "passage_id": "R2",
+                "quote": "shift or night work as factors that can disturb the sleep-wake cycle"
+              }
+            ],
+            "uncertainty_reason": "missing_evidence",
+            "explanation": "The evidence confirms that irregular or shift work schedules can increase the risk of insomnia, but it provides no information about such schedules occurring during deployment, so the claim’s deployment condition lacks support.",
+            "requirements": [
+              {
+                "id": "R1",
+                "text": "Irregular work schedules can contribute to insomnia.",
+                "relation": "supports",
+                "citations": [
+                  {
+                    "passage_id": "R1",
+                    "quote": "Changes in your schedule or environment can cause or raise your risk of insomnia."
+                  },
+                  {
+                    "passage_id": "R2",
+                    "quote": "shift or night work as factors that can disturb the sleep-wake cycle"
+                  }
+                ]
+              },
+              {
+                "id": "R2",
+                "text": "The work schedules are during deployment.",
+                "relation": "missing",
+                "citations": []
+              }
+            ]
+          },
+          "execution_status": "completed",
+          "objective_errors": [],
+          "accepted": true,
+          "judge_status": "completed",
+          "judgment": {
+            "expected_verdict": "insufficient",
+            "claim_preserved": true,
+            "verdict_justified": true,
+            "citation_support": true,
+            "uncertainty_appropriate": true,
+            "confidence": "high",
+            "issues": [],
+            "rationale": "R1 supports that schedule/environment changes can cause or raise insomnia risk and R2 supports shift/night work and changing routines disturbing sleep, but neither R1 nor R2 establishes the claim's 'during deployment' condition. Per the rubric this is insufficient rather than contradicted, matching the frozen reference. The candidate preserved the exact claim, gave a justified insufficient verdict, cited relevant supporting passages while correctly noting the missing deployment evidence, and used appropriate missing_evidence uncertainty."
+          }
+        }
+      }
+    },
+    {
+      "case_id": "new_01",
+      "clip_id": "clearance_new",
+      "partition": "new_clip_validation",
+      "claim_text": "During 2012–2018, about 2.3 million security-clearance adjudicative actions were performed.",
+      "reference": {
+        "case_id": "new_01",
+        "case_sha256": "2b8136c13385df9e7d45013f65e1dfad0cd12034fbeacb7dfee94ba8a9a94b06",
+        "acceptable_verdicts": [
+          "supported"
+        ],
+        "rationale": "Independent machine agreement. Assessment 1: D1 states that during 2012–2018 DoD CAF performed about 2.3 million adjudicative actions and gives a precise total of 2,361,717, matching the claim’s date range, rounded magnitude, and action-count framing; the DCSA/DoD CAF context supplies the security-clearance setting. Assessment 2: D1 directly states that during 2012–2018 the DoD CAF performed about 2.3 million adjudicative actions, with a chart total of 2,361,717. The claim’s approximate figure and period match; the evidence also clarifies these are actions, not necessarily distinct individuals.",
+        "evidence_ids": [
+          "D1"
+        ],
+        "review_status": "machine_consensus",
+        "reviewer": "Independent machine panel; no human review",
+        "vote_models": [
+          "accounts/fireworks/models/kimi-k3",
+          "accounts/fireworks/models/deepseek-v4p1-flash-1017"
+        ],
+        "vote_verdicts": [
+          "supported",
+          "supported"
+        ],
+        "scope_ambiguity_flag": false
+      },
+      "answers": {
+        "gptoss_schema_quotes": {
+          "candidate": {
+            "claim_text": "During 2012–2018, about 2.3 million security-clearance adjudicative actions were performed.",
+            "verdict": "supported",
+            "citations": [
+              {
+                "passage_id": "D1",
+                "quote": "During 2012–2018, DoD CAF performed about 2.3 million adjudicative actions"
+              }
+            ],
+            "uncertainty_reason": null,
+            "explanation": "The evidence explicitly states that during 2012–2018 the DoD CAF performed about 2.3 million adjudicative actions, matching the claim."
+          },
+          "execution_status": "completed",
+          "objective_errors": [],
+          "accepted": true,
+          "judge_status": "completed",
+          "judgment": {
+            "expected_verdict": "supported",
+            "claim_preserved": true,
+            "verdict_justified": true,
+            "citation_support": true,
+            "uncertainty_appropriate": true,
+            "confidence": "high",
+            "issues": [],
+            "rationale": "D1 explicitly matches the claim’s 2012–2018 period and says DoD CAF performed about 2.3 million adjudicative actions, with a precise chart total of 2,361,717; the DCSA/DoD CAF context supplies the security-clearance setting and the note that these are actions, not distinct individuals, does not contradict the claim."
+          }
+        },
+        "gptoss_semantic_check": {
+          "candidate": {
+            "claim_text": "During 2012–2018, about 2.3 million security-clearance adjudicative actions were performed.",
+            "verdict": "supported",
+            "citations": [
+              {
+                "passage_id": "D1",
+                "quote": "During 2012–2018, DoD CAF performed about 2.3 million adjudicative actions"
+              }
+            ],
+            "uncertainty_reason": null,
+            "explanation": "The evidence states that during 2012–2018 the DoD CAF performed about 2.3 million adjudicative actions, matching the claim’s period and quantity.",
+            "requirements": [
+              {
+                "id": "R1",
+                "text": "The adjudicative actions occurred during the period 2012–2018.",
+                "relation": "supports",
+                "citations": [
+                  {
+                    "passage_id": "D1",
+                    "quote": "During 2012–2018, DoD CAF performed about 2.3 million adjudicative actions"
+                  }
+                ]
+              },
+              {
+                "id": "R2",
+                "text": "Approximately 2.3 million security‑clearance adjudicative actions were performed.",
+                "relation": "supports",
+                "citations": [
+                  {
+                    "passage_id": "D1",
+                    "quote": "During 2012–2018, DoD CAF performed about 2.3 million adjudicative actions"
+                  }
+                ]
+              }
+            ]
+          },
+          "execution_status": "completed",
+          "objective_errors": [],
+          "accepted": true,
+          "judge_status": "completed",
+          "judgment": {
+            "expected_verdict": "supported",
+            "claim_preserved": true,
+            "verdict_justified": true,
+            "citation_support": true,
+            "uncertainty_appropriate": true,
+            "confidence": "high",
+            "issues": [],
+            "rationale": "D1 explicitly states that during 2012–2018 DoD CAF performed about 2.3 million adjudicative actions, with a precise total of 2,361,717, matching the claim's period and rounded magnitude. The DCSA/DoD CAF source context (DoD Consolidated Adjudications Facility) establishes the security-clearance setting. The candidate preserved the claim exactly, quoted D1 accurately, and appropriately gave no uncertainty since the evidence directly supports the claim."
+          }
+        }
+      }
+    },
+    {
+      "case_id": "new_02",
+      "clip_id": "clearance_new",
+      "partition": "new_clip_validation",
+      "claim_text": "During 2012–2018, only 12 individuals had clearance eligibility denied or revoked solely for psychological issues.",
+      "reference": {
+        "case_id": "new_02",
+        "case_sha256": "02e5a8a154f4c3a26a556eab51d559c82f4805e7a1a115c3e6034b2d38e4cebe",
+        "acceptable_verdicts": [
+          "supported"
+        ],
+        "rationale": "Independent machine agreement. Assessment 1: D1 establishes the 2012–2018 DoD CAF context and distinguishes actions/cases from individuals; D2 directly states that twelve individuals had eligibility denied or revoked solely due to security concerns from a psychological condition, with 380 others involving additional concerns. This matches the claim's sole-cause psychological denial/revocation count. Assessment 2: D2 states that twelve individuals had eligibility denied or revoked solely because of security concerns presented by a psychological condition, with another 380 having additional concerns. D1 places the page 33 figures in the 2012–2018 period.",
+        "evidence_ids": [
+          "D1",
+          "D2"
+        ],
+        "review_status": "machine_consensus",
+        "reviewer": "Independent machine panel; no human review",
+        "vote_models": [
+          "accounts/fireworks/models/kimi-k3",
+          "accounts/fireworks/models/deepseek-v4p1-flash-1017"
+        ],
+        "vote_verdicts": [
+          "supported",
+          "supported"
+        ],
+        "scope_ambiguity_flag": false
+      },
+      "answers": {
+        "gptoss_schema_quotes": {
+          "candidate": {
+            "claim_text": "During 2012–2018, only 12 individuals had clearance eligibility denied or revoked solely for psychological issues.",
+            "verdict": "supported",
+            "citations": [
+              {
+                "passage_id": "D1",
+                "quote": "During 2012–2018, DoD CAF performed about 2.3 million adjudicative actions, including grants, denials and jurisdiction decisions."
+              },
+              {
+                "passage_id": "D2",
+                "quote": "Twelve individuals had eligibility denied or revoked solely because of security concerns presented by a psychological condition."
+              }
+            ],
+            "uncertainty_reason": null,
+            "explanation": "D1 confirms the data period is 2012–2018, and D2 states that exactly twelve individuals had eligibility denied or revoked solely for a psychological condition, matching the claim."
+          },
+          "execution_status": "completed",
+          "objective_errors": [],
+          "accepted": true,
+          "judge_status": "completed",
+          "judgment": {
+            "expected_verdict": "supported",
+            "claim_preserved": true,
+            "verdict_justified": true,
+            "citation_support": true,
+            "uncertainty_appropriate": true,
+            "confidence": "high",
+            "issues": [],
+            "rationale": "D1 establishes the 2012–2018 DoD CAF context and cautions that actions/cases are not necessarily individuals, while D2 directly states that twelve individuals had eligibility denied or revoked solely because of security concerns presented by a psychological condition, with 380 others involving additional concerns. The candidate preserves the claim and cites the relevant D1/D2 language; no uncertainty wording is needed."
+          }
+        },
+        "gptoss_semantic_check": {
+          "candidate": {
+            "claim_text": "During 2012–2018, only 12 individuals had clearance eligibility denied or revoked solely for psychological issues.",
+            "verdict": "insufficient",
+            "citations": [
+              {
+                "passage_id": "D2",
+                "quote": "Twelve individuals had eligibility denied or revoked solely because of security concerns presented by a psychological condition."
+              }
+            ],
+            "uncertainty_reason": "missing_context",
+            "explanation": "D2 confirms that exactly twelve individuals were denied or revoked solely for a psychological condition, but it does not specify that this occurred during the 2012–2018 period. D1 establishes the 2012–2018 timeframe for overall adjudicative actions, yet it does not link the twelve‑person count to that period. Therefore the claim lacks explicit evidence tying the number to the stated timeframe.",
+            "requirements": [
+              {
+                "id": "R1",
+                "text": "The count of twelve individuals applies to the period 2012–2018.",
+                "relation": "missing",
+                "citations": []
+              },
+              {
+                "id": "R2",
+                "text": "Exactly twelve individuals had clearance eligibility denied or revoked solely for psychological issues.",
+                "relation": "supports",
+                "citations": [
+                  {
+                    "passage_id": "D2",
+                    "quote": "Twelve individuals had eligibility denied or revoked solely because of security concerns presented by a psychological condition."
+                  }
+                ]
+              }
+            ]
+          },
+          "execution_status": "completed",
+          "objective_errors": [],
+          "accepted": false,
+          "judge_status": "completed",
+          "judgment": {
+            "expected_verdict": "supported",
+            "claim_preserved": true,
+            "verdict_justified": false,
+            "citation_support": true,
+            "uncertainty_appropriate": false,
+            "confidence": "high",
+            "issues": [
+              "unnecessary_abstention",
+              "invalid_uncertainty"
+            ],
+            "rationale": "D1 explicitly frames the page 33 DCSA ACCESS figures as DoD CAF adjudications during 2012–2018, and D2 is the same page 33 source summary stating that twelve individuals had eligibility denied or revoked solely because of security concerns from a psychological condition (with 380 others having additional concerns). Jointly D1+D2 establish both the timeframe and the sole-cause individual count, so the reference verdict supported stands. The candidate preserved the claim and quoted D2 accurately, but its missing_context rationale is wrong: the 2012–2018 linkage is supplied by the shared page-33 context in D1, making the insufficient verdict an unnecessary abstention with invalid uncertainty."
+          }
+        }
+      }
+    },
+    {
+      "case_id": "new_03",
+      "clip_id": "clearance_new",
+      "partition": "new_clip_validation",
+      "claim_text": "The 12 denials and revocations solely for psychological issues represent 0.00507% of the 2,361,717 total adjudicative actions in 2012–2018.",
+      "reference": {
+        "case_id": "new_03",
+        "case_sha256": "95cc946d9980ac0f8402893f0297e78cc89fa3a72679a4c04f1ee239d312e726",
+        "acceptable_verdicts": [
+          "contradicted"
+        ],
+        "rationale": "Independent machine agreement. Assessment 1: The supplied figures (12 sole-psychological denials/revocations from D2; 2,361,717 total actions from D1) give 12/2,361,717 = 0.000508%, not 0.00507%. The stated percentage is off by a factor of 10 (0.00507% of 2,361,717 ≈ 120, not 12), so the explicit quantitative claim is arithmetically inconsistent with the packet. A secondary individuals-vs-actions unit mismatch exists but is immaterial to the failed percentage. Assessment 2: D1 supplies the 2,361,717 total adjudicative actions and D2 supplies 12 denials/revocations solely for psychological concerns. But 12 ÷ 2,361,717 × 100 = approximately 0.000508%, not 0.00507%; the stated percentage is wrong by roughly a factor of 10.",
+        "evidence_ids": [
+          "D1",
+          "D2"
+        ],
+        "review_status": "machine_consensus",
+        "reviewer": "Independent machine panel; no human review",
+        "vote_models": [
+          "accounts/fireworks/models/kimi-k3",
+          "accounts/fireworks/models/deepseek-v4p1-flash-1017"
+        ],
+        "vote_verdicts": [
+          "contradicted",
+          "contradicted"
+        ],
+        "scope_ambiguity_flag": false
+      },
+      "answers": {
+        "gptoss_schema_quotes": {
+          "candidate": {
+            "claim_text": "The 12 denials and revocations solely for psychological issues represent 0.00507% of the 2,361,717 total adjudicative actions in 2012–2018.",
+            "verdict": "contradicted",
+            "citations": [
+              {
+                "passage_id": "D1",
+                "quote": "2,361,717 total actions"
+              },
+              {
+                "passage_id": "D2",
+                "quote": "Twelve individuals had eligibility denied or revoked solely because of security concerns presented by a psychological condition"
+              }
+            ],
+            "uncertainty_reason": null,
+            "explanation": "Evidence shows there were 12 such denials/revocations (D2) and 2,361,717 total adjudicative actions (D1). The percentage calculated from these numbers is (12/2,361,717)*100 ≈ 0.000508%, which differs from the claimed 0.00507%."
+          },
+          "execution_status": "completed",
+          "objective_errors": [],
+          "accepted": true,
+          "judge_status": "completed",
+          "judgment": {
+            "expected_verdict": "contradicted",
+            "claim_preserved": true,
+            "verdict_justified": true,
+            "citation_support": true,
+            "uncertainty_appropriate": true,
+            "confidence": "high",
+            "issues": [],
+            "rationale": "D1 establishes 2,361,717 total actions and D2 establishes 12 sole-psychological denials/revocations; 12/2,361,717*100 ≈ 0.000508%, not the claimed 0.00507% (off by ~10x), so the quantitative claim is contradicted. The candidate preserved the claim, gave the correct contradicted verdict with accurate arithmetic, cited both relevant passages, and appropriately had no uncertainty. This matches the frozen reference."
+          }
+        },
+        "gptoss_semantic_check": {
+          "candidate": {
+            "claim_text": "The 12 denials and revocations solely for psychological issues represent 0.00507% of the 2,361,717 total adjudicative actions in 2012–2018.",
+            "verdict": "contradicted",
+            "citations": [
+              {
+                "passage_id": "D1",
+                "quote": "2,361,717 total actions"
+              },
+              {
+                "passage_id": "D2",
+                "quote": "Twelve individuals had eligibility denied or revoked solely because of security concerns presented by a psychological condition"
+              }
+            ],
+            "uncertainty_reason": null,
+            "explanation": "Evidence D1 confirms there were 2,361,717 total adjudicative actions, and D2 confirms there were twelve denials/revocations solely for psychological issues. Computing the percentage (12 ÷ 2,361,717 × 100) yields about 0.000508%, which does not match the claimed 0.00507%; therefore the claim’s percentage is incorrect.",
+            "requirements": [
+              {
+                "id": "R1",
+                "text": "Total adjudicative actions in 2012–2018 equal 2,361,717",
+                "relation": "supports",
+                "citations": [
+                  {
+                    "passage_id": "D1",
+                    "quote": "2,361,717 total actions"
+                  }
+                ]
+              },
+              {
+                "id": "R2",
+                "text": "Denials and revocations solely for psychological issues total twelve",
+                "relation": "supports",
+                "citations": [
+                  {
+                    "passage_id": "D2",
+                    "quote": "Twelve individuals had eligibility denied or revoked solely because of security concerns presented by a psychological condition"
+                  }
+                ]
+              },
+              {
+                "id": "R3",
+                "text": "These twelve represent 0.00507% of the total adjudicative actions",
+                "relation": "contradicts",
+                "citations": [
+                  {
+                    "passage_id": "D1",
+                    "quote": "2,361,717 total actions"
+                  },
+                  {
+                    "passage_id": "D2",
+                    "quote": "Twelve individuals had eligibility denied or revoked solely because of security concerns presented by a psychological condition"
+                  }
+                ]
+              }
+            ]
+          },
+          "execution_status": "completed",
+          "objective_errors": [],
+          "accepted": true,
+          "judge_status": "completed",
+          "judgment": {
+            "expected_verdict": "contradicted",
+            "claim_preserved": true,
+            "verdict_justified": true,
+            "citation_support": true,
+            "uncertainty_appropriate": true,
+            "confidence": "high",
+            "issues": [],
+            "rationale": "D1 supplies the 2,361,717 total adjudicative actions and D2 supplies the 12 denials/revocations solely for psychological concerns. The arithmetic is decisive: 12 / 2,361,717 x 100 ≈ 0.000508%, whereas the claim states 0.00507%, which corresponds to ~120 actions — a roughly 10x overstatement. The candidate preserved the claim exactly, reached the reference verdict contradicted with correct computation, cited both passages for the numerator and denominator, and appropriately gave no uncertainty since the inconsistency is purely arithmetic."
+          }
+        }
+      }
+    },
+    {
+      "case_id": "new_04",
+      "clip_id": "reinstatement_new",
+      "partition": "new_clip_validation",
+      "claim_text": "Following the executive order, the Marine Corps established a COVID-19 reinstatement cell and a pathway for eligible Marines to return to service.",
+      "reference": {
+        "case_id": "new_04",
+        "case_sha256": "01a5950f0eef9de7431855497741c89da2d5e5cc4c4ab190bfa0b1fd33599d8b",
+        "acceptable_verdicts": [
+          "supported"
+        ],
+        "rationale": "Independent machine agreement. Assessment 1: M1 states EO 14184 was signed Jan 27, 2025, that subsequent guidance created return-to-service processes for those affected by the vaccine mandate, and that the Marine Corps implemented a program involving recruiters and the COVID Reinstatement Cell, with staff assessing applicants and explaining a pathway. M2 corroborates a case-by-case return-to-service eligibility process. All material parts of the claim—post-order timing, the reinstatement cell, and a pathway for eligible Marines—are directly supported, with no counterevidence. Assessment 2: M1 states that after Executive Order 14184, subsequent guidance established return-to-service processes and the Marine Corps implemented a program involving the COVID Reinstatement Cell, with applicants assessed and given an explained pathway. M2 confirms case-by-case eligibility and return-to-service review, supporting the pathway for eligible Marines.",
+        "evidence_ids": [
+          "M1",
+          "M2"
+        ],
+        "review_status": "machine_consensus",
+        "reviewer": "Independent machine panel; no human review",
+        "vote_models": [
+          "accounts/fireworks/models/kimi-k3",
+          "accounts/fireworks/models/deepseek-v4p1-flash-1017"
+        ],
+        "vote_verdicts": [
+          "supported",
+          "supported"
+        ],
+        "scope_ambiguity_flag": false
+      },
+      "answers": {
+        "gptoss_schema_quotes": {
+          "candidate": {
+            "claim_text": "Following the executive order, the Marine Corps established a COVID-19 reinstatement cell and a pathway for eligible Marines to return to service.",
+            "verdict": "supported",
+            "citations": [
+              {
+                "passage_id": "M1",
+                "quote": "The Marine Corps implemented a program involving recruiters and the COVID Reinstatement Cell. Applicants submit information so staff can assess their circumstances and explain a pathway."
+              }
+            ],
+            "uncertainty_reason": null,
+            "explanation": "M1 confirms that after Executive Order 14184, the Marine Corps created a COVID Reinstatement Cell and provided a process (pathway) for eligible Marines to return to service."
+          },
+          "execution_status": "completed",
+          "objective_errors": [],
+          "accepted": true,
+          "judge_status": "completed",
+          "judgment": {
+            "expected_verdict": "supported",
+            "claim_preserved": true,
+            "verdict_justified": true,
+            "citation_support": true,
+            "uncertainty_appropriate": true,
+            "confidence": "high",
+            "issues": [],
+            "rationale": "M1 explicitly establishes all material elements: EO 14184 signed Jan 27, 2025, subsequent guidance creating return-to-service processes, and the Marine Corps implementing a program involving the COVID Reinstatement Cell with staff explaining a pathway to applicants; M2 corroborates the case-by-case eligibility pathway. The candidate's quote matches M1 verbatim and semantically supports the verdict. Claim text is identical to the original, and a null uncertainty reason is appropriate for a supported verdict consistent with the frozen reference."
+          }
+        },
+        "gptoss_semantic_check": {
+          "candidate": {
+            "claim_text": "Following the executive order, the Marine Corps established a COVID-19 reinstatement cell and a pathway for eligible Marines to return to service.",
+            "verdict": "supported",
+            "citations": [
+              {
+                "passage_id": "M1",
+                "quote": "The Marine Corps implemented a program involving recruiters and the COVID Reinstatement Cell."
+              },
+              {
+                "passage_id": "M1",
+                "quote": "Applicants submit information so staff can assess their circumstances and explain a pathway."
+              }
+            ],
+            "uncertainty_reason": null,
+            "explanation": "M1 confirms that after Executive Order 14184 the Marine Corps created a COVID Reinstatement Cell and provides a pathway for eligible Marines to return to service.",
+            "requirements": [
+              {
+                "id": "R1",
+                "text": "The Marine Corps established a COVID-19 reinstatement cell following the executive order.",
+                "relation": "supports",
+                "citations": [
+                  {
+                    "passage_id": "M1",
+                    "quote": "The Marine Corps implemented a program involving recruiters and the COVID Reinstatement Cell."
+                  }
+                ]
+              },
+              {
+                "id": "R2",
+                "text": "The Marine Corps established a pathway for eligible Marines to return to service following the executive order.",
+                "relation": "supports",
+                "citations": [
+                  {
+                    "passage_id": "M1",
+                    "quote": "Applicants submit information so staff can assess their circumstances and explain a pathway."
+                  }
+                ]
+              }
+            ]
+          },
+          "execution_status": "completed",
+          "objective_errors": [],
+          "accepted": true,
+          "judge_status": "completed",
+          "judgment": {
+            "expected_verdict": "supported",
+            "claim_preserved": true,
+            "verdict_justified": true,
+            "citation_support": true,
+            "uncertainty_appropriate": true,
+            "confidence": "high",
+            "issues": [],
+            "rationale": "M1 dates Executive Order 14184 and states that subsequent guidance created return-to-service processes; it also says the Marine Corps implemented a program involving the COVID Reinstatement Cell and that staff explain a pathway to applicants. M2 corroborates case-by-case eligibility and return-to-service screening. The candidate preserves the claim, the supported verdict follows, and the cited M1 quotes are relevant; no uncertainty wording is needed."
+          }
+        }
+      }
+    },
+    {
+      "case_id": "new_05",
+      "clip_id": "reinstatement_new",
+      "partition": "new_clip_validation",
+      "claim_text": "The Marine Corps team personally contacted 100% of the 3,748 eligible veteran Marines about returning to service.",
+      "reference": {
+        "case_id": "new_05",
+        "case_sha256": "9be59436d198fac9221b1a86bf917343431aaf4e990269b9a538db3c57343338",
+        "acceptable_verdicts": [
+          "insufficient"
+        ],
+        "rationale": "Independent machine agreement. Assessment 1: The evidence describes a reinstatement program and case-by-case application process, but provides no basis for the specific figures '3,748 eligible veteran Marines,' '100%,' or that the team 'personally contacted' them; it emphasizes applicants submitting information rather than universal proactive outreach. Assessment 2: The evidence describes a Marine Corps return-to-service program and case-by-case application review, but it does not mention 3,748 eligible veteran Marines, personal contact, or 100% outreach. The claim's key quantitative and contact assertions therefore remain unproven.",
+        "evidence_ids": [
+          "M1",
+          "M2"
+        ],
+        "review_status": "machine_consensus",
+        "reviewer": "Independent machine panel; no human review",
+        "vote_models": [
+          "accounts/fireworks/models/kimi-k3",
+          "accounts/fireworks/models/deepseek-v4p1-flash-1017"
+        ],
+        "vote_verdicts": [
+          "insufficient",
+          "insufficient"
+        ],
+        "scope_ambiguity_flag": false
+      },
+      "answers": {
+        "gptoss_schema_quotes": {
+          "candidate": {
+            "claim_text": "The Marine Corps team personally contacted 100% of the 3,748 eligible veteran Marines about returning to service.",
+            "verdict": "insufficient",
+            "citations": [],
+            "uncertainty_reason": "missing_evidence",
+            "explanation": "The supplied evidence (M1 and M2) describes the reinstatement program and the return-to-service process but does not mention any personal contact of eligible veteran Marines, nor does it provide the number of eligible veterans (3,748) or a claim of contacting 100% of them. Therefore, there is insufficient evidence to support or contradict the claim."
+          },
+          "execution_status": "completed",
+          "objective_errors": [],
+          "accepted": true,
+          "judge_status": "completed",
+          "judgment": {
+            "expected_verdict": "insufficient",
+            "claim_preserved": true,
+            "verdict_justified": true,
+            "citation_support": true,
+            "uncertainty_appropriate": true,
+            "confidence": "high",
+            "issues": [],
+            "rationale": "M1 and M2 describe the reinstatement program and case-by-case application process but contain no mention of 3,748 eligible veteran Marines, personal outreach, or 100% contact; indeed M1 frames the process as applicants submitting information. The claim's quantitative and contact assertions are unestablished, so insufficient is correct. The candidate preserved the claim exactly, appropriately abstained with empty citations, and correctly identified the missing evidence. This matches the frozen reference."
+          }
+        },
+        "gptoss_semantic_check": {
+          "candidate": {
+            "claim_text": "The Marine Corps team personally contacted 100% of the 3,748 eligible veteran Marines about returning to service.",
+            "verdict": "insufficient",
+            "citations": [],
+            "uncertainty_reason": "missing_evidence",
+            "explanation": "The provided evidence (M1 and M2) does not contain any information about a personal contact effort, the number of eligible veteran Marines, or that 100% were contacted, nor that the contact was about returning to service.",
+            "requirements": [
+              {
+                "id": "R1",
+                "text": "The Marine Corps team personally contacted eligible veteran Marines.",
+                "relation": "missing",
+                "citations": []
+              },
+              {
+                "id": "R2",
+                "text": "There were 3,748 eligible veteran Marines.",
+                "relation": "missing",
+                "citations": []
+              },
+              {
+                "id": "R3",
+                "text": "The Marine Corps team contacted 100% of the eligible veteran Marines.",
+                "relation": "missing",
+                "citations": []
+              },
+              {
+                "id": "R4",
+                "text": "The contact was about returning to service.",
+                "relation": "missing",
+                "citations": []
+              }
+            ]
+          },
+          "execution_status": "completed",
+          "objective_errors": [],
+          "accepted": true,
+          "judge_status": "completed",
+          "judgment": {
+            "expected_verdict": "insufficient",
+            "claim_preserved": true,
+            "verdict_justified": true,
+            "citation_support": true,
+            "uncertainty_appropriate": true,
+            "confidence": "high",
+            "issues": [],
+            "rationale": "M1 and M2 describe a reinstatement program with applicants submitting information for case-by-case review, but contain no mention of 3,748 eligible veterans, personal contact, or 100% outreach. The packet cannot decide the claim, so insufficient is correct. The candidate preserved the claim exactly, gave an accurate missing-evidence explanation, and empty citations are appropriate for a justified insufficient verdict. This matches the frozen reference."
+          }
+        }
+      }
+    },
+    {
+      "case_id": "new_06",
+      "clip_id": "reinstatement_new",
+      "partition": "new_clip_validation",
+      "claim_text": "Since the executive order was signed, 53 Marines had returned to the Marine Corps by the time of this announcement.",
+      "reference": {
+        "case_id": "new_06",
+        "case_sha256": "11cf0275d981c508a98f8559e543de985f6610462f3ec91553f58be54e7cc216",
+        "acceptable_verdicts": [
+          "insufficient"
+        ],
+        "rationale": "Independent machine agreement. Assessment 1: The evidence describes the existence and mechanics of the COVID Reinstatement/return-to-service program following Executive Order 14184, but neither passage provides any count of Marines who returned to service. The specific figure of 53, and the reference to 'this announcement,' are not established or contradicted by the supplied evidence. Assessment 2: The evidence confirms Executive Order 14184 and describes reinstatement processes, but it provides no count of Marines who had returned and no relevant announcement establishing that 53 had returned.",
+        "evidence_ids": [
+          "M1",
+          "M2"
+        ],
+        "review_status": "machine_consensus",
+        "reviewer": "Independent machine panel; no human review",
+        "vote_models": [
+          "accounts/fireworks/models/kimi-k3",
+          "accounts/fireworks/models/deepseek-v4p1-flash-1017"
+        ],
+        "vote_verdicts": [
+          "insufficient",
+          "insufficient"
+        ],
+        "scope_ambiguity_flag": false
+      },
+      "answers": {
+        "gptoss_schema_quotes": {
+          "candidate": {
+            "claim_text": "Since the executive order was signed, 53 Marines had returned to the Marine Corps by the time of this announcement.",
+            "verdict": "insufficient",
+            "citations": [],
+            "uncertainty_reason": "missing_evidence",
+            "explanation": "The supplied evidence (M1 and M2) describes the executive order and the reinstatement process but does not provide any information about the number of Marines who returned, specifically mentioning 53 Marines."
+          },
+          "execution_status": "completed",
+          "objective_errors": [],
+          "accepted": true,
+          "judge_status": "completed",
+          "judgment": {
+            "expected_verdict": "insufficient",
+            "claim_preserved": true,
+            "verdict_justified": true,
+            "citation_support": true,
+            "uncertainty_appropriate": true,
+            "confidence": "high",
+            "issues": [],
+            "rationale": "M1 and M2 establish Executive Order 14184's signing date and describe the reinstatement/return-to-service process, but neither passage provides any count of Marines returned, nor any 'announcement' establishing the figure 53. The quantity in the claim is simply not addressed, so insufficient is correct. The candidate preserved the exact claim, gave the justified insufficient verdict with missing_evidence reasoning, and empty citations are appropriate since no passage bears on the count. This matches the frozen reference."
+          }
+        },
+        "gptoss_semantic_check": {
+          "candidate": {
+            "claim_text": "Since the executive order was signed, 53 Marines had returned to the Marine Corps by the time of this announcement.",
+            "verdict": "insufficient",
+            "citations": [
+              {
+                "passage_id": "M1",
+                "quote": "Executive Order 14184 was signed January 27, 2025"
+              }
+            ],
+            "uncertainty_reason": "missing_evidence",
+            "explanation": "The evidence confirms that Executive Order 14184 was signed, but provides no information about any Marines returning, let alone the specific number of 53.",
+            "requirements": [
+              {
+                "id": "R1",
+                "text": "Executive Order 14184 was signed on January 27, 2025.",
+                "relation": "supports",
+                "citations": [
+                  {
+                    "passage_id": "M1",
+                    "quote": "Executive Order 14184 was signed January 27, 2025"
+                  }
+                ]
+              },
+              {
+                "id": "R2",
+                "text": "By the time of the announcement, 53 Marines had returned to the Marine Corps.",
+                "relation": "missing",
+                "citations": []
+              }
+            ]
+          },
+          "execution_status": "completed",
+          "objective_errors": [],
+          "accepted": true,
+          "judge_status": "completed",
+          "judgment": {
+            "expected_verdict": "insufficient",
+            "claim_preserved": true,
+            "verdict_justified": true,
+            "citation_support": true,
+            "uncertainty_appropriate": true,
+            "confidence": "high",
+            "issues": [],
+            "rationale": "M1 and M2 describe the reinstatement program following Executive Order 14184 but contain no count of returned Marines, so the figure of 53 is neither established nor contradicted. The candidate correctly judged insufficient with a missing-evidence rationale, preserved the claim exactly, and cited M1's EO-signing quote, which is relevant context supporting the abstention rather than an overclaim. This matches the frozen reference verdict."
+          }
+        }
+      }
+    },
+    {
+      "case_id": "new_07",
+      "clip_id": "science_new",
+      "partition": "new_clip_validation",
+      "claim_text": "The 2026 SoSNIE was the seventh iteration of the annual experiment.",
+      "reference": {
+        "case_id": "new_07",
+        "case_sha256": "707909c94fd1d4a54962e6bf8cf6ab4708959594adfe9e22e81d062122a85c0e",
+        "acceptable_verdicts": [],
+        "rationale": "Unresolved: at least one assessor flagged material scope ambiguity.",
+        "evidence_ids": [],
+        "review_status": "machine_unresolved",
+        "reviewer": "Independent machine panel; no human review",
+        "vote_models": [
+          "accounts/fireworks/models/kimi-k3",
+          "accounts/fireworks/models/deepseek-v4p1-flash-1017",
+          "accounts/fireworks/models/glm-5p3-flash"
+        ],
+        "vote_verdicts": [
+          "contradicted",
+          "ambiguous",
+          "ambiguous"
+        ],
+        "scope_ambiguity_flag": true
+      },
+      "answers": {
+        "gptoss_schema_quotes": {
+          "candidate": {
+            "claim_text": "The 2026 SoSNIE was the seventh iteration of the annual experiment.",
+            "verdict": "insufficient",
+            "citations": [
+              {
+                "passage_id": "N1",
+                "quote": "2026 SoSNIE as the seventh annual experiment"
+              },
+              {
+                "passage_id": "N3",
+                "quote": "annual SoSNIE held in 2025 is described as the seventh year"
+              }
+            ],
+            "uncertainty_reason": "conflicting_evidence",
+            "explanation": "One source (N1) states the 2026 SoSNIE was the seventh annual experiment, while another source (N3) describes the 2025 SoSNIE as the seventh year, creating contradictory evidence about the iteration number for 2026."
+          },
+          "execution_status": "completed",
+          "objective_errors": [],
+          "accepted": null,
+          "judge_status": "unresolved_machine_reference",
+          "judgment": null
+        },
+        "gptoss_semantic_check": {
+          "candidate": {
+            "claim_text": "The 2026 SoSNIE was the seventh iteration of the annual experiment.",
+            "verdict": "insufficient",
+            "citations": [
+              {
+                "passage_id": "N1",
+                "quote": "2026 SoSNIE as the seventh annual experiment"
+              },
+              {
+                "passage_id": "N3",
+                "quote": "annual SoSNIE held in 2025 is described as the seventh year"
+              }
+            ],
+            "uncertainty_reason": "conflicting_evidence",
+            "explanation": "One source (N1) states the 2026 SoSNIE was the seventh annual experiment, while another source (N3) states the 2025 SoSNIE was the seventh year, providing conflicting evidence about which iteration 2026 represents.",
+            "requirements": [
+              {
+                "id": "R1",
+                "text": "Evidence that the 2026 SoSNIE was the seventh iteration of the annual experiment",
+                "relation": "conflicting",
+                "citations": [
+                  {
+                    "passage_id": "N1",
+                    "quote": "2026 SoSNIE as the seventh annual experiment"
+                  },
+                  {
+                    "passage_id": "N3",
+                    "quote": "annual SoSNIE held in 2025 is described as the seventh year"
+                  }
+                ]
+              }
+            ]
+          },
+          "execution_status": "completed",
+          "objective_errors": [],
+          "accepted": null,
+          "judge_status": "unresolved_machine_reference",
+          "judgment": null
+        }
+      }
+    },
+    {
+      "case_id": "new_08",
+      "clip_id": "science_new",
+      "partition": "new_clip_validation",
+      "claim_text": "Teaming warfighters with engineers at SoSNIE 2026 provided an opportunity for direct user feedback.",
+      "reference": {
+        "case_id": "new_08",
+        "case_sha256": "7d69cb9be30f46a866bbc968c0704767bed10c10d2b5f829788bc851d5a89866",
+        "acceptable_verdicts": [
+          "supported"
+        ],
+        "rationale": "Independent machine agreement. Assessment 1: N1 states joint forces (warfighters) and engineers tested technologies together at the 2026 SoSNIE, and N2 explicitly states the event facilitated direct warfighter feedback on prototypes; together these cover both the teaming and the direct user feedback elements. Assessment 2: N1 states that at the 2026 SoSNIE, joint forces and engineers tested technologies together, and N2 states the event facilitated direct warfighter feedback on C2 prototypes, supporting the claim that teaming warfighters with engineers provided an opportunity for direct user feedback.",
+        "evidence_ids": [
+          "N1",
+          "N2"
+        ],
+        "review_status": "machine_consensus",
+        "reviewer": "Independent machine panel; no human review",
+        "vote_models": [
+          "accounts/fireworks/models/kimi-k3",
+          "accounts/fireworks/models/deepseek-v4p1-flash-1017"
+        ],
+        "vote_verdicts": [
+          "supported",
+          "supported"
+        ],
+        "scope_ambiguity_flag": false
+      },
+      "answers": {
+        "gptoss_schema_quotes": {
+          "candidate": {
+            "claim_text": "Teaming warfighters with engineers at SoSNIE 2026 provided an opportunity for direct user feedback.",
+            "verdict": "supported",
+            "citations": [
+              {
+                "passage_id": "N1",
+                "quote": "Joint forces and engineers tested end-to-end mission threads and emerging technologies."
+              },
+              {
+                "passage_id": "N2",
+                "quote": "The event facilitated direct warfighter feedback on command-and-control prototypes."
+              }
+            ],
+            "uncertainty_reason": null,
+            "explanation": "Evidence N1 shows warfighters (joint forces) teamed with engineers, and N2 shows the event enabled direct warfighter feedback, together confirming the claim."
+          },
+          "execution_status": "completed",
+          "objective_errors": [],
+          "accepted": true,
+          "judge_status": "completed",
+          "judgment": {
+            "expected_verdict": "supported",
+            "claim_preserved": true,
+            "verdict_justified": true,
+            "citation_support": true,
+            "uncertainty_appropriate": true,
+            "confidence": "high",
+            "issues": [],
+            "rationale": "N1 establishes warfighters (joint forces) teamed with engineers at the 2026 SoSNIE, and N2 explicitly states the event facilitated direct warfighter feedback on prototypes, jointly supporting the claim. The candidate's verdict matches the frozen reference, both quotes are verbatim and semantically relevant, and the claim text is preserved exactly with no uncertainty needed."
+          }
+        },
+        "gptoss_semantic_check": {
+          "candidate": {
+            "claim_text": "Teaming warfighters with engineers at SoSNIE 2026 provided an opportunity for direct user feedback.",
+            "verdict": "supported",
+            "citations": [
+              {
+                "passage_id": "N1",
+                "quote": "Joint forces and engineers tested end-to-end mission threads and emerging technologies."
+              },
+              {
+                "passage_id": "N2",
+                "quote": "The event facilitated direct warfighter feedback on command-and-control prototypes."
+              }
+            ],
+            "uncertainty_reason": null,
+            "explanation": "Evidence N1 shows warfighters (joint forces) teamed with engineers at SoSNIE 2026, and N2 shows the event facilitated direct warfighter feedback, together confirming the claim.",
+            "requirements": [
+              {
+                "id": "R1",
+                "text": "Warfighters were teamed with engineers at SoSNIE 2026.",
+                "relation": "supports",
+                "citations": [
+                  {
+                    "passage_id": "N1",
+                    "quote": "Joint forces and engineers tested end-to-end mission threads and emerging technologies."
+                  }
+                ]
+              },
+              {
+                "id": "R2",
+                "text": "The event provided an opportunity for direct warfighter feedback.",
+                "relation": "supports",
+                "citations": [
+                  {
+                    "passage_id": "N2",
+                    "quote": "The event facilitated direct warfighter feedback on command-and-control prototypes."
+                  }
+                ]
+              }
+            ]
+          },
+          "execution_status": "completed",
+          "objective_errors": [],
+          "accepted": true,
+          "judge_status": "completed",
+          "judgment": {
+            "expected_verdict": "supported",
+            "claim_preserved": true,
+            "verdict_justified": true,
+            "citation_support": true,
+            "uncertainty_appropriate": true,
+            "confidence": "high",
+            "issues": [],
+            "rationale": "N1 establishes that joint forces (warfighters) and engineers tested technologies together at the 2026 SoSNIE, and N2 explicitly states the event facilitated direct warfighter feedback on C2 prototypes. Both cited quotes are verbatim from the passages and semantically support the claim's two elements (teaming and direct user feedback). Verdict 'supported' matches the frozen reference; no uncertainty warranted."
+          }
+        }
+      }
+    },
+    {
+      "case_id": "new_09",
+      "clip_id": "science_new",
+      "partition": "new_clip_validation",
+      "claim_text": "SoSNIE 2026 showed a significant shift in the depth and breadth of the experiment’s scope and participation.",
+      "reference": {
+        "case_id": "new_09",
+        "case_sha256": "1fa298c2da4874959e1da7164df7b9487c9b60f688d9fc574bdf771a54af1615",
+        "acceptable_verdicts": [
+          "supported"
+        ],
+        "rationale": "Independent machine agreement. Assessment 1: N2 explicitly states that the NIWC Atlantic article describes the 2026 iteration as 'a significant shift in the depth and breadth of the experiment’s scope and participation,' directly matching the claim. Supporting context in N1 (40+ technologies, 150+ participants, joint testing) is consistent. Note this is an attributed characterization from a single source, but the claim itself only asserts that SoSNIE 2026 showed this shift, and N2 provides that direct evidence. Assessment 2: N2 explicitly states that the 2026 iteration was described as a significant shift in the depth and breadth of the experiment’s scope and participation. N1 supplies corroborating details about the 2026 experiment’s expanded joint, government, and industry participation and technology testing. N3’s prior-year figures do not directly refute the claim because the metrics differ and a “shift” need not mean an increase.",
+        "evidence_ids": [
+          "N1",
+          "N2"
+        ],
+        "review_status": "machine_consensus",
+        "reviewer": "Independent machine panel; no human review",
+        "vote_models": [
+          "accounts/fireworks/models/kimi-k3",
+          "accounts/fireworks/models/deepseek-v4p1-flash-1017"
+        ],
+        "vote_verdicts": [
+          "supported",
+          "supported"
+        ],
+        "scope_ambiguity_flag": false
+      },
+      "answers": {
+        "gptoss_schema_quotes": {
+          "candidate": {
+            "claim_text": "SoSNIE 2026 showed a significant shift in the depth and breadth of the experiment’s scope and participation.",
+            "verdict": "supported",
+            "citations": [
+              {
+                "passage_id": "N2",
+                "quote": "describes the 2026 iteration as a significant shift in the depth and breadth of the experiment’s scope and participation"
+              }
+            ],
+            "uncertainty_reason": null,
+            "explanation": "Evidence N2 explicitly characterizes the 2026 SoSNIE as a significant shift in scope and participation, directly supporting the claim."
+          },
+          "execution_status": "completed",
+          "objective_errors": [],
+          "accepted": true,
+          "judge_status": "completed",
+          "judgment": {
+            "expected_verdict": "supported",
+            "claim_preserved": true,
+            "verdict_justified": true,
+            "citation_support": true,
+            "uncertainty_appropriate": true,
+            "confidence": "high",
+            "issues": [],
+            "rationale": "N2 explicitly states the article 'describes the 2026 iteration as a significant shift in the depth and breadth of the experiment’s scope and participation,' matching the claim verbatim; N1’s 2026 details (40+ technologies, 150+ joint/government/industry participants) are consistent and N3’s differing 2025 metrics do not refute a 'shift.' The candidate preserved the claim exactly, cited the directly supporting N2 quote, and needed no uncertainty, aligning with the frozen reference verdict supported."
+          }
+        },
+        "gptoss_semantic_check": {
+          "candidate": {
+            "claim_text": "SoSNIE 2026 showed a significant shift in the depth and breadth of the experiment’s scope and participation.",
+            "verdict": "supported",
+            "citations": [
+              {
+                "passage_id": "N2",
+                "quote": "describes the 2026 iteration as a significant shift in the depth and breadth of the experiment’s scope and participation"
+              }
+            ],
+            "uncertainty_reason": null,
+            "explanation": "Evidence N2 explicitly characterizes the 2026 SoSNIE as a significant shift in both depth and breadth of its scope and participation, directly supporting the claim.",
+            "requirements": [
+              {
+                "id": "R1",
+                "text": "The 2026 SoSNIE is described as a significant shift in the depth and breadth of the experiment’s scope and participation.",
+                "relation": "supports",
+                "citations": [
+                  {
+                    "passage_id": "N2",
+                    "quote": "describes the 2026 iteration as a significant shift in the depth and breadth of the experiment’s scope and participation"
+                  }
+                ]
+              }
+            ]
+          },
+          "execution_status": "completed",
+          "objective_errors": [],
+          "accepted": true,
+          "judge_status": "completed",
+          "judgment": {
+            "expected_verdict": "supported",
+            "claim_preserved": true,
+            "verdict_justified": true,
+            "citation_support": true,
+            "uncertainty_appropriate": true,
+            "confidence": "high",
+            "issues": [],
+            "rationale": "N2 explicitly states that the 2026 iteration was described as a significant shift in the depth and breadth of the experiment’s scope and participation, directly matching the claim. N1 provides consistent details about the experiment’s scope and participation, while N3 does not contradict the characterization. The candidate’s citation is relevant, and no uncertainty was needed."
+          }
+        }
+      }
+    }
+  ]
+}

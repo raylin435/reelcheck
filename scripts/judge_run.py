@@ -16,6 +16,7 @@ from reelcheck.evaluation import read_jsonl
 from reelcheck.judge import (RUBRIC_VERSION, assess_judgment, judge_messages,
                             objective_errors, summarize_judgments)
 from reelcheck.providers import call, load_env, load_shell_exports
+from reelcheck.references import load_references, reference_prompt, enforce_reference
 
 
 def judge_config(path, role):
@@ -68,28 +69,48 @@ def run_judge(args):
         raise ValueError("Input run must have nonempty unique case/system records")
     if any(r["case_id"] not in cases for r in rows):
         raise ValueError("Run references a case absent from inputs")
+    references, reference_bundle = {}, None
+    if getattr(args, 'references', None):
+        reference_bundle, references = load_references(args.references, cases_list)
+        reference_hash = hashlib.sha256(Path(args.references).read_bytes()).hexdigest()
+        if not source.is_dir() or not (source / 'manifest.json').exists():
+            raise ValueError('Frozen-reference judging requires a candidate run manifest')
+        candidate_manifest = json.loads((source / 'manifest.json').read_text())
+        if candidate_manifest.get('frozen_reference_file_sha256') != reference_hash:
+            raise ValueError('Reference was not bound before candidate generation; run a fresh comparison')
+        if datetime.fromisoformat(reference_bundle['frozen_at']) > datetime.fromisoformat(candidate_manifest['created_at']):
+            raise ValueError('Reference was frozen after candidate generation')
+    def make_prompt(case, row):
+        prompt = judge_messages(case, row)
+        return reference_prompt(case, references[case['case_id']], prompt) if references else prompt
     out = Path(args.out)
     if out.exists() and any(out.iterdir()):
         raise ValueError("Use an empty output directory; judge results are never overwritten")
     out.mkdir(parents=True, exist_ok=True)
     manifest = {"mode": "live" if args.live else "dry_run_NO_JUDGE_RESULTS", "created_at": datetime.now(timezone.utc).isoformat(),
-        "rubric_version": RUBRIC_VERSION, "judge_config": entry, "config_role": role,
+        "rubric_version": RUBRIC_VERSION + ('_frozen_reference_v1' if references else ''), "judge_config": entry, "config_role": role,
         "inputs_sha256": digest(cases_list), "candidate_rows_sha256": digest(rows), "candidate_count": len(rows),
         "inputs_verified_against_candidate_run": verified_inputs,
-        "source_files_sha256": {p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in (ROOT/"reelcheck/judge.py",Path(__file__))},
+        "source_files_sha256": {p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in (ROOT/"reelcheck/judge.py", ROOT/"reelcheck/references.py",Path(__file__))},
         "max_calls": args.max_calls, "max_cost_usd": args.max_cost_usd, "interval_s": args.interval,
         "protocol": "Blinded pointwise assessment; no gold labels; one call per unique valid candidate payload; no retry. Exact duplicate payloads reuse judgment and incur zero additional cost. Objective failures are rejected without a judge call. All candidate rows remain in denominators."}
+    if references:
+        manifest.update(frozen_reference_file_sha256=reference_hash, references_human_reviewed=reference_bundle['human_reviewed'])
+        manifest['protocol'] = 'Blinded grading against references frozen and hash-bound before candidate generation. Reference conflicts require adjudication. Objective failures cannot pass. AI draft references are development assessments only.'
     save_json(out/"manifest.json",manifest)
     if not args.live:
         seen = set()
         previews = []
         for row in rows:
             errors = objective_errors(row,cases[row["case_id"]])
-            prompt = judge_messages(cases[row["case_id"]],row)
+            unresolved = bool(references and references[row['case_id']]['review_status'] == 'machine_unresolved')
+            prompt = make_prompt(cases[row["case_id"]],row)
             key = digest(prompt)
             previews.append({"case_id":row["case_id"],"system":row["system"],"objective_errors":errors,
-                "would_reuse":key in seen and not errors,"would_call":not errors and key not in seen,"messages":prompt})
-            if not errors:
+                "unresolved_machine_reference":unresolved,
+                "would_reuse":key in seen and not errors and not unresolved,
+                "would_call":not errors and not unresolved and key not in seen,"messages":prompt})
+            if not errors and not unresolved:
                 seen.add(key)
         save_jsonl(out/"request_preview.jsonl",previews)
         print(f"Dry run: {len(rows)} candidate rows; {len(seen)} unique eligible judge requests. No API calls.")
@@ -105,7 +126,7 @@ def run_judge(args):
     for row in rows:
         case = cases[row["case_id"]]
         errors = objective_errors(row,case)
-        prompt = judge_messages(case,row)
+        prompt = make_prompt(case,row)
         key = digest(prompt)
         record = {"case_id":row["case_id"],"system":row["system"],"rubric_version":RUBRIC_VERSION,
             "judge_model":entry["model"],"candidate_model":row.get("requested_model"),
@@ -115,6 +136,9 @@ def run_judge(args):
             "human_reviewed_grounded_success":None}
         if errors:
             record.update(judge_status="skipped_objective_failure",model_assessed_acceptance=False)
+        elif references and references[row['case_id']]['review_status'] == 'machine_unresolved':
+            record.update(judge_status='unresolved_machine_reference', model_assessed_acceptance=None,
+                          reference_review_status='machine_unresolved')
         elif key in cache:
             previous = cache[key]
             record.update(copy.deepcopy(previous))
@@ -149,7 +173,10 @@ def run_judge(args):
                     started_at=started_at)
                 record["judge_status"] = result["execution_status"]
                 if result["execution_status"] == "completed":
-                    record.update(assess_judgment(result.get("output"),row,case))
+                    assessment = assess_judgment(result.get("output"),row,case)
+                    if references:
+                        assessment = enforce_reference(assessment, result.get('output'), references[case['case_id']])
+                    record.update(assessment)
                     if record["judge_validation_errors"]:
                         record["judge_status"] = "invalid_judge_output"
                 if result.get("http_status") in {401,403,404,429} or result["execution_status"] == "transport_error":
@@ -169,6 +196,7 @@ def main():
     p=argparse.ArgumentParser(description=__doc__)
     p.add_argument('--run',required=True,help='Run directory containing runs.jsonl, or a JSONL file')
     p.add_argument('--inputs',required=True)
+    p.add_argument('--references',help='Frozen reference bundle bound in the candidate run manifest')
     p.add_argument('--config',default=str(ROOT/'config.fireworks.json'))
     p.add_argument('--role',help='Config role; defaults to judge when present, otherwise frontier')
     p.add_argument('--systems',help='Optional comma-separated systems')

@@ -1,0 +1,142 @@
+{
+  "mode": "live",
+  "created_at": "2026-11-02T21:45:00.280105+00:00",
+  "config": {
+    "variants": [
+      {
+        "id": "gptoss_schema_quotes",
+        "prompt_system": "B",
+        "provider": "fireworks",
+        "model": "accounts/fireworks/models/gpt-oss-120b",
+        "max_output_tokens": 4096,
+        "timeout_s": 60,
+        "parameters": {},
+        "pricing": {
+          "input_per_million": 0.15,
+          "cached_input_per_million": 0.015,
+          "output_per_million": 0.6,
+          "source": "https://app.fireworks.ai/models/fireworks/gpt-oss-120b",
+          "verified_date": "2026-11-02",
+          "tier": "standard"
+        },
+        "output_mode": "schema_quotes"
+      },
+      {
+        "id": "gptoss_semantic_check",
+        "prompt_system": "B",
+        "provider": "fireworks",
+        "model": "accounts/fireworks/models/gpt-oss-120b",
+        "max_output_tokens": 4096,
+        "timeout_s": 60,
+        "parameters": {},
+        "pricing": {
+          "input_per_million": 0.15,
+          "cached_input_per_million": 0.015,
+          "output_per_million": 0.6,
+          "source": "https://app.fireworks.ai/models/fireworks/gpt-oss-120b",
+          "verified_date": "2026-11-02",
+          "tier": "standard"
+        },
+        "output_mode": "schema_quotes"
+      }
+    ],
+    "judge": {
+      "provider": "fireworks",
+      "model": "accounts/fireworks/models/kimi-k3",
+      "max_output_tokens": 4096,
+      "timeout_s": 60,
+      "parameters": {
+        "reasoning_effort": "high"
+      },
+      "pricing": {
+        "input_per_million": 3.0,
+        "cached_input_per_million": 0.3,
+        "output_per_million": 15.0,
+        "source": "https://app.fireworks.ai/models/fireworks/kimi-k3",
+        "verified_date": "2026-11-02",
+        "tier": "standard"
+      }
+    },
+    "reference_panel": [
+      {
+        "provider": "fireworks",
+        "model": "accounts/fireworks/models/kimi-k3",
+        "max_output_tokens": 4096,
+        "timeout_s": 60,
+        "parameters": {
+          "reasoning_effort": "high"
+        },
+        "pricing": {
+          "input_per_million": 3.0,
+          "cached_input_per_million": 0.3,
+          "output_per_million": 15.0,
+          "source": "https://app.fireworks.ai/models/fireworks/kimi-k3",
+          "verified_date": "2026-11-02",
+          "tier": "standard"
+        },
+        "family": "kimi"
+      },
+      {
+        "id": "deepseek_reference",
+        "prompt_system": "B",
+        "provider": "fireworks",
+        "model": "accounts/fireworks/models/deepseek-v4p1-flash-1017",
+        "max_output_tokens": 4096,
+        "timeout_s": 60,
+        "parameters": {
+          "reasoning_effort": "high"
+        },
+        "pricing": {
+          "input_per_million": 0.3,
+          "cached_input_per_million": 0.006,
+          "output_per_million": 1.2,
+          "source": "https://app.fireworks.ai/models/fireworks/deepseek-v4p1-flash-1017",
+          "verified_date": "2026-11-02",
+          "tier": "standard"
+        },
+        "family": "deepseek"
+      },
+      {
+        "provider": "fireworks",
+        "model": "accounts/fireworks/models/glm-5p3-flash",
+        "max_output_tokens": 4096,
+        "timeout_s": 60,
+        "parameters": {},
+        "pricing": {
+          "input_per_million": 0.15,
+          "cached_input_per_million": 0.03,
+          "output_per_million": 0.5,
+          "source": "https://app.fireworks.ai/models/fireworks/glm-5p3-flash",
+          "verified_date": "2026-11-02",
+          "tier": "standard"
+        },
+        "id": "glm_direct",
+        "prompt_system": "B",
+        "family": "glm"
+      }
+    ],
+    "protocol_file": "MACHINE_EVAL_PROTOCOL.md",
+    "protocol_sha256": "7eefe27d342b9e08a4c97cbed2a0103262daf215d8508bf7dc952cda1f6dfec0"
+  },
+  "inputs_sha256": "61145bc465ecc899548da0e19fe28f633dc1bfedecbb05995295da9767fc1e17",
+  "reference_parents": [
+    {
+      "directory": "results/machine-references-01",
+      "reference_sha256": "2748f5204ce4a4e9c60f679cdd399c01153e73d0078183225cd350d155cfbbad",
+      "manifest_sha256": "e4a09c6ca389d108b31194ea5286569c730474e6fb779bac76f4e1f0cd25b840",
+      "vote_file_sha256": "0b38d3aca58c172425da98e8f69bafccaa577e3121ca2f52a386462cdcfd4c6d"
+    },
+    {
+      "directory": "results/machine-reference-revision-02",
+      "reference_sha256": "c3afc297e7d5d672e31a7639f5a7efb01bf271b0893c13e363ef3dfa26517be8",
+      "manifest_sha256": "0f63851bf245889ea717f6734c2c150d11a1c6139cf54fe947234e2554e787b7",
+      "vote_file_sha256": "e1a42ce9a15ecf2ceee0952cc2218c253af044716dbfecdff4e21f595eeb342c"
+    }
+  ],
+  "changed_case_ids": [
+    "new_09"
+  ],
+  "case_count": 15,
+  "script_sha256": "07aa31ab16fb63cded06d5f6a3767f4fe5ea9e3d3594570bb9d5b17ce16efd0b",
+  "protocol": "Exact-case reuse plus evidence-corrected reassessment, frozen before all candidate generation."
+}
